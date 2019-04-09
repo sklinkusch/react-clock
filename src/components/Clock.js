@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/Clock.css";
 
 export default class Clock extends React.Component {
@@ -12,10 +12,10 @@ export default class Clock extends React.Component {
   componentWillUnmount() {
     clearInterval(this.timerID);
   }
-  render() {
+  render(props) {
     return (
       <React.Fragment>
-        <h2>Hello, world!</h2>
+        <h2>Hello World</h2>
         <p>It is {this.state.date.toLocaleTimeString()}</p>
       </React.Fragment>
     );
