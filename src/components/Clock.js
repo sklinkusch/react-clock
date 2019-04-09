@@ -20,4 +20,9 @@ export default class Clock extends React.Component {
       </div>
     );
   }
+  tick() {
+    this.setState({
+      date: new Date()
+    });
+  }
 }
