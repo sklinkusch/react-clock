@@ -15,8 +15,13 @@ export default class Clock extends React.Component {
   render(props) {
     return (
       <React.Fragment>
-        <h2>Hello World</h2>
-        <p>It is {this.state.date.toLocaleTimeString()}</p>
+        <h2>{this.props.city}</h2>
+        <p>
+          It is{" "}
+          {this.state.date.toLocaleTimeString("en-GB", {
+            timeZone: this.props.zone
+          })}
+        </p>
       </React.Fragment>
     );
   }
