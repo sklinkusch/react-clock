@@ -4,10 +4,10 @@ import "../styles/App.css";
 
 export default function App() {
   return (
-    <React.Fragment>
+    <div className="app">
       {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(val => (
         <Clock key={val} />
       ))}
-    </React.Fragment>
+    </div>
   );
 }
