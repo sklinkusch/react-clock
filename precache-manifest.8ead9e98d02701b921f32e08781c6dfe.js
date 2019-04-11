@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-clock/static/css/main.c748c4fe.chunk.css"
   },
   {
-    "revision": "e10f0a565d92ecb8746abe5d43734a6b",
+    "revision": "6315e8067bad7eb90cf42d2a334e8190",
     "url": "/react-clock/index.html"
   }
 ];
