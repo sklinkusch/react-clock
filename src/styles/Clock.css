@@ -31,3 +31,11 @@
     transform: rotate(360deg);
   }
 }
+
+.album-item {
+  border: 2px solid blue;
+  border-radius: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
