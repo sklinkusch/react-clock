@@ -18,7 +18,7 @@ export default class Clock extends React.Component {
         <h2>{this.props.city}</h2>
         <p>
           It is{" "}
-          {this.state.date.toLocaleTimeString("en-GB", {
+          {this.state.date.toLocaleString("en-GB", {
             timeZone: this.props.zone
           })}
         </p>
