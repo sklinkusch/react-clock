@@ -4,22 +4,37 @@ import times from "./data"
 import "../styles/App.css";
 
 export default function App() {
+  const formatDate = data => {
+    const [date, time] = data.split(",")
+    const [day, month, year] = date.trim().split(".")
+    const [hour, minute] = time.trim().split(":")
+    const newMonth = month < 10 ? `0${month}` : `${month}`
+    const newDay = day < 10 ? `0${day}` : `${day}`
+    return `${year}-${newMonth}-${newDay}T${hour}:${minute}`
+  }
+  const zones = times.sort((a, b) => {
+    const { city: aCity, zone: aZone } = a
+    const { city: bCity, zone: bZone } = b
+    const aDate = formatDate((new Date()).toLocaleString("de-DE", { timeZone: aZone }))
+    const bDate = formatDate((new Date()).toLocaleString("de-DE", { timeZone: bZone }))
+    if( aDate < bDate ){
+      return -1;
+    } else if( aDate < bDate ){
+      return +1;
+    } else if( aCity < bCity ){
+      return -1;
+    } else if( bCity < aCity ){
+      return +1;
+    } else {
+      return 0;
+    }
+  })
   return (
     <div className="app">
+      <h1>World Time Clock</h1>
       <div className="row album"> 
-      {times.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} />)}
+      {zones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} />)}
       </div>
-      {/* <Clock key="0" city="Hawaii" zone="Pacific/Honolulu" />
-      <Clock key="1" city="Los Angeles" zone="America/Los_Angeles" />
-      <Clock key="2" city="Chicago" zone="America/Chicago" />
-      <Clock key="3" city="New York" zone="America/New_York" />
-      <Clock key="4" city="London" zone="Europe/London" />
-      <Clock key="5" city="Berlin" zone="Europe/Berlin" />
-      <Clock key="6" city="Moscow" zone="Europe/Moscow" />
-      <Clock key="7" city="Kolkata" zone="Asia/Kolkata" />
-      <Clock key="8" city="Beijing" zone="Asia/Shanghai" />
-      <Clock key="9" city="Tokyo" zone="Asia/Tokyo" />
-      <Clock key="10" city="Sydney" zone="Australia/Sydney" /> */}
     </div>
   );
 }
