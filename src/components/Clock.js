@@ -15,13 +15,13 @@ export default class Clock extends React.Component {
   }
   render(props) {
     return (
-      <div className="col-xs-6 col-md-4 col-lg-3">
+      <div className="col-xs-12 col-md-6 col-lg-4">
         <div className="album-item">
           <h2>{this.props.city}</h2>
           <div style={{ textAlign: "center" }}>
             {"flags" in this.props && this.props.flags && this.props.flags.map((flag, index) => {
             return (
-              <Flag key={index} code={flag.code} title={flag.title} height="20" style={{marginInline: "5px"}} />
+              <Flag key={index} code={flag.code} title={flag.title} height="20" style={{marginInline: "5px", maxWidth: "35px"}} />
             )
             })}
           </div>
