@@ -64,7 +64,7 @@ export default [
         code: "PF"
       },
       {
-        title: "United States: AK, HI",
+        title: "United States: AK",
         code: "US"
       },
     ]
