@@ -1,4 +1,5 @@
 import Acre from "./timezones/Acre"
+import Afghanistan from "./timezones/Afghanistan"
 import Alaska from "./timezones/Alaska"
 import AleutianIslands from "./timezones/AleutianIslands"
 import AmericanSamoa from "./timezones/AmericanSamoa"
@@ -47,6 +48,7 @@ import Yukon from "./timezones/Yukon"
 
 export default [
   Acre,
+  Afghanistan,
   Alaska,
   AleutianIslands,
   AmericanSamoa,
@@ -92,16 +94,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Afghanistan",
-    zone: "Asia/Kabul",
-    flags: [
-      {
-        title: "Afghanistan",
-        code: "AF"
-      }
-    ]
-  },
   {
     city: "Pakistan",
     zone: "Asia/Karachi",
