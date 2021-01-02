@@ -48,6 +48,7 @@ import Myanmar from "./timezones/Myanmar"
 import Nepal from "./timezones/Nepal"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
+import NorthernAustralia from "./timezones/NorthernAustralia"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Omsk from "./timezones/Omsk"
 import Pacific from "./timezones/Pacific"
@@ -107,6 +108,7 @@ export default [
   Indochina,
   Iran,
   Irkutsk,
+  JapanKorea,
   Kaliningrad,
   Krasnoyarsk,
   Levant,
@@ -119,6 +121,7 @@ export default [
   Nepal,
   Newfoundland,
   NorthAtlantic,
+  NorthernAustralia,
   NorthwesternAtlantic,
   Omsk,
   Pacific,
@@ -139,17 +142,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  JapanKorea,
-  {
-    city: "Northern Australia",
-    zone: "Australia/Darwin",
-    flags: [
-      {
-        title: "Australia: Northern Territory",
-        code: "AU"
-      }
-    ]
-  },
   {
     city: "South Australia",
     zone: "Australia/Adelaide",
