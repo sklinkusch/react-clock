@@ -21,6 +21,7 @@ import EasternBrazil from "./timezones/EasternBrazil"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
+import Iran from "./timezones/Iran"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Levant from "./timezones/Levant"
 import MarquesasIslands from "./timezones/MarquesasIslands"
@@ -64,6 +65,7 @@ export default [
   EasternEurope,
   EasternSouthAmerica,
   Hawaii,
+  Iran,
   Kaliningrad,
   Levant,
   MarquesasIslands,
@@ -82,16 +84,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Iran",
-    zone: "Asia/Tehran",
-    flags: [
-      {
-        title: "Iran",
-        code: "IR"
-      }
-    ]
-  },
   {
     city: "Caucasus",
     zone: "Asia/Baku",
