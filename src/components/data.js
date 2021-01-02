@@ -25,6 +25,7 @@ import Kaliningrad from "./timezones/Kaliningrad"
 import Levant from "./timezones/Levant"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
+import Moscow from "./timezones/Moscow"
 import Mountain from "./timezones/Mountain"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
@@ -67,6 +68,7 @@ export default [
   Levant,
   MarquesasIslands,
   MiddleWestAfrica,
+  Moscow,
   Mountain,
   Newfoundland,
   NorthAtlantic,
@@ -80,20 +82,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Moscow",
-    zone: "Europe/Moscow",
-    flags: [
-      {
-        title: "Belarus",
-        code: "BY"
-      },
-      {
-        title: "Russia: Krasnodar Region, Stavropol Region, Arkhangelsk Oblast, Belgorod Oblast, Bryansk Oblast, Ivanovo Oblast, Kaluga Oblast, Kirov Oblast, Kostroma Oblast, Kursk Oblast, Leningrad Oblast, Lipetsk Oblast, Moscow Oblast, Murmansk Oblast, Nizhnyi Novgorod Oblast, Novgorod Oblast, Oryol Oblast, Penza Oblast, Pskov Oblast, Ryazan Oblast, Smolensk Oblast, Tambov Oblast, Tula Oblast, Tver Oblast, Vladimir Oblast, Vologda Oblast, Voronezh Oblast, Yaroslavl Oblast, Nenets Autonomous Okrug, Crimea",
-        code: "RU"
-      }
-    ]
-  },
   {
     city: "Iran",
     zone: "Asia/Tehran",
