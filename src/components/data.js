@@ -8,6 +8,7 @@ import AtlanticOcean from "./timezones/AtlanticOcean"
 import BrazilianIslands from "./timezones/BrazilianIslands"
 import Caribbean from "./timezones/Caribbean"
 import Central from "./timezones/Central"
+import CentralAfrica from "./timezones/CentralAfrica"
 import CentralAmerica from "./timezones/CentralAmerica"
 import CentralEurope from "./timezones/CentralEurope"
 import CentralSouthAmerica from "./timezones/CentralSouthAmerica"
@@ -15,6 +16,7 @@ import Colombia from "./timezones/Colombia"
 import EasterIsland from "./timezones/EasterIsland"
 import Eastern from "./timezones/Eastern"
 import EasternBrazil from "./timezones/EasternBrazil"
+import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
 import MarquesasIslands from "./timezones/MarquesasIslands"
@@ -44,6 +46,7 @@ export default [
   BrazilianIslands,
   Caribbean,
   Central,
+  CentralAfrica,
   CentralAmerica,
   CentralEurope,
   CentralSouthAmerica,
@@ -51,6 +54,7 @@ export default [
   EasterIsland,
   Eastern,
   EasternBrazil,
+  EasternEurope,
   EasternSouthAmerica,
   Hawaii,
   MarquesasIslands,
@@ -68,106 +72,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Eastern Europe",
-    zone: "Europe/Bucharest",
-    flags: [
-      {
-        title: "Bulgaria",
-        code: "BG"
-      },
-      {
-        title: "Cyprus",
-        code: "CY"
-      },
-      {
-        title: "Estonia",
-        code: "EE"
-      },
-      {
-        title: "Finland",
-        code: "FI"
-      },
-      {
-        title: "Greece",
-        code: "GR"
-      },
-      {
-        title: "Latvia",
-        code: "LV"
-      },
-      {
-        title: "Lithuania",
-        code: "LT"
-      },
-      {
-        title: "Moldova",
-        code: "MD"
-      },
-      {
-        title: "Romania",
-        code: "RO"
-      },
-      {
-        title: "Ukraine",
-        code: "UA"
-      },
-    ]
-  },
-  {
-    city: "Central Africa",
-    zone: "Africa/Cairo",
-    flags: [
-      {
-        title: "Botswana",
-        code: "BW"
-      },
-      {
-        title: "Burundi",
-        code: "BI"
-      },
-      {
-        title: "Democratic Republic of the Congo: Bas-Uele, Haut-Katanga, Haut-Lomami, Haut-Uele, Ituri, Kasaï, Kasaï-Central, Kasaï-Oriental, Lomami, Lualaba, Maniema, Nord-Kivu, Sankuru, Sud-Kivu, Tanganjika, Tshopo",
-        code: "CD"
-      },
-      {
-        title: "Egypt",
-        code: "EG"
-      },
-      {
-        title: "Libya",
-        code: "LY"
-      },
-      {
-        title: "Malawi",
-        code: "MW"
-      },
-      {
-        title: "Mozambique",
-        code: "MZ"
-      },
-      {
-        title: "Namibia",
-        code: "NA"
-      },
-      {
-        title: "Rwanda",
-        code: "RW"
-      },
-      {
-        title: "Sudan",
-        code: "SD"
-      },
-      {
-        title: "Zambia",
-        code: "ZM"
-      },
-      {
-        title: "Zimbabwe",
-        code: "ZW"
-      }
-    ]
-  },
   {
     city: "South Africa",
     zone: "Africa/Johannesburg",
