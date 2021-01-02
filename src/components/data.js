@@ -48,6 +48,7 @@ import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Omsk from "./timezones/Omsk"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
+import Philippines from "./timezones/Philippines"
 import QuintanaRoo from "./timezones/QuintanaRoo"
 import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
@@ -114,6 +115,7 @@ export default [
   Omsk,
   Pacific,
   Pakistan,
+  Philippines,
   QuintanaRoo,
   Samara,
   Saskatchewan,
@@ -128,16 +130,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Philippines",
-    zone: "Asia/Manila",
-    flags: [
-      {
-        title: "Philippines",
-        code: "PH"
-      }
-    ]
-  },
   {
     city: "Irkutsk",
     zone: "Asia/Irkutsk",
