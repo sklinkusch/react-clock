@@ -17,6 +17,7 @@ import CentralAmerica from "./timezones/CentralAmerica"
 import CentralEurope from "./timezones/CentralEurope"
 import CentralIndonesia from "./timezones/CentralIndonesia"
 import CentralSouthAmerica from "./timezones/CentralSouthAmerica"
+import China from "./timezones/China"
 import Colombia from "./timezones/Colombia"
 import EasterIsland from "./timezones/EasterIsland"
 import Eastern from "./timezones/Eastern"
@@ -85,6 +86,7 @@ export default [
   CentralEurope,
   CentralIndonesia,
   CentralSouthAmerica,
+  China,
   Colombia,
   EasterIsland,
   Eastern,
@@ -132,28 +134,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "China",
-    zone: "Asia/Shanghai",
-    flags: [
-      {
-        title: "China",
-        code: "CN"
-      },
-      {
-        title: "Hong Kong (China)",
-        code: "HK"
-      },
-      {
-        title: "Macau (China)",
-        code: "MO"
-      },
-      {
-        title: "Taiwan",
-        code: "TW"
-      }
-    ]
-  },
   {
     city: "Eastern Indonesia",
     zone: "Asia/Jayapura",
