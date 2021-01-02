@@ -26,6 +26,7 @@ import EasternArabia from "./timezones/EasternArabia"
 import EasternBrazil from "./timezones/EasternBrazil"
 import EasternCentralAsia from "./timezones/EasternCentralAsia"
 import EasternEurope from "./timezones/EasternEurope"
+import EasternIndonesia from "./timezones/EasternIndonesia"
 import EasternMongolia from "./timezones/EasternMongolia"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
@@ -95,6 +96,7 @@ export default [
   EasternBrazil,
   EasternCentralAsia,
   EasternEurope,
+  EasternIndonesia,
   EasternMongolia,
   EasternSouthAmerica,
   Hawaii,
@@ -134,24 +136,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Eastern Indonesia",
-    zone: "Asia/Jayapura",
-    flags: [
-      {
-        title: "Indonesia: Maluku, North Maluku, Papua, West Papua",
-        code: "ID"
-      },
-      {
-        title: "Palau",
-        code: "PW"
-      },
-      {
-        title: "Timor-Leste",
-        code: "TL"
-      }
-    ]
-  },
   {
     city: "Yakutsk",
     zone: "Asia/Yakutsk",
