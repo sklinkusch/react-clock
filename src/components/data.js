@@ -18,6 +18,7 @@ import EasternBrazil from "./timezones/EasternBrazil"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
 import MarquesasIslands from "./timezones/MarquesasIslands"
+import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Mountain from "./timezones/Mountain"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
@@ -53,6 +54,7 @@ export default [
   EasternSouthAmerica,
   Hawaii,
   MarquesasIslands,
+  MiddleWestAfrica,
   Mountain,
   Newfoundland,
   NorthAtlantic,
@@ -66,74 +68,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "North Africa",
-    zone: "Africa/Algiers",
-    flags: [
-      {
-        title: "Algeria",
-        code: "DZ"
-      },
-      {
-        title: "Cameroon",
-        code: "CM"
-      },
-    ]
-  },
-  {
-    city: "Middle West Africa",
-    zone: "Africa/Luanda",
-    flags: [
-      {
-        title: "Angola",
-        code: "AO"
-      },
-      {
-        title: "Benin",
-        code: "BJ"
-      },
-      {
-        title: "Central African Republic",
-        code: "CF"
-      },
-      {
-        title: "Chad",
-        code: "TD"
-      },
-      {
-        title: "Democratic Republic of the Congo: Équateur, Kinshasa, Kongo Central, Kwango, Kwilu, Mai-Ndombe, Mongala, Nord-Ubangi, Sud-Ubangi, Tshuapa",
-        code: "CD"
-      },
-      {
-        title: "Equatorial Guinea",
-        code: "GQ"
-      },
-      {
-        title: "Gabon",
-        code: "GA"
-      },
-      {
-        title: "Morocco",
-        code: "MA"
-      },
-      {
-        title: "Niger",
-        code: "NE"
-      },
-      {
-        title: "Nigeria",
-        code: "NG"
-      },
-      {
-        title: "Republic of the Congo",
-        code: "CG"
-      },
-      {
-        title: "Tunisia",
-        code: "TN"
-      },
-    ]
-  },
   {
     city: "Eastern Europe",
     zone: "Europe/Bucharest",
