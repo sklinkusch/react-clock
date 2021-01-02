@@ -50,6 +50,7 @@ import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
 import Turkey from "./timezones/Turkey"
 import WestAfrica from "./timezones/WestAfrica"
+import WesternAustralia from "./timezones/WesternAustralia"
 import WesternBrazil from "./timezones/WesternBrazil"
 import WesternCentralAsia from "./timezones/WesternCentralAsia"
 import WesternEurope from "./timezones/WesternEurope"
@@ -112,6 +113,7 @@ export default [
   Saskatchewan,
   Turkey,
   WestAfrica,
+  WesternAustralia,
   WesternBrazil,
   WesternCentralAsia,
   WesternEurope,
@@ -120,16 +122,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Western Australia",
-    zone: "Australia/West",
-    flags: [
-      {
-        title: "Australia: Western Australia",
-        code: "AU"
-      }
-    ]
-  },
   {
     city: "Malaysia",
     zone: "Asia/Kuching",
