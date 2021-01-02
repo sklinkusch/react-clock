@@ -33,6 +33,7 @@ import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Pacific from "./timezones/Pacific"
 import QuintanaRoo from "./timezones/QuintanaRoo"
+import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
 import Turkey from "./timezones/Turkey"
 import WestAfrica from "./timezones/WestAfrica"
@@ -77,6 +78,7 @@ export default [
   NorthwesternAtlantic,
   Pacific,
   QuintanaRoo,
+  Samara,
   Saskatchewan,
   Turkey,
   WestAfrica,
@@ -111,10 +113,6 @@ export default [
       {
         title: "Oman",
         code: "OM"
-      },
-      {
-        title: "Russia: Udmurtia, Astrakhan Oblast, Samara Oblast, Saratov Oblast, Ulyanovsk Oblast, Volgograd Oblast",
-        code: "RU"
       },
       {
         title: "Seychelles",
