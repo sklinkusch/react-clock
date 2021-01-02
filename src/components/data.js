@@ -17,6 +17,7 @@ import Colombia from "./timezones/Colombia"
 import EasterIsland from "./timezones/EasterIsland"
 import Eastern from "./timezones/Eastern"
 import EasternAfrica from "./timezones/EasternAfrica"
+import EasternArabia from "./timezones/EasternArabia"
 import EasternBrazil from "./timezones/EasternBrazil"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
@@ -63,6 +64,7 @@ export default [
   EasterIsland,
   Eastern,
   EasternAfrica,
+  EasternArabia,
   EasternBrazil,
   EasternEurope,
   EasternSouthAmerica,
@@ -104,14 +106,6 @@ export default [
         title: "Georgia",
         code: "GE"
       },
-      {
-        title: "Oman",
-        code: "OM"
-      },
-      {
-        title: "United Arab Emirates",
-        code: "AE"
-      }
     ]
   },
   {
