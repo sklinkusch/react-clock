@@ -31,6 +31,7 @@ import IndianOcean from "./timezones/IndianOcean"
 import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
 import Kaliningrad from "./timezones/Kaliningrad"
+import Krasnoyarsk from "./timezones/Krasnoyarsk"
 import Levant from "./timezones/Levant"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
@@ -90,6 +91,7 @@ export default [
   Indochina,
   Iran,
   Kaliningrad,
+  Krasnoyarsk,
   Levant,
   MarquesasIslands,
   MiddleWestAfrica,
@@ -114,16 +116,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Krasnoyarsk",
-    zone: "Asia/Novosibirsk",
-    flags: [
-      {
-        title: "Russia: Altai Republic, Khakassia, Tuva Republic, Altai Region, Krasnoyarsk Region, Kemerovo Oblast, Novosibirsk Oblast, Tomsk Oblast",
-        code: "RU"
-      }
-    ]
-  },
   {
     city: "Western Mongolia",
     zone: "Asia/Hovd",
