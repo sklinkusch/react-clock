@@ -35,6 +35,7 @@ import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Moscow from "./timezones/Moscow"
 import Mountain from "./timezones/Mountain"
+import Myanmar from "./timezones/Myanmar"
 import Nepal from "./timezones/Nepal"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
@@ -92,6 +93,7 @@ export default [
   MiddleWestAfrica,
   Moscow,
   Mountain,
+  Myanmar,
   Nepal,
   Newfoundland,
   NorthAtlantic,
@@ -110,20 +112,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Myanmar",
-    zone: "Asia/Rangoon",
-    flags: [
-      {
-        title: "Cocos Islands (Australia)",
-        code: "CC"
-      },
-      {
-        title: "Myanmar",
-        code: "MM"
-      }
-    ]
-  },
   {
     city: "Indochina",
     zone: "Asia/Bangkok",
