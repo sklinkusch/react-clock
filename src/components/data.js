@@ -3,6 +3,7 @@ import Alaska from "./timezones/Alaska"
 import AleutianIslands from "./timezones/AleutianIslands"
 import AmericanSamoa from "./timezones/AmericanSamoa"
 import Antilles from "./timezones/Antilles"
+import Arabia from "./timezones/Arabia"
 import Arizona from "./timezones/Arizona"
 import AtlanticOcean from "./timezones/AtlanticOcean"
 import BrazilianIslands from "./timezones/BrazilianIslands"
@@ -44,6 +45,7 @@ export default [
   AleutianIslands,
   AmericanSamoa,
   Antilles,
+  Arabia,
   Arizona,
   AtlanticOcean,
   BrazilianIslands,
@@ -78,36 +80,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Arabia",
-    zone: "Asia/Riyadh",
-    flags: [
-      {
-        title: "Bahrain",
-        code: "BH"
-      },
-      {
-        title: "Iraq",
-        code: "IQ"
-      },
-      {
-        title: "Kuwait",
-        code: "KW"
-      },
-      {
-        title: "Qatar",
-        code: "QA"
-      },
-      {
-        title: "Saudi Arabia",
-        code: "SA"
-      },
-      {
-        title: "Yemen",
-        code: "YE"
-      }
-    ]
-  },
   {
     city: "Moscow",
     zone: "Europe/Moscow",
