@@ -24,6 +24,7 @@ import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Pacific from "./timezones/Pacific"
 import QuintanaRoo from "./timezones/QuintanaRoo"
 import Saskatchewan from "./timezones/Saskatchewan"
+import Turkey from "./timezones/Turkey"
 import WestAfrica from "./timezones/WestAfrica"
 import WesternBrazil from "./timezones/WesternBrazil"
 import WesternEurope from "./timezones/WesternEurope"
@@ -57,6 +58,7 @@ export default [
   Pacific,
   QuintanaRoo,
   Saskatchewan,
+  Turkey,
   WestAfrica,
   WesternBrazil,
   WesternEurope,
