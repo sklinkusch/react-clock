@@ -35,6 +35,7 @@ import IndianOcean from "./timezones/IndianOcean"
 import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
 import Irkutsk from "./timezones/Irkutsk"
+import JapanKorea from "./timezones/JapanKorea"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Krasnoyarsk from "./timezones/Krasnoyarsk"
 import Levant from "./timezones/Levant"
@@ -138,24 +139,7 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Japan/Korea",
-    zone: "Asia/Tokyo",
-    flags: [
-      {
-        title: "Japan",
-        code: "JP"
-      },
-      {
-        title: "North Korea",
-        code: "KP"
-      },
-      {
-        title: "South Korea",
-        code: "KR"
-      }
-    ]
-  },
+  JapanKorea,
   {
     city: "Northern Australia",
     zone: "Australia/Darwin",
