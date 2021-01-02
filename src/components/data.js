@@ -20,6 +20,7 @@ import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
 import Kaliningrad from "./timezones/Kaliningrad"
+import Levant from "./timezones/Levant"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Mountain from "./timezones/Mountain"
@@ -59,6 +60,7 @@ export default [
   EasternSouthAmerica,
   Hawaii,
   Kaliningrad,
+  Levant,
   MarquesasIslands,
   MiddleWestAfrica,
   Mountain,
@@ -74,32 +76,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Levant",
-    zone: "Asia/Jerusalem",
-    flags: [
-      {
-        title: "Israel",
-        code: "IL"
-      },
-      {
-        title: "Jordan",
-        code: "JO"
-      },
-      {
-        title: "Lebanon",
-        code: "LB"
-      },
-      {
-        title: "Palestine",
-        code: "PS"
-      },
-      {
-        title: "Syria",
-        code: "SY"
-      },
-    ]
-  },
   {
     city: "East Africa",
     zone: "Africa/Addis_Ababa",
