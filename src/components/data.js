@@ -8,6 +8,7 @@ import Arizona from "./timezones/Arizona"
 import AtlanticOcean from "./timezones/AtlanticOcean"
 import BrazilianIslands from "./timezones/BrazilianIslands"
 import Caribbean from "./timezones/Caribbean"
+import Caucasus from "./timezones/Caucasus"
 import Central from "./timezones/Central"
 import CentralAfrica from "./timezones/CentralAfrica"
 import CentralAmerica from "./timezones/CentralAmerica"
@@ -55,6 +56,7 @@ export default [
   AtlanticOcean,
   BrazilianIslands,
   Caribbean,
+  Caucasus,
   Central,
   CentralAfrica,
   CentralAmerica,
@@ -90,24 +92,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Caucasus",
-    zone: "Asia/Baku",
-    flags: [
-      {
-        title: "Armenia",
-        code: "AM"
-      },
-      {
-        title: "Azerbaijan",
-        code: "AZ"
-      },
-      {
-        title: "Georgia",
-        code: "GE"
-      },
-    ]
-  },
   {
     city: "Afghanistan",
     zone: "Asia/Kabul",
