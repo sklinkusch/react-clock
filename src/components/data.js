@@ -7,6 +7,7 @@ import Antilles from "./timezones/Antilles"
 import Arabia from "./timezones/Arabia"
 import Arizona from "./timezones/Arizona"
 import AtlanticOcean from "./timezones/AtlanticOcean"
+import Bangladesh from "./timezones/Bangladesh"
 import BrazilianIslands from "./timezones/BrazilianIslands"
 import Caribbean from "./timezones/Caribbean"
 import Caucasus from "./timezones/Caucasus"
@@ -63,6 +64,7 @@ export default [
   Arabia,
   Arizona,
   AtlanticOcean,
+  Bangladesh,
   BrazilianIslands,
   Caribbean,
   Caucasus,
@@ -108,20 +110,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Bangladesh",
-    zone: "Asia/Dhaka",
-    flags: [
-      {
-        title: "Bangladesh",
-        code: "BD"
-      },
-      {
-        title: "Bhutan",
-        code: "BT"
-      },
-    ]
-  },
   {
     city: "Myanmar",
     zone: "Asia/Rangoon",
