@@ -24,6 +24,7 @@ import EasternBrazil from "./timezones/EasternBrazil"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
+import India from "./timezones/India"
 import IndianOcean from "./timezones/IndianOcean"
 import Iran from "./timezones/Iran"
 import Kaliningrad from "./timezones/Kaliningrad"
@@ -76,6 +77,7 @@ export default [
   EasternEurope,
   EasternSouthAmerica,
   Hawaii,
+  India,
   IndianOcean,
   Iran,
   Kaliningrad,
@@ -100,20 +102,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "India",
-    zone: "Asia/Kolkata",
-    flags: [
-      {
-        title: "India",
-        code: "IN"
-      },
-      {
-        title: "Sri Lanka",
-        code: "LK"
-      }
-    ]
-  },
   {
     city: "Nepal",
     zone: "Asia/Kathmandu",
