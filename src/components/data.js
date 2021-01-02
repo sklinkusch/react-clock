@@ -19,6 +19,7 @@ import EasternBrazil from "./timezones/EasternBrazil"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
+import Kaliningrad from "./timezones/Kaliningrad"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Mountain from "./timezones/Mountain"
@@ -57,6 +58,7 @@ export default [
   EasternEurope,
   EasternSouthAmerica,
   Hawaii,
+  Kaliningrad,
   MarquesasIslands,
   MiddleWestAfrica,
   Mountain,
@@ -72,16 +74,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "Kaliningrad",
-    zone: "Europe/Kaliningrad",
-    flags: [
-      {
-        title: "Russia: Oblast Kaliningrad",
-        code: "RU"
-      },
-    ]
-  },
   {
     city: "Levant",
     zone: "Asia/Jerusalem",
