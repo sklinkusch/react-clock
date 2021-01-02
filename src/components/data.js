@@ -42,6 +42,7 @@ import Saskatchewan from "./timezones/Saskatchewan"
 import Turkey from "./timezones/Turkey"
 import WestAfrica from "./timezones/WestAfrica"
 import WesternBrazil from "./timezones/WesternBrazil"
+import WesternCentralAsia from "./timezones/WesternCentralAsia"
 import WesternEurope from "./timezones/WesternEurope"
 import WesternGreenland from "./timezones/WesternGreenland"
 import Yekaterinburg from "./timezones/Yekaterinburg"
@@ -92,6 +93,7 @@ export default [
   Turkey,
   WestAfrica,
   WesternBrazil,
+  WesternCentralAsia,
   WesternEurope,
   WesternGreenland,
   Yekaterinburg,
@@ -101,10 +103,6 @@ export default [
     zone: "Asia/Karachi",
     flags: [
       {
-        title: "Kazakhstan: Aktobe Region, Atyrau Region, Mangystau Region, West Kazakhstan Region",
-        code: "KZ"
-      },
-      {
         title: "Maldives",
         code: "MV"
       },
@@ -112,18 +110,6 @@ export default [
         title: "Pakistan",
         code: "PK"
       },
-      {
-        title: "Tajikistan",
-        code: "TJ"
-      },
-      {
-        title: "Turkmenistan",
-        code: "TM"
-      },
-      {
-        title: "Uzbekistan",
-        code: "UZ"
-      }
     ]
   },
   {
