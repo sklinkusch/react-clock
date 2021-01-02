@@ -19,6 +19,7 @@ import Hawaii from "./timezones/Hawaii"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import Mountain from "./timezones/Mountain"
 import Newfoundland from "./timezones/Newfoundland"
+import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Pacific from "./timezones/Pacific"
 import QuintanaRoo from "./timezones/QuintanaRoo"
@@ -50,6 +51,7 @@ export default [
   MarquesasIslands,
   Mountain,
   Newfoundland,
+  NorthAtlantic,
   NorthwesternAtlantic,
   Pacific,
   QuintanaRoo,
@@ -58,20 +60,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "North Atlantic",
-    zone: "Atlantic/Reykjavik",
-    flags: [
-      {
-        title: "Greenland (Denmark)",
-        code: "GL"
-      },
-      {
-        title: "Iceland",
-        code: "IS"
-      },
-    ]
-  },
   {
     city: "West Africa",
     zone: "Africa/Bamako",
