@@ -57,6 +57,7 @@ import Philippines from "./timezones/Philippines"
 import QuintanaRoo from "./timezones/QuintanaRoo"
 import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
+import SouthAustralia from "./timezones/SouthAustralia"
 import Turkey from "./timezones/Turkey"
 import WestAfrica from "./timezones/WestAfrica"
 import WesternAustralia from "./timezones/WesternAustralia"
@@ -130,6 +131,7 @@ export default [
   QuintanaRoo,
   Samara,
   Saskatchewan,
+  SouthAustralia,
   Turkey,
   WestAfrica,
   WesternAustralia,
@@ -142,16 +144,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "South Australia",
-    zone: "Australia/Adelaide",
-    flags: [
-      {
-        title: "Australia: South Australia",
-        code: "AU"
-      }
-    ]
-  },
   {
     city: "Queensland",
     zone: "Australia/Brisbane",
