@@ -15,6 +15,7 @@ import Central from "./timezones/Central"
 import CentralAfrica from "./timezones/CentralAfrica"
 import CentralAmerica from "./timezones/CentralAmerica"
 import CentralEurope from "./timezones/CentralEurope"
+import CentralIndonesia from "./timezones/CentralIndonesia"
 import CentralSouthAmerica from "./timezones/CentralSouthAmerica"
 import Colombia from "./timezones/Colombia"
 import EasterIsland from "./timezones/EasterIsland"
@@ -33,6 +34,7 @@ import Iran from "./timezones/Iran"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Krasnoyarsk from "./timezones/Krasnoyarsk"
 import Levant from "./timezones/Levant"
+import Malaysia from "./timezones/Malaysia"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Moscow from "./timezones/Moscow"
@@ -78,6 +80,7 @@ export default [
   CentralAfrica,
   CentralAmerica,
   CentralEurope,
+  CentralIndonesia,
   CentralSouthAmerica,
   Colombia,
   EasterIsland,
@@ -96,6 +99,7 @@ export default [
   Kaliningrad,
   Krasnoyarsk,
   Levant,
+  Malaysia,
   MarquesasIslands,
   MiddleWestAfrica,
   Moscow,
@@ -122,34 +126,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Malaysia",
-    zone: "Asia/Kuching",
-    flags: [
-      {
-        title: "Brunei",
-        code: "BN"
-      },
-      {
-        title: "Malaysia",
-        code: "MY"
-      },
-      {
-        title: "Singapore",
-        code: "SG"
-      }
-    ]
-  },
-  {
-    city: "Central Indonesia",
-    zone: "Asia/Makassar",
-    flags: [
-      {
-        title: "Indonesia: Bali, East Kalimantan, East Nusa Tenggara, North Kalimantan, South Kalimantan, Sulawesi, West Nusa Tenggara",
-        code: "ID"
-      }
-    ]
-  },
   {
     city: "Central Mongolia",
     zone: "Asia/Ulan_Bator",
