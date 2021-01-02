@@ -54,6 +54,7 @@ import WesternBrazil from "./timezones/WesternBrazil"
 import WesternCentralAsia from "./timezones/WesternCentralAsia"
 import WesternEurope from "./timezones/WesternEurope"
 import WesternGreenland from "./timezones/WesternGreenland"
+import WesternIndonesia from "./timezones/WesternIndonesia"
 import WesternMongolia from "./timezones/WesternMongolia"
 import Yekaterinburg from "./timezones/Yekaterinburg"
 import Yukon from "./timezones/Yukon"
@@ -115,19 +116,10 @@ export default [
   WesternCentralAsia,
   WesternEurope,
   WesternGreenland,
+  WesternIndonesia,
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Western Indonesia",
-    zone: "Asia/Jakarta",
-    flags: [
-      {
-        title: "Indonesia: Central Kalimantan, Java, Sumatra, West Kalimantan",
-        code: "ID"
-      }
-    ]
-  },
   {
     city: "Western Australia",
     zone: "Australia/West",
