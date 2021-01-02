@@ -4,6 +4,7 @@ import AleutianIslands from "./timezones/AleutianIslands"
 import AmericanSamoa from "./timezones/AmericanSamoa"
 import Antilles from "./timezones/Antilles"
 import Arizona from "./timezones/Arizona"
+import AtlanticOcean from "./timezones/AtlanticOcean"
 import BrazilianIslands from "./timezones/BrazilianIslands"
 import Caribbean from "./timezones/Caribbean"
 import Central from "./timezones/Central"
@@ -33,6 +34,7 @@ export default [
   AmericanSamoa,
   Antilles,
   Arizona,
+  AtlanticOcean,
   BrazilianIslands,
   Caribbean,
   Central,
@@ -54,24 +56,6 @@ export default [
   WesternBrazil,
   WesternGreenland,
   Yukon,
-  {
-    city: "Atlantic Ocean",
-    zone: "Atlantic/Azores",
-    flags: [
-      {
-        title: "Azores (Portugal)",
-        code: "PT"
-      },
-      {
-        title: "Cabo Verde",
-        code: "CV"
-      },
-      {
-        title: "Greenland (Denmark)",
-        code: "GL"
-      },
-    ]
-  },
   {
     city: "Western Europe",
     zone: "Europe/London",
