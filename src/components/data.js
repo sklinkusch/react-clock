@@ -64,6 +64,7 @@ import WesternEurope from "./timezones/WesternEurope"
 import WesternGreenland from "./timezones/WesternGreenland"
 import WesternIndonesia from "./timezones/WesternIndonesia"
 import WesternMongolia from "./timezones/WesternMongolia"
+import Yakutsk from "./timezones/Yakutsk"
 import Yekaterinburg from "./timezones/Yekaterinburg"
 import Yukon from "./timezones/Yukon"
 
@@ -134,18 +135,9 @@ export default [
   WesternGreenland,
   WesternIndonesia,
   WesternMongolia,
+  Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Yakutsk",
-    zone: "Asia/Yakutsk",
-    flags: [
-      {
-        title: "Russia: Sakha (western part), Zabaykalsky Krai, Amur Oblast",
-        code: "RU"
-      }
-    ]
-  },
   {
     city: "Japan/Korea",
     zone: "Asia/Tokyo",
