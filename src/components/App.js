@@ -21,9 +21,9 @@ export default function App() {
       return -1;
     } else if( bDate < aDate ){
       return +1;
-    } else if( aCity < bCity ){
+    } else if( aCity.toLowerCase() < bCity.toLowerCase() ){
       return -1;
-    } else if( bCity < aCity ){
+    } else if( bCity.toLowerCase() < aCity.toLowerCase() ){
       return +1;
     } else {
       return 0;
