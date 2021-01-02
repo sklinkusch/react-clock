@@ -37,6 +37,7 @@ import Nepal from "./timezones/Nepal"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
+import Omsk from "./timezones/Omsk"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
 import QuintanaRoo from "./timezones/QuintanaRoo"
@@ -91,6 +92,7 @@ export default [
   Newfoundland,
   NorthAtlantic,
   NorthwesternAtlantic,
+  Omsk,
   Pacific,
   Pakistan,
   QuintanaRoo,
@@ -124,10 +126,6 @@ export default [
         title: "Kyrgyzstan",
         code: "KG"
       },
-      {
-        title: "Russia: Omsk Oblast",
-        code: "RU"
-      }
     ]
   },
   {
