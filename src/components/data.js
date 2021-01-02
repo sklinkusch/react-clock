@@ -36,6 +36,7 @@ import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Pacific from "./timezones/Pacific"
+import Pakistan from "./timezones/Pakistan"
 import QuintanaRoo from "./timezones/QuintanaRoo"
 import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
@@ -87,6 +88,7 @@ export default [
   NorthAtlantic,
   NorthwesternAtlantic,
   Pacific,
+  Pakistan,
   QuintanaRoo,
   Samara,
   Saskatchewan,
@@ -98,20 +100,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Pakistan",
-    zone: "Asia/Karachi",
-    flags: [
-      {
-        title: "Maldives",
-        code: "MV"
-      },
-      {
-        title: "Pakistan",
-        code: "PK"
-      },
-    ]
-  },
   {
     city: "India",
     zone: "Asia/Kolkata",
