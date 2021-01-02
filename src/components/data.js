@@ -21,6 +21,7 @@ import EasternBrazil from "./timezones/EasternBrazil"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
+import IndianOcean from "./timezones/IndianOcean"
 import Iran from "./timezones/Iran"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Levant from "./timezones/Levant"
@@ -66,6 +67,7 @@ export default [
   EasternEurope,
   EasternSouthAmerica,
   Hawaii,
+  IndianOcean,
   Iran,
   Kaliningrad,
   Levant,
@@ -99,24 +101,12 @@ export default [
         code: "AZ"
       },
       {
-        title: "France: Réunion",
-        code: "RE"
-      },
-      {
         title: "Georgia",
         code: "GE"
       },
       {
-        title: "Mauritius",
-        code: "MU"
-      },
-      {
         title: "Oman",
         code: "OM"
-      },
-      {
-        title: "Seychelles",
-        code: "SC"
       },
       {
         title: "United Arab Emirates",
