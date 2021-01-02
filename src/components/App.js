@@ -19,7 +19,7 @@ export default function App() {
     const bDate = formatDate((new Date()).toLocaleString("de-DE", { timeZone: bZone }))
     if( aDate < bDate ){
       return -1;
-    } else if( aDate < bDate ){
+    } else if( bDate < aDate ){
       return +1;
     } else if( aCity < bCity ){
       return -1;

@@ -1,458 +1,59 @@
+import Acre from "./timezones/Acre"
+import Alaska from "./timezones/Alaska"
+import AleutianIslands from "./timezones/AleutianIslands"
+import AmericanSamoa from "./timezones/AmericanSamoa"
+import Antilles from "./timezones/Antilles"
+import Arizona from "./timezones/Arizona"
+import BrazilianIslands from "./timezones/BrazilianIslands"
+import Caribbean from "./timezones/Caribbean"
+import Central from "./timezones/Central"
+import CentralAmerica from "./timezones/CentralAmerica"
+import CentralSouthAmerica from "./timezones/CentralSouthAmerica"
+import Colombia from "./timezones/Colombia"
+import EasterIsland from "./timezones/EasterIsland"
+import Eastern from "./timezones/Eastern"
+import EasternBrazil from "./timezones/EasternBrazil"
+import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
+import Hawaii from "./timezones/Hawaii"
+import MarquesasIslands from "./timezones/MarquesasIslands"
+import Mountain from "./timezones/Mountain"
+import Newfoundland from "./timezones/Newfoundland"
+import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
+import Pacific from "./timezones/Pacific"
+import QuintanaRoo from "./timezones/QuintanaRoo"
+import Saskatchewan from "./timezones/Saskatchewan"
+import WesternBrazil from "./timezones/WesternBrazil"
+import WesternGreenland from "./timezones/WesternGreenland"
+import Yukon from "./timezones/Yukon"
+
 export default [
-  {
-    city: "American Samoa",
-    zone: "Pacific/Pago_Pago",
-    flags: [
-      {
-        title: "American Samoa (United States)",
-        code: "AS"
-      },
-      {
-        title: "Midway Islands (United States)",
-        code: "UM"
-      },
-      {
-        title: "Niue (New Zealand)",
-        code: "NU"
-      }
-    ]
-  },
-  {
-    city: "Hawaii",
-    zone: "Pacific/Honolulu",
-    flags: [
-      {
-        title: "Cook Islands (New Zealand)",
-        code: "CK"
-      },
-      {
-        title: "French Polynesia (France): Austral Islands, Society Islands, Tuamotus",
-        code: "PF"
-      },
-      {
-        title: "United States: HI",
-        code: "US"
-      },
-    ]
-  },
-  {
-    city: "Aleutian Islands",
-    zone: "America/Atka",
-    flags: [
-      {
-        title: "United States: AK",
-        code: "US"
-      }
-    ]
-  },
-  {
-    city: "Marquesas",
-    zone: "Pacific/Marquesas",
-    flags: [
-      {
-        title: "French Polynesia (France): Marquesas Islands",
-        code: "PF"
-      }
-    ]
-  },
-  {
-    city: "Alaska",
-    zone: "America/Anchorage",
-    flags: [
-      {
-        title: "French Polynesia (France): Gambier Islands",
-        code: "PF"
-      },
-      {
-        title: "United States: AK",
-        code: "US"
-      },
-    ]
-  },
-  {
-    city: "Pacific",
-    zone: "America/Los_Angeles",
-    flags: [
-      {
-        title: "Canada: British Columbia, Northwest Territories",
-        code: "CA"
-      },
-      {
-        title: "Mexico: Baja California",
-        code: "MX"
-      },
-      {
-        title: "United States: CA, ID, NV, OR, WA",
-        code: "US"
-      }
-    ]
-  },
-  {
-    city: "Mountain",
-    zone: "America/Denver",
-    flags: [
-      {
-        title: "Canada: Alberta, British Columbia, Northwest Territories, Nunavut, Saskatchewan, Yukon",
-        code: "CA"
-      },
-      {
-        title: "Mexico: Baja California Sur, Chihuahua, Nayarit, Sonora, Sinaloa",
-        code: "MX"
-      },
-      {
-        title: "United States: AZ, CO, ID, KS, MT, ND, NE, NM, OR, SD, TX, UT, WY",
-        code: "US"
-      }
-    ]
-  },
-  {
-    city: "Central America",
-    zone: "America/El_Salvador",
-    flags: [
-      {
-        title: "Belize",
-        code: "BZ"
-      },
-      {
-        title: "Costa Rica",
-        code: "CR"
-      },
-      {
-        title: "Ecuador: Galápagos",
-        code: "EC"
-      },
-      {
-        title: "El Salvador",
-        code: "SV"
-      },
-      {
-        title: "Guatemala",
-        code: "GT"
-      },
-      {
-        title: "Honduras",
-        code: "HN"
-      },
-      {
-        title: "Nicaragua",
-        code: "NI"
-      },
-    ]
-  },
-  {
-    city: "Easter Island",
-    zone: "Pacific/Easter",
-    flags: [
-      {
-        title: "Chile: Easter Island",
-        code: "CL"
-      },
-    ]
-  },
-  {
-    city: "Central",
-    zone: "America/Chicago",
-    flags: [
-      {
-        title: "Canada: Manitoba, Nunavut, Ontario, Saskatchewan",
-        code: "CA"
-      },
-      {
-        title: "Mexico",
-        code: "MX"
-      },
-      {
-        title: "United States: AL, AR, FL, IA, IL, IN, KS, KY, LA, MN, MO, MS, ND, NE, OK, SD, TN, TX, WI",
-        code: "US"
-      }
-    ]
-  },
-  {
-    city: "Caribbean",
-    zone: "Jamaica",
-    flags: [
-      {
-        title: "Cayman Islands",
-        code: "KY"
-      },
-      {
-        title: "Haiti",
-        code: "HT"
-      },
-      {
-        title: "Jamaica",
-        code: "JM"
-      },
-    ]
-  },
-  {
-    city: "Colombia",
-    zone: "America/Bogota",
-    flags: [
-      {
-        title: "Colombia",
-        code: "CO"
-      },
-      {
-        title: "Ecuador",
-        code: "EC"
-      },
-      {
-        title: "Panama",
-        code: "PA"
-      },
-      {
-        title: "Peru",
-        code: "PE"
-      },
-    ]
-  },
-  {
-    city: "Eastern",
-    zone: "America/New_York",
-    flags: [
-      {
-        title: "Bahamas",
-        code: "BS"
-      },
-      {
-        title: "Canada: Nunavut, Ontario, Québec",
-        code: "CA"
-      },
-      {
-        title: "Cuba",
-        code: "CU"
-      },
-      {
-        title: "United States: CT, DC, DE, FL, GA, IN, KY, MA, MD, ME, MI, NC, NH, NJ, NY, OH, PA, RI, SC, TN, VA, VT, WV",
-        code: "US"
-      },
-    ]
-  },
-  {
-    city: "Acre",
-    zone: "America/Rio_Branco",
-    flags: [
-      {
-        title: "Brazil: Acre, Amazonas (western part)",
-        code: "BR"
-      }
-    ]
-  },
-  {
-    city: "Western Brazil",
-    zone: "America/Manaus",
-    flags: [
-      {
-        title: "Brazil: Amazonas (eastern part), Mato Grosso, Mato Grosso do Sul, Rondônia, Roraima",
-        code: "BR"
-      }
-    ]
-  },
-  {
-    city: "Central South America",
-    zone: "America/Caracas",
-    flags: [
-      {
-        title: "Bolivia",
-        code: "BO"
-      },
-      {
-        title: "Chile",
-        code: "CL"
-      },
-      {
-        title: "Falkland Islands",
-        code: "FK"
-      },
-      {
-        title: "Guyana",
-        code: "GY"
-      },
-      {
-        title: "Paraguay",
-        code: "PY"
-      },
-      {
-        title: "Venezuela",
-        code: "VE"
-      }
-    ]
-  },
-  {
-    city: "Northwestern Atlantic",
-    zone: "America/Halifax",
-    flags: [
-      {
-        title: "Canada: New Brunswick, Labrador, Nova Scotia, Prince Edward Island, Québec",
-        code: "CA"
-      },
-      {
-        title: "Greenland (Denmark)",
-        code: "GL"
-      },
-    ]
-  },
-  {
-    city: "Antilles",
-    zone: "America/Santo_Domingo",
-    flags: [
-      {
-        title: "American Virgin Islands (United States)",
-        code: "VI"
-      },
-      {
-        title: "Anguilla (United Kingdom)",
-        code: "AI"
-      },
-      {
-        title: "Antigua and Barbuda",
-        code: "AG"
-      },
-      {
-        title: "Aruba (Netherlands)",
-        code: "AW"
-      },
-      {
-        title: "Barbados",
-        code: "BB"
-      },
-      {
-        title: "Bermuda (United Kingdom)",
-        code: "BM"
-      },
-      {
-        title: "British Virgin Islands (United Kingdom)",
-        code: "VG"
-      },
-      {
-        title: "Curaçao (Netherlands)",
-        code: "CW",
-      },
-      {
-        title: "Dominica",
-        code: "DM"
-      },
-      {
-        title: "Dominican Republic",
-        code: "DO"
-      },
-      {
-        title: "Grenada",
-        code: "GD"
-      },
-      {
-        title: "Guadeloupe (France)",
-        code: "GP"
-      },
-      {
-        title: "Martinique (France)",
-        code: "MQ"
-      },
-      {
-        title: "Netherlands: Bonaire, Saba, Sint Eustatius",
-        code: "BQ"
-      },
-      {
-        title: "Puerto Rico (United States)",
-        code: "PR"
-      },
-      {
-        title: "Saint Kitts and Nevis",
-        code: "KN"
-      },
-      {
-        title: "Saint Lucia",
-        code: "LC"
-      },
-      {
-        title: "Saint Vincent and the Grenadines",
-        code: "VC"
-      },
-      {
-        title: "Saint Martin (France)",
-        code: "MF"
-      },
-      {
-        title: "Sint Maarten (Netherlands)",
-        code: "SX"
-      },
-      {
-        title: "Trinidad and Tobago",
-        code: "TT"
-      },
-    ]
-  },
-  {
-    city: "Newfoundland",
-    zone: "America/St_Johns",
-    flags: [
-      {
-        title: "Canada: Newfoundland",
-        code: "CA"
-      }
-    ]
-  },
-  {
-    city: "Western Greenland",
-    zone: "America/Nuuk",
-    flags: [
-      {
-        title: "Greenland (Denmark)",
-        code: "GL",
-      },
-      {
-        title: "Saint-Pierre and Miquelon (France)",
-        code: "PM"
-      },
-    ]
-  },
-  {
-    city: "South America",
-    zone: "America/Buenos_Aires",
-    flags: [
-      {
-        title: "Argentina",
-        code: "AR"
-      },
-      {
-        title: "Chile: Magellan and Antarctic region",
-        code: "CL"
-      },
-      {
-        title: "French Guiana",
-        code: "GF"
-      },
-      {
-        title: "Suriname",
-        code: "SR"
-      },
-      {
-        title: "Uruguay",
-        code: "UY"
-      }
-    ]
-  },
-  {
-    city: "Eastern Brazil",
-    zone: "America/Sao_Paulo",
-    flags: [
-      {
-        title: "Brazil: Alagoas, Amapá, Bahia, Ceará, Distrito Federal, Espírito Santo, Goiás, Maranhão, Minas Gerais, Pará, Paraíba, Paraná, Pernambuco, Piauí, Rio de Janeiro, Rio Grande do Norte, Rio Grande do Sul, Santa Catarina, São Paulo, Sergipe, Tocantins",
-        code: "BR"
-      }
-    ]
-  },
-  {
-    city: "Brazilian Islands",
-    zone: "America/Noronha",
-    flags: [
-      {
-        title: "Brazil: Atol das Rocas, Fernando de Noronha, Martim Vaz, Trinidade, Saint Peter and Saint Paul Archipelago",
-        code: "BR"
-      }
-    ]
-  },
+  Acre,
+  Alaska,
+  AleutianIslands,
+  AmericanSamoa,
+  Antilles,
+  Arizona,
+  BrazilianIslands,
+  Caribbean,
+  Central,
+  CentralAmerica,
+  CentralSouthAmerica,
+  Colombia,
+  EasterIsland,
+  Eastern,
+  EasternBrazil,
+  EasternSouthAmerica,
+  Hawaii,
+  MarquesasIslands,
+  Mountain,
+  Newfoundland,
+  NorthwesternAtlantic,
+  Pacific,
+  QuintanaRoo,
+  Saskatchewan,
+  WesternBrazil,
+  WesternGreenland,
+  Yukon,
   {
     city: "Atlantic Ocean",
     zone: "Atlantic/Azores",
