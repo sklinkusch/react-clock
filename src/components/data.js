@@ -25,6 +25,7 @@ import EasternArabia from "./timezones/EasternArabia"
 import EasternBrazil from "./timezones/EasternBrazil"
 import EasternCentralAsia from "./timezones/EasternCentralAsia"
 import EasternEurope from "./timezones/EasternEurope"
+import EasternMongolia from "./timezones/EasternMongolia"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
 import India from "./timezones/India"
@@ -90,6 +91,7 @@ export default [
   EasternBrazil,
   EasternCentralAsia,
   EasternEurope,
+  EasternMongolia,
   EasternSouthAmerica,
   Hawaii,
   India,
@@ -126,16 +128,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Central Mongolia",
-    zone: "Asia/Ulan_Bator",
-    flags: [
-      {
-        title: "Mongolia",
-        code: "MN"
-      }
-    ]
-  },
   {
     city: "Philippines",
     zone: "Asia/Manila",
@@ -175,16 +167,6 @@ export default [
       {
         title: "Taiwan",
         code: "TW"
-      }
-    ]
-  },
-  {
-    city: "Eastern Mongolia",
-    zone: "Asia/Choibalsan",
-    flags: [
-      {
-        title: "Mongolia",
-        code: "MN"
       }
     ]
   },
