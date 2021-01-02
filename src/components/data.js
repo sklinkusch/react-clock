@@ -44,6 +44,7 @@ import WestAfrica from "./timezones/WestAfrica"
 import WesternBrazil from "./timezones/WesternBrazil"
 import WesternEurope from "./timezones/WesternEurope"
 import WesternGreenland from "./timezones/WesternGreenland"
+import Yekaterinburg from "./timezones/Yekaterinburg"
 import Yukon from "./timezones/Yukon"
 
 export default [
@@ -93,6 +94,7 @@ export default [
   WesternBrazil,
   WesternEurope,
   WesternGreenland,
+  Yekaterinburg,
   Yukon,
   {
     city: "Pakistan",
@@ -109,10 +111,6 @@ export default [
       {
         title: "Pakistan",
         code: "PK"
-      },
-      {
-        title: "Russia: Bashkortostan, Perm Region, Chelyabinsk Oblast, Kurgan Oblast, Orenburg Oblast, Sverdlovsk Oblast, Tyumen Oblast, Khanty-Mansi Autonomous Okrug, Yamalo-Nenets Autonomous Okrug",
-        code: "RU"
       },
       {
         title: "Tajikistan",
