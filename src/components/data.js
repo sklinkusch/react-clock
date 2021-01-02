@@ -15,6 +15,7 @@ import CentralSouthAmerica from "./timezones/CentralSouthAmerica"
 import Colombia from "./timezones/Colombia"
 import EasterIsland from "./timezones/EasterIsland"
 import Eastern from "./timezones/Eastern"
+import EasternAfrica from "./timezones/EasternAfrica"
 import EasternBrazil from "./timezones/EasternBrazil"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
@@ -55,6 +56,7 @@ export default [
   Colombia,
   EasterIsland,
   Eastern,
+  EasternAfrica,
   EasternBrazil,
   EasternEurope,
   EasternSouthAmerica,
@@ -76,52 +78,6 @@ export default [
   WesternEurope,
   WesternGreenland,
   Yukon,
-  {
-    city: "East Africa",
-    zone: "Africa/Addis_Ababa",
-    flags: [
-      {
-        title: "Comoros",
-        code: "KM"
-      },
-      {
-        title: "Djibouti",
-        code: "DJ"
-      },
-      {
-        title: "Eritrea",
-        code: "ER"
-      },
-      {
-        title: "Ethiopia",
-        code: "ET"
-      },
-      {
-        title: "Kenya",
-        code: "KE"
-      },
-      {
-        title: "Madagascar",
-        code: "MG"
-      },
-      {
-        title: "Somalia",
-        code: "SO"
-      },
-      {
-        title: "South Sudan",
-        code: "SS"
-      },
-      {
-        title: "Tanzania",
-        code: "TZ"
-      },
-      {
-        title: "Uganda",
-        code: "UG"
-      }
-    ]
-  },
   {
     city: "Arabia",
     zone: "Asia/Riyadh",
