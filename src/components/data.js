@@ -54,6 +54,7 @@ import WesternBrazil from "./timezones/WesternBrazil"
 import WesternCentralAsia from "./timezones/WesternCentralAsia"
 import WesternEurope from "./timezones/WesternEurope"
 import WesternGreenland from "./timezones/WesternGreenland"
+import WesternMongolia from "./timezones/WesternMongolia"
 import Yekaterinburg from "./timezones/Yekaterinburg"
 import Yukon from "./timezones/Yukon"
 
@@ -114,18 +115,9 @@ export default [
   WesternCentralAsia,
   WesternEurope,
   WesternGreenland,
+  WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Western Mongolia",
-    zone: "Asia/Hovd",
-    flags: [
-      {
-        title: "Mongolia",
-        code: "MN"
-      }
-    ]
-  },
   {
     city: "Western Indonesia",
     zone: "Asia/Jakarta",
