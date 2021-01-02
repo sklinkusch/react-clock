@@ -7,3 +7,20 @@ h2,
 p {
   text-align: center;
 }
+.sk-album {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-inline-start: 10px;
+  margin-inline-end: 10px;
+  grid-gap: 10px;
+}
+@media screen and (min-width: 576px) {
+  .sk-album {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .sk-album {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

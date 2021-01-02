@@ -15,7 +15,7 @@ export default class Clock extends React.Component {
   }
   render(props) {
     return (
-      <div className="col-xs-12 col-md-6 col-lg-4">
+      <div>
         <div className="album-item">
           <h2>{this.props.city}</h2>
           <div style={{ textAlign: "center" }}>
