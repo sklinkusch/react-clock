@@ -28,6 +28,7 @@ import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
 import India from "./timezones/India"
 import IndianOcean from "./timezones/IndianOcean"
+import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Levant from "./timezones/Levant"
@@ -86,6 +87,7 @@ export default [
   Hawaii,
   India,
   IndianOcean,
+  Indochina,
   Iran,
   Kaliningrad,
   Levant,
@@ -112,28 +114,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Indochina",
-    zone: "Asia/Bangkok",
-    flags: [
-      {
-        title: "Cambodia",
-        code: "KH"
-      },
-      {
-        title: "Laos",
-        code: "LA"
-      },
-      {
-        title: "Thailand",
-        code: "TH"
-      },
-      {
-        title: "Vietnam",
-        code: "VN"
-      }
-    ]
-  },
   {
     city: "Krasnoyarsk",
     zone: "Asia/Novosibirsk",
