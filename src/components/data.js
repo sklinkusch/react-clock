@@ -32,6 +32,7 @@ import India from "./timezones/India"
 import IndianOcean from "./timezones/IndianOcean"
 import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
+import Irkutsk from "./timezones/Irkutsk"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Krasnoyarsk from "./timezones/Krasnoyarsk"
 import Levant from "./timezones/Levant"
@@ -99,6 +100,7 @@ export default [
   IndianOcean,
   Indochina,
   Iran,
+  Irkutsk,
   Kaliningrad,
   Krasnoyarsk,
   Levant,
@@ -130,16 +132,6 @@ export default [
   WesternMongolia,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Irkutsk",
-    zone: "Asia/Irkutsk",
-    flags: [
-      {
-        title: "Russia: Buryatia, Irkutsk Oblast",
-        code: "RU"
-      }
-    ]
-  },
   {
     city: "China",
     zone: "Asia/Shanghai",
