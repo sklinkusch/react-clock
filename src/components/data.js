@@ -21,6 +21,7 @@ import Eastern from "./timezones/Eastern"
 import EasternAfrica from "./timezones/EasternAfrica"
 import EasternArabia from "./timezones/EasternArabia"
 import EasternBrazil from "./timezones/EasternBrazil"
+import EasternCentralAsia from "./timezones/EasternCentralAsia"
 import EasternEurope from "./timezones/EasternEurope"
 import EasternSouthAmerica from "./timezones/EasternSouthAmerica"
 import Hawaii from "./timezones/Hawaii"
@@ -76,6 +77,7 @@ export default [
   EasternAfrica,
   EasternArabia,
   EasternBrazil,
+  EasternCentralAsia,
   EasternEurope,
   EasternSouthAmerica,
   Hawaii,
@@ -117,14 +119,6 @@ export default [
       {
         title: "Bhutan",
         code: "BT"
-      },
-      {
-        title: "Kazakhstan: Akmola Region, Almaty Region, East Kazakhstan Region, Jambyl Region, Karaganda Region, Kostanay Region, Kyzylorda Region, North Kazakhstan Region, Pavlodar Region, Turkistan Region",
-        code: "KZ"
-      },
-      {
-        title: "Kyrgyzstan",
-        code: "KG"
       },
     ]
   },
