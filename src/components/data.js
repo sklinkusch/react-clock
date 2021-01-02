@@ -33,6 +33,7 @@ import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Moscow from "./timezones/Moscow"
 import Mountain from "./timezones/Mountain"
+import Nepal from "./timezones/Nepal"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
@@ -86,6 +87,7 @@ export default [
   MiddleWestAfrica,
   Moscow,
   Mountain,
+  Nepal,
   Newfoundland,
   NorthAtlantic,
   NorthwesternAtlantic,
@@ -102,16 +104,6 @@ export default [
   WesternGreenland,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Nepal",
-    zone: "Asia/Kathmandu",
-    flags: [
-      {
-        title: "Nepal",
-        code: "NP"
-      }
-    ]
-  },
   {
     city: "Bangladesh",
     zone: "Asia/Dhaka",
