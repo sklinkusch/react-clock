@@ -73,24 +73,6 @@ export default [
   WesternGreenland,
   Yukon,
   {
-    city: "South Africa",
-    zone: "Africa/Johannesburg",
-    flags: [
-      {
-        title: "eSwatini",
-        code: "SZ"
-      },
-      {
-        title: "Lesotho",
-        code: "LS"
-      },
-      {
-        title: "South Africa",
-        code: "ZA"
-      },
-    ]
-  },
-  {
     city: "Kaliningrad",
     zone: "Europe/Kaliningrad",
     flags: [

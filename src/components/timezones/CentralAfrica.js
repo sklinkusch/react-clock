@@ -19,6 +19,14 @@ export default {
       code: "EG"
     },
     {
+      title: "eSwatini",
+      code: "SZ"
+    },
+    {
+      title: "Lesotho",
+      code: "LS"
+    },
+    {
       title: "Libya",
       code: "LY"
     },
@@ -37,6 +45,10 @@ export default {
     {
       title: "Rwanda",
       code: "RW"
+    },
+    {
+      title: "South Africa",
+      code: "ZA"
     },
     {
       title: "Sudan",
