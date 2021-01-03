@@ -23,6 +23,7 @@ import EasterIsland from "./timezones/EasterIsland"
 import Eastern from "./timezones/Eastern"
 import EasternAfrica from "./timezones/EasternAfrica"
 import EasternArabia from "./timezones/EasternArabia"
+import EasternAustralia from "./timezones/EasternAustralia"
 import EasternBrazil from "./timezones/EasternBrazil"
 import EasternCentralAsia from "./timezones/EasternCentralAsia"
 import EasternEurope from "./timezones/EasternEurope"
@@ -98,6 +99,7 @@ export default [
   Eastern,
   EasternAfrica,
   EasternArabia,
+  EasternAustralia,
   EasternBrazil,
   EasternCentralAsia,
   EasternEurope,
@@ -146,16 +148,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Eastern Australia",
-    zone: "Australia/Sydney",
-    flags: [
-      {
-        title: "Australia: Australian Capital Territory, New South Wales, Tasmania, Victoria",
-        code: "AU"
-      }
-    ]
-  },
   {
     city: "Papua New Guinea",
     zone: "Pacific/Port_Moresby",
