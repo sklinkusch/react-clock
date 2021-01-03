@@ -62,6 +62,7 @@ import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
 import SouthAustralia from "./timezones/SouthAustralia"
 import Turkey from "./timezones/Turkey"
+import Vladivostok from "./timezones/Vladivostok"
 import WestAfrica from "./timezones/WestAfrica"
 import WesternAustralia from "./timezones/WesternAustralia"
 import WesternBrazil from "./timezones/WesternBrazil"
@@ -139,6 +140,7 @@ export default [
   Saskatchewan,
   SouthAustralia,
   Turkey,
+  Vladivostok,
   WestAfrica,
   WesternAustralia,
   WesternBrazil,
@@ -150,16 +152,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Vladivostok",
-    zone: "Asia/Vladivostok",
-    flags: [
-      {
-        title: "Russia: Sakha (central part), Khabarovsk Region, Primorsky Krai, Jewish Autonomous Oblast",
-        code: "RU"
-      }
-    ]
-  },
   {
     city: "Lord Howe Island",
     zone: "Australia/Lord_Howe",
