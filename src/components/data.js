@@ -1,11 +1,10 @@
 import Afghanistan from "./timezones/Afghanistan"
 import { CentralAfrica, EasternAfrica, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
-import Antilles from "./timezones/Antilles"
+import { Barbados, EasternGreaterAntilles, LeewardAntilles, LeewardIslands, TrinidadAndTobago, WesternGreaterAntilles, WindwardIslands } from "./timezones/Antilles"
 import Arabia from "./timezones/Arabia"
 import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
 import Bangladesh from "./timezones/Bangladesh"
 import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
-import Caribbean from "./timezones/Caribbean"
 import Caucasus from "./timezones/Caucasus"
 import CentralEurope from "./timezones/CentralEurope"
 import CentralIndonesia from "./timezones/CentralIndonesia"
@@ -24,7 +23,7 @@ import Levant from "./timezones/Levant"
 import Malaysia from "./timezones/Malaysia"
 import Myanmar from "./timezones/Myanmar"
 import Nepal from "./timezones/Nepal"
-import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
+import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Bermuda, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
 import NorthAtlantic from "./timezones/NorthAtlantic"
 import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
 import Pakistan from "./timezones/Pakistan"
@@ -42,13 +41,13 @@ export default [
   Alaska,
   AleutianIslands,
   AmericanSamoa,
-  Antilles,
   Arabia,
   Arizona,
   AtlanticOcean,
   Bangladesh,
+  Barbados,
+  Bermuda,
   BrazilianIslands,
-  Caribbean,
   Caucasus,
   Central,
   CentralAfrica,
@@ -69,6 +68,7 @@ export default [
   EasternBrazil,
   EasternCentralAsia,
   EasternEurope,
+  EasternGreaterAntilles,
   EasternIndonesia,
   EasternKiribati,
   EasternMongolia,
@@ -83,6 +83,8 @@ export default [
   Kaliningrad,
   Kamchatka,
   Krasnoyarsk,
+  LeewardAntilles,
+  LeewardIslands,
   Levant,
   LordHoweIsland,
   Malaysia,
@@ -112,6 +114,7 @@ export default [
   Srednekolymsk,
   SouthAustralia,
   Tonga,
+  TrinidadAndTobago,
   Turkey,
   Vladivostok,
   WestAfrica,
@@ -119,10 +122,12 @@ export default [
   WesternBrazil,
   WesternCentralAsia,
   WesternEurope,
+  WesternGreaterAntilles,
   WesternGreenland,
   WesternIndonesia,
   WesternMongolia,
   WesternOceania,
+  WindwardIslands,
   Yakutsk,
   Yekaterinburg,
   Yukon,

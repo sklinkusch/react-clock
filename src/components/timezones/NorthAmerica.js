@@ -39,6 +39,17 @@ export const Arizona = {
   ]
 }
 
+export const Bermuda = {
+  city: "Bermuda",
+  zone: "Atlantic/Bermuda",
+  flags: [
+    {
+      title: "Bermuda (United Kingdom)",
+      code: "BM"
+    },
+  ]
+}
+
 export const AtlanticOcean = {
   city: "Atlantic Ocean",
   zone: "Atlantic/Azores",
