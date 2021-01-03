@@ -3,10 +3,9 @@ import { Barbados, EasternGreaterAntilles, LeewardAntilles, LeewardIslands, Trin
 import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
 import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
 import { EasternCentralAsia, WesternCentralAsia } from "./timezones/CentralAsia"
-import CentralIndonesia from "./timezones/CentralIndonesia"
 import China from "./timezones/China"
-import EasternIndonesia from "./timezones/EasternIndonesia"
 import { CentralEurope, EasternEurope, Mediterranean, NorthAtlantic, WesternEurope, WesternScandinavia } from "./timezones/Europe"
+import { CentralIndonesia, EasternIndonesia, WesternIndonesia } from "./timezones/Indonesia"
 import JapanKorea from "./timezones/JapanKorea"
 import { CentralAmerica, CentralSouthAmerica, Colombia, EasterIsland, EasternSouthAmerica } from "./timezones/LatinAmerica"
 import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Levant, Turkey } from "./timezones/MiddleEast"
@@ -16,7 +15,6 @@ import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, 
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
 import { Bangladesh, India, Myanmar, Nepal, Pakistan } from "./timezones/SouthAsia"
 import { Indochina, Malaysia, Philippines } from "./timezones/SoutheastAsia"
-import WesternIndonesia from "./timezones/WesternIndonesia"
 
 export default [
   Acre,
