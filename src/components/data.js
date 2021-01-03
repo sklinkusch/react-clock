@@ -6,14 +6,13 @@ import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, Nort
 import Bangladesh from "./timezones/Bangladesh"
 import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
 import Caucasus from "./timezones/Caucasus"
-import CentralEurope from "./timezones/CentralEurope"
 import CentralIndonesia from "./timezones/CentralIndonesia"
 import China from "./timezones/China"
 import EasternArabia from "./timezones/EasternArabia"
 import EasternCentralAsia from "./timezones/EasternCentralAsia"
-import EasternEurope from "./timezones/EasternEurope"
 import EasternIndonesia from "./timezones/EasternIndonesia"
 import EasternMongolia from "./timezones/EasternMongolia"
+import { CentralEurope, EasternEurope, Mediterranean, WesternEurope, WesternScandinavia } from "./timezones/Europe"
 import India from "./timezones/India"
 import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
@@ -31,7 +30,6 @@ import Philippines from "./timezones/Philippines"
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
 import Turkey from "./timezones/Turkey"
 import WesternCentralAsia from "./timezones/WesternCentralAsia"
-import WesternEurope from "./timezones/WesternEurope"
 import WesternIndonesia from "./timezones/WesternIndonesia"
 import WesternMongolia from "./timezones/WesternMongolia"
 
@@ -89,6 +87,7 @@ export default [
   LordHoweIsland,
   Malaysia,
   MarquesasIslands,
+  Mediterranean,
   MiddleWestAfrica,
   Moscow,
   Mountain,
@@ -127,6 +126,7 @@ export default [
   WesternIndonesia,
   WesternMongolia,
   WesternOceania,
+  WesternScandinavia,
   WindwardIslands,
   Yakutsk,
   Yekaterinburg,
