@@ -1,4 +1,4 @@
-export default {
+export const China = {
   city: "China",
   zone: "Asia/Shanghai",
   flags: [
@@ -17,6 +17,25 @@ export default {
     {
       title: "Taiwan",
       code: "TW"
+    }
+  ]
+}
+
+export const JapanKorea = {
+  city: "Japan/Korea",
+  zone: "Asia/Tokyo",
+  flags: [
+    {
+      title: "Japan",
+      code: "JP"
+    },
+    {
+      title: "North Korea",
+      code: "KP"
+    },
+    {
+      title: "South Korea",
+      code: "KR"
     }
   ]
 }
