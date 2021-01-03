@@ -3,10 +3,6 @@ export default {
   zone: "Asia/Rangoon",
   flags: [
     {
-      title: "Cocos Islands (Australia)",
-      code: "CC"
-    },
-    {
       title: "Myanmar",
       code: "MM"
     }

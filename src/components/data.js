@@ -7,6 +7,7 @@ import Antilles from "./timezones/Antilles"
 import Arabia from "./timezones/Arabia"
 import Arizona from "./timezones/Arizona"
 import AtlanticOcean from "./timezones/AtlanticOcean"
+import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
 import Bangladesh from "./timezones/Bangladesh"
 import BrazilianIslands from "./timezones/BrazilianIslands"
 import Caribbean from "./timezones/Caribbean"
@@ -23,7 +24,6 @@ import EasterIsland from "./timezones/EasterIsland"
 import Eastern from "./timezones/Eastern"
 import EasternAfrica from "./timezones/EasternAfrica"
 import EasternArabia from "./timezones/EasternArabia"
-import EasternAustralia from "./timezones/EasternAustralia"
 import EasternBrazil from "./timezones/EasternBrazil"
 import EasternCentralAsia from "./timezones/EasternCentralAsia"
 import EasternEurope from "./timezones/EasternEurope"
@@ -37,7 +37,6 @@ import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
 import JapanKorea from "./timezones/JapanKorea"
 import Levant from "./timezones/Levant"
-import LordHoweIsland from "./timezones/LordHoweIsland"
 import Malaysia from "./timezones/Malaysia"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
@@ -46,20 +45,16 @@ import Myanmar from "./timezones/Myanmar"
 import Nepal from "./timezones/Nepal"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
-import NorthernAustralia from "./timezones/NorthernAustralia"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
 import PapuaNewGuinea from "./timezones/PapuaNewGuinea"
 import Philippines from "./timezones/Philippines"
-import Queensland from "./timezones/Queensland"
 import QuintanaRoo from "./timezones/QuintanaRoo"
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
 import Saskatchewan from "./timezones/Saskatchewan"
-import SouthAustralia from "./timezones/SouthAustralia"
 import Turkey from "./timezones/Turkey"
 import WestAfrica from "./timezones/WestAfrica"
-import WesternAustralia from "./timezones/WesternAustralia"
 import WesternBrazil from "./timezones/WesternBrazil"
 import WesternCentralAsia from "./timezones/WesternCentralAsia"
 import WesternEurope from "./timezones/WesternEurope"
@@ -89,6 +84,8 @@ export default [
   CentralIndonesia,
   CentralSouthAmerica,
   China,
+  Christmas,
+  Cocos,
   Colombia,
   EasterIsland,
   Eastern,
@@ -121,6 +118,7 @@ export default [
   Myanmar,
   Nepal,
   Newfoundland,
+  NorfolkIsland,
   NorthAtlantic,
   NorthernAustralia,
   NorthwesternAtlantic,
@@ -149,13 +147,9 @@ export default [
   Yekaterinburg,
   Yukon,
   {
-    city: "Norfolk Island",
-    zone: "Pacific/Norfolk",
+    city: "Western Oceania",
+    zone: "Pacific/Bougainville",
     flags: [
-      {
-        title: "Australia: Norfolk Island",
-        code: "AU"
-      },
       {
         title: "Micronesia: Kosrae, Pohnpei",
         code: "FM"
