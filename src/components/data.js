@@ -2,7 +2,6 @@ import Acre from "./timezones/Acre"
 import Afghanistan from "./timezones/Afghanistan"
 import Alaska from "./timezones/Alaska"
 import AleutianIslands from "./timezones/AleutianIslands"
-import AmericanSamoa from "./timezones/AmericanSamoa"
 import Antilles from "./timezones/Antilles"
 import Arabia from "./timezones/Arabia"
 import Arizona from "./timezones/Arizona"
@@ -38,7 +37,6 @@ import Iran from "./timezones/Iran"
 import JapanKorea from "./timezones/JapanKorea"
 import Levant from "./timezones/Levant"
 import Malaysia from "./timezones/Malaysia"
-import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
 import Mountain from "./timezones/Mountain"
 import Myanmar from "./timezones/Myanmar"
@@ -46,6 +44,7 @@ import Nepal from "./timezones/Nepal"
 import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
+import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, Oceania, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
 import PapuaNewGuinea from "./timezones/PapuaNewGuinea"
@@ -83,6 +82,7 @@ export default [
   CentralEurope,
   CentralIndonesia,
   CentralSouthAmerica,
+  Chatham,
   China,
   Christmas,
   Cocos,
@@ -96,6 +96,7 @@ export default [
   EasternCentralAsia,
   EasternEurope,
   EasternIndonesia,
+  EasternKiribati,
   EasternMongolia,
   EasternSouthAmerica,
   Hawaii,
@@ -118,10 +119,12 @@ export default [
   Myanmar,
   Nepal,
   Newfoundland,
+  NewZealand,
   NorfolkIsland,
   NorthAtlantic,
   NorthernAustralia,
   NorthwesternAtlantic,
+  Oceania,
   Omsk,
   Pacific,
   Pakistan,
@@ -130,9 +133,11 @@ export default [
   Queensland,
   QuintanaRoo,
   Samara,
+  Samoa,
   Saskatchewan,
   Srednekolymsk,
   SouthAustralia,
+  Tonga,
   Turkey,
   Vladivostok,
   WestAfrica,
@@ -143,125 +148,8 @@ export default [
   WesternGreenland,
   WesternIndonesia,
   WesternMongolia,
+  WesternOceania,
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Western Oceania",
-    zone: "Pacific/Bougainville",
-    flags: [
-      {
-        title: "Micronesia: Kosrae, Pohnpei",
-        code: "FM"
-      },
-      {
-        title: "New Caledonia (France)",
-        code: "NC"
-      },
-      {
-        title: "Papua New Guinea: Bougainville",
-        code: "PG"
-      },
-      {
-        title: "Solomon Islands",
-        code: "SB"
-      },
-      {
-        title: "Vanuatu",
-        code: "VU"
-      }
-    ]
-  },
-  {
-    city: "Oceania",
-    zone: "Pacific/Wake",
-    flags: [
-      {
-        title: "Fiji",
-        code: "FJ"
-      },
-      {
-        title: "Kiribati: Banaba, Gilbert Islands",
-        code: "KI"
-      },
-      {
-        title: "Marshall Islands",
-        code: "MH"
-      },
-      {
-        title: "Nauru",
-        code: "NR"
-      },
-      {
-        title: "Tuvalu",
-        code: "TV"
-      },
-      {
-        title: "Wake (United States)",
-        code: "UM"
-      },
-      {
-        title: "Wallis and Futuna (France)",
-        code: "WF"
-      }
-    ]
-  },
-  {
-    city: "New Zealand",
-    zone: "Pacific/Auckland",
-    flags: [
-      {
-        title: "New Zealand",
-        code: "NZ"
-      }
-    ]
-  },
-  {
-    city: "Chatham",
-    zone: "Pacific/Chatham",
-    flags: [
-      {
-        title: "New Zealand: Chatham Islands",
-        code: "NZ"
-      }
-    ]
-  },
-  {
-    city: "Tonga",
-    zone: "Pacific/Tongatapu",
-    flags: [
-      {
-        title: "Kiribati: Phoenix Islands",
-        code: "KI"
-      },
-      {
-        title: "Tokelau (New Zealand)",
-        code: "TK"
-      },
-      {
-        title: "Tonga",
-        code: "TO"
-      }
-    ]
-  },
-  {
-    city: "Samoa",
-    zone: "Pacific/Apia",
-    flags: [
-      {
-        title: "Samoa",
-        code: "WS"
-      }
-    ]
-  },
-  {
-    city: "Eastern Kiribati",
-    zone: "Pacific/Kiritimati",
-    flags: [
-      {
-        title: "Kiribati: Kiritimati, Line Islands",
-        code: "KI"
-      }
-    ]
-  }
 ]
