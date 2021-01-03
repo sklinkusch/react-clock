@@ -1,25 +1,20 @@
-import Afghanistan from "./timezones/Afghanistan"
 import { CentralAfrica, EasternAfrica, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
 import { Barbados, EasternGreaterAntilles, LeewardAntilles, LeewardIslands, TrinidadAndTobago, WesternGreaterAntilles, WindwardIslands } from "./timezones/Antilles"
-import Arabia from "./timezones/Arabia"
 import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
 import Bangladesh from "./timezones/Bangladesh"
 import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
-import Caucasus from "./timezones/Caucasus"
 import CentralIndonesia from "./timezones/CentralIndonesia"
 import China from "./timezones/China"
-import EasternArabia from "./timezones/EasternArabia"
 import EasternCentralAsia from "./timezones/EasternCentralAsia"
 import EasternIndonesia from "./timezones/EasternIndonesia"
 import EasternMongolia from "./timezones/EasternMongolia"
 import { CentralEurope, EasternEurope, Mediterranean, WesternEurope, WesternScandinavia } from "./timezones/Europe"
 import India from "./timezones/India"
 import Indochina from "./timezones/Indochina"
-import Iran from "./timezones/Iran"
 import JapanKorea from "./timezones/JapanKorea"
 import { CentralAmerica, CentralSouthAmerica, Colombia, EasterIsland, EasternSouthAmerica } from "./timezones/LatinAmerica"
-import Levant from "./timezones/Levant"
 import Malaysia from "./timezones/Malaysia"
+import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Levant, Turkey } from "./timezones/MiddleEast"
 import Myanmar from "./timezones/Myanmar"
 import Nepal from "./timezones/Nepal"
 import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Bermuda, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
@@ -28,7 +23,6 @@ import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, 
 import Pakistan from "./timezones/Pakistan"
 import Philippines from "./timezones/Philippines"
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
-import Turkey from "./timezones/Turkey"
 import WesternCentralAsia from "./timezones/WesternCentralAsia"
 import WesternIndonesia from "./timezones/WesternIndonesia"
 import WesternMongolia from "./timezones/WesternMongolia"
@@ -58,10 +52,10 @@ export default [
   Christmas,
   Cocos,
   Colombia,
+  EastArabia,
   EasterIsland,
   Eastern,
   EasternAfrica,
-  EasternArabia,
   EasternAustralia,
   EasternBrazil,
   EasternCentralAsia,
