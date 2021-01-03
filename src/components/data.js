@@ -54,6 +54,7 @@ import Omsk from "./timezones/Omsk"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
 import Philippines from "./timezones/Philippines"
+import Queensland from "./timezones/Queensland"
 import QuintanaRoo from "./timezones/QuintanaRoo"
 import Samara from "./timezones/Samara"
 import Saskatchewan from "./timezones/Saskatchewan"
@@ -128,6 +129,7 @@ export default [
   Pacific,
   Pakistan,
   Philippines,
+  Queensland,
   QuintanaRoo,
   Samara,
   Saskatchewan,
@@ -144,16 +146,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Queensland",
-    zone: "Australia/Brisbane",
-    flags: [
-      {
-        title: "Australia: Queensland",
-        code: "AU"
-      }
-    ]
-  },
   {
     city: "Eastern Australia",
     zone: "Australia/Sydney",
