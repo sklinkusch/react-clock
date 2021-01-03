@@ -40,6 +40,7 @@ import JapanKorea from "./timezones/JapanKorea"
 import Kaliningrad from "./timezones/Kaliningrad"
 import Krasnoyarsk from "./timezones/Krasnoyarsk"
 import Levant from "./timezones/Levant"
+import LordHoweIsland from "./timezones/LordHoweIsland"
 import Malaysia from "./timezones/Malaysia"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
@@ -118,6 +119,7 @@ export default [
   Kaliningrad,
   Krasnoyarsk,
   Levant,
+  LordHoweIsland,
   Malaysia,
   MarquesasIslands,
   MiddleWestAfrica,
@@ -152,16 +154,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Lord Howe Island",
-    zone: "Australia/Lord_Howe",
-    flags: [
-      {
-        title: "Australia: Lord Howe Island",
-        code: "AU"
-      }
-    ]
-  },
   {
     city: "Norfolk Island",
     zone: "Pacific/Norfolk",
