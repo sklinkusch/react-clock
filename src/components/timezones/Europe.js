@@ -171,6 +171,21 @@ export const Mediterranean = {
   ]
 }
 
+export const NorthAtlantic = {
+  city: "North Atlantic",
+  zone: "Atlantic/Reykjavik",
+  flags: [
+    {
+      title: "Greenland (Denmark)",
+      code: "GL"
+    },
+    {
+      title: "Iceland",
+      code: "IS"
+    },
+  ]
+}
+
 export const WesternEurope = {
   city: "Western Europe",
   zone: "Europe/London",
