@@ -35,16 +35,12 @@ import India from "./timezones/India"
 import IndianOcean from "./timezones/IndianOcean"
 import Indochina from "./timezones/Indochina"
 import Iran from "./timezones/Iran"
-import Irkutsk from "./timezones/Irkutsk"
 import JapanKorea from "./timezones/JapanKorea"
-import Kaliningrad from "./timezones/Kaliningrad"
-import Krasnoyarsk from "./timezones/Krasnoyarsk"
 import Levant from "./timezones/Levant"
 import LordHoweIsland from "./timezones/LordHoweIsland"
 import Malaysia from "./timezones/Malaysia"
 import MarquesasIslands from "./timezones/MarquesasIslands"
 import MiddleWestAfrica from "./timezones/MiddleWestAfrica"
-import Moscow from "./timezones/Moscow"
 import Mountain from "./timezones/Mountain"
 import Myanmar from "./timezones/Myanmar"
 import Nepal from "./timezones/Nepal"
@@ -52,18 +48,16 @@ import Newfoundland from "./timezones/Newfoundland"
 import NorthAtlantic from "./timezones/NorthAtlantic"
 import NorthernAustralia from "./timezones/NorthernAustralia"
 import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
-import Omsk from "./timezones/Omsk"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
 import PapuaNewGuinea from "./timezones/PapuaNewGuinea"
 import Philippines from "./timezones/Philippines"
 import Queensland from "./timezones/Queensland"
 import QuintanaRoo from "./timezones/QuintanaRoo"
-import Samara from "./timezones/Samara"
+import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
 import Saskatchewan from "./timezones/Saskatchewan"
 import SouthAustralia from "./timezones/SouthAustralia"
 import Turkey from "./timezones/Turkey"
-import Vladivostok from "./timezones/Vladivostok"
 import WestAfrica from "./timezones/WestAfrica"
 import WesternAustralia from "./timezones/WesternAustralia"
 import WesternBrazil from "./timezones/WesternBrazil"
@@ -72,8 +66,6 @@ import WesternEurope from "./timezones/WesternEurope"
 import WesternGreenland from "./timezones/WesternGreenland"
 import WesternIndonesia from "./timezones/WesternIndonesia"
 import WesternMongolia from "./timezones/WesternMongolia"
-import Yakutsk from "./timezones/Yakutsk"
-import Yekaterinburg from "./timezones/Yekaterinburg"
 import Yukon from "./timezones/Yukon"
 
 export default [
@@ -117,6 +109,7 @@ export default [
   Irkutsk,
   JapanKorea,
   Kaliningrad,
+  Kamchatka,
   Krasnoyarsk,
   Levant,
   LordHoweIsland,
@@ -140,6 +133,7 @@ export default [
   QuintanaRoo,
   Samara,
   Saskatchewan,
+  Srednekolymsk,
   SouthAustralia,
   Turkey,
   Vladivostok,
@@ -185,16 +179,6 @@ export default [
     ]
   },
   {
-    city: "Magadan",
-    zone: "Asia/Magadan",
-    flags: [
-      {
-        title: "Russia: Sakha (eastern part), Magadan Oblast, Sakhalin Oblast",
-        code: "RU"
-      }
-    ]
-  },
-  {
     city: "Oceania",
     zone: "Pacific/Wake",
     flags: [
@@ -235,16 +219,6 @@ export default [
       {
         title: "New Zealand",
         code: "NZ"
-      }
-    ]
-  },
-  {
-    city: "Kamchatka",
-    zone: "Asia/Kamchatka",
-    flags: [
-      {
-        title: "Russia: Kamchatka, Chukotka Autonomous Okrug",
-        code: "RU"
       }
     ]
   },
