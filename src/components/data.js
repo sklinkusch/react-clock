@@ -54,6 +54,7 @@ import NorthwesternAtlantic from "./timezones/NorthwesternAtlantic"
 import Omsk from "./timezones/Omsk"
 import Pacific from "./timezones/Pacific"
 import Pakistan from "./timezones/Pakistan"
+import PapuaNewGuinea from "./timezones/PapuaNewGuinea"
 import Philippines from "./timezones/Philippines"
 import Queensland from "./timezones/Queensland"
 import QuintanaRoo from "./timezones/QuintanaRoo"
@@ -130,6 +131,7 @@ export default [
   Omsk,
   Pacific,
   Pakistan,
+  PapuaNewGuinea,
   Philippines,
   Queensland,
   QuintanaRoo,
@@ -148,28 +150,6 @@ export default [
   Yakutsk,
   Yekaterinburg,
   Yukon,
-  {
-    city: "Papua New Guinea",
-    zone: "Pacific/Port_Moresby",
-    flags: [
-      {
-        title: "Guam (United States)",
-        code: "GU"
-      },
-      {
-        title: "Micronesia: Chuuk, Yap",
-        code: "FM"
-      },
-      {
-        title: "Northern Mariana Islands (United States)",
-        code: "MP"
-      },
-      {
-        title: "Papua New Guinea: main part",
-        code: "PG"
-      }
-    ]
-  },
   {
     city: "Vladivostok",
     zone: "Asia/Vladivostok",
