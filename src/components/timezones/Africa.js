@@ -86,6 +86,10 @@ export const EasternAfrica = {
       code: "ET"
     },
     {
+      title: "France: Mayotte",
+      code: "YT"
+    },
+    {
       title: "Kenya",
       code: "KE"
     },
@@ -108,6 +112,17 @@ export const EasternAfrica = {
     {
       title: "Uganda",
       code: "UG"
+    }
+  ]
+}
+
+export const EasternIndianOcean = {
+  city: "Eastern Indian Ocean",
+  zone: "Indian/Chagos",
+  flags: [
+    {
+      title: "British Indian Ocean Territory (United Kingdom)",
+      code: "IO"
     }
   ]
 }
@@ -188,9 +203,24 @@ export const MiddleWestAfrica = {
       code: "CG"
     },
     {
+      title: "Sahrawi Arab Democratic Republic",
+      code: "EH"
+    },
+    {
       title: "Tunisia",
       code: "TN"
     },
+  ]
+}
+
+export const SaintHelena = {
+  city: "Southern Atlantic Ocean",
+  zone: "Atlantic/St_Helena",
+  flags: [
+    {
+      title: "United Kingdom: St. Helena, Ascension, and Tristan da Cunha",
+      code: "SH"
+    }
   ]
 }
 

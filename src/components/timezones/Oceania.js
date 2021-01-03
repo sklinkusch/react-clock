@@ -119,6 +119,17 @@ export const PapuaNewGuinea = {
   ]
 }
 
+export const Pitcairn = {
+  city: "Pitcairn Islands",
+  zone: "Pacific/Pitcairn",
+  flags: [
+    {
+      title: "Pitcairn Islands (United Kingdom)",
+      code: "PN"
+    }
+  ]
+}
+
 export const Samoa = {
   city: "Samoa",
   zone: "Pacific/Apia",

@@ -1,4 +1,4 @@
-import { CentralAfrica, EasternAfrica, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
+import { CentralAfrica, EasternAfrica, EasternIndianOcean, IndianOcean, MiddleWestAfrica, SaintHelena, WestAfrica } from "./timezones/Africa"
 import { Barbados, EasternGreaterAntilles, LeewardAntilles, LeewardIslands, TrinidadAndTobago, WesternGreaterAntilles, WindwardIslands } from "./timezones/Antilles"
 import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
 import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
@@ -10,7 +10,7 @@ import { CentralAmerica, CentralSouthAmerica, Colombia, EasterIsland, EasternSou
 import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Levant, Turkey } from "./timezones/MiddleEast"
 import { EasternMongolia, WesternMongolia } from "./timezones/Mongolia"
 import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Bermuda, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
-import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
+import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
 import { Bangladesh, India, Myanmar, Nepal, Pakistan } from "./timezones/SouthAsia"
 import { Indochina, Malaysia, Philippines } from "./timezones/SoutheastAsia"
@@ -49,6 +49,7 @@ export default [
   EasternCentralAsia,
   EasternEurope,
   EasternGreaterAntilles,
+  EasternIndianOcean,
   EasternIndonesia,
   EasternKiribati,
   EasternMongolia,
@@ -87,8 +88,10 @@ export default [
   Pakistan,
   PapuaNewGuinea,
   Philippines,
+  Pitcairn,
   Queensland,
   QuintanaRoo,
+  SaintHelena,
   Samara,
   Samoa,
   Saskatchewan,

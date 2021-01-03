@@ -165,7 +165,7 @@ export const Mediterranean = {
       code: "ES"
     },
     {
-      title: "Vatican city",
+      title: "Vatican City",
       code: "VA"
     }
   ]

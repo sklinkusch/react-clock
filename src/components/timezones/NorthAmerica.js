@@ -105,6 +105,10 @@ export const Eastern = {
       code: "CU"
     },
     {
+      title: "Turks and Caicos Islands (United Kingdom)",
+      code: "TC"
+    },
+    {
       title: "United States: CT, DC, DE, FL, GA, IN, KY, MA, MD, ME, MI, NC, NH, NJ, NY, OH, PA, RI, SC, TN, VA, VT, WV",
       code: "US"
     },
