@@ -1,5 +1,11 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
+@font-face {
+  font-family: "Digital7";
+  src: url("./fonts/Digital7Mono-B1g5.ttf") format("truetype");
+  font-display: swap;
+}
+
 body {
   margin: 0;
   padding: 0;
