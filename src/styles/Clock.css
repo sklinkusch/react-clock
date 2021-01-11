@@ -39,3 +39,11 @@
   margin-right: auto;
   margin-bottom: 20px;
 }
+
+.album-item p {
+  font-family: "Digital7";
+  font-size: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+}
