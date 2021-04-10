@@ -10,7 +10,7 @@ import { CentralAmerica, CentralSouthAmerica, Colombia, EasterIsland, EasternSou
 import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Levant, Turkey } from "./timezones/MiddleEast"
 import { EasternMongolia, WesternMongolia } from "./timezones/Mongolia"
 import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Bermuda, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
-import { AmericanSamoa, Chatham, EasternKiribati, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
+import { AmericanSamoa, Chatham, EasternKiribati, GambierIslands, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
 import { Bangladesh, India, Myanmar, Nepal, Pakistan } from "./timezones/SouthAsia"
 import { Indochina, Malaysia, Philippines } from "./timezones/SoutheastAsia"
@@ -54,6 +54,7 @@ export default [
   EasternKiribati,
   EasternMongolia,
   EasternSouthAmerica,
+  GambierIslands,
   Hawaii,
   India,
   IndianOcean,

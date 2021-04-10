@@ -3,10 +3,6 @@ export const Alaska = {
   zone: "America/Anchorage",
   flags: [
     {
-      title: "French Polynesia (France): Gambier Islands",
-      code: "PF"
-    },
-    {
       title: "United States: AK",
       code: "US"
     },
@@ -130,6 +126,10 @@ export const Hawaii = {
     {
       title: "United States: HI",
       code: "US"
+    },
+    {
+      title: "United States Minor Outlying Islands: Johnston Atoll",
+      code: "UM"
     },
   ]
 }

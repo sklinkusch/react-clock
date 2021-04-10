@@ -7,7 +7,7 @@ export const AmericanSamoa = {
       code: "AS"
     },
     {
-      title: "Midway Islands (United States)",
+      title: "United States Minor Outlying Islands: Midway Islands, Palmyra Atoll",
       code: "UM"
     },
     {
@@ -35,6 +35,17 @@ export const EasternKiribati = {
     {
       title: "Kiribati: Kiritimati, Line Islands",
       code: "KI"
+    }
+  ]
+}
+
+export const GambierIslands = {
+  city: "Gambier Islands",
+  zone: "Pacific/Gambier",
+  flags: [
+    {
+      title: "French Polynesia (France): Gambier Islands",
+      code: "PF"
     }
   ]
 }
