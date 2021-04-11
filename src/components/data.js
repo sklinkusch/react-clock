@@ -1,13 +1,13 @@
-import { CentralAfrica, EasternAfrica, EasternIndianOcean, IndianOcean, MiddleWestAfrica, SaintHelena, WestAfrica } from "./timezones/Africa"
+import { CaboVerde, CentralAfrica, EasternAfrica, EasternIndianOcean, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
 import { Barbados, EasternGreaterAntilles, LeewardAntilles, LeewardIslands, TrinidadAndTobago, WesternGreaterAntilles, WindwardIslands } from "./timezones/Antilles"
 import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
 import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
 import { EasternCentralAsia, WesternCentralAsia } from "./timezones/CentralAsia"
 import { China, JapanKorea } from "./timezones/EastAsia"
-import { CentralEurope, EasternEurope, Mediterranean, NorthAtlantic, WesternEurope, WesternScandinavia } from "./timezones/Europe"
+import { CentralEurope, EasternEurope, NorthAtlantic, WesternEurope } from "./timezones/Europe"
 import { CentralIndonesia, EasternIndonesia, WesternIndonesia } from "./timezones/Indonesia"
 import { CentralAmerica, CentralSouthAmerica, Colombia, EasterIsland, EasternSouthAmerica } from "./timezones/LatinAmerica"
-import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Levant, Turkey } from "./timezones/MiddleEast"
+import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Israel, Jordan, Lebanon, Palestine, Turkey } from "./timezones/MiddleEast"
 import { EasternMongolia, WesternMongolia } from "./timezones/Mongolia"
 import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Bermuda, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
 import { AmericanSamoa, Chatham, EasternKiribati, GambierIslands, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
@@ -28,6 +28,7 @@ export default [
   Barbados,
   Bermuda,
   BrazilianIslands,
+  CaboVerde,
   Caucasus,
   Central,
   CentralAfrica,
@@ -61,17 +62,18 @@ export default [
   Indochina,
   Iran,
   Irkutsk,
+  Israel,
   JapanKorea,
+  Jordan,
   Kaliningrad,
   Kamchatka,
   Krasnoyarsk,
+  Lebanon,
   LeewardAntilles,
   LeewardIslands,
-  Levant,
   LordHoweIsland,
   Malaysia,
   MarquesasIslands,
-  Mediterranean,
   MiddleWestAfrica,
   Moscow,
   Mountain,
@@ -87,12 +89,12 @@ export default [
   Omsk,
   Pacific,
   Pakistan,
+  Palestine,
   PapuaNewGuinea,
   Philippines,
   Pitcairn,
   Queensland,
   QuintanaRoo,
-  SaintHelena,
   Samara,
   Samoa,
   Saskatchewan,
@@ -112,7 +114,6 @@ export default [
   WesternIndonesia,
   WesternMongolia,
   WesternOceania,
-  WesternScandinavia,
   WindwardIslands,
   Yakutsk,
   Yekaterinburg,

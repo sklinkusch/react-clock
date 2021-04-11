@@ -85,29 +85,50 @@ export const Iran = {
   ]
 }
 
-export const Levant = {
-  city: "Levant",
+export const Israel = {
+  city: "Israel",
   zone: "Asia/Jerusalem",
   flags: [
     {
       title: "Israel",
       code: "IL"
     },
+  ]
+}
+
+export const Jordan = {
+  city: "Jordan/Syria",
+  zone: "Asia/Amman",
+  flags: [
     {
       title: "Jordan",
       code: "JO"
     },
     {
+      title: "Syria",
+      code: "SY"
+    }
+  ]
+}
+
+export const Lebanon = {
+  city: "Lebanon",
+  zone: "Asia/Beirut",
+  flags: [
+    {
       title: "Lebanon",
       code: "LB"
-    },
+    }
+  ]
+}
+
+export const Palestine = {
+  city: "Palestine",
+  zone: "Asia/Hebron",
+  flags: [
     {
       title: "Palestine",
       code: "PS"
-    },
-    {
-      title: "Syria",
-      code: "SY"
     },
   ]
 }

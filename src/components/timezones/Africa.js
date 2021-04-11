@@ -1,5 +1,16 @@
+export const CaboVerde = {
+  city: "Cabo Verde",
+  zone: "Atlantic/Cape_Verde",
+  flags: [
+    {
+      title: "Cabo Verde",
+      code: "CV"
+    }
+  ]
+}
+
 export const CentralAfrica = {
-  city: "Central Africa",
+  city: "Eastern Central Africa",
   zone: "Africa/Cairo",
   flags: [
     {
@@ -49,6 +60,10 @@ export const CentralAfrica = {
     {
       title: "South Africa",
       code: "ZA"
+    },
+    {
+      title: "South Sudan",
+      code: "SS"
     },
     {
       title: "Sudan",
@@ -102,10 +117,6 @@ export const EasternAfrica = {
       code: "SO"
     },
     {
-      title: "South Sudan",
-      code: "SS"
-    },
-    {
       title: "Tanzania",
       code: "TZ"
     },
@@ -147,7 +158,7 @@ export const IndianOcean = {
 }
 
 export const MiddleWestAfrica = {
-  city: "Middle West Africa",
+  city: "Western Central Africa",
   zone: "Africa/Luanda",
   flags: [
     {
@@ -213,17 +224,6 @@ export const MiddleWestAfrica = {
   ]
 }
 
-export const SaintHelena = {
-  city: "Southern Atlantic Ocean",
-  zone: "Atlantic/St_Helena",
-  flags: [
-    {
-      title: "United Kingdom: St. Helena, Ascension, and Tristan da Cunha",
-      code: "SH"
-    }
-  ]
-}
-
 export const WestAfrica = {
   city: "West Africa",
   zone: "Africa/Bamako",
@@ -265,6 +265,10 @@ export const WestAfrica = {
       code: "MR"
     },
     {
+      title: "Sahrawi Arab Democratic Republic",
+      code: "EH"
+    },
+    {
       title: "São Tomé and Príncipe",
       code: "ST"
     },
@@ -280,5 +284,9 @@ export const WestAfrica = {
       title: "Togo",
       code: "TG"
     },
+    {
+      title: "United Kingdom: St. Helena, Ascension, and Tristan da Cunha",
+      code: "SH"
+    }
   ]
 }

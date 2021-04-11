@@ -51,10 +51,6 @@ export const AtlanticOcean = {
   zone: "Atlantic/Azores",
   flags: [
     {
-      title: "Cabo Verde",
-      code: "CV"
-    },
-    {
       title: "Greenland (Denmark)",
       code: "GL"
     },

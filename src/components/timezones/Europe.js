@@ -3,6 +3,14 @@ export const CentralEurope = {
   zone: "Europe/Berlin",
   flags: [
     {
+      title: "Albania",
+      code: "AL"
+    },
+    {
+      title: "Andorra",
+      code: "AD"
+    },
+    {
       title: "Austria",
       code: "AT"
     },
@@ -11,16 +19,44 @@ export const CentralEurope = {
       code: "BE"
     },
     {
+      title: "Bosnia and Herzegovina",
+      code: "BA"
+    },
+    {
+      title: "Croatia",
+      code: "HR"
+    },
+    {
       title: "Czechia",
       code: "CZ"
+    },
+    {
+      title: "Denmark: mainland",
+      code: "DK"
+    },
+    {
+      title: "France",
+      code: "FR"
     },
     {
       title: "Germany",
       code: "DE"
     },
     {
+      title: "Gibraltar (United Kingdom)",
+      code: "GI"
+    },
+    {
       title: "Hungary",
       code: "HU"
+    },
+    {
+      title: "Italy",
+      code: "IT"
+    },
+    {
+      title: "Kosovo",
+      code: "XK"
     },
     {
       title: "Liechtenstein",
@@ -31,21 +67,65 @@ export const CentralEurope = {
       code: "LU"
     },
     {
+      title: "Malta",
+      code: "MT"
+    },
+    {
+      title: "Monaco",
+      code: "MC"
+    },
+    {
+      title: "Montenegro",
+      code: "ME"
+    },
+    {
       title: "Netherlands",
       code: "NL"
+    },
+    {
+      title: "North Macedonia",
+      code: "MK"
+    },
+    {
+      title: "Norway",
+      code: "NO"
     },
     {
       title: "Poland",
       code: "PL"
     },
     {
+      title: "San Marino",
+      code: "SM"
+    },
+    {
+      title: "Serbia",
+      code: "RS"
+    },
+    {
       title: "Slovakia",
       code: "SK"
+    },
+    {
+      title: "Slovenia",
+      code: "SI"
+    },
+    {
+      title: "Spain: mainland",
+      code: "ES"
+    },
+    {
+      title: "Sweden",
+      code: "SE"
     },
     {
       title: "Switzerland",
       code: "CH"
     },
+    {
+      title: "Vatican City",
+      code: "VA"
+    }
   ]
 }
 
@@ -93,81 +173,6 @@ export const EasternEurope = {
       title: "Ukraine",
       code: "UA"
     },
-  ]
-}
-
-export const Mediterranean = {
-  city: "Mediterranean",
-  zone: "Europe/Rome",
-  flags: [
-    {
-      title: "Albania",
-      code: "AL"
-    },
-    {
-      title: "Andorra",
-      code: "AD"
-    },
-    {
-      title: "Bosnia and Herzegovina",
-      code: "BA"
-    },
-    {
-      title: "Croatia",
-      code: "HR"
-    },
-    {
-      title: "France",
-      code: "FR"
-    },
-    {
-      title: "Gibraltar (United Kingdom)",
-      code: "GI"
-    },
-    {
-      title: "Italy",
-      code: "IT"
-    },
-    {
-      title: "Kosovo",
-      code: "XK"
-    },
-    {
-      title: "Malta",
-      code: "MT"
-    },
-    {
-      title: "Monaco",
-      code: "MC"
-    },
-    {
-      title: "Montenegro",
-      code: "ME"
-    },
-    {
-      title: "North Macedonia",
-      code: "MK"
-    },
-    {
-      title: "San Marino",
-      code: "SM"
-    },
-    {
-      title: "Serbia",
-      code: "RS"
-    },
-    {
-      title: "Slovenia",
-      code: "SI"
-    },
-    {
-      title: "Spain: mainland",
-      code: "ES"
-    },
-    {
-      title: "Vatican City",
-      code: "VA"
-    }
   ]
 }
 
@@ -222,24 +227,5 @@ export const WesternEurope = {
       title: "United Kingdom: England, Scotland, Northern Ireland, Wales",
       code: "GB"
     }
-  ]
-}
-
-export const WesternScandinavia = {
-  city: "Western Scandinavia",
-  zone: "Europe/Stockholm",
-  flags: [
-    {
-      title: "Denmark: mainland",
-      code: "DK"
-    },
-    {
-      title: "Norway",
-      code: "NO"
-    },
-    {
-      title: "Sweden",
-      code: "SE"
-    },
   ]
 }
