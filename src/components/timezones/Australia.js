@@ -1,25 +1,3 @@
-export const Cocos = {
-  city: "Cocos Islands",
-  zone: "Indian/Cocos",
-  flags: [
-    {
-      title: "Cocos Islands (Australia)",
-      code: "CC"
-    },
-  ]
-}
-
-export const Christmas = {
-  city: "Christmas Island",
-  zone: "Indian/Christmas",
-  flags: [
-    {
-      title: "Christmas Island (Australia)",
-      code: "CX"
-    }
-  ]
-}
-
 export const EasternAustralia = {
   city: "Eastern Australia",
   zone: "Australia/Sydney",
@@ -81,17 +59,6 @@ export const SouthAustralia = {
   flags: [
     {
       title: "Australia: South Australia",
-      code: "AU"
-    }
-  ]
-}
-
-export const WesternAustralia = {
-  city: "Western Australia",
-  zone: "Australia/West",
-  flags: [
-    {
-      title: "Australia: Western Australia",
       code: "AU"
     }
   ]

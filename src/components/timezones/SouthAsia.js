@@ -10,6 +10,10 @@ export const Bangladesh = {
       title: "Bhutan",
       code: "BT"
     },
+    {
+      title: "British Indian Ocean Territory (United Kingdom)",
+      code: "IO"
+    }
   ]
 }
 
@@ -32,6 +36,10 @@ export const Myanmar = {
   city: "Myanmar",
   zone: "Asia/Rangoon",
   flags: [
+    {
+      title: "Cocos Islands (Australia)",
+      code: "CC"
+    },
     {
       title: "Myanmar",
       code: "MM"

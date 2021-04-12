@@ -25,6 +25,10 @@ export const Arizona = {
   zone: "America/Phoenix",
   flags: [
     {
+      title: "Canada: Yukon",
+      code: "CA"
+    },
+    {
       title: "Mexico: Sonora, Revillagigedo Islands",
       code: "MX"
     },
@@ -32,17 +36,6 @@ export const Arizona = {
       title: "United States: AZ (excluding Navajo Nation Reservation)",
       code: "US"
     }
-  ]
-}
-
-export const Bermuda = {
-  city: "Bermuda",
-  zone: "Atlantic/Bermuda",
-  flags: [
-    {
-      title: "Bermuda (United Kingdom)",
-      code: "BM"
-    },
   ]
 }
 
@@ -80,6 +73,17 @@ export const Central = {
   ]
 }
 
+export const Cuba = {
+  city: "Cuba",
+  zone: "America/Havana",
+  flags: [
+    {
+      title: "Cuba",
+      code: "CU"
+    },
+  ]
+}
+
 export const Eastern = {
   city: "Eastern",
   zone: "America/New_York",
@@ -93,8 +97,8 @@ export const Eastern = {
       code: "CA"
     },
     {
-      title: "Cuba",
-      code: "CU"
+      title: "Haiti",
+      code: "HT"
     },
     {
       title: "Turks and Caicos Islands (United Kingdom)",
@@ -165,6 +169,10 @@ export const NorthwesternAtlantic = {
   zone: "America/Halifax",
   flags: [
     {
+      title: "Bermuda (United Kingdom)",
+      code: "BM"
+    },
+    {
       title: "Canada: New Brunswick, Labrador, Nova Scotia, Prince Edward Island, Québec",
       code: "CA"
     },
@@ -194,17 +202,6 @@ export const Pacific = {
   ]
 }
 
-export const QuintanaRoo = {
-  city: "Quintana Roo",
-  zone: "America/Cancun",
-  flags: [
-    {
-      title: "Mexico: Quintana Roo",
-      code: "MX"
-    }
-  ]
-}
-
 export const Saskatchewan = {
   city: "Saskatchewan",
   zone: "America/Regina",
@@ -228,16 +225,5 @@ export const WesternGreenland = {
       title: "Saint-Pierre and Miquelon (France)",
       code: "PM"
     },
-  ]
-}
-
-export const Yukon = {
-  city: "Yukon",
-  zone: "America/Whitehorse",
-  flags: [
-    {
-      title: "Canada: Yukon",
-      code: "CA"
-    }
   ]
 }

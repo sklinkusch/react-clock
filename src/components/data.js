@@ -1,35 +1,28 @@
-import { CaboVerde, CentralAfrica, EasternAfrica, EasternIndianOcean, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
-import { Barbados, EasternGreaterAntilles, LeewardAntilles, LeewardIslands, TrinidadAndTobago, WesternGreaterAntilles, WindwardIslands } from "./timezones/Antilles"
-import { Christmas, Cocos, EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia, WesternAustralia } from "./timezones/Australia"
-import { Acre, BrazilianIslands, EasternBrazil, WesternBrazil } from "./timezones/Brazil"
-import { EasternCentralAsia, WesternCentralAsia } from "./timezones/CentralAsia"
+import { CaboVerde, CentralAfrica, EasternAfrica, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
+import { Antilles } from "./timezones/Antilles"
+import { EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia } from "./timezones/Australia"
 import { China, JapanKorea } from "./timezones/EastAsia"
 import { CentralEurope, EasternEurope, NorthAtlantic, WesternEurope } from "./timezones/Europe"
 import { CentralIndonesia, EasternIndonesia, WesternIndonesia } from "./timezones/Indonesia"
-import { CentralAmerica, CentralSouthAmerica, Colombia, EasterIsland, EasternSouthAmerica } from "./timezones/LatinAmerica"
-import { Afghanistan, Arabia, EastArabia, Caucasus, Iran, Israel, Jordan, Lebanon, Palestine, Turkey } from "./timezones/MiddleEast"
-import { EasternMongolia, WesternMongolia } from "./timezones/Mongolia"
-import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Bermuda, Central, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, QuintanaRoo, Saskatchewan, WesternGreenland, Yukon } from "./timezones/NorthAmerica"
+import { BrazilianIslands, CentralAmerica, CentralSouthAmerica, Chile, Colombia, EasternSouthAmerica, Paraguay } from "./timezones/LatinAmerica"
+import { Afghanistan, Arabia, Iran, Israel, Jordan, Lebanon, Palestine } from "./timezones/MiddleEast"
+import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Central, Cuba, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, WesternGreenland } from "./timezones/NorthAmerica"
 import { AmericanSamoa, Chatham, EasternKiribati, Fiji, GambierIslands, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
-import { Kaliningrad, Kamchatka, Krasnoyarsk, Irkutsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yakutsk, Yekaterinburg } from "./timezones/Russia"
+import { Kaliningrad, Kamchatka, Krasnoyarsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yekaterinburg } from "./timezones/Russia"
 import { Bangladesh, India, Myanmar, Nepal, Pakistan } from "./timezones/SouthAsia"
-import { Indochina, Malaysia, Philippines } from "./timezones/SoutheastAsia"
 
 export default [
-  Acre,
   Afghanistan,
   Alaska,
   AleutianIslands,
   AmericanSamoa,
+  Antilles,
   Arabia,
   Arizona,
   AtlanticOcean,
   Bangladesh,
-  Barbados,
-  Bermuda,
   BrazilianIslands,
   CaboVerde,
-  Caucasus,
   Central,
   CentralAfrica,
   CentralAmerica,
@@ -37,32 +30,23 @@ export default [
   CentralIndonesia,
   CentralSouthAmerica,
   Chatham,
+  Chile,
   China,
-  Christmas,
-  Cocos,
   Colombia,
-  EastArabia,
-  EasterIsland,
+  Cuba,
   Eastern,
   EasternAfrica,
   EasternAustralia,
-  EasternBrazil,
-  EasternCentralAsia,
   EasternEurope,
-  EasternGreaterAntilles,
-  EasternIndianOcean,
   EasternIndonesia,
   EasternKiribati,
-  EasternMongolia,
   EasternSouthAmerica,
   Fiji,
   GambierIslands,
   Hawaii,
   India,
   IndianOcean,
-  Indochina,
   Iran,
-  Irkutsk,
   Israel,
   JapanKorea,
   Jordan,
@@ -70,10 +54,7 @@ export default [
   Kamchatka,
   Krasnoyarsk,
   Lebanon,
-  LeewardAntilles,
-  LeewardIslands,
   LordHoweIsland,
-  Malaysia,
   MarquesasIslands,
   MiddleWestAfrica,
   Moscow,
@@ -92,31 +73,19 @@ export default [
   Pakistan,
   Palestine,
   PapuaNewGuinea,
-  Philippines,
+  Paraguay,
   Pitcairn,
   Queensland,
-  QuintanaRoo,
   Samara,
   Samoa,
-  Saskatchewan,
   Srednekolymsk,
   SouthAustralia,
   Tonga,
-  TrinidadAndTobago,
-  Turkey,
   Vladivostok,
   WestAfrica,
-  WesternAustralia,
-  WesternBrazil,
-  WesternCentralAsia,
   WesternEurope,
-  WesternGreaterAntilles,
   WesternGreenland,
   WesternIndonesia,
-  WesternMongolia,
   WesternOceania,
-  WindwardIslands,
-  Yakutsk,
   Yekaterinburg,
-  Yukon,
 ]

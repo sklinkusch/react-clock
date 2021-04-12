@@ -127,17 +127,6 @@ export const EasternAfrica = {
   ]
 }
 
-export const EasternIndianOcean = {
-  city: "Eastern Indian Ocean",
-  zone: "Indian/Chagos",
-  flags: [
-    {
-      title: "British Indian Ocean Territory (United Kingdom)",
-      code: "IO"
-    }
-  ]
-}
-
 export const IndianOcean = {
   city: "Indian Ocean",
   zone: "Indian/Reunion",
@@ -151,9 +140,17 @@ export const IndianOcean = {
       code: "MU"
     },
     {
+      title: "Oman",
+      code: "OM"
+    },
+    {
       title: "Seychelles",
       code: "SC"
     },
+    {
+      title: "United Arab Emirates",
+      code: "AE"
+    }
   ]
 }
 

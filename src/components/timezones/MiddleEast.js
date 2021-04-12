@@ -40,40 +40,6 @@ export const Arabia = {
   ]
 }
 
-export const Caucasus = {
-  city: "Caucasus",
-  zone: "Asia/Baku",
-  flags: [
-    {
-      title: "Armenia",
-      code: "AM"
-    },
-    {
-      title: "Azerbaijan",
-      code: "AZ"
-    },
-    {
-      title: "Georgia",
-      code: "GE"
-    },
-  ]
-}
-
-export const EastArabia = {
-  city: "East Arabia",
-  zone: "Asia/Dubai",
-  flags: [
-    {
-      title: "Oman",
-      code: "OM"
-    },
-    {
-      title: "United Arab Emirates",
-      code: "AE"
-    }
-  ]
-}
-
 export const Iran = {
   city: "Iran",
   zone: "Asia/Tehran",
@@ -130,16 +96,5 @@ export const Palestine = {
       title: "Palestine",
       code: "PS"
     },
-  ]
-}
-
-export const Turkey = {
-  city: "Turkey",
-  zone: "Europe/Istanbul",
-  flags: [
-    {
-      title: "Turkey",
-      code: "TR"
-    }
   ]
 }

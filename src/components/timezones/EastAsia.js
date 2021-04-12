@@ -15,6 +15,14 @@ export const China = {
       code: "MO"
     },
     {
+      title: "Mongolia: main part",
+      code: "MN"
+    },
+    {
+      title: "Russia: Buryatia, Irkutsk Oblast",
+      code: "RU"
+    },
+    {
       title: "Taiwan",
       code: "TW"
     }
@@ -32,6 +40,10 @@ export const JapanKorea = {
     {
       title: "North Korea",
       code: "KP"
+    },
+    {
+      title: "Russia: Sakha (western part), Zabaykalsky Krai, Amur Oblast",
+      code: "RU"
     },
     {
       title: "South Korea",
