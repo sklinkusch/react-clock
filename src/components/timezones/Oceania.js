@@ -39,6 +39,17 @@ export const EasternKiribati = {
   ]
 }
 
+export const Fiji = {
+  city: "Fiji",
+  zone: "Pacific/Fiji",
+  flags: [
+    {
+      title: "Fiji",
+      code: "FJ"
+    },
+  ]
+}
+
 export const GambierIslands = {
   city: "Gambier Islands",
   zone: "Pacific/Gambier",
@@ -77,10 +88,6 @@ export const Oceania = {
   zone: "Pacific/Wake",
   flags: [
     {
-      title: "Fiji",
-      code: "FJ"
-    },
-    {
       title: "Kiribati: Banaba, Gilbert Islands",
       code: "KI"
     },
@@ -97,7 +104,7 @@ export const Oceania = {
       code: "TV"
     },
     {
-      title: "Wake (United States)",
+      title: "United States Minor Outlying Islands: Wake",
       code: "UM"
     },
     {
