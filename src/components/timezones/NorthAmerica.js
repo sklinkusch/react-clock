@@ -44,7 +44,7 @@ export const AtlanticOcean = {
   zone: "Atlantic/Azores",
   flags: [
     {
-      title: "Greenland (Denmark)",
+      title: "Greenland (Denmark): Ittoqqortoormit",
       code: "GL"
     },
     {
@@ -70,6 +70,17 @@ export const Central = {
       title: "United States: AL, AR, FL, IA, IL, IN, KS, KY, LA, MN, MO, MS, ND, NE, OK, SD, TN, TX, WI",
       code: "US"
     }
+  ]
+}
+
+export const CoteNord = {
+  city: "Côte-Nord",
+  zone: "America/Blanc-Sablon",
+  flags: [
+    {
+      title: "Canada: QC (east of 63°W)",
+      code: "CA"
+    },
   ]
 }
 
@@ -177,9 +188,9 @@ export const NorthwesternAtlantic = {
       code: "CA"
     },
     {
-      title: "Greenland (Denmark)",
+      title: "Greenland: Thule Air Base",
       code: "GL"
-    },
+    }
   ]
 }
 
@@ -202,6 +213,17 @@ export const Pacific = {
   ]
 }
 
+export const SaintPierreMiquelon = {
+  city: "St. Pierre et Miquelon",
+  zone: "America/Miquelon",
+  flags: [
+    {
+      title: "Saint-Pierre and Miquelon (France)",
+      code: "PM"
+    },
+  ]
+}
+
 export const Saskatchewan = {
   city: "Saskatchewan",
   zone: "America/Regina",
@@ -215,15 +237,11 @@ export const Saskatchewan = {
 
 export const WesternGreenland = {
   city: "Western Greenland",
-  zone: "America/Nuuk",
+  zone: "America/Godthab",
   flags: [
     {
-      title: "Greenland (Denmark)",
+      title: "Greenland (Denmark): Western Greenland",
       code: "GL",
-    },
-    {
-      title: "Saint-Pierre and Miquelon (France)",
-      code: "PM"
     },
   ]
 }

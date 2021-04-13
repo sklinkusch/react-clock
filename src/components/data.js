@@ -6,7 +6,7 @@ import { CentralEurope, EasternEurope, NorthAtlantic, WesternEurope } from "./ti
 import { CentralIndonesia, EasternIndonesia, WesternIndonesia } from "./timezones/Indonesia"
 import { BrazilianIslands, CentralAmerica, CentralSouthAmerica, Chile, Colombia, EasternSouthAmerica, Paraguay } from "./timezones/LatinAmerica"
 import { Afghanistan, Arabia, Iran, Israel, Jordan, Lebanon, Palestine } from "./timezones/MiddleEast"
-import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Central, Cuba, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, WesternGreenland } from "./timezones/NorthAmerica"
+import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Central, CoteNord, Cuba, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, SaintPierreMiquelon, WesternGreenland } from "./timezones/NorthAmerica"
 import { AmericanSamoa, Chatham, EasternKiribati, Fiji, GambierIslands, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
 import { Kaliningrad, Kamchatka, Krasnoyarsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yekaterinburg } from "./timezones/Russia"
 import { Bangladesh, India, Myanmar, Nepal, Pakistan } from "./timezones/SouthAsia"
@@ -33,6 +33,7 @@ export default [
   Chile,
   China,
   Colombia,
+  CoteNord,
   Cuba,
   Eastern,
   EasternAfrica,
@@ -76,6 +77,7 @@ export default [
   Paraguay,
   Pitcairn,
   Queensland,
+  SaintPierreMiquelon,
   Samara,
   Samoa,
   Srednekolymsk,

@@ -181,7 +181,7 @@ export const NorthAtlantic = {
   zone: "Atlantic/Reykjavik",
   flags: [
     {
-      title: "Greenland (Denmark)",
+      title: "Greenland (Denmark): Danmarkshavn",
       code: "GL"
     },
     {

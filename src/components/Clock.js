@@ -19,9 +19,14 @@ export default class Clock extends React.Component {
         <div className="album-item">
           <h2>{this.props.city}</h2>
           <div style={{ textAlign: "center" }}>
-            {"flags" in this.props && this.props.flags && this.props.flags.map((flag, index) => {
+            {"flags" in this.props && this.props.flags && this.props.flags.map((flag, index, arr) => {
+              if (index === (arr.length - 1)) {
+                return (
+                  <Flag key={index} code={flag.code} title={flag.title} height="20" style={{ maxWidth: "35px" }} />
+                )
+              }
             return (
-              <Flag key={index} code={flag.code} title={flag.title} height="20" style={{marginInline: "5px", maxWidth: "35px"}} />
+              <Flag key={index} code={flag.code} title={flag.title} height="20" style={{marginRight: "5px", marginInline: "5px", maxWidth: "35px"}} />
             )
             })}
           </div>
