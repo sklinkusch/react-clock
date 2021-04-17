@@ -2,6 +2,22 @@ import React from "react";
 import Flag from "react-world-flags";
 import "../styles/Clock.css";
 
+const ClockTitle = ({ city }) => (<h2><span>{city}</span></h2>)
+
+const ClockFlags = ({flags}) => (
+    <div>
+      {flags && Array.isArray(flags) && flags.length > 0 && flags.map((flag, index) => {
+        return (
+          <Flag key={index} code={flag.code} title={flag.title} height="20" />
+        )
+      })}
+    </div>
+  )
+
+const ClockDate = ({date, zone}) => (<p>{date.toLocaleDateString("en-GB", {timeZone: zone})}</p>)
+
+const ClockTime = ({date, zone}) => (<p>{date.toLocaleTimeString("en-GB", { timeZone: zone})}</p>)
+
 export default class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -14,35 +30,17 @@ export default class Clock extends React.Component {
     clearInterval(this.timerID);
   }
   render(props) {
+    const { city, flags, zone } = this.props
+    const { date } = this.state
     return (
       <div>
         <div className="album-item">
-          <h2>{this.props.city}</h2>
-          <div style={{ textAlign: "center" }}>
-            {"flags" in this.props && this.props.flags && this.props.flags.map((flag, index, arr) => {
-              if (index === (arr.length - 1)) {
-                return (
-                  <Flag key={index} code={flag.code} title={flag.title} height="20" style={{ maxWidth: "35px" }} />
-                )
-              }
-            return (
-              <Flag key={index} code={flag.code} title={flag.title} height="20" style={{marginRight: "5px", marginInline: "5px", maxWidth: "35px"}} />
-            )
-            })}
-          </div>
-          <p>{this.state.date.toLocaleDateString("en-GB", {timeZone: this.props.zone})}</p>
-          <p>{this.state.date.toLocaleTimeString("en-GB", { timeZone: this.props.zone})}</p>
+          <ClockTitle city={city} />
+          <ClockFlags flags={flags} />
+          <ClockDate date={date} zone={zone} />
+          <ClockTime date={date} zone={zone} />
         </div>
       </div>
-      // <React.Fragment>
-      //   <h2>{this.props.city}</h2>
-      //   <p>
-      //     It is{" "}
-      //     {this.state.date.toLocaleString("en-GB", {
-      //       timeZone: this.props.zone
-      //     })}
-      //   </p>
-      // </React.Fragment>
     );
   }
   tick() {
