@@ -40,10 +40,41 @@
   margin-bottom: 20px;
 }
 
+.album-item h2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  height: 4.8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-item div {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  text-align: center;
+  height: 125px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .album-item p {
   font-family: "Digital7";
   font-size: 20px;
   margin-bottom: 0;
   padding-bottom: 0;
   padding-top: 0;
+}
+
+.album-item img {
+  margin-right: 5px;
+  margin-inline: 5px;
+  max-width: 35px;
 }
