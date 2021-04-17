@@ -3,7 +3,7 @@ export const Alaska = {
   zone: "America/Anchorage",
   flags: [
     {
-      title: "United States: AK",
+      title: "United States: Alaska (east of 169°30' W)",
       code: "US"
     },
   ]
@@ -14,7 +14,7 @@ export const AleutianIslands = {
   zone: "America/Atka",
   flags: [
     {
-      title: "United States: AK",
+      title: "United States: Alaska (west of 169°30' W)",
       code: "US"
     }
   ]
@@ -33,7 +33,7 @@ export const Arizona = {
       code: "MX"
     },
     {
-      title: "United States: AZ (excluding Navajo Nation Reservation)",
+      title: "United States: Arizona (excluding Navajo Nation Reservation)",
       code: "US"
     }
   ]
@@ -67,7 +67,7 @@ export const Central = {
       code: "MX"
     },
     {
-      title: "United States: AL, AR, FL, IA, IL, IN, KS, KY, LA, MN, MO, MS, ND, NE, OK, SD, TN, TX, WI",
+      title: "United States: Alabama, Arkansas, Florida (west of Appalachicola River), Illinois, Indiana (northwest and southwest), Iowa, Kansas (most of state), Kentucky (western 40%), Louisiana, Michigan (upper peninsula bordering Wisconsin), Minnesota, Mississippi, Missouri, Nebraska (most of state), North Dakota (east of Missouri River), Oklahoma, South Dakota (eastern half), Tennessee (most of state), Texas (most of state), Wisconsin",
       code: "US"
     }
   ]
@@ -78,7 +78,7 @@ export const CoteNord = {
   zone: "America/Blanc-Sablon",
   flags: [
     {
-      title: "Canada: QC (east of 63°W)",
+      title: "Canada: Québec (east of 63° W)",
       code: "CA"
     },
   ]
@@ -104,7 +104,7 @@ export const Eastern = {
       code: "BS"
     },
     {
-      title: "Canada: Nunavut, Ontario, Québec",
+      title: "Canada: Nunavut, Ontario, Québec (west of 63° W)",
       code: "CA"
     },
     {
@@ -116,7 +116,7 @@ export const Eastern = {
       code: "TC"
     },
     {
-      title: "United States: CT, DC, DE, FL, GA, IN, KY, MA, MD, ME, MI, NC, NH, NJ, NY, OH, PA, RI, SC, TN, VA, VT, WV",
+      title: "United States: Connecticut, Delaware, District of Columbia, Florida (east of Appalachicola River), Georgia, Indiana (most of state), Kentucky (eastern 60%), Maine, Maryland, Massachusetts, Michigan (most of state), New Hampshire, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, Tennessee (east of state), Vermont, Virginia, West Virginia",
       code: "US"
     },
   ]
@@ -135,7 +135,7 @@ export const Hawaii = {
       code: "PF"
     },
     {
-      title: "United States: HI",
+      title: "United States: Hawaii",
       code: "US"
     },
     {
@@ -158,7 +158,7 @@ export const Mountain = {
       code: "MX"
     },
     {
-      title: "United States: AZ (only Navajo Nation Reservation), CO, ID, KS, MT, ND, NE, NM, OR, SD, TX, UT, WY",
+      title: "United States: Arizona (only Navajo Nation Reservation), Colorado, Idaho (most of state), Kansas (western border), Montana, Nebraska (panhandle), Nevada (West Wendover), New Mexico, North Dakota (west of Missouri River), Oregon (eastern border), South Dakota (western half), Texas (El Paso, Hudspeth), Utah, Wyoming",
       code: "US"
     }
   ]
@@ -207,7 +207,7 @@ export const Pacific = {
       code: "MX"
     },
     {
-      title: "United States: CA, ID, NV, OR, WA",
+      title: "United States: California, Idaho (panhandle), Nevada (most of state), Oregon (most of state), Washington",
       code: "US"
     }
   ]
