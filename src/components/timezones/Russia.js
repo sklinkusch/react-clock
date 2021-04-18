@@ -1,3 +1,4 @@
+// Kaliningrad Time - UTC + 2
 export const Kaliningrad = {
   city: "Kaliningrad",
   zone: "Europe/Kaliningrad",
@@ -9,6 +10,7 @@ export const Kaliningrad = {
   ]
 }
 
+// Kamchatka Time - UTC+12
 export const Kamchatka = {
   city: "Kamchatka",
   zone: "Asia/Kamchatka",
@@ -20,6 +22,7 @@ export const Kamchatka = {
   ]
 }
 
+// Krasnoyarsk Time - UTC+7
 export const Krasnoyarsk = {
   city: "Krasnoyarsk",
   zone: "Asia/Krasnoyarsk",
@@ -29,12 +32,13 @@ export const Krasnoyarsk = {
       code: "MN"
     },
     {
-      title: "Russia: Altai Republic, Khakassia, Tuva Republic, Altai Region, Krasnoyarsk Region, Kemerovo Oblast, Novosibirsk Oblast, Tomsk Oblast",
+      title: "Russia: Khakassia, Tuva Republic, Krasnoyarsk Region, Kemerovo Oblast, Novosibirsk Oblast, Tomsk Oblast",
       code: "RU"
     }
   ]
 }
 
+// Moscow Time - UTC+3
 export const Moscow = {
   city: "Moscow",
   zone: "Europe/Moscow",
@@ -44,7 +48,7 @@ export const Moscow = {
       code: "BY"
     },
     {
-      title: "Russia: Moscow, Saint Petersburg, Sevastopol, Adygea, Chechnya, Chuvashia, Dagestan, Ingushetia, Kabardino-Balkaria, Kalmykia, Karachay-Cherkessia, Karelia, Komi, Mari El, Mordovia, North Ossetia-Alania, Tatarstan, Krasnodar Region, Stavropol Region, Arkhangelsk Oblast, Belgorod Oblast, Bryansk Oblast, Ivanovo Oblast, Kaluga Oblast, Kirov Oblast, Kostroma Oblast, Kursk Oblast, Leningrad Oblast, Lipetsk Oblast, Moscow Oblast, Murmansk Oblast, Nizhnyi Novgorod Oblast, Novgorod Oblast, Oryol Oblast, Penza Oblast, Pskov Oblast, Ryazan Oblast, Smolensk Oblast, Tambov Oblast, Tula Oblast, Tver Oblast, Vladimir Oblast, Vologda Oblast, Voronezh Oblast, Yaroslavl Oblast, Nenets Autonomous Okrug, Crimea",
+      title: "Russia: Moscow, Saint Petersburg, Sevastopol, Adygea, Chechnya, Chuvashia, Dagestan, Ingushetia, Kabardino-Balkaria, Kalmykia, Karachay-Cherkessia, Karelia, Komi, Mari El, Mordovia, North Ossetia-Alania, Tatarstan, Krasnodar Region, Stavropol Region, Arkhangelsk Oblast, Astrakhan Oblast, Belgorod Oblast, Bryansk Oblast, Ivanovo Oblast, Kaluga Oblast, Kirov Oblast, Kostroma Oblast, Kursk Oblast, Leningrad Oblast, Lipetsk Oblast, Moscow Oblast, Murmansk Oblast, Nizhnyi Novgorod Oblast, Novgorod Oblast, Oryol Oblast, Penza Oblast, Pskov Oblast, Ryazan Oblast, Saratov Oblast, Smolensk Oblast, Tambov Oblast, Tula Oblast, Tver Oblast, Vladimir Oblast, Volgograd Oblast, Vologda Oblast, Voronezh Oblast, Yaroslavl Oblast, Nenets Autonomous Okrug, Crimea",
       code: "RU"
     },
     {
@@ -54,6 +58,7 @@ export const Moscow = {
   ]
 }
 
+// Omsk Time - UTC+6
 export const Omsk = {
   city: "Omsk",
   zone: "Asia/Omsk",
@@ -67,12 +72,13 @@ export const Omsk = {
       code: "KG"
     },
     {
-      title: "Russia: Omsk Oblast",
+      title: "Russia: Altai Republic, Altai Region, Omsk Oblast",
       code: "RU"
     },
   ]
 }
 
+// Samara Time - UTC+4
 export const Samara = {
   city: "Samara",
   zone: "Europe/Samara",
@@ -90,12 +96,13 @@ export const Samara = {
       code: "GE"
     },
     {
-      title: "Russia: Udmurtia, Astrakhan Oblast, Samara Oblast, Saratov Oblast, Ulyanovsk Oblast, Volgograd Oblast",
+      title: "Russia: Udmurtia, Samara Oblast, Ulyanovsk Oblast",
       code: "RU"
     },
   ]
 }
 
+// Srednekolymsk or Magadan Time - UTC+11
 export const Srednekolymsk = {
   city: "Srednekolymsk",
   zone: "Asia/Srednekolymsk",
@@ -107,6 +114,7 @@ export const Srednekolymsk = {
   ]
 }
 
+// Vladivostok Time - UTC+10
 export const Vladivostok = {
   city: "Vladivostok",
   zone: "Asia/Vladivostok",
@@ -118,6 +126,7 @@ export const Vladivostok = {
   ]
 }
 
+// Yekaterinburg Time - UTC+5
 export const Yekaterinburg = {
   city: "Yekaterinburg",
   zone: "Asia/Yekaterinburg",
