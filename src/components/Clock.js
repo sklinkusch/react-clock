@@ -1,5 +1,6 @@
 import React from "react";
 import Flag from "react-world-flags";
+import moment from "moment-timezone";
 import "../styles/Clock.css";
 
 const ClockTitle = ({ city }) => (<h2><span>{city}</span></h2>)
@@ -14,14 +15,18 @@ const ClockFlags = ({flags}) => (
     </div>
   )
 
-const ClockDate = ({date, zone}) => (<p>{date.toLocaleDateString("en-GB", {timeZone: zone})}</p>)
+const ClockDate = ({date}) => (<p>{date}</p>)
 
-const ClockTime = ({date, zone}) => (<p>{date.toLocaleTimeString("en-GB", { timeZone: zone})}</p>)
+const ClockTime = ({date}) => (<p>{date}</p>)
 
 export default class Clock extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { date: new Date() };
+    this.state = { 
+      date: moment(),
+      formattedDate: moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: moment().tz(this.props.zone).format("HH:mm:ss")
+    };
   }
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), 1000);
@@ -30,22 +35,24 @@ export default class Clock extends React.Component {
     clearInterval(this.timerID);
   }
   render(props) {
-    const { city, flags, zone } = this.props
-    const { date } = this.state
+    const { city, flags } = this.props
+    const { formattedDate, formattedTime } = this.state
     return (
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={flags} />
-          <ClockDate date={date} zone={zone} />
-          <ClockTime date={date} zone={zone} />
+          <ClockDate date={formattedDate} />
+          <ClockTime date={formattedTime} />
         </div>
       </div>
     );
   }
-  tick() {
+  tick(zone) {
     this.setState({
-      date: new Date()
+      date: moment(),
+      formattedDate: moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: moment().tz(this.props.zone).format("HH:mm:ss")
     });
   }
 }
