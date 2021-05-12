@@ -1,93 +1,27 @@
-import { CaboVerde, CentralAfrica, EasternAfrica, IndianOcean, MiddleWestAfrica, WestAfrica } from "./timezones/Africa"
-import { Antilles } from "./timezones/Antilles"
-import { EasternAustralia, LordHoweIsland, NorfolkIsland, NorthernAustralia, Queensland, SouthAustralia } from "./timezones/Australia"
-import { China, JapanKorea } from "./timezones/EastAsia"
-import { CentralEurope, EasternEurope, NorthAtlantic, WesternEurope } from "./timezones/Europe"
-import { CentralIndonesia, EasternIndonesia, WesternIndonesia } from "./timezones/Indonesia"
-import { BrazilianIslands, CentralAmerica, CentralSouthAmerica, Chile, Colombia, EasternSouthAmerica, Paraguay } from "./timezones/LatinAmerica"
-import { Afghanistan, Arabia, Iran, Israel, Jordan, Lebanon, Palestine } from "./timezones/MiddleEast"
-import { Alaska, AleutianIslands, Arizona, AtlanticOcean, Central, CoteNord, Cuba, Eastern, Hawaii, Mountain, Newfoundland, NorthwesternAtlantic, Pacific, SaintPierreMiquelon, WesternGreenland } from "./timezones/NorthAmerica"
-import { AmericanSamoa, Chatham, EasternKiribati, Fiji, GambierIslands, MarquesasIslands, NewZealand, Oceania, PapuaNewGuinea, Pitcairn, Samoa, Tonga, WesternOceania } from "./timezones/Oceania"
-import { Kaliningrad, Kamchatka, Krasnoyarsk, Moscow, Omsk, Samara, Srednekolymsk, Vladivostok, Yekaterinburg } from "./timezones/Russia"
-import { Bangladesh, India, Myanmar, Nepal, Pakistan } from "./timezones/SouthAsia"
+import moment from "moment-timezone"
+import Europe from "./timezones/Europe"
 
-export default [
-  Afghanistan,
-  Alaska,
-  AleutianIslands,
-  AmericanSamoa,
-  Antilles,
-  Arabia,
-  Arizona,
-  AtlanticOcean,
-  Bangladesh,
-  BrazilianIslands,
-  CaboVerde,
-  Central,
-  CentralAfrica,
-  CentralAmerica,
-  CentralEurope,
-  CentralIndonesia,
-  CentralSouthAmerica,
-  Chatham,
-  Chile,
-  China,
-  Colombia,
-  CoteNord,
-  Cuba,
-  Eastern,
-  EasternAfrica,
-  EasternAustralia,
-  EasternEurope,
-  EasternIndonesia,
-  EasternKiribati,
-  EasternSouthAmerica,
-  Fiji,
-  GambierIslands,
-  Hawaii,
-  India,
-  IndianOcean,
-  Iran,
-  Israel,
-  JapanKorea,
-  Jordan,
-  Kaliningrad,
-  Kamchatka,
-  Krasnoyarsk,
-  Lebanon,
-  LordHoweIsland,
-  MarquesasIslands,
-  MiddleWestAfrica,
-  Moscow,
-  Mountain,
-  Myanmar,
-  Nepal,
-  Newfoundland,
-  NewZealand,
-  NorfolkIsland,
-  NorthAtlantic,
-  NorthernAustralia,
-  NorthwesternAtlantic,
-  Oceania,
-  Omsk,
-  Pacific,
-  Pakistan,
-  Palestine,
-  PapuaNewGuinea,
-  Paraguay,
-  Pitcairn,
-  Queensland,
-  SaintPierreMiquelon,
-  Samara,
-  Samoa,
-  Srednekolymsk,
-  SouthAustralia,
-  Tonga,
-  Vladivostok,
-  WestAfrica,
-  WesternEurope,
-  WesternGreenland,
-  WesternIndonesia,
-  WesternOceania,
-  Yekaterinburg,
-]
+const timezonesRaw = [...Europe]
+
+const Now = moment().utc().format("x")
+const rawZones = timezonesRaw.map(tz => {
+  const {country, zone, flag } = tz
+  const offset = moment().tz(zone).format("Z")
+  const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
+  return { country, zone, flag, offset, numericOffset }
+}).sort((a, b) => (a.numericOffset - b.numericOffset))
+const timeZoneObject = rawZones.reduce((acc, curr) => {
+  const obj = {...acc}
+  const { flag: code, offset, country: title, zone, numericOffset } = curr
+  const city = "UTC" + offset
+  const flag = { code, title }
+  if (obj.hasOwnProperty(city)) {
+    obj[city].flags.push(flag)
+  } else {
+    obj[city] = { city, numericOffset, zone, flags: [flag] }
+  }
+  return obj
+}, {})
+const timeZoneArray = Object.values(timeZoneObject).sort((a,b) => (a.numericOffset - b.numericOffset))
+
+export default timeZoneArray

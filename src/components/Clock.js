@@ -19,8 +19,6 @@ const ClockDate = ({date}) => (<p>{date}</p>)
 
 const ClockTime = ({date}) => (<p>{date}</p>)
 
-const ClockZone = ({zone}) => (<p>{zone}</p>)
-
 export default class Clock extends React.Component {
   constructor(props) {
     super(props);
@@ -39,13 +37,20 @@ export default class Clock extends React.Component {
   }
   render(props) {
     const { city, flags } = this.props
-    const { formattedDate, formattedTime, formattedZone } = this.state
+    const { formattedDate, formattedTime } = this.state
+    const sortedFlags = flags.sort((a, b) => {
+      if(a.title.toLowerCase() < b.title.toLowerCase()) {
+        return -1
+      } else if (b.title.toLowerCase() < a.title.toLowerCase()) {
+        return +1
+      }
+      return 0
+    })
     return (
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
-          <ClockZone zone={formattedZone} />
-          <ClockFlags flags={flags} />
+          <ClockFlags flags={sortedFlags} />
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
         </div>
