@@ -38,14 +38,7 @@ export default class Clock extends React.Component {
   render(props) {
     const { city, flags } = this.props
     const { formattedDate, formattedTime } = this.state
-    const sortedFlags = flags.sort((a, b) => {
-      if(a.title.toLowerCase() < b.title.toLowerCase()) {
-        return -1
-      } else if (b.title.toLowerCase() < a.title.toLowerCase()) {
-        return +1
-      }
-      return 0
-    })
+    const sortedFlags = flags.sort((a, b) => a.title.localeCompare(b.title, "de", {sensitivy: "base"}))
     return (
       <div>
         <div className="album-item">

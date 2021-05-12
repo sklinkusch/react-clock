@@ -1,289 +1,297 @@
-export const CaboVerde = {
-  city: "Cabo Verde",
-  zone: "Atlantic/Cape_Verde",
-  flags: [
-    {
-      title: "Cabo Verde",
-      code: "CV"
-    }
-  ]
-}
-
-export const CentralAfrica = {
-  city: "Eastern Central Africa",
-  zone: "Africa/Cairo",
-  flags: [
-    {
-      title: "Botswana",
-      code: "BW"
-    },
-    {
-      title: "Burundi",
-      code: "BI"
-    },
-    {
-      title: "Democratic Republic of the Congo: Bas-Uele, Haut-Katanga, Haut-Lomami, Haut-Uele, Ituri, Kasaï, Kasaï-Central, Kasaï-Oriental, Lomami, Lualaba, Maniema, Nord-Kivu, Sankuru, Sud-Kivu, Tanganjika, Tshopo",
-      code: "CD"
-    },
-    {
-      title: "Egypt",
-      code: "EG"
-    },
-    {
-      title: "eSwatini",
-      code: "SZ"
-    },
-    {
-      title: "Lesotho",
-      code: "LS"
-    },
-    {
-      title: "Libya",
-      code: "LY"
-    },
-    {
-      title: "Malawi",
-      code: "MW"
-    },
-    {
-      title: "Mozambique",
-      code: "MZ"
-    },
-    {
-      title: "Namibia",
-      code: "NA"
-    },
-    {
-      title: "Rwanda",
-      code: "RW"
-    },
-    {
-      title: "South Africa",
-      code: "ZA"
-    },
-    {
-      title: "South Sudan",
-      code: "SS"
-    },
-    {
-      title: "Sudan",
-      code: "SD"
-    },
-    {
-      title: "Zambia",
-      code: "ZM"
-    },
-    {
-      title: "Zimbabwe",
-      code: "ZW"
-    }
-  ]
-}
-
-export const EasternAfrica = {
-  city: "East Africa",
-  zone: "Africa/Addis_Ababa",
-  flags: [
-    {
-      title: "Comoros",
-      code: "KM"
-    },
-    {
-      title: "Djibouti",
-      code: "DJ"
-    },
-    {
-      title: "Eritrea",
-      code: "ER"
-    },
-    {
-      title: "Ethiopia",
-      code: "ET"
-    },
-    {
-      title: "France: Mayotte",
-      code: "YT"
-    },
-    {
-      title: "Kenya",
-      code: "KE"
-    },
-    {
-      title: "Madagascar",
-      code: "MG"
-    },
-    {
-      title: "Somalia",
-      code: "SO"
-    },
-    {
-      title: "Tanzania",
-      code: "TZ"
-    },
-    {
-      title: "Uganda",
-      code: "UG"
-    }
-  ]
-}
-
-export const IndianOcean = {
-  city: "Indian Ocean",
-  zone: "Indian/Reunion",
-  flags: [
-    {
-      title: "France: Réunion",
-      code: "RE"
-    },
-    {
-      title: "Mauritius",
-      code: "MU"
-    },
-    {
-      title: "Oman",
-      code: "OM"
-    },
-    {
-      title: "Seychelles",
-      code: "SC"
-    },
-    {
-      title: "United Arab Emirates",
-      code: "AE"
-    }
-  ]
-}
-
-export const MiddleWestAfrica = {
-  city: "Western Central Africa",
-  zone: "Africa/Luanda",
-  flags: [
-    {
-      title: "Algeria",
-      code: "DZ"
-    },
-    {
-      title: "Angola",
-      code: "AO"
-    },
-    {
-      title: "Benin",
-      code: "BJ"
-    },
-    {
-      title: "Cameroon",
-      code: "CM"
-    },
-    {
-      title: "Central African Republic",
-      code: "CF"
-    },
-    {
-      title: "Chad",
-      code: "TD"
-    },
-    {
-      title: "Democratic Republic of the Congo: Équateur, Kinshasa, Kongo Central, Kwango, Kwilu, Mai-Ndombe, Mongala, Nord-Ubangi, Sud-Ubangi, Tshuapa",
-      code: "CD"
-    },
-    {
-      title: "Equatorial Guinea",
-      code: "GQ"
-    },
-    {
-      title: "Gabon",
-      code: "GA"
-    },
-    {
-      title: "Morocco",
-      code: "MA"
-    },
-    {
-      title: "Niger",
-      code: "NE"
-    },
-    {
-      title: "Nigeria",
-      code: "NG"
-    },
-    {
-      title: "Republic of the Congo",
-      code: "CG"
-    },
-    {
-      title: "Sahrawi Arab Democratic Republic",
-      code: "EH"
-    },
-    {
-      title: "Tunisia",
-      code: "TN"
-    },
-  ]
-}
-
-export const WestAfrica = {
-  city: "West Africa",
-  zone: "Africa/Bamako",
-  flags: [
-    {
-      title: "Burkina Faso",
-      code: "BF"
-    },
-    {
-      title: "Côte d'Ivoire",
-      code: "CI"
-    },
-    {
-      title: "The Gambia",
-      code: "GM"
-    },
-    {
-      title: "Ghana",
-      code: "GH"
-    },
-    {
-      title: "Guinea",
-      code: "GN"
-    },
-    {
-      title: "Guinea-Bissau",
-      code: "GW"
-    },
-    {
-      title: "Liberia",
-      code: "LR"
-    },
-    {
-      title: "Mali",
-      code: "ML"
-    },
-    {
-      title: "Mauritania",
-      code: "MR"
-    },
-    {
-      title: "Sahrawi Arab Democratic Republic",
-      code: "EH"
-    },
-    {
-      title: "São Tomé and Príncipe",
-      code: "ST"
-    },
-    {
-      title: "Senegal",
-      code: "SN"
-    },
-    {
-      title: "Sierra Leone",
-      code: "SL"
-    },
-    {
-      title: "Togo",
-      code: "TG"
-    },
-    {
-      title: "United Kingdom: St. Helena, Ascension, and Tristan da Cunha",
-      code: "SH"
-    }
-  ]
-}
+export default [
+  {
+    country: "Algeria",
+    zone: "Africa/Algiers",
+    flag: "DZ"
+  },
+  {
+    country: "Angola",
+    zone: "Africa/Luanda",
+    flag: "AO"
+  },
+  {
+    country: "Benin",
+    zone: "Africa/Porto-Novo",
+    flag: "BJ"
+  },
+  {
+    country: "Botswana",
+    zone: "Africa/Gaborone",
+    flag: "BW"
+  },
+  {
+    country: "Burkina Faso",
+    zone: "Africa/Ouagadougou",
+    flag: "BF"
+  },
+  {
+    country: "Burundi",
+    zone: "Africa/Bujumbura",
+    flag: "BI"
+  },
+  {
+    country: "Cabo Verde",
+    zone: "Atlantic/Cape_Verde",
+    flag: "CV"
+  },
+  {
+    country: "Cameroon",
+    zone: "Africa/Douala",
+    flag: "CM"
+  },
+  {
+    country: "Central African Republic",
+    zone: "Africa/Bangui",
+    flag: "CF"
+  },
+  {
+    country: "Chad",
+    zone: "Africa/Ndjamena",
+    flag: "TD"
+  },
+  {
+    country: "Comoros",
+    zone: "Indian/Comoro",
+    flag: "KM"
+  },
+  {
+    country: "Côte d'Ivoire",
+    zone: "Africa/Abidjan",
+    flag: "CI"
+  },
+  {
+    country: "Democratic Republic of the Congo: Équateur, Kinshasa, Kongo Central, Kwango, Kwilu, Mai-Ndombe, Mongala, Nord-Ubangi, Sud-Ubangi, Tshuapa",
+    zone: "Africa/Kinshasa",
+    flag: "CD"
+  },
+  {
+    country: "Democratic Republic of the Congo: Bas-Uele, Haut-Katanga, Haut-Lomami, Haut-Uele, Ituri, Kasaï, Kasaï-Central, Kasaï-Oriental, Lomami, Lualaba, Maniema, Nord-Kivu, Sankuru, Sud-Kivu, Tanganjika, Tshopo",
+    zone: "Africa/Lubumbashi",
+    flag: "CD"
+  },
+  {
+    country: "Djibouti",
+    zone: "Africa/Djibouti",
+    flag: "DJ"
+  },
+  {
+    country: "Egypt",
+    zone: "Africa/Cairo",
+    flag: "EG"
+  },
+  {
+    country: "Equatorial Guinea",
+    zone: "Africa/Malabo",
+    flag: "GQ"
+  },
+  {
+    country: "Eritrea",
+    zone: "Africa/Asmara",
+    flag: "ER"
+  },
+  {
+    country: "eSwatini",
+    zone: "Africa/Mbabane",
+    flag: "SZ"
+  },
+  {
+    country: "Ethiopia",
+    zone: "Africa/Addis_Ababa",
+    flag: "ET"
+  },
+  {
+    country: "France: Mayotte",
+    zone: "Indian/Mayotte",
+    flag: "YT"
+  },
+  {
+    country: "France: Réunion",
+    zone: "Indian/Reunion",
+    flag: "RE"
+  },
+  {
+    country: "Gabon",
+    zone: "Africa/Libreville",
+    flag: "GA"
+  },
+  {
+    country: "The Gambia",
+    zone: "Africa/Banjul",
+    flag: "GM"
+  },
+  {
+    country: "Ghana",
+    zone: "Africa/Accra",
+    flag: "GH"
+  },
+  {
+    country: "Guinea",
+    zone: "Africa/Conakry",
+    flag: "GN"
+  },
+  {
+    country: "Guinea-Bissau",
+    zone: "Africa/Bissau",
+    flag: "GW"
+  },
+  {
+    country: "Kenya",
+    zone: "Africa/Nairobi",
+    flag: "KE"
+  },
+  {
+    country: "Lesotho",
+    zone: "Africa/Maseru",
+    flag: "LS"
+  },
+  {
+    country: "Liberia",
+    zone: "Africa/Monrovia",
+    flag: "LR"
+  },
+  {
+    country: "Libya",
+    zone: "Africa/Tripoli",
+    flag: "LY"
+  },
+  {
+    country: "Madagascar",
+    zone: "Indian/Antananarivo",
+    flag: "MG"
+  },
+  {
+    country: "Malawi",
+    zone: "Africa/Blantyre",
+    flag: "MW"
+  },
+  {
+    country: "Mali",
+    zone: "Africa/Bamako",
+    flag: "ML"
+  },
+  {
+    country: "Mauritania",
+    zone: "Africa/Nouakchott",
+    flag: "MR"
+  },
+  {
+    country: "Mauritius",
+    zone: "Indian/Mauritius",
+    flag: "MU"
+  },
+  {
+    country: "Morocco",
+    zone: "Africa/Casablanca",
+    flag: "MA"
+  },
+  {
+    country: "Mozambique",
+    zone: "Africa/Maputo",
+    flag: "MZ"
+  },
+  {
+    country: "Namibia",
+    zone: "Africa/Windhoek",
+    flag: "NA"
+  },
+  {
+    country: "Niger",
+    zone: "Africa/Niamey",
+    flag: "NE"
+  },
+  {
+    country: "Nigeria",
+    zone: "Africa/Lagos",
+    flag: "NG"
+  },
+  {
+    country: "Republic of the Congo",
+    zone: "Africa/Brazzaville",
+    flag: "CG"
+  },
+  {
+    country: "Rwanda",
+    zone: "Africa/Kigali",
+    flag: "RW"
+  },
+  {
+    country: "São Tomé and Príncipe",
+    zone: "Africa/Sao_Tome",
+    flag: "ST"
+  },
+  {
+    country: "Sahrawi Arab Democratic Republic",
+    zone: "Africa/El_Aaiun",
+    flag: "EH"
+  },
+  {
+    country: "Senegal",
+    zone: "Africa/Dakar",
+    flag: "SN"
+  },
+  {
+    country: "Seychelles",
+    zone: "Indian/Mahe",
+    flag: "SC"
+  },
+  {
+    country: "Sierra Leone",
+    zone: "Africa/Freetown",
+    flag: "SL"
+  },
+  {
+    country: "Somalia",
+    zone: "Africa/Mogadishu",
+    flag: "SO"
+  },
+  {
+    country: "South Africa",
+    zone: "Africa/Johannesburg",
+    flag: "ZA"
+  },
+  {
+    country: "South Sudan",
+    zone: "Africa/Juba",
+    flag: "SS"
+  },
+  {
+    country: "Sudan",
+    zone: "Africa/Khartoum",
+    flag: "SD"
+  },
+  {
+    country: "Tanzania",
+    zone: "Africa/Dar_es_Salaam",
+    flag: "TZ"
+  },
+  {
+    country: "Togo",
+    zone: "Africa/Lome",
+    flag: "TG"
+  },
+  {
+    country: "Tunisia",
+    zone: "Africa/Tunis",
+    flag: "TN"
+  },
+  {
+    country: "Uganda",
+    zone: "Africa/Kampala",
+    flag: "UG"
+  },
+  {
+    country: "United Kingdom: St. Helena, Ascension, and Tristan da Cunha",
+    zone: "Atlantic/St_Helena",
+    flag: "SH"
+  },
+  {
+    country: "Zambia",
+    zone: "Africa/Lusaka",
+    flag: "ZM"
+  },
+  {
+    country: "Zimbabwe",
+    zone: "Africa/Harare",
+    flag: "ZW"
+  }
+]

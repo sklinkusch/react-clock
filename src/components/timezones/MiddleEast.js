@@ -88,6 +88,21 @@ export const Lebanon = {
   ]
 }
 
+export const IndianOcean = {
+  city: "Indian Ocean",
+  zone: "Indian/Reunion",
+  flags: [
+    {
+      title: "Oman",
+      code: "OM"
+    },
+    {
+      title: "United Arab Emirates",
+      code: "AE"
+    }
+  ]
+}
+
 export const Palestine = {
   city: "Palestine",
   zone: "Asia/Hebron",

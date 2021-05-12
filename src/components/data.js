@@ -1,7 +1,8 @@
 import moment from "moment-timezone"
+import Africa from "./timezones/Africa"
 import Europe from "./timezones/Europe"
 
-const timezonesRaw = [...Europe]
+const timezonesRaw = [...Africa, ...Europe]
 
 const Now = moment().utc().format("x")
 const rawZones = timezonesRaw.map(tz => {
