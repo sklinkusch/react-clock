@@ -19,13 +19,16 @@ const ClockDate = ({date}) => (<p>{date}</p>)
 
 const ClockTime = ({date}) => (<p>{date}</p>)
 
+const ClockZone = ({zone}) => (<p>{zone}</p>)
+
 export default class Clock extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
       date: moment(),
       formattedDate: moment().tz(this.props.zone).format("DD/MM/YYYY"),
-      formattedTime: moment().tz(this.props.zone).format("HH:mm:ss")
+      formattedTime: moment().tz(this.props.zone).format("HH:mm:ss"),
+      formattedZone: "UTC" + moment.tz(this.props.zone).format("Z")
     };
   }
   componentDidMount() {
@@ -36,11 +39,12 @@ export default class Clock extends React.Component {
   }
   render(props) {
     const { city, flags } = this.props
-    const { formattedDate, formattedTime } = this.state
+    const { formattedDate, formattedTime, formattedZone } = this.state
     return (
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
+          <ClockZone zone={formattedZone} />
           <ClockFlags flags={flags} />
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
@@ -52,7 +56,8 @@ export default class Clock extends React.Component {
     this.setState({
       date: moment(),
       formattedDate: moment().tz(this.props.zone).format("DD/MM/YYYY"),
-      formattedTime: moment().tz(this.props.zone).format("HH:mm:ss")
+      formattedTime: moment().tz(this.props.zone).format("HH:mm:ss"),
+      formattedZone: "UTC" + moment.tz(this.props.zone).format("Z")
     });
   }
 }
