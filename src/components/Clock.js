@@ -8,7 +8,7 @@ const ClockTitle = ({ city }) => (<h2><span>{city}</span></h2>)
 const ClockFlags = ({flags}) => (
     <div>
       {flags && Array.isArray(flags) && flags.length > 0 && flags.map((flag, index) => {
-        const flagTitle = flag.subdiv.length > 0 ? `${flag.title}: ${flag.subdiv.join(",")}` : flag.title
+        const flagTitle = flag.subdiv.length > 0 ? `${flag.title}: ${flag.subdiv.join(", ")}` : flag.title
         return (
           <Flag key={index} code={flag.code} title={flagTitle} height="20" />
         )

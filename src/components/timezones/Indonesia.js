@@ -17,10 +17,6 @@ export const EasternIndonesia = {
       title: "Indonesia: Maluku, North Maluku, Papua, West Papua",
       code: "ID"
     },
-    {
-      title: "Palau",
-      code: "PW"
-    },
   ]
 }
 

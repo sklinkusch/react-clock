@@ -5,6 +5,7 @@ import CentralAsia from "./timezones/CentralAsia"
 import EastAsia from "./timezones/EastAsia"
 import Europe from "./timezones/Europe"
 import MiddleEast from "./timezones/MiddleEast"
+import Oceania from "./timezones/Oceania"
 import Russia from "./timezones/Russia"
 import SouthAsia from "./timezones/SouthAsia"
 import SouthEastAsia from "./timezones/SouthEastAsia"
@@ -15,7 +16,8 @@ const timezonesRaw = [
   ...CentralAsia, 
   ...EastAsia, 
   ...Europe, 
-  ...MiddleEast, 
+  ...MiddleEast,
+  ...Oceania, 
   ...Russia, 
   ...SouthAsia,
   ...SouthEastAsia,
