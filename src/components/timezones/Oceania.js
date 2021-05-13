@@ -5,9 +5,20 @@ export default [
     flag: "AS"
   },
   {
+    country: "Cook Islands (New Zealand)",
+    zone: "Pacific/Rarotonga",
+    flag: "CK"
+  },
+  {
     country: "Fiji",
     zone: "Pacific/Fiji",
     flag: "FJ"
+  },
+  {
+    country: "French Polynesia (France)",
+    subdiv: ["Austral Islands", "Society Islands", "Tuamotus"],
+    zone: "Pacific/Tahiti",
+    flag: "PF"
   },
   {
     country: "French Polynesia (France)",
@@ -139,6 +150,18 @@ export default [
     country: "Tuvalu",
     zone: "Pacific/Funafuti",
     flag: "TV"
+  },
+  {
+    country: "United States",
+    subdiv: ["Hawaii"],
+    zone: "Pacific/Honolulu",
+    flag: "US"
+  },
+  {
+    country: "United States",
+    subdiv: ["Johnston Atoll"],
+    zone: "Pacific/Johnston",
+    flag: "US"
   },
   {
     country: "United States",

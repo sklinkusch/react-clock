@@ -76,63 +76,17 @@ export const CoteNord = {
   ]
 }
 
-export const Cuba = {
-  city: "Cuba",
-  zone: "America/Havana",
-  flags: [
-    {
-      title: "Cuba",
-      code: "CU"
-    },
-  ]
-}
-
 export const Eastern = {
   city: "Eastern",
   zone: "America/New_York",
   flags: [
     {
-      title: "Bahamas",
-      code: "BS"
-    },
-    {
       title: "Canada: Nunavut, Ontario, Québec (west of 63° W)",
       code: "CA"
     },
     {
-      title: "Haiti",
-      code: "HT"
-    },
-    {
-      title: "Turks and Caicos Islands (United Kingdom)",
-      code: "TC"
-    },
-    {
       title: "United States: Connecticut, Delaware, District of Columbia, Florida (east of Appalachicola River), Georgia, Indiana (most of state), Kentucky (eastern 60%), Maine, Maryland, Massachusetts, Michigan (most of state), New Hampshire, New Jersey, New York, North Carolina, Ohio, Pennsylvania, Rhode Island, South Carolina, Tennessee (east of state), Vermont, Virginia, West Virginia",
       code: "US"
-    },
-  ]
-}
-
-export const Hawaii = {
-  city: "Hawaii",
-  zone: "Pacific/Honolulu",
-  flags: [
-    {
-      title: "Cook Islands (New Zealand)",
-      code: "CK"
-    },
-    {
-      title: "French Polynesia (France): Austral Islands, Society Islands, Tuamotus",
-      code: "PF"
-    },
-    {
-      title: "United States: Hawaii",
-      code: "US"
-    },
-    {
-      title: "United States Minor Outlying Islands: Johnston Atoll",
-      code: "UM"
     },
   ]
 }
@@ -168,10 +122,6 @@ export const NorthwesternAtlantic = {
   zone: "America/Halifax",
   flags: [
     {
-      title: "Bermuda (United Kingdom)",
-      code: "BM"
-    },
-    {
       title: "Canada: New Brunswick, Labrador, Nova Scotia, Prince Edward Island, Québec",
       code: "CA"
     },
@@ -197,17 +147,6 @@ export const Pacific = {
   ]
 }
 
-export const SaintPierreMiquelon = {
-  city: "St. Pierre et Miquelon",
-  zone: "America/Miquelon",
-  flags: [
-    {
-      title: "Saint-Pierre and Miquelon (France)",
-      code: "PM"
-    },
-  ]
-}
-
 export const Saskatchewan = {
   city: "Saskatchewan",
   zone: "America/Regina",
@@ -229,8 +168,3 @@ export const WesternGreenland = {
     },
   ]
 }
-
-{
-  title: "Canada: Saskatchewan",
-  code: "CA"
-},

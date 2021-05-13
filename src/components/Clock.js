@@ -3,7 +3,16 @@ import Flag from "react-world-flags";
 import moment from "moment-timezone";
 import "../styles/Clock.css";
 
-const ClockTitle = ({ city }) => (<h2><span>{city}</span></h2>)
+const ClockTitle = ({ city }) => {
+  const correctedCity = city.replace("-","–")
+  return (
+    <h2>
+      <span>
+        {correctedCity}
+      </span>
+    </h2>
+  )
+}
 
 const ClockFlags = ({flags}) => (
     <div>
