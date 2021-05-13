@@ -88,6 +88,38 @@ export const Lebanon = {
   ]
 }
 
+// Moscow Time - UTC+3
+export const Moscow = {
+  city: "Moscow",
+  zone: "Europe/Moscow",
+  flags: [
+    {
+      title: "Turkey",
+      code: "TR"
+    }
+  ]
+}
+
+// Samara Time - UTC+4
+export const Samara = {
+  city: "Samara",
+  zone: "Europe/Samara",
+  flags: [
+    {
+      title: "Armenia",
+      code: "AM"
+    },
+    {
+      title: "Azerbaijan",
+      code: "AZ"
+    },
+    {
+      title: "Georgia",
+      code: "GE"
+    },
+  ]
+}
+
 export const IndianOcean = {
   city: "Indian Ocean",
   zone: "Indian/Reunion",
