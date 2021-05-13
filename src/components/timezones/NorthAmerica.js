@@ -29,10 +29,6 @@ export const Arizona = {
       code: "CA"
     },
     {
-      title: "Mexico: Sonora, Revillagigedo Islands",
-      code: "MX"
-    },
-    {
       title: "United States: Arizona (excluding Navajo Nation Reservation)",
       code: "US"
     }
@@ -61,10 +57,6 @@ export const Central = {
     {
       title: "Canada: Manitoba, Nunavut, Ontario",
       code: "CA"
-    },
-    {
-      title: "Mexico: Aguascalientes, Campeche, Chiapas, Coahuila, Colima, Distrito Federal, Durango, Guanajuato, Guerrero, Hidalgo, Jalisco, México, Michoacán, Morelos, Nuevo León, Oaxaca, Puebla, Querétaro, San Luis Potosí, Tabasco, Tamaulipas, Tlaxcala, Veracruz, Yucatán, Zacatecas",
-      code: "MX"
     },
     {
       title: "United States: Alabama, Arkansas, Florida (west of Appalachicola River), Illinois, Indiana (northwest and southwest), Iowa, Kansas (most of state), Kentucky (western 40%), Louisiana, Michigan (upper peninsula bordering Wisconsin), Minnesota, Mississippi, Missouri, Nebraska (most of state), North Dakota (east of Missouri River), Oklahoma, South Dakota (eastern half), Tennessee (most of state), Texas (most of state), Wisconsin",
@@ -154,10 +146,6 @@ export const Mountain = {
       code: "CA"
     },
     {
-      title: "Mexico: Baja California Sur, Chihuahua, Nayarit, Sinaloa",
-      code: "MX"
-    },
-    {
       title: "United States: Arizona (only Navajo Nation Reservation), Colorado, Idaho (most of state), Kansas (western border), Montana, Nebraska (panhandle), Nevada (West Wendover), New Mexico, North Dakota (west of Missouri River), Oregon (eastern border), South Dakota (western half), Texas (El Paso, Hudspeth), Utah, Wyoming",
       code: "US"
     }
@@ -203,10 +191,6 @@ export const Pacific = {
       code: "CA"
     },
     {
-      title: "Mexico: Baja California",
-      code: "MX"
-    },
-    {
       title: "United States: California, Idaho (panhandle), Nevada (most of state), Oregon (most of state), Washington",
       code: "US"
     }
@@ -245,3 +229,8 @@ export const WesternGreenland = {
     },
   ]
 }
+
+{
+  title: "Canada: Saskatchewan",
+  code: "CA"
+},
