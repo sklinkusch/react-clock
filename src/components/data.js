@@ -6,8 +6,18 @@ import Europe from "./timezones/Europe"
 import MiddleEast from "./timezones/MiddleEast"
 import Russia from "./timezones/Russia"
 import SouthAsia from "./timezones/SouthAsia"
+import SouthEastAsia from "./timezones/SouthEastAsia"
 
-const timezonesRaw = [...Africa, ...CentralAsia, ...EastAsia, ...Europe, ...MiddleEast, ...Russia, ...SouthAsia]
+const timezonesRaw = [
+  ...Africa, 
+  ...CentralAsia, 
+  ...EastAsia, 
+  ...Europe, 
+  ...MiddleEast, 
+  ...Russia, 
+  ...SouthAsia,
+  ...SouthEastAsia,
+]
 
 const Now = moment().utc().format("x")
 const rawZones = timezonesRaw.map(tz => {

@@ -7,25 +7,9 @@ export const CentralIndonesia = {
       code: "AU"
     },
     {
-      title: "Brunei",
-      code: "BN"
-    },
-    {
       title: "Indonesia: Bali, East Kalimantan, East Nusa Tenggara, North Kalimantan, South Kalimantan, Sulawesi, West Nusa Tenggara",
       code: "ID"
     },
-    {
-      title: "Malaysia",
-      code: "MY"
-    },
-    {
-      title: "Philippines",
-      code: "PH"
-    },
-    {
-      title: "Singapore",
-      code: "SG"
-    }
   ]
 }
 
@@ -41,10 +25,6 @@ export const EasternIndonesia = {
       title: "Palau",
       code: "PW"
     },
-    {
-      title: "Timor-Leste",
-      code: "TL"
-    }
   ]
 }
 
@@ -53,28 +33,8 @@ export const WesternIndonesia = {
   zone: "Asia/Jakarta",
   flags: [
     {
-      title: "Cambodia",
-      code: "KH"
-    },
-    {
-      title: "Christmas Island (Australia)",
-      code: "CX"
-    },
-    {
       title: "Indonesia: Central Kalimantan, Java, Sumatra, West Kalimantan",
       code: "ID"
     },
-    {
-      title: "Laos",
-      code: "LA"
-    },
-    {
-      title: "Thailand",
-      code: "TH"
-    },
-    {
-      title: "Vietnam",
-      code: "VN"
-    }
   ]
 }
