@@ -1,65 +1,44 @@
-export const EasternAustralia = {
-  city: "Eastern Australia",
-  zone: "Australia/Sydney",
-  flags: [
-    {
-      title: "Australia: Australian Capital Territory, New South Wales, Tasmania, Victoria",
-      code: "AU"
-    }
-  ]
-}
-
-export const LordHoweIsland = {
-  city: "Lord Howe Island",
-  zone: "Australia/Lord_Howe",
-  flags: [
-    {
-      title: "Australia: Lord Howe Island",
-      code: "AU"
-    }
-  ]
-}
-
-export const NorfolkIsland = {
-  city: "Norfolk Island",
-  zone: "Pacific/Norfolk",
-  flags: [
-    {
-      title: "Australia: Norfolk Island",
-      code: "AU"
-    },
-  ]
-}
-
-export const NorthernAustralia = {
-  city: "Northern Australia",
-  zone: "Australia/Darwin",
-  flags: [
-    {
-      title: "Australia: Northern Territory",
-      code: "AU"
-    }
-  ]
-}
-
-export const Queensland = {
-  city: "Queensland",
-  zone: "Australia/Brisbane",
-  flags: [
-    {
-      title: "Australia: Queensland",
-      code: "AU"
-    }
-  ]
-}
-
-export const SouthAustralia = {
-  city: "South Australia",
-  zone: "Australia/Adelaide",
-  flags: [
-    {
-      title: "Australia: South Australia",
-      code: "AU"
-    }
-  ]
-}
+export default [
+  {
+    country: "Australia",
+    subdiv: ["Western Australia"],
+    zone: "Australia/Perth",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Northern Territory"],
+    zone: "Australia/Darwin",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Queensland"],
+    zone: "Australia/Brisbane",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["South Australia"],
+    zone: "Australia/Adelaide",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Australian Capital Territory", "New South Wales", "Tasmania", "Victoria"],
+    zone: "Australia/Sydney",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Lord Howe Island"],
+    zone: "Australia/Lord_Howe",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Norfolk Island"],
+    zone: "Pacific/Norfolk",
+    flag: "AU"
+  },
+]

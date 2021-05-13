@@ -1,100 +1,97 @@
-export const Afghanistan = {
-  city: "Afghanistan",
-  zone: "Asia/Kabul",
-  flags: [
-    {
-      title: "Afghanistan",
-      code: "AF"
-    }
-  ]
-}
-
-export const Arabia = {
-  city: "Arabia",
-  zone: "Asia/Riyadh",
-  flags: [
-    {
-      title: "Bahrain",
-      code: "BH"
-    },
-    {
-      title: "Iraq",
-      code: "IQ"
-    },
-    {
-      title: "Kuwait",
-      code: "KW"
-    },
-    {
-      title: "Qatar",
-      code: "QA"
-    },
-    {
-      title: "Saudi Arabia",
-      code: "SA"
-    },
-    {
-      title: "Yemen",
-      code: "YE"
-    }
-  ]
-}
-
-export const Iran = {
-  city: "Iran",
-  zone: "Asia/Tehran",
-  flags: [
-    {
-      title: "Iran",
-      code: "IR"
-    }
-  ]
-}
-
-export const Israel = {
-  city: "Israel",
-  zone: "Asia/Jerusalem",
-  flags: [
-    {
-      title: "Israel",
-      code: "IL"
-    },
-  ]
-}
-
-export const Jordan = {
-  city: "Jordan/Syria",
-  zone: "Asia/Amman",
-  flags: [
-    {
-      title: "Jordan",
-      code: "JO"
-    },
-    {
-      title: "Syria",
-      code: "SY"
-    }
-  ]
-}
-
-export const Lebanon = {
-  city: "Lebanon",
-  zone: "Asia/Beirut",
-  flags: [
-    {
-      title: "Lebanon",
-      code: "LB"
-    }
-  ]
-}
-
-export const Palestine = {
-  city: "Palestine",
-  zone: "Asia/Hebron",
-  flags: [
-    {
-      title: "Palestine",
-      code: "PS"
-    },
-  ]
-}
+export default [
+  {
+    country: "Afghanistan",
+    zone: "Asia/Kabul",
+    flag: "AF"
+  },
+  {
+    country: "Armenia",
+    zone: "Asia/Yerevan",
+    flag: "AM"
+  },
+  {
+    country: "Azerbaijan",
+    zone: "Asia/Baku",
+    flag: "AZ"
+  },
+  {
+    country: "Bahrain",
+    zone: "Asia/Bahrain",
+    flag: "BH"
+  },
+  {
+    country: "Georgia",
+    zone: "Asia/Tbilisi",
+    flag: "GE"
+  },
+  {
+    country: "Iran",
+    zone: "Asia/Tehran",
+    flag: "IR"
+  },
+  {
+    country: "Iraq",
+    zone: "Asia/Baghdad",
+    flag: "IQ"
+  },
+  {
+    country: "Israel",
+    zone: "Asia/Jerusalem",
+    flag: "IL"
+  },
+  {
+    country: "Jordan",
+    zone: "Asia/Amman",
+    flag: "JO"
+  },
+  {
+    country: "Kuwait",
+    zone: "Asia/Kuwait",
+    flag: "KW"
+  },
+  {
+    country: "Lebanon",
+    zone: "Asia/Beirut",
+    flag: "LB"
+  },
+  {
+    country: "Oman",
+    zone: "Asia/Muscat",
+    flag: "OM"
+  },
+  {
+    country: "Palestine",
+    zone: "Asia/Hebron",
+    flag: "PS"
+  },
+  {
+    country: "Qatar",
+    zone: "Asia/Qatar",
+    flag: "QA"
+  },
+  {
+    country: "Saudi Arabia",
+    zone: "Asia/Riyadh",
+    flag: "SA"
+  },
+  {
+    country: "Syria",
+    zone: "Asia/Damascus",
+    flag: "SY"
+  },
+  {
+    country: "Turkey",
+    zone: "Europe/Istanbul",
+    flag: "TR"
+  },
+  {
+    country: "United Arab Emirates",
+    zone: "Asia/Dubai",
+    flag: "AE"
+  },
+  {
+    country: "Yemen",
+    zone: "Asia/Aden",
+    flag: "YE"
+  }
+]
