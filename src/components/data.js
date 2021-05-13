@@ -1,12 +1,13 @@
 import moment from "moment-timezone"
 import Africa from "./timezones/Africa"
 import CentralAsia from "./timezones/CentralAsia"
+import EastAsia from "./timezones/EastAsia"
 import Europe from "./timezones/Europe"
 import MiddleEast from "./timezones/MiddleEast"
 import Russia from "./timezones/Russia"
 import SouthAsia from "./timezones/SouthAsia"
 
-const timezonesRaw = [...Africa, ...CentralAsia, ...Europe, ...MiddleEast, ...Russia, ...SouthAsia]
+const timezonesRaw = [...Africa, ...CentralAsia, ...EastAsia, ...Europe, ...MiddleEast, ...Russia, ...SouthAsia]
 
 const Now = moment().utc().format("x")
 const rawZones = timezonesRaw.map(tz => {
