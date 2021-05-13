@@ -97,6 +97,24 @@ export default [
     flag: "GL"
   },
   {
+    country: "Greenland (Denmark)",
+    subdiv: ["Ittoqqortoormit", "Scoresbysund"],
+    zone: "America/Scoresbysund",
+    flag: "GL"
+  },
+  {
+    country: "Greenland (Denmark)",
+    subdiv: ["Thule", "Pituffik"],
+    zone: "America/Thule",
+    flag: "GL"
+  },
+  {
+    country: "Greenland (Denmark)",
+    subdiv: ["Western Greenland"],
+    zone: "America/Godthab",
+    flag: "GL",
+  },
+  {
     country: "Guernsey (United Kingdom)",
     zone: "Europe/Guernsey",
     flag: "GG"
@@ -200,6 +218,12 @@ export default [
     country: "Portugal",
     subdiv: ["mainland", "Madeira"],
     zone: "Europe/Lisbon",
+    flag: "PT"
+  },
+  {
+    country: "Portugal",
+    subdiv: ["Azores"],
+    zone: "Atlantic/Azores",
     flag: "PT"
   },
   {
