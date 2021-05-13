@@ -14,6 +14,7 @@ import Russia from "./timezones/Russia"
 import SouthAmerica from "./timezones/SouthAmerica"
 import SouthAsia from "./timezones/SouthAsia"
 import SouthEastAsia from "./timezones/SouthEastAsia"
+import UnitedStates from "./timezones/UnitedStates"
 
 const timezonesRaw = [
   ...Africa, 
@@ -31,6 +32,7 @@ const timezonesRaw = [
   ...SouthAmerica,
   ...SouthAsia,
   ...SouthEastAsia,
+  ...UnitedStates
 ]
 
 const Now = moment().utc().format("x")
