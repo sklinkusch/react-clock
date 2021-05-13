@@ -70,7 +70,8 @@ export default [
     flag: "FI"
   },
   {
-    country: "France: mainland, Corsica",
+    country: "France",
+    subdiv: ["mainland", "Corsica"],
     zone: "Europe/Paris",
     flag: "FR"
   },
@@ -90,7 +91,8 @@ export default [
     flag: "GR"
   },
   {
-    country: "Greenland (Denmark): Danmarkshavn",
+    country: "Greenland (Denmark)",
+    subdiv: ["Danmarkshavn"],
     zone: "America/Danmarkshavn",
     flag: "GL"
   },
@@ -195,7 +197,8 @@ export default [
     flag: "PL"
   },
   {
-    country: "Portugal: mainland, Madeira",
+    country: "Portugal",
+    subdiv: ["mainland", "Madeira"],
     zone: "Europe/Lisbon",
     flag: "PT"
   },
@@ -225,12 +228,14 @@ export default [
     flag: "SI"
   },
   {
-    country: "Spain: mainland",
+    country: "Spain",
+    subdiv: ["mainland", "Balearic Islands"],
     zone: "Europe/Madrid",
     flag: "ES"
   },
   {
-    country: "Spain: Canary Islands",
+    country: "Spain",
+    subdiv: ["Canary Islands"],
     zone: "Atlantic/Canary",
     flag: "ES"
   },
@@ -245,7 +250,8 @@ export default [
     flag: "CH"
   },
   {
-    country: "United Kingdom: England, Scotland, Northern Ireland, Wales",
+    country: "United Kingdom",
+    subdiv: ["England", "Northern Ireland", "Scotland", "Wales"],
     zone: "Europe/London",
     flag: "GB"
   },

@@ -60,12 +60,14 @@ export default [
     flag: "CI"
   },
   {
-    country: "Democratic Republic of the Congo: Équateur, Kinshasa, Kongo Central, Kwango, Kwilu, Mai-Ndombe, Mongala, Nord-Ubangi, Sud-Ubangi, Tshuapa",
+    country: "Democratic Republic of the Congo",
+    subdiv: ["Équateur", "Kinshasa", "Kongo Central", "Kwango", "Kwilu", "Mai-Ndombe", "Mongala", "Nord-Ubangi", "Sud-Ubangi", "Tshuapa"],
     zone: "Africa/Kinshasa",
     flag: "CD"
   },
   {
-    country: "Democratic Republic of the Congo: Bas-Uele, Haut-Katanga, Haut-Lomami, Haut-Uele, Ituri, Kasaï, Kasaï-Central, Kasaï-Oriental, Lomami, Lualaba, Maniema, Nord-Kivu, Sankuru, Sud-Kivu, Tanganjika, Tshopo",
+    country: "Democratic Republic of the Congo",
+    subdiv: ["Bas-Uele", "Haut-Katanga", "Haut-Lomami", "Haut-Uele", "Ituri", "Kasaï", "Kasaï-Central", "Kasaï-Oriental", "Lomami", "Lualaba", "Maniema", "Nord-Kivu", "Sankuru", "Sud-Kivu", "Tanganjika", "Tshopo"],
     zone: "Africa/Lubumbashi",
     flag: "CD"
   },
@@ -100,12 +102,14 @@ export default [
     flag: "ET"
   },
   {
-    country: "France: Mayotte",
+    country: "France",
+    subdiv: ["Mayotte"],
     zone: "Indian/Mayotte",
     flag: "YT"
   },
   {
-    country: "France: Réunion",
+    country: "France",
+    subdiv: ["Réunion"],
     zone: "Indian/Reunion",
     flag: "RE"
   },
@@ -255,6 +259,12 @@ export default [
     flag: "SS"
   },
   {
+    country: "Spain",
+    subdiv: ["Ceuta", "Melilla"],
+    zone: "Africa/Ceuta",
+    flag: "ES"
+  },
+  {
     country: "Sudan",
     zone: "Africa/Khartoum",
     flag: "SD"
@@ -280,7 +290,8 @@ export default [
     flag: "UG"
   },
   {
-    country: "United Kingdom: St. Helena, Ascension, and Tristan da Cunha",
+    country: "United Kingdom",
+    subdiv: ["Ascension", "St. Helena", "Tristan da Cunha"],
     zone: "Atlantic/St_Helena",
     flag: "SH"
   },
