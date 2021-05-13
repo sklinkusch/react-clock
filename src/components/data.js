@@ -1,5 +1,6 @@
 import moment from "moment-timezone"
 import Africa from "./timezones/Africa"
+import Australia from "./timezones/Australia"
 import CentralAsia from "./timezones/CentralAsia"
 import EastAsia from "./timezones/EastAsia"
 import Europe from "./timezones/Europe"
@@ -10,6 +11,7 @@ import SouthEastAsia from "./timezones/SouthEastAsia"
 
 const timezonesRaw = [
   ...Africa, 
+  ...Australia,
   ...CentralAsia, 
   ...EastAsia, 
   ...Europe, 

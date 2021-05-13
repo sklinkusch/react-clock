@@ -3,10 +3,6 @@ export const CentralIndonesia = {
   zone: "Asia/Makassar",
   flags: [
     {
-      title: "Australia: Western Australia",
-      code: "AU"
-    },
-    {
       title: "Indonesia: Bali, East Kalimantan, East Nusa Tenggara, North Kalimantan, South Kalimantan, Sulawesi, West Nusa Tenggara",
       code: "ID"
     },
