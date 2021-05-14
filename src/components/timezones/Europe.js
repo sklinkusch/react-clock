@@ -1,5 +1,10 @@
 export default [
   {
+    country: "Åland (Finland)",
+    zone: "Europe/Mariehamn",
+    flag: "AX"
+  },
+  {
     country: "Albania",
     zone: "Europe/Tirane",
     flag: "AL"
@@ -41,7 +46,14 @@ export default [
   },
   {
     country: "Cyprus",
+    subdiv: ["Republic of Cyprus"],
     zone: "Asia/Nicosia",
+    flag: "CY"
+  },
+  {
+    country: "Cyprus",
+    subdiv: ["Turkish Republic of Northern Cyprus"],
+    zone: "Asia/Famagusta",
     flag: "CY"
   },
   {
@@ -111,7 +123,7 @@ export default [
   {
     country: "Greenland (Denmark)",
     subdiv: ["Western Greenland"],
-    zone: "America/Godthab",
+    zone: "America/Nuuk",
     flag: "GL",
   },
   {
@@ -181,7 +193,14 @@ export default [
   },
   {
     country: "Moldova",
+    subdiv: ["Bălți", "Chişinău", "Comrat"],
     zone: "Europe/Chisinau",
+    flag: "MD"
+  },
+  {
+    country: "Moldova",
+    subdiv: ["Bender", "Tiraspol"],
+    zone: "Europe/Tiraspol",
     flag: "MD"
   },
   {
@@ -211,10 +230,16 @@ export default [
     flag: "NO"
   },
   {
-    country: "Norway",
+    country: "Svalbard and Jan Mayen (Norway)",
+    subdiv: ["Jan Mayen"],
+    zone: "Atlantic/Jan_Mayen",
+    flag: "SV"
+  },
+  {
+    country: "Svalbard and Jan Mayen (Norway)",
     subdiv: ["Spitzbergen"],
     zone: "Arctic/Longyearbyen",
-    flag: "NO"
+    flag: "SV"
   },
   {
     country: "Poland",
@@ -223,7 +248,7 @@ export default [
   },
   {
     country: "Portugal",
-    subdiv: ["mainland", "Madeira"],
+    subdiv: ["mainland"],
     zone: "Europe/Lisbon",
     flag: "PT"
   },
@@ -288,8 +313,14 @@ export default [
   },
   {
     country: "United Kingdom",
-    subdiv: ["England", "Northern Ireland", "Scotland", "Wales"],
+    subdiv: ["England", "Scotland", "Wales"],
     zone: "Europe/London",
+    flag: "GB"
+  },
+  {
+    country: "United Kingdom",
+    subdiv: ["Northern Ireland"],
+    zone: "Europe/Belfast",
     flag: "GB"
   },
   {

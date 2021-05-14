@@ -21,7 +21,14 @@ export default [
   },
   {
     country: "Malaysia",
+    subdiv: ["peninsula"],
     zone: "Asia/Kuala_Lumpur",
+    flag: "MY"
+  },
+  {
+    country: "Malaysia",
+    subdiv: ["Sabah", "Sarawak"],
+    zone: "Asia/Kuching",
     flag: "MY"
   },
   {

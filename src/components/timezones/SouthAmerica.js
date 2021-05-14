@@ -11,19 +11,91 @@ export default [
   },
   {
     country: "Brazil",
-    subdiv: ["Acre", "Amazonas (western part)"],
+    subdiv: ["Acre"],
+    zone: "America/Rio_Branco",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Amazonas (western part)"],
     zone: "America/Eirunepe",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Alagoas", "Amapá", "Bahia", "Ceará", "Distrito Federal", "Espírito Santo", "Goiás", "Maranhão", "Minas Gerais", "Pará", "Paraíba", "Paraná", "Pernambuco", "Piauí", "Rio de Janeiro", "Rio Grande do Norte", "Rio Grande do Sul", "Santa Catarina", "São Paulo", "Sergipe", "Tocantins"],
+    subdiv: ["Distrito Federal", "Espírito Santo", "Goiás", "Minas Gerais", "Paraná", "Rio de Janeiro", "Rio Grande do Sul", "Santa Catarina", "São Paulo"],
     zone: "America/Sao_Paulo",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Amazonas (eastern part)", "Mato Grosso", "Mato Grosso do Sul", "Rondônia", "Roraima"],
+    subdiv: ["Alagoas", "Sergipe"],
+    zone: "America/Maceio",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Amapá"],
+    zone: "America/Belem",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Bahia"],
+    zone: "America/Bahia",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Ceará", "Maranhão", "Paraíba", "Piauí", "Rio Grande do Norte"],
+    zone: "America/Fortaleza",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Pará"],
+    zone: "America/Santarem",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Pernambuco"],
+    zone: "America/Recife",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Tocantins"],
+    zone: "America/Araguaina",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Amazonas (eastern part)"],
+    zone: "America/Manaus",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Mato Grosso"],
+    zone: "America/Cuiaba",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Mato Grosso do Sul"],
+    zone: "America/Campo_Grande",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Rondônia"],
+    zone: "America/Porto_Velho",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: ["Roraima"],
     zone: "America/Boa_Vista",
     flag: "BR"
   },

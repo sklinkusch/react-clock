@@ -65,18 +65,3 @@ export default [
     flag: "PA"
   },
 ]
-
-export const Colombia = {
-  city: "Colombia",
-  zone: "America/Bogota",
-  flags: [
-    {
-      title: "Cayman Islands",
-      code: "KY"
-    },
-    {
-      title: "Jamaica",
-      code: "JM"
-    },
-  ]
-}

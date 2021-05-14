@@ -1,14 +1,44 @@
 export default [
   {
     country: "Kazakhstan",
-    subdiv: ["Akmola Region", "Almaty Region", "East Kazakhstan Region", "Jambyl Region", "Karaganda Region", "Kostanay Region", "Kyzylorda Region", "North Kazakhstan Region", "Pavlodar Region", "Turkistan Region"],
+    subdiv: ["Akmola Region", "Almaty Region", "East Kazakhstan Region", "Jambyl Region", "Karaganda Region", "North Kazakhstan Region", "Pavlodar Region", "Turkistan Region"],
     zone: "Asia/Almaty",
     flag: "KZ"
   },
   {
     country: "Kazakhstan",
-    subdiv: ["Aktobe Region", "Atyrau Region", "Mangystau Region", "West Kazakhstan Region"],
+    subdiv: ["Kostanay Region"],
+    zone: "Asia/Qostanay",
+    flag: "KZ"
+  },
+  {
+    country: "Kazakhstan",
+    subdiv: ["Kyzylorda Region"],
+    zone: "Asia/Qyzylorda",
+    flag: "KZ"
+  },
+  {
+    country: "Kazakhstan",
+    subdiv: ["Aktobe Region"],
     zone: "Asia/Aqtobe",
+    flag: "KZ"
+  },
+  {
+    country: "Kazakhstan",
+    subdiv: ["Atyrau Region"],
+    zone: "Asia/Atyrau",
+    flag: "KZ"
+  },
+  {
+    country: "Kazakhstan",
+    subdiv: ["Mangystau Region"],
+    zone: "Asia/Aqtau",
+    flag: "KZ"
+  },
+  {
+    country: "Kazakhstan",
+    subdiv: ["West Kazakhstan Region"],
+    zone: "Asia/Oral",
     flag: "KZ"
   },
   {

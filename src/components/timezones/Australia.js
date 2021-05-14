@@ -1,8 +1,14 @@
 export default [
   {
     country: "Australia",
-    subdiv: ["Western Australia"],
+    subdiv: ["Western Australia (most of state)"],
     zone: "Australia/Perth",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Western Australia (Eucla)"],
+    zone: "Australia/Eucla",
     flag: "AU"
   },
   {
@@ -25,8 +31,32 @@ export default [
   },
   {
     country: "Australia",
-    subdiv: ["Australian Capital Territory", "New South Wales", "Tasmania", "Victoria"],
+    subdiv: ["New South Wales (most of state)"],
     zone: "Australia/Sydney",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Australian Capital Territory"],
+    zone: "Australia/Canberra",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["New South Wales (Yancowinna)"],
+    zone: "Australia/Broken_Hill",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Victoria"],
+    zone: "Australia/Melbourne",
+    flag: "AU"
+  },
+  {
+    country: "Australia",
+    subdiv: ["Tasmania"],
+    zone: "Australia/Hobart",
     flag: "AU"
   },
   {

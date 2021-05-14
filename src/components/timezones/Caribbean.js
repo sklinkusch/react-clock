@@ -40,6 +40,11 @@ export default [
     flag: "VG"
   },
   {
+    country: "Cayman Islands (United Kingdom)",
+    zone: "America/Cayman",
+    flag: "KY"
+  },
+  {
     country: "Cuba",
     zone: "America/Havana",
     flag: "CU"
@@ -61,9 +66,21 @@ export default [
   },
   {
     country: "France",
-    subdiv: ["Guadeloupe", "Saint Martin", "Saint Barthélemy"],
+    subdiv: ["Guadeloupe"],
     zone: "America/Guadeloupe",
-    flag: "GP"
+    flag: "FR" // eigentlich GP
+  },
+  {
+    country: "France",
+    subdiv: ["Saint Martin"],
+    zone: "America/Marigot",
+    flag: "FR" // eigentlich MF
+  },
+  {
+    country: "France",
+    subdiv: ["Saint-Barthélemy"],
+    zone: "America/St_Barthelemy",
+    flag: "BL"
   },
   {
     country: "France",
@@ -80,6 +97,11 @@ export default [
     country: "Haiti",
     zone: "America/Port-au-Prince",
     flag: "HT"
+  },
+  {
+    country: "Jamaica",
+    zone: "America/Jamaica",
+    flag: "JM"
   },
   {
     country: "Martinique (France)",
