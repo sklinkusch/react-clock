@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/react-clock/static/js/runtime~main.dd06bf16.js"
   },
   {
-    "revision": "f5ddee8978c77f549666",
-    "url": "/react-clock/static/js/main.bba6381d.chunk.js"
+    "revision": "5d6d96cdf42a6477d984",
+    "url": "/react-clock/static/js/main.bfbdeec2.chunk.js"
   },
   {
     "revision": "b4215a6755c75f8f76f2",
     "url": "/react-clock/static/js/2.4110b4f7.chunk.js"
   },
   {
-    "revision": "f5ddee8978c77f549666",
+    "revision": "5d6d96cdf42a6477d984",
     "url": "/react-clock/static/css/main.1e2848e7.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/react-clock/static/css/2.8b0e4c38.chunk.css"
   },
   {
-    "revision": "f2c62b2b1a1f3c6a1611200ed8a07dbe",
+    "revision": "bd9c234dfb7a535c246070401074e4ea",
     "url": "/react-clock/index.html"
   }
 ];
