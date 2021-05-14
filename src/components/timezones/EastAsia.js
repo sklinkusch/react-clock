@@ -47,14 +47,3 @@ export default [
     flag: "TW"
   }
 ]
-
-
-// Krasnoyarsk Time - UTC+7
-export const Krasnoyarsk = {
-  city: "Krasnoyarsk",
-  zone: "Asia/Krasnoyarsk",
-  flags: [
-    
-  ]
-}
-
