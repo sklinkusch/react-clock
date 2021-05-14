@@ -206,7 +206,14 @@ export default [
   },
   {
     country: "Norway",
+    subdiv: ["Jan Mayen", "mainland"],
     zone: "Europe/Oslo",
+    flag: "NO"
+  },
+  {
+    country: "Norway",
+    subdiv: ["Spitzbergen"],
+    zone: "Arctic/Longyearbyen",
     flag: "NO"
   },
   {
@@ -218,6 +225,12 @@ export default [
     country: "Portugal",
     subdiv: ["mainland", "Madeira"],
     zone: "Europe/Lisbon",
+    flag: "PT"
+  },
+  {
+    country: "Portugal",
+    subdiv: ["Madeira"],
+    zone: "Atlantic/Madeira",
     flag: "PT"
   },
   {
