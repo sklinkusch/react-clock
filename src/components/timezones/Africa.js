@@ -114,7 +114,7 @@ export default [
     flag: "RE"
   },
   {
-    country: "French Southern and Antarctic Lands",
+    country: "French Southern and Antarctic Lands (France)",
     zone: "Indian/Kerguelen",
     flag: "TF"
   },
