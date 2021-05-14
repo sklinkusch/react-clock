@@ -7,8 +7,14 @@ export default [
   },
   {
     country: "Indonesia",
-    subdiv: ["Central Kalimantan", "Java", "Sumatra", "West Kalimantan"],
+    subdiv: ["Java", "Sumatra"],
     zone: "Asia/Jakarta",
+    flag: "ID"
+  },
+  {
+    country: "Indonesia",
+    subdiv: ["Central Kalimantan", "West Kalimantan"],
+    zone: "Asia/Pontianak",
     flag: "ID"
   },
   {

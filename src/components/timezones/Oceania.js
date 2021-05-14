@@ -57,6 +57,13 @@ export default [
   },
   {
     country: "Marshall Islands",
+    subdiv: ["Kwajalein"],
+    zone: "Pacific/Kwajalein",
+    flag: "MH"
+  },
+  {
+    country: "Marshall Islands",
+    subdiv: ["most islands"],
     zone: "Pacific/Majuro",
     flag: "MH"
   },
@@ -68,8 +75,14 @@ export default [
   },
   {
     country: "Micronesia",
-    subdiv: ["Kosrae", "Pohnpei"],
+    subdiv: ["Kosrae"],
     zone: "Pacific/Kosrae",
+    flag: "FM"
+  },
+  {
+    country: "Micronesia",
+    subdiv: ["Pohnpei"],
+    zone: "Pacific/Pohnpei",
     flag: "FM"
   },
   {

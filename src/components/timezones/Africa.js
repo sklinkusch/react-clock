@@ -114,6 +114,11 @@ export default [
     flag: "RE"
   },
   {
+    country: "French Southern and Antarctic Lands",
+    zone: "Indian/Kerguelen",
+    flag: "TF"
+  },
+  {
     country: "Gabon",
     zone: "Africa/Libreville",
     flag: "GA"
