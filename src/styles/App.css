@@ -24,3 +24,11 @@ p {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+input {
+  padding: 10px 20px;
+  border-color: blue;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  width: 320px;
+}
