@@ -6,14 +6,16 @@ import "../styles/App.css";
 
 export default function App() {
   const [allStates] = useState(timezonesRaw)
+  const [filtVal, setFiltVal] = useState("")
   const [timezones, setTimezones] = useState(null)
   const prepareZones = (filterVal) => {
+    const filterValue = filterVal ? filterVal : filtVal
     const Now = moment().utc().format("x")
-    const filteredStates = filterVal !== ""  ? allStates.filter(tz => {
+    const filteredStates = filterValue !== ""  ? allStates.filter(tz => {
       const { country, subdiv = [] } = tz
       const title = `${country}: ${subdiv.join(", ")}`
       if(filterVal !== ""){
-        if(title.toLowerCase().includes(filterVal.toLowerCase())) {
+        if(title.toLowerCase().includes(filterValue.toLowerCase())) {
           return true
         }
         return false
@@ -43,14 +45,15 @@ export default function App() {
     setTimezones(timezoneArray)
   }
   useEffect(() => {
-    prepareZones("")
-    setInterval(1000,() => prepareZones(""))
+    prepareZones()
+    setInterval(1000,prepareZones)
   }, [])
   return (
     <div className="app">
       <h1>World Time Clock</h1>
       <div style={{ textAlign: "center", marginBottom: "24px" }}>
         <input type="text" placeholder="Filter countries" onChange={(e) => {
+          setFiltVal(e.target.value)
           prepareZones(e.target.value)
           }} />
       </div>
