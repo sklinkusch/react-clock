@@ -19,8 +19,14 @@ export default [
   },
   {
     country: "United States",
-    subdiv: ["Arizona"],
+    subdiv: ["Arizona (except Navajo Nation Reservation)"],
     zone: "America/Phoenix",
+    flag: "US"
+  },
+  {
+    country: "United States",
+    subdiv: ["Arizona (Navajo Nation Reservation)"],
+    zone: "America/Shiprock",
     flag: "US"
   },
   {
@@ -43,7 +49,7 @@ export default [
   },
   {
     country: "United States",
-    subdiv: ["Idaho (most of state)", "Oregon (east of Salmon and Snake River)"],
+    subdiv: ["Idaho (most of state)", "Oregon (Malheur County)"],
     zone: "America/Boise",
     flag: "US"
   },
