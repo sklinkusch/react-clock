@@ -6,7 +6,9 @@ export default [
   },
   {
     country: "China",
-    subdiv: ["Xinjiang"],
+    subdiv: [
+      {title: "Xinjiang"}
+    ],
     zone: "Asia/Urumqi",
     flag: "CN"
   },
@@ -26,20 +28,44 @@ export default [
     flag: "MO"
   },
   {
-    country: "Mongolia: main part",
-    subdiv: ["Arkhangai", "Bayankhongor", "Bulgan", "Darkhan-Uul", "Dornogovi", "Dundgovi", "Govisümber", "Khentii", "Khövsgöl", "Orkhon", "Selenge", "Töv", "Ömnögovi", "Övörkhanghai"],
+    country: "Mongolia",
+    subdiv: [
+      {title: "Arkhangai"}, 
+      {title: "Bayankhongor"}, 
+      {title: "Bulgan"}, 
+      {title: "Darkhan-Uul"}, 
+      {title: "Dornogovi"}, 
+      {title: "Dundgovi"}, 
+      {title: "Govisümber"}, 
+      {title: "Khentii"}, 
+      {title: "Khövsgöl"}, 
+      {title: "Orkhon"}, 
+      {title: "Selenge"}, 
+      {title: "Töv"}, 
+      {title: "Ömnögovi"}, 
+      {title: "Övörkhanghai"}
+    ],
     zone: "Asia/Ulaanbaatar",
     flag: "MN"
   },
   {
     country: "Mongolia",
-    subdiv: ["Dornod", "Sükhbaatar"],
+    subdiv: [
+      {title: "Dornod"}, 
+      {title: "Sükhbaatar"}
+    ],
     zone: "Asia/Choibalsan",
     flag: "MN"
   },
   {
     country: "Mongolia",
-    subdiv: ["Bayan-Ölgii", "Govi-Altai", "Khovd", "Uvs", "Zavkhan"],
+    subdiv: [
+      {title: "Bayan-Ölgii"}, 
+      {title: "Govi-Altai"}, 
+      {title: "Khovd"}, 
+      {title: "Uvs"}, 
+      {title: "Zavkhan"}
+    ],
     zone: "Asia/Hovd",
     flag: "MN"
   },
