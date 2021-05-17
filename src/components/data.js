@@ -10,9 +10,9 @@
 // import Indonesia from "./timezones/Indonesia"
 // import MiddleEast from "./timezones/MiddleEast"
 // import Oceania from "./timezones/Oceania"
-// import Russia from "./timezones/Russia"
-// import SouthAmerica from "./timezones/SouthAmerica"
-// import SouthAsia from "./timezones/SouthAsia"
+import Russia from "./timezones/Russia"
+import SouthAmerica from "./timezones/SouthAmerica"
+import SouthAsia from "./timezones/SouthAsia"
 import SouthEastAsia from "./timezones/SouthEastAsia"
 import UnitedStates from "./timezones/UnitedStates"
 
@@ -29,9 +29,9 @@ export default [
   // ...Indonesia,
   // ...MiddleEast,
   // ...Oceania, 
-  // ...Russia, 
-  // ...SouthAmerica,
-  // ...SouthAsia,
+  ...Russia, 
+  ...SouthAmerica,
+  ...SouthAsia,
   ...SouthEastAsia,
   ...UnitedStates
 ]
