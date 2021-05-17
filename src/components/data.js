@@ -1,7 +1,7 @@
 import Africa from "./timezones/Africa"
 import Antarctica from "./timezones/Antarctica"
 import Australia from "./timezones/Australia"
-// import Canada from "./timezones/Canada"
+import Canada from "./timezones/Canada"
 // import Caribbean from "./timezones/Caribbean"
 // import CentralAmerica from "./timezones/CentralAmerica"
 // import CentralAsia from "./timezones/CentralAsia"
@@ -20,7 +20,7 @@ export default [
   ...Africa, 
   ...Antarctica,
   ...Australia,
-  // ...Canada,
+  ...Canada,
   // ...Caribbean,
   // ...CentralAmerica,
   // ...CentralAsia, 
