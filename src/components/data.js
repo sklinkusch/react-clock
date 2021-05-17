@@ -4,7 +4,7 @@ import Australia from "./timezones/Australia"
 import Canada from "./timezones/Canada"
 import Caribbean from "./timezones/Caribbean"
 import CentralAmerica from "./timezones/CentralAmerica"
-// import CentralAsia from "./timezones/CentralAsia"
+import CentralAsia from "./timezones/CentralAsia"
 // import EastAsia from "./timezones/EastAsia"
 // import Europe from "./timezones/Europe"
 import Indonesia from "./timezones/Indonesia"
@@ -23,7 +23,7 @@ export default [
   ...Canada,
   ...Caribbean,
   ...CentralAmerica,
-  // ...CentralAsia, 
+  ...CentralAsia, 
   // ...EastAsia, 
   // ...Europe, 
   ...Indonesia,
