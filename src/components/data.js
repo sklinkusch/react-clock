@@ -8,7 +8,7 @@
 // import EastAsia from "./timezones/EastAsia"
 // import Europe from "./timezones/Europe"
 // import Indonesia from "./timezones/Indonesia"
-// import MiddleEast from "./timezones/MiddleEast"
+import MiddleEast from "./timezones/MiddleEast"
 import Oceania from "./timezones/Oceania"
 import Russia from "./timezones/Russia"
 import SouthAmerica from "./timezones/SouthAmerica"
@@ -27,7 +27,7 @@ export default [
   // ...EastAsia, 
   // ...Europe, 
   // ...Indonesia,
-  // ...MiddleEast,
+  ...MiddleEast,
   ...Oceania, 
   ...Russia, 
   ...SouthAmerica,
