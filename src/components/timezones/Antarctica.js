@@ -1,61 +1,81 @@
 export default [
   {
     country: "Antarctica",
-    subdiv: ["Casey (Australia)"],
+    subdiv: [
+      {title: "Casey (Australia)"}
+    ],
     zone: "Antarctica/Casey",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Davis (Australia)"],
+    subdiv: [
+      {title: "Davis (Australia)"}
+    ],
     zone: "Antarctica/Davis",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Dumont-d'Urville (France)"],
+    subdiv: [
+      {title: "Dumont-d'Urville (France)"}
+    ],
     zone: "Antarctica/DumontDUrville",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Mawson (Australia)"],
+    subdiv: [
+      {title: "Mawson (Australia)"}
+    ],
     zone: "Antarctica/Mawson",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["McMurdo (United States)"],
+    subdiv: [
+      {title: "McMurdo (United States)"}
+    ],
     zone: "Antarctica/McMurdo",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Palmer (United States)"],
+    subdiv: [
+      {title: "Palmer (United States)"}
+    ],
     zone: "Antarctica/Palmer",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Rothera (United Kingdom)"],
+    subdiv: [
+      {title: "Rothera (United Kingdom)"}
+    ],
     zone: "Antarctica/Rothera",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Shōwa (Japan)"],
+    subdiv: [
+      {title: "Shōwa (Japan)"}
+    ],
     zone: "Antarctica/Syowa",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Troll (Norway)"],
+    subdiv: [
+      {title: "Troll (Norway)"}
+    ],
     zone: "Antarctica/Troll",
     flag: "AQ"
   },
   {
     country: "Antarctica",
-    subdiv: ["Vostok (Russia)"],
+    subdiv: [
+      {title: "Vostok (Russia)"}
+    ],
     zone: "Antarctica/Vostok",
     flag: "AQ"
   }
