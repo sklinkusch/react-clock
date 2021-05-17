@@ -66,25 +66,30 @@ export default [
   },
   {
     country: "France",
-    subdiv: ["Guadeloupe"],
+    subdiv: [
+      {title: "Guadeloupe"}
+    ],
     zone: "America/Guadeloupe",
     flag: "FR" // eigentlich GP
   },
   {
     country: "France",
-    subdiv: ["Saint Martin"],
+    subdiv: [
+      {title: "Saint-Martin"}
+    ],
     zone: "America/Marigot",
     flag: "FR" // eigentlich MF
   },
   {
-    country: "France",
-    subdiv: ["Saint-Barthélemy"],
+    country: "Saint-Barthélemy (France)",
     zone: "America/St_Barthelemy",
     flag: "BL"
   },
   {
     country: "France",
-    subdiv: ["Saint-Pierre and Miquelon"],
+    subdiv: [
+      {title: "Saint-Pierre and Miquelon"}
+    ],
     zone: "America/Miquelon",
     flag: "PM"
   },
@@ -115,7 +120,11 @@ export default [
   },
   {
     country: "Netherlands",
-    subdiv: ["Bonaire", "Saba", "Sint Eustatius"],
+    subdiv: [
+      {title: "Bonaire"}, 
+      {title: "Saba"}, 
+      {title: "Sint Eustatius"}
+    ],
     zone: "America/Kralendijk",
     flag: "BQ"
   },
