@@ -1,4 +1,4 @@
-// import Africa from "./timezones/Africa"
+import Africa from "./timezones/Africa"
 // import Antarctica from "./timezones/Antarctica"
 // import Australia from "./timezones/Australia"
 // import Canada from "./timezones/Canada"
@@ -17,7 +17,7 @@ import SouthEastAsia from "./timezones/SouthEastAsia"
 import UnitedStates from "./timezones/UnitedStates"
 
 export default [
-  // ...Africa, 
+  ...Africa, 
   // ...Antarctica,
   // ...Australia,
   // ...Canada,
