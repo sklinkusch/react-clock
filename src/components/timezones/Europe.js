@@ -46,13 +46,17 @@ export default [
   },
   {
     country: "Cyprus",
-    subdiv: ["Republic of Cyprus"],
+    subdiv: [
+      {title: "Republic of Cyprus"}
+    ],
     zone: "Asia/Nicosia",
     flag: "CY"
   },
   {
     country: "Cyprus",
-    subdiv: ["Turkish Republic of Northern Cyprus"],
+    subdiv: [
+      {title: "Turkish Republic of Northern Cyprus"}
+    ],
     zone: "Asia/Famagusta",
     flag: "CY"
   },
@@ -62,7 +66,14 @@ export default [
     flag: "CZ"
   },
   {
-    country: "Denmark: mainland",
+    country: "Denmark",
+    subdiv: [
+      {title: "Hovedstaden"},
+      {title: "Midtjylland"},
+      {title: "Nordjylland"},
+      {title: "Sjælland"},
+      {title: "Syddanmark"},
+    ],
     zone: "Europe/Copenhagen",
     flag: "DK"
   },
@@ -83,7 +94,21 @@ export default [
   },
   {
     country: "France",
-    subdiv: ["mainland", "Corsica"],
+    subdiv: [
+      {title: "Auvergne-Rhône-Alpes"},
+      {title: "Bourgogne-Franche-Comté"},
+      {title: "Bretagne"},
+      {title: "Centre-Val de Loire"},
+      {title: "Corse"},
+      {title: "Grand Est"},
+      {title: "Hauts-de-France"},
+      {title: "Île-de-France"},
+      {title: "Normandie"},
+      {title: "Nouvelle-Aquitaine"},
+      {title: "Occitanie"},
+      {title: "Pays de la Loire"},
+      {title: "Provence-Alpes-Côte d'Azur"}
+    ],
     zone: "Europe/Paris",
     flag: "FR"
   },
@@ -104,25 +129,35 @@ export default [
   },
   {
     country: "Greenland (Denmark)",
-    subdiv: ["Danmarkshavn"],
+    subdiv: [
+      {title: "Danmarkshavn"}
+    ],
     zone: "America/Danmarkshavn",
     flag: "GL"
   },
   {
     country: "Greenland (Denmark)",
-    subdiv: ["Ittoqqortoormit", "Scoresbysund"],
+    subdiv: [
+      {title: "Ittoqqortoormit"}, 
+      {title: "Scoresbysund"}
+    ],
     zone: "America/Scoresbysund",
     flag: "GL"
   },
   {
     country: "Greenland (Denmark)",
-    subdiv: ["Thule", "Pituffik"],
+    subdiv: [
+      {title: "Thule"}, 
+      {title: "Pituffik"}
+    ],
     zone: "America/Thule",
     flag: "GL"
   },
   {
     country: "Greenland (Denmark)",
-    subdiv: ["Western Greenland"],
+    subdiv: [
+      {title: "Western Greenland"}
+    ],
     zone: "America/Nuuk",
     flag: "GL",
   },
@@ -193,13 +228,20 @@ export default [
   },
   {
     country: "Moldova",
-    subdiv: ["Bălți", "Chişinău", "Comrat"],
+    subdiv: [
+      {title: "Bălți"}, 
+      {title: "Chişinău"}, 
+      {title: "Comrat"}
+    ],
     zone: "Europe/Chisinau",
     flag: "MD"
   },
   {
     country: "Moldova",
-    subdiv: ["Bender", "Tiraspol"],
+    subdiv: [
+      {title: "Bender"}, 
+      {title: "Tiraspol"}
+    ],
     zone: "Europe/Tiraspol",
     flag: "MD"
   },
@@ -225,19 +267,22 @@ export default [
   },
   {
     country: "Norway",
-    subdiv: ["Jan Mayen", "mainland"],
     zone: "Europe/Oslo",
     flag: "NO"
   },
   {
     country: "Svalbard and Jan Mayen (Norway)",
-    subdiv: ["Jan Mayen"],
+    subdiv: [
+      {title: "Jan Mayen"}
+    ],
     zone: "Atlantic/Jan_Mayen",
     flag: "SV"
   },
   {
     country: "Svalbard and Jan Mayen (Norway)",
-    subdiv: ["Spitzbergen"],
+    subdiv: [
+      {title: "Spitzbergen"}
+    ],
     zone: "Arctic/Longyearbyen",
     flag: "SV"
   },
@@ -248,19 +293,29 @@ export default [
   },
   {
     country: "Portugal",
-    subdiv: ["mainland"],
+    subdiv: [
+      {title: "Alentejo Region"},
+      {title: "Algarve"},
+      {title: "Central Portugal"},
+      {title: "Lisboa Region"},
+      {title: "Northern Portugal"},
+    ],
     zone: "Europe/Lisbon",
     flag: "PT"
   },
   {
     country: "Portugal",
-    subdiv: ["Madeira"],
+    subdiv: [
+      {title: "Madeira"}
+    ],
     zone: "Atlantic/Madeira",
     flag: "PT"
   },
   {
     country: "Portugal",
-    subdiv: ["Azores"],
+    subdiv: [
+      {title: "Azores"}
+    ],
     zone: "Atlantic/Azores",
     flag: "PT"
   },
@@ -291,13 +346,32 @@ export default [
   },
   {
     country: "Spain",
-    subdiv: ["mainland", "Balearic Islands"],
+    subdiv: [
+      {title: "Andalusia"},
+      {title: "Aragon"},
+      {title: "Balearic Islands"},
+      {title: "Basque Country"},
+      {title: "Cantabria"},
+      {title: "Castile and León"},
+      {title: "Castilla-La Mancha"},
+      {title: "Catalonia"},
+      {title: "Chartered Community of Navarre"},
+      {title: "Community of Madrid"},
+      {title: "Extremadura"},
+      {title: "Galicia"},
+      {title: "La Rioja"},
+      {title: "Principality of Asturias"},
+      {title: "Region of Murcia"},
+      {title: "Valencian Community"},
+    ],
     zone: "Europe/Madrid",
     flag: "ES"
   },
   {
     country: "Spain",
-    subdiv: ["Canary Islands"],
+    subdiv: [
+      {title: "Canary Islands"}
+    ],
     zone: "Atlantic/Canary",
     flag: "ES"
   },
@@ -313,13 +387,19 @@ export default [
   },
   {
     country: "United Kingdom",
-    subdiv: ["England", "Scotland", "Wales"],
+    subdiv: [
+      {title: "England"}, 
+      {title: "Scotland"}, 
+      {title: "Wales"}
+    ],
     zone: "Europe/London",
     flag: "GB"
   },
   {
     country: "United Kingdom",
-    subdiv: ["Northern Ireland"],
+    subdiv: [
+      {title: "Northern Ireland"}
+    ],
     zone: "Europe/Belfast",
     flag: "GB"
   },

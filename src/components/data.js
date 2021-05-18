@@ -6,7 +6,7 @@ import Caribbean from "./timezones/Caribbean"
 import CentralAmerica from "./timezones/CentralAmerica"
 import CentralAsia from "./timezones/CentralAsia"
 import EastAsia from "./timezones/EastAsia"
-// import Europe from "./timezones/Europe"
+import Europe from "./timezones/Europe"
 import Indonesia from "./timezones/Indonesia"
 import MiddleEast from "./timezones/MiddleEast"
 import Oceania from "./timezones/Oceania"
@@ -25,7 +25,7 @@ export default [
   ...CentralAmerica,
   ...CentralAsia, 
   ...EastAsia, 
-  // ...Europe, 
+  ...Europe, 
   ...Indonesia,
   ...MiddleEast,
   ...Oceania, 
