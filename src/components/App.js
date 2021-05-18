@@ -13,7 +13,7 @@ export default function App() {
     const Now = moment().utc().format("x")
     const filteredStates = filterValue !== ""  ? allStates.filter(tz => {
       const { country, subdiv = [] } = tz
-      const title = `${country}: ${subdiv.join(", ")}`
+      const title = `${country}: ${subdiv.map(item => item.title).join(", ")}`
       if(filterVal !== ""){
         if(title.toLowerCase().includes(filterValue.toLowerCase())) {
           return true

@@ -61,13 +61,17 @@ export default [
   },
   {
     country: "Palestine",
-    subdiv: ["Gaza Strip"],
+    subdiv: [
+      {title: "Gaza Strip"}
+    ],
     zone: "Asia/Gaza",
     flag: "PS"
   },
   {
     country: "Palestine",
-    subdiv: ["West Bank"],
+    subdiv: [
+      {title: "West Bank"}
+    ],
     zone: "Asia/Hebron",
     flag: "PS"
   },

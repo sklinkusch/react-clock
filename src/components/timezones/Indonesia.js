@@ -1,25 +1,44 @@
 export default [
   {
     country: "Indonesia",
-    subdiv: ["Bali", "East Kalimantan", "East Nusa Tenggara", "North Kalimantan", "South Kalimantan", "Sulawesi", "West Nusa Tenggara"],
+    subdiv: [
+      {title: "Bali"}, 
+      {title: "East Kalimantan"}, 
+      {title: "East Nusa Tenggara"}, 
+      {title: "North Kalimantan"}, 
+      {title: "South Kalimantan"}, 
+      {title: "Sulawesi"}, 
+      {title: "West Nusa Tenggara"}
+    ],
     zone: "Asia/Makassar",
     flag: "ID"
   },
   {
     country: "Indonesia",
-    subdiv: ["Java", "Sumatra"],
+    subdiv: [
+      {title: "Java"}, 
+      {title: "Sumatra"}
+    ],
     zone: "Asia/Jakarta",
     flag: "ID"
   },
   {
     country: "Indonesia",
-    subdiv: ["Central Kalimantan", "West Kalimantan"],
+    subdiv: [
+      {title: "Central Kalimantan"}, 
+      {title: "West Kalimantan"}
+    ],
     zone: "Asia/Pontianak",
     flag: "ID"
   },
   {
     country: "Indonesia",
-    subdiv: ["Maluku", "North Maluku", "Papua", "West Papua"],
+    subdiv: [
+      {title: "Maluku"}, 
+      {title: "North Maluku"}, 
+      {title: "Papua"}, 
+      {title: "West Papua"}
+    ],
     zone: "Asia/Jayapura",
     flag: "ID"
   },

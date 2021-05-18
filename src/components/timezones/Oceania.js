@@ -16,19 +16,27 @@ export default [
   },
   {
     country: "French Polynesia (France)",
-    subdiv: ["Austral Islands", "Society Islands", "Tuamotus"],
+    subdiv: [
+      {title: "Austral Islands"}, 
+      {title: "Society Islands"}, 
+      {title: "Tuamotus"}
+    ],
     zone: "Pacific/Tahiti",
     flag: "PF"
   },
   {
     country: "French Polynesia (France)",
-    subdiv: ["Gambier Islands"],
+    subdiv: [
+      {title: "Gambier Islands"}
+    ],
     zone: "Pacific/Gambier",
     flag: "PF"
   },
   {
     country: "French Polynesia (France)",
-    subdiv: ["Marquesas Islands"],
+    subdiv: [
+      {title: "Marquesas Islands"}
+    ],
     zone: "Pacific/Marquesas",
     flag: "PF"
   },
@@ -39,49 +47,90 @@ export default [
   },
   {
     country: "Kiribati",
-    subdiv: ["Banaba", "Gilbert Islands"],
+    subdiv: [
+      {title: "Banaba"}, 
+      {title: "Gilbert Islands"}
+    ],
     zone: "Pacific/Tarawa",
     flag: "KI"
   },
   {
     country: "Kiribati",
-    subdiv: ["Kiritimati", "Line Islands"],
+    subdiv: [
+      {title: "Kiritimati"}, 
+      {title: "Line Islands"}
+    ],
     zone: "Pacific/Kiritimati",
     flag: "KI"
   },
   {
     country: "Kiribati",
-    subdiv: ["Phoenix Islands"],
+    subdiv: [
+      {title: "Phoenix Islands"}
+    ],
     zone: "Pacific/Enderbury",
     flag: "KI"
   },
   {
     country: "Marshall Islands",
-    subdiv: ["Kwajalein"],
+    subdiv: [
+      {title: "Kwajalein Atoll"}
+    ],
     zone: "Pacific/Kwajalein",
     flag: "MH"
   },
   {
     country: "Marshall Islands",
-    subdiv: ["most islands"],
+    subdiv: [
+      {title: "Ailanglaplap Atoll"},
+      {title: "Ailuk Atoll"},
+      {title: "Arno Atoll"},
+      {title: "Aur Atoll"},
+      {title: "Ebon Atoll"},
+      {title: "Enewetok / Ujelang"},
+      {title: "Jabat Island"},
+      {title: "Jaluit Atoll"},
+      {title: "Kili / Bikini / Ejit"},
+      {title: "Lae Atoll"},
+      {title: "Lib Island"},
+      {title: "Likiep Atoll"},
+      {title: "Majuro Atoll"},
+      {title: "Maloelap Atoll"},
+      {title: "Mejit Island"},
+      {title: "Mili Atoll"},
+      {title: "Namorik Atoll"},
+      {title: "Namu Atoll"},
+      {title: "Rongelap Atoll"},
+      {title: "Ujae Atoll"},
+      {title: "Utirik Atoll"},
+      {title: "Wotho Atoll"},
+      {title: "Wotje Atoll"}
+    ],
     zone: "Pacific/Majuro",
     flag: "MH"
   },
   {
     country: "Micronesia",
-    subdiv: ["Chuuk", "Yap"],
+    subdiv: [
+      {title: "Chuuk"}, 
+      {title: "Yap"}
+    ],
     zone: "Pacific/Chuuk",
     flag: "FM"
   },
   {
     country: "Micronesia",
-    subdiv: ["Kosrae"],
+    subdiv: [
+      {title: "Kosrae"}
+    ],
     zone: "Pacific/Kosrae",
     flag: "FM"
   },
   {
     country: "Micronesia",
-    subdiv: ["Pohnpei"],
+    subdiv: [
+      {title: "Pohnpei"}
+    ],
     zone: "Pacific/Pohnpei",
     flag: "FM"
   },
@@ -97,13 +146,32 @@ export default [
   },
   {
     country: "New Zealand",
-    subdiv: ["mainland"],
+    subdiv: [
+      {title: "Auckland"},
+      {title: "Bay of Plenty"},
+      {title: "Canterbury"},
+      {title: "Gisborne"},
+      {title: "Hawke's Bay"},
+      {title: "Manawatu-Wanganui"},
+      {title: "Marlborough"},
+      {title: "Nelson"},
+      {title: "Northland"},
+      {title: "Otago"},
+      {title: "Southland"},
+      {title: "Taranaki"},
+      {title: "Tasman"},
+      {title: "Waikato"},
+      {title: "West Coast"},
+      {title: "Wellington"}
+    ],
     zone: "Pacific/Auckland",
     flag: "NZ"
   },
   {
     country: "New Zealand",
-    subdiv: ["Chatham Islands"],
+    subdiv: [
+      {title: "Chatham Islands"}
+    ],
     zone: "Pacific/Chatham",
     flag: "NZ"
   },
@@ -124,13 +192,37 @@ export default [
   },
   {
     country: "Papua New Guinea",
-    subdiv: ["Bougainville"],
+    subdiv: [
+      {title: "Bougainville"}
+    ],
     zone: "Pacific/Bougainville",
     flag: "PG"
   },
   {
     country: "Papua New Guinea",
-    subdiv: ["main part"],
+    subdiv: [
+      {title: "Central"},
+      {title: "Chimbu"},
+      {title: "Eastern Highlands"},
+      {title: "East New Britain"},
+      {title: "East Sepik"},
+      {title: "Enga"},
+      {title: "Guff"},
+      {title: "Hela"},
+      {title: "Jiwaka"},
+      {title: "Madang"},
+      {title: "Manus"},
+      {title: "Milne Bay"},
+      {title: "Morobe"},
+      {title: "National Capital District"},
+      {title: "New Ireland"},
+      {title: "Northern"},
+      {title: "Southern Highlands"},
+      {title: "Western Highlands"},
+      {title: "Western Province"},
+      {title: "West New Britain"},
+      {title: "West Sepik"},
+    ],
     zone: "Pacific/Port_Moresby",
     flag: "PG"
   },
@@ -166,25 +258,34 @@ export default [
   },
   {
     country: "United States",
-    subdiv: ["Hawaii"],
+    subdiv: [
+      {title: "Hawaii"}
+    ],
     zone: "Pacific/Honolulu",
     flag: "US"
   },
   {
     country: "United States",
-    subdiv: ["Johnston Atoll"],
+    subdiv: [
+      {title: "Johnston Atoll"}
+    ],
     zone: "Pacific/Johnston",
     flag: "US"
   },
   {
     country: "United States",
-    subdiv: ["Midway Islands", "Palmyra Atoll"],
+    subdiv: [
+      {title: "Midway Islands"}, 
+      {title: "Palmyra Atoll"}
+    ],
     zone: "Pacific/Midway",
     flag: "US"
   },
   {
     country: "United States",
-    subdiv: ["Wake"],
+    subdiv: [
+      {title: "Wake"}
+    ],
     zone: "Pacific/Wake",
     flag: "US"
   },

@@ -61,13 +61,41 @@ export default [
   },
   {
     country: "Democratic Republic of the Congo",
-    subdiv: ["Équateur", "Kinshasa", "Kongo Central", "Kwango", "Kwilu", "Mai-Ndombe", "Mongala", "Nord-Ubangi", "Sud-Ubangi", "Tshuapa"],
+    subdiv: [
+      {title: "Équateur"}, 
+      {title: "Kinshasa"}, 
+      {title: "Kongo Central"}, 
+      {title: "Kwango"}, 
+      {title: "Kwilu"}, 
+      {title: "Mai-Ndombe"}, 
+      {title: "Mongala"}, 
+      {title: "Nord-Ubangi"}, 
+      {title: "Sud-Ubangi"}, 
+      {title: "Tshuapa"}
+    ],
     zone: "Africa/Kinshasa",
     flag: "CD"
   },
   {
     country: "Democratic Republic of the Congo",
-    subdiv: ["Bas-Uele", "Haut-Katanga", "Haut-Lomami", "Haut-Uele", "Ituri", "Kasaï", "Kasaï-Central", "Kasaï-Oriental", "Lomami", "Lualaba", "Maniema", "Nord-Kivu", "Sankuru", "Sud-Kivu", "Tanganjika", "Tshopo"],
+    subdiv: [
+      {title: "Bas-Uele"}, 
+      {title: "Haut-Katanga"}, 
+      {title: "Haut-Lomami"}, 
+      {title: "Haut-Uele"},
+      {title: "Ituri"}, 
+      {title: "Kasaï"}, 
+      {title: "Kasaï-Central"}, 
+      {title: "Kasaï-Oriental"}, 
+      {title: "Lomami"}, 
+      {title: "Lualaba"}, 
+      {title: "Maniema"}, 
+      {title: "Nord-Kivu"}, 
+      {title: "Sankuru"}, 
+      {title: "Sud-Kivu"}, 
+      {title: "Tanganjika"}, 
+      {title: "Tshopo"}
+    ],
     zone: "Africa/Lubumbashi",
     flag: "CD"
   },
@@ -103,13 +131,17 @@ export default [
   },
   {
     country: "France",
-    subdiv: ["Mayotte"],
+    subdiv: [
+      {title: "Mayotte"}
+    ],
     zone: "Indian/Mayotte",
     flag: "YT"
   },
   {
     country: "France",
-    subdiv: ["Réunion"],
+    subdiv: [
+      {title: "Réunion"}
+    ],
     zone: "Indian/Reunion",
     flag: "RE"
   },
@@ -265,7 +297,10 @@ export default [
   },
   {
     country: "Spain",
-    subdiv: ["Ceuta", "Melilla"],
+    subdiv: [
+      {title: "Ceuta"}, 
+      {title: "Melilla"}
+    ],
     zone: "Africa/Ceuta",
     flag: "ES"
   },
@@ -296,7 +331,11 @@ export default [
   },
   {
     country: "United Kingdom",
-    subdiv: ["Ascension", "St. Helena", "Tristan da Cunha"],
+    subdiv: [
+      {title: "Ascension"}, 
+      {title: "St. Helena"}, 
+      {title: "Tristan da Cunha"}
+    ],
     zone: "Atlantic/St_Helena",
     flag: "SH"
   },

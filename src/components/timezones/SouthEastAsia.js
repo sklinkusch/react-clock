@@ -21,13 +21,31 @@ export default [
   },
   {
     country: "Malaysia",
-    subdiv: ["peninsula"],
+    subdiv: [
+      {title: "Johor"},
+      {title: "Kedah"},
+      {title: "Kelantan"},
+      {title: "Kuala Lumpur"},
+      {title: "Malacca"},
+      {title: "Negeri Sembilan"},
+      {title: "Pahang"},
+      {title: "Penang"},
+      {title: "Perak"},
+      {title: "Perlis"},
+      {title: "Putrajaya"},
+      {title: "Selangor"},
+      {title: "Terengganu"},
+    ],
     zone: "Asia/Kuala_Lumpur",
     flag: "MY"
   },
   {
     country: "Malaysia",
-    subdiv: ["Sabah", "Sarawak"],
+    subdiv: [
+      {title: "Labuan"},
+      {title: "Sabah"}, 
+      {title: "Sarawak"}
+    ],
     zone: "Asia/Kuching",
     flag: "MY"
   },

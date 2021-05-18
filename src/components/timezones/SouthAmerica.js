@@ -11,115 +11,184 @@ export default [
   },
   {
     country: "Brazil",
-    subdiv: ["Acre"],
+    subdiv: [
+      {title: "Acre"}
+    ],
     zone: "America/Rio_Branco",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Amazonas (western part)"],
+    subdiv: [
+      {title: "Amazonas", extra: "(western part)"}
+    ],
     zone: "America/Eirunepe",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Distrito Federal", "Espírito Santo", "Goiás", "Minas Gerais", "Paraná", "Rio de Janeiro", "Rio Grande do Sul", "Santa Catarina", "São Paulo"],
+    subdiv: [
+      {title: "Distrito Federal"}, 
+      {title: "Espírito Santo"}, 
+      {title: "Goiás"}, 
+      {title: "Minas Gerais"}, 
+      {title: "Paraná"}, 
+      {title: "Rio de Janeiro"}, 
+      {title: "Rio Grande do Sul"}, 
+      {title: "Santa Catarina"}, 
+      {title: "São Paulo"}
+    ],
     zone: "America/Sao_Paulo",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Alagoas", "Sergipe"],
+    subdiv: [
+      {title: "Alagoas"}, 
+      {title: "Sergipe"}
+    ],
     zone: "America/Maceio",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Amapá"],
+    subdiv: [
+      {title: "Amapá"}
+    ],
     zone: "America/Belem",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Bahia"],
+    subdiv: [
+      {title: "Bahia"}
+    ],
     zone: "America/Bahia",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Ceará", "Maranhão", "Paraíba", "Piauí", "Rio Grande do Norte"],
+    subdiv: [
+      {title: "Ceará"}, 
+      {title: "Maranhão"}, 
+      {title: "Paraíba"}, 
+      {title: "Piauí"}, 
+      {title: "Rio Grande do Norte"}
+    ],
     zone: "America/Fortaleza",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Pará"],
+    subdiv: [
+      {title: "Pará"}
+    ],
     zone: "America/Santarem",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Pernambuco"],
+    subdiv: [
+      {title: "Pernambuco"}
+    ],
     zone: "America/Recife",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Tocantins"],
+    subdiv: [
+      {title: "Tocantins"}
+    ],
     zone: "America/Araguaina",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Amazonas (eastern part)"],
+    subdiv: [
+      {title: "Amazonas", extra: "(eastern part)"}
+    ],
     zone: "America/Manaus",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Mato Grosso"],
+    subdiv: [
+      {title: "Mato Grosso"}
+    ],
     zone: "America/Cuiaba",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Mato Grosso do Sul"],
+    subdiv: [
+      {title: "Mato Grosso do Sul"}
+    ],
     zone: "America/Campo_Grande",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Rondônia"],
+    subdiv: [
+      {title: "Rondônia"}
+    ],
     zone: "America/Porto_Velho",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Roraima"],
+    subdiv: [
+      {title: "Roraima"}
+    ],
     zone: "America/Boa_Vista",
     flag: "BR"
   },
   {
     country: "Brazil",
-    subdiv: ["Atol das Rocas", "Fernando de Noronha", "Martim Vaz", "Trinidade", "Saint Peter and Saint Paul Archipelago"],
+    subdiv: [
+      {title: "Atol das Rocas"}, 
+      {title: "Fernando de Noronha"}, 
+      {title: "Martim Vaz"}, 
+      {title: "Trinidade"}, 
+      {title: "Saint Peter and Saint Paul Archipelago"}
+    ],
     zone: "America/Noronha",
     flag: "BR"
   },
   {
     country: "Chile",
-    subdiv: ["Easter Island"],
+    subdiv: [
+      {title: "Easter Island"}
+    ],
     zone: "Pacific/Easter",
     flag: "CL"
   },
   {
     country: "Chile",
-    subdiv: ["mainland"],
+    subdiv: [
+      {title: "Aisén"},
+      {title: "Antofagasta"},
+      {title: "Araucanía"},
+      {title: "Arica and Parinacota"},
+      {title: "Atacama"},
+      {title: "Biobío"},
+      {title: "Coquimbo"},
+      {title: "Los Lagos"},
+      {title: "Los Ríos"},
+      {title: "Maule"},
+      {title: "Ñuble"},
+      {title: "Región del Libertador Bernardo O'Higgins"},
+      {title: "Santiago"},
+      {title: "Tarapacá"},
+      {title: "Valparaíso", extra: "(continental part)"},
+    ],
     zone: "America/Santiago",
     flag: "CL"
   },
   {
     country: "Chile",
-    subdiv: ["Magellan and Antarctic region"],
+    subdiv: [
+      {title: "Magallanes and Antártica Chilena Region"}
+    ],
     zone: "America/Punta_Arenas",
     flag: "CL"
   },
@@ -130,13 +199,39 @@ export default [
   },
   {
     country: "Ecuador",
-    subdiv: ["mainland"],
+    subdiv: [
+      {title: "Azuay"},
+      {title: "Bolívar"},
+      {title: "Cañar"},
+      {title: "Carchi"},
+      {title: "Chimborazo"},
+      {title: "Cotopaxi"},
+      {title: "El Oro"},
+      {title: "Esmeraldas"},
+      {title: "Guayas"},
+      {title: "Imbabura"},
+      {title: "Loja"},
+      {title: "Los Ríos"},
+      {title: "Manabí"},
+      {title: "Morona Santiago"},
+      {title: "Napo"},
+      {title: "Orellana"},
+      {title: "Pastaza"},
+      {title: "Pichincha"},
+      {title: "Santa Elena"},
+      {title: "Santo Domingo de los Tsáchilas"},
+      {title: "Sucumbíos"},
+      {title: "Tungurahua"},
+      {title: "Zamora Chinchipe"}
+    ],
     zone: "America/Guayaquil",
     flag: "EC"
   },
   {
     country: "Ecuador",
-    subdiv: ["Galápagos"],
+    subdiv: [
+      {title: "Galápagos"}
+    ],
     zone: "Pacific/Galapagos",
     flag: "EC"
   },
@@ -147,7 +242,9 @@ export default [
   },
   {
     country: "France",
-    subdiv: ["French Guiana"],
+    subdiv: [
+      {title: "French Guiana"}
+    ],
     zone: "America/Cayenne",
     flag: "GF"
   },
