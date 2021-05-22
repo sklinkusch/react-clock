@@ -21,7 +21,30 @@ export default [
       {title: "Wisconsin"}
     ],
     zone: "America/Chicago",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Arlington",
+      "Austin",
+      "Chicago",
+      "Corpus Christi",
+      "Dallas",
+      "Fort Worth",
+      "Houston",
+      "Kansas City",
+      "Lincoln",
+      "Memphis",
+      "Milwaukee",
+      "Minneapolis",
+      "Nashville",
+      "New Orleans",
+      "Oklahoma City",
+      "Omaha",
+      "St. Louis",
+      "Saint Paul",
+      "San Antonio",
+      "Tulsa",
+      "Wichita",
+    ]
   },
   {
     country: "United States",
@@ -37,7 +60,10 @@ export default [
       {title: "Alaska", extra: "(east of 169°30' W)"}
     ],
     zone: "America/Anchorage",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Anchorage"
+    ]
   },
   {
     country: "United States",
@@ -45,7 +71,12 @@ export default [
       {title: "Arizona", extra: "(except Navajo Nation Reservation)"}
     ],
     zone: "America/Phoenix",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Mesa",
+      "Phoenix",
+      "Tucson"
+    ],
   },
   {
     country: "United States",
@@ -64,7 +95,26 @@ export default [
       {title: "Washington"}
     ],
     zone: "America/Los_Angeles",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Anaheim",
+      "Bakersfield",
+      "Fresno",
+      "Henderson",
+      "Las Vegas",
+      "Long Beach",
+      "Los Angeles",
+      "Oakland",
+      "Portland",
+      "Riverside",
+      "Sacramento",
+      "San Diego",
+      "San Francisco",
+      "San José",
+      "Santa Ana",
+      "Seattle",
+      "Stockton",
+    ]
   },
   {
     country: "United States",
@@ -82,7 +132,14 @@ export default [
       {title: "Wyoming"}
     ],
     zone: "America/Denver",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Albuquerque",
+      "Aurora",
+      "Colorado Springs",
+      "Denver",
+      "El Paso",
+    ]
   },
   {
     country: "United States",
@@ -109,7 +166,28 @@ export default [
       {title: "West Virginia"}
     ],
     zone: "America/New_York",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Atlanta",
+      "Baltimore",
+      "Boston",
+      "Buffalo",
+      "Charlotte",
+      "Cincinnati",
+      "Cleveland",
+      "Columbus",
+      "Jacksonville",
+      "Miami",
+      "Newark",
+      "New York City",
+      "Philadelphia",
+      "Pittsburgh",
+      "Raleigh",
+      "Tampa",
+      "Toledo",
+      "Virginia Beach",
+      "Washington",
+    ]
   },
   {
     country: "United States",
@@ -126,7 +204,11 @@ export default [
       {title: "Indiana", extra: "(most of state)"}
     ],
     zone: "America/Indiana/Indianapolis",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Fort Wayne",
+      "Indianapolis"
+    ]
   },
   {
     country: "United States",
@@ -142,7 +224,11 @@ export default [
       {title: "Kentucky", extra: "(eastern 60%)"}
     ],
     zone: "America/Kentucky/Louisville",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Lexington",
+      "Louisville",
+    ]
   },
   {
     country: "United States",
@@ -150,7 +236,10 @@ export default [
       {title: "Michigan", extra: "(most of state)"}
     ],
     zone: "America/Detroit",
-    flag: "US"
+    flag: "US",
+    cities: [
+      "Detroit"
+    ]
   },
   {
     country: "United States",
