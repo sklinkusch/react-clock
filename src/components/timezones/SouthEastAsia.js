@@ -7,7 +7,15 @@ export default [
   {
     country: "Cambodia",
     zone: "Asia/Phnom_Penh",
-    flag: "KH"
+    flag: "KH",
+    cities: [
+      "Battambang",
+      "Kampong Cham",
+      "Kampong Chhnang",
+      "Phnom Penh",
+      "Pursat",
+      "Siem Reap",
+    ]
   },
   {
     country: "Christmas Island (Australia)",
@@ -17,7 +25,10 @@ export default [
   {
     country: "Laos",
     zone: "Asia/Vientiane",
-    flag: "LA"
+    flag: "LA",
+    cities: [
+      "Vientiane"
+    ]
   },
   {
     country: "Malaysia",
@@ -37,7 +48,19 @@ export default [
       {title: "Terengganu"},
     ],
     zone: "Asia/Kuala_Lumpur",
-    flag: "MY"
+    flag: "MY",
+    cities: [
+      "Ampang Jaya",
+      "Ipoh",
+      "Johor Bahru",
+      "Klang",
+      "Kuala Lumpur",
+      "Kuantan",
+      "Petaling Jaya",
+      "Seremban",
+      "Shah Alam",
+      "Subang Jaya",
+    ]
   },
   {
     country: "Malaysia",
@@ -47,7 +70,12 @@ export default [
       {title: "Sarawak"}
     ],
     zone: "Asia/Kuching",
-    flag: "MY"
+    flag: "MY",
+    cities: [
+      "Kota Kinabulu",
+      "Kuching",
+      "Sandakan"
+    ]
   },
   {
     country: "Philippines",
