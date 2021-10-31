@@ -2,142 +2,66 @@ export default [
   {
     country: "Canada",
     subdiv: [
-      {title: "Alberta"}, 
-      {title: "British Columbia", extra: "(southeast)"}
-    ],
-    zone: "America/Edmonton",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "British Columbia", extra: "(most of province)"}
-    ],
-    zone: "America/Vancouver",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Labrador", extra: "(most of province)"}
-    ],
-    zone: "America/Goose_Bay",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Manitoba"}
-    ],
-    zone: "America/Winnipeg",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "New Brunswick"}
-    ],
-    zone: "America/Moncton",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Newfoundland"}, 
-      {title: "Labrador", extra: "(southeast)"}
-    ],
-    zone: "America/St_Johns",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Northwest Territories"}
-    ],
-    zone: "America/Yellowknife",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
+      {title: "Newfoundland and Labrador"},
+      {title: "New Brunswick"},
       {title: "Nova Scotia"}, 
-      {title: "Prince Edward Island"}
+      {title: "Nunavut", extra: "(east of 67.5° W)"},
+      {title: "Prince Edward Island"},
+      {title: "Québec", extra: "(eastern part)"}
     ],
-    zone: "America/Halifax",
+    zone: "Etc/GMT+4",
     flag: "CA"
   },
   {
     country: "Canada",
     subdiv: [
-      {title: "Nunavut", extra: "(west of 102° W, Kitikmeot Region)"}
+      {title: "Nunavut", extra: "(82.5°W – 67.5°W)"},
+      {title: "Ontario", extra: "(eastern part)"},
+      {title: "Québec", extra: "(western part)"}
     ],
-    zone: "America/Cambridge_Bay",
+    zone: "Etc/GMT+5",
     flag: "CA"
   },
   {
     country: "Canada",
     subdiv: [
-      {title: "Nunavut", extra: "(102° W – 85° W, Resolute, Kivalliq Region)"}
+      {title: "Manitoba", extra: "(eastern part)"},
+      {title: "Nunavut", extra: "(97.5°W – 82.5°W)"},
+      {title: "Ontario", extra: "(western part)"}
     ],
-    zone: "America/Rankin_Inlet",
+    zone: "Etc/GMT+6",
     flag: "CA"
   },
   {
     country: "Canada",
     subdiv: [
-      {title: "Nunavut", extra: "(east of 85° W, Qikiqtaaluk Region)"}
-    ],
-    zone: "America/Pangnirtung",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Nunavut", extra: "(Coral Harbour)"}, 
-      {title: "Ontario", extra: "(Atikokan)"}
-    ],
-    zone: "America/Atikokan",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Ontario", extra: "(west of 90° W)"}
-    ],
-    zone: "America/Rainy_River",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Ontario", extra: "(most of province)"}, 
-      {title: "Québec", extra: "(west of 63° W)"}
-    ],
-    zone: "America/Toronto",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
-      {title: "Québec", extra: "(east of 63° W)"}
-    ],
-    zone: "America/Blanc-Sablon",
-    flag: "CA"
-  },
-  {
-    country: "Canada",
-    subdiv: [
+      {title: "Manitoba", extra: "(western part)"},
+      {title: "Northwest Territories", extra: "(eastern part)"},
+      {title: "Nunavut", extra: "(112.5°W – 97.5°W)"},
       {title: "Saskatchewan"}
     ],
-    zone: "America/Regina",
+    zone: "Etc/GMT+7",
     flag: "CA"
   },
   {
     country: "Canada",
     subdiv: [
+      {title: "Alberta"},
+      {title: "British Columbia", extra: "(eastern part)"},
+      {title: "Northwest Territories", extra: "(central part)"},
+      {title: "Nunavut", extra: "(west of 112.5°W)"}
+    ],
+    zone: "Etc/GMT+8",
+    flag: "CA"
+  },
+  {
+    country: "Canada",
+    subdiv: [
+      {title: "British Columbia", extra: "(western part)"},
+      {title: "Northwest Territories", extra: "(western part)"},
       {title: "Yukon"}
     ],
-    zone: "America/Whitehorse",
+    zone: "Etc/GMT+9",
     flag: "CA"
   },
 ]
