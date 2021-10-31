@@ -270,7 +270,7 @@ export default [
       {title: "Johnston Atoll"}
     ],
     zone: "Pacific/Johnston",
-    flag: "US"
+    flag: "US" // eigentlich UM
   },
   {
     country: "United States",
@@ -279,7 +279,7 @@ export default [
       {title: "Palmyra Atoll"}
     ],
     zone: "Pacific/Midway",
-    flag: "US"
+    flag: "US" // eigentlich UM
   },
   {
     country: "United States",
@@ -287,7 +287,7 @@ export default [
       {title: "Wake"}
     ],
     zone: "Pacific/Wake",
-    flag: "US"
+    flag: "US" // eigentlich UM
   },
   {
     country: "Vanuatu",
