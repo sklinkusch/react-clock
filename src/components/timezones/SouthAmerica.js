@@ -246,7 +246,7 @@ export default [
       {title: "French Guiana"}
     ],
     zone: "America/Cayenne",
-    flag: "GF"
+    flag: "FR" // eigentlich GF
   },
   {
     country: "Guyana",
