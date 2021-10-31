@@ -2,97 +2,39 @@ export default [
   {
     country: "Australia",
     subdiv: [
-      {title: "Western Australia", extra: "(most of state)"}
+      {title: "Western Australia"}
     ],
-    zone: "Australia/Perth",
+    zone: "Etc/GMT-8",
     flag: "AU"
   },
   {
     country: "Australia",
     subdiv: [
-      {title: "Western Australia", extra: "(Eucla)"}
+      {title: "Northern Territory"},
+      {title: "South Australia"},
     ],
-    zone: "Australia/Eucla",
+    zone: "Etc/GMT-9",
     flag: "AU"
   },
   {
     country: "Australia",
     subdiv: [
-      {title: "Northern Territory"}
-    ],
-    zone: "Australia/Darwin",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
-      {title: "Queensland"}
-    ],
-    zone: "Australia/Brisbane",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
-      {title: "South Australia"}
-    ],
-    zone: "Australia/Adelaide",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
-      {title: "New South Wales", extra: "(most of state)"}
-    ],
-    zone: "Australia/Sydney",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
-      {title: "Australian Capital Territory"}
-    ],
-    zone: "Australia/Canberra",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
-      {title: "New South Wales", extra: "(Yancowinna)"}
-    ],
-    zone: "Australia/Broken_Hill",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
+      {title: "Australian Capital Territory"},
+      {title: "New South Wales"},
+      {title: "Queensland"},
+      {title: "Tasmania"},
       {title: "Victoria"}
     ],
-    zone: "Australia/Melbourne",
+    zone: "Etc/GMT-10",
     flag: "AU"
   },
   {
     country: "Australia",
     subdiv: [
-      {title: "Tasmania"}
-    ],
-    zone: "Australia/Hobart",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
-      {title: "Lord Howe Island"}
-    ],
-    zone: "Australia/Lord_Howe",
-    flag: "AU"
-  },
-  {
-    country: "Australia",
-    subdiv: [
+      {title: "Lord Howe Island"},
       {title: "Norfolk Island"}
     ],
-    zone: "Pacific/Norfolk",
+    zone: "Etc/GMT-11",
     flag: "AU"
   },
 ]
