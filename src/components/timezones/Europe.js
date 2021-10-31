@@ -281,7 +281,7 @@ export default [
   {
     country: "Svalbard and Jan Mayen (Norway)",
     subdiv: [
-      {title: "Spitzbergen"}
+      {title: "Svalbard"}
     ],
     zone: "Arctic/Longyearbyen",
     flag: "SV"
