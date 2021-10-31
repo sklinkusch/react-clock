@@ -16,12 +16,12 @@ export default [
     flag: "AQ"
   },
   {
-    country: "Antarctica",
+    country: "French Southern and Antarctic Lands (France)",
     subdiv: [
-      {title: "Dumont-d'Urville (France)"}
+      {title: "Adélie Land/Dumont-d'Urville Station"}
     ],
     zone: "Antarctica/DumontDUrville",
-    flag: "AQ"
+    flag: "TF"
   },
   {
     country: "Antarctica",
