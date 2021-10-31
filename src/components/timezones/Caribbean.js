@@ -91,7 +91,7 @@ export default [
       {title: "Saint-Pierre and Miquelon"}
     ],
     zone: "America/Miquelon",
-    flag: "PM"
+    flag: "FR" // eigentlich DF
   },
   {
     country: "Grenada",
@@ -126,7 +126,7 @@ export default [
       {title: "Sint Eustatius"}
     ],
     zone: "America/Kralendijk",
-    flag: "BQ"
+    flag: "NL" // eigentlich BQ
   },
   {
     country: "Puerto Rico (United States)",
