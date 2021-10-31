@@ -1,70 +1,71 @@
 export default [
   {
     country: "Algeria",
-    zone: "Africa/Algiers",
+    zone: "Etc/GMT+0",
     flag: "DZ"
   },
   {
     country: "Angola",
-    zone: "Africa/Luanda",
+    zone: "Etc/GMT-1",
     flag: "AO"
   },
   {
     country: "Benin",
-    zone: "Africa/Porto-Novo",
+    zone: "Etc/GMT+0",
     flag: "BJ"
   },
   {
     country: "Botswana",
-    zone: "Africa/Gaborone",
+    zone: "Etc/GMT-2",
     flag: "BW"
   },
   {
     country: "Burkina Faso",
-    zone: "Africa/Ouagadougou",
+    zone: "Etc/GMT+0",
     flag: "BF"
   },
   {
     country: "Burundi",
-    zone: "Africa/Bujumbura",
+    zone: "Etc/GMT-2",
     flag: "BI"
   },
   {
     country: "Cabo Verde",
-    zone: "Atlantic/Cape_Verde",
+    zone: "Etc/GMT+2",
     flag: "CV"
   },
   {
     country: "Cameroon",
-    zone: "Africa/Douala",
+    zone: "Etc/GMT-1",
     flag: "CM"
   },
   {
     country: "Central African Republic",
-    zone: "Africa/Bangui",
+    zone: "Etc/GMT-1",
     flag: "CF"
   },
   {
     country: "Chad",
-    zone: "Africa/Ndjamena",
+    zone: "Etc/GMT-1",
     flag: "TD"
   },
   {
     country: "Comoros",
-    zone: "Indian/Comoro",
+    zone: "Etc/GMT-3",
     flag: "KM"
   },
   {
     country: "Côte d'Ivoire",
-    zone: "Africa/Abidjan",
+    zone: "Etc/GMT+0",
     flag: "CI"
   },
   {
     country: "Democratic Republic of the Congo",
     subdiv: [
       {title: "Équateur"}, 
+      {title: "Kasaï"}, 
       {title: "Kinshasa"}, 
-      {title: "Kongo Central"}, 
+      {title: "Kongo Central"},
       {title: "Kwango"}, 
       {title: "Kwilu"}, 
       {title: "Mai-Ndombe"}, 
@@ -73,7 +74,7 @@ export default [
       {title: "Sud-Ubangi"}, 
       {title: "Tshuapa"}
     ],
-    zone: "Africa/Kinshasa",
+    zone: "Etc/GMT-1",
     flag: "CD"
   },
   {
@@ -84,7 +85,6 @@ export default [
       {title: "Haut-Lomami"}, 
       {title: "Haut-Uele"},
       {title: "Ituri"}, 
-      {title: "Kasaï"}, 
       {title: "Kasaï-Central"}, 
       {title: "Kasaï-Oriental"}, 
       {title: "Lomami"}, 
@@ -94,39 +94,39 @@ export default [
       {title: "Sankuru"}, 
       {title: "Sud-Kivu"}, 
       {title: "Tanganjika"}, 
-      {title: "Tshopo"}
+      {title: "Tshopo"},
     ],
-    zone: "Africa/Lubumbashi",
+    zone: "Etc/GMT-2",
     flag: "CD"
   },
   {
     country: "Djibouti",
-    zone: "Africa/Djibouti",
+    zone: "Etc/GMT-3",
     flag: "DJ"
   },
   {
     country: "Egypt",
-    zone: "Africa/Cairo",
+    zone: "Etc/GMT-2",
     flag: "EG"
   },
   {
     country: "Equatorial Guinea",
-    zone: "Africa/Malabo",
+    zone: "Etc/GMT-1",
     flag: "GQ"
   },
   {
     country: "Eritrea",
-    zone: "Africa/Asmara",
+    zone: "Etc/GMT-3",
     flag: "ER"
   },
   {
     country: "eSwatini",
-    zone: "Africa/Mbabane",
+    zone: "Etc/GMT-2",
     flag: "SZ"
   },
   {
     country: "Ethiopia",
-    zone: "Africa/Addis_Ababa",
+    zone: "Etc/GMT-3",
     flag: "ET"
   },
   {
@@ -134,7 +134,7 @@ export default [
     subdiv: [
       {title: "Mayotte"}
     ],
-    zone: "Indian/Mayotte",
+    zone: "Etc/GMT-3",
     flag: "FR" // eigentlich YT aber gleiche Flagge
   },
   {
@@ -142,157 +142,188 @@ export default [
     subdiv: [
       {title: "Réunion"}
     ],
-    zone: "Indian/Reunion",
+    zone: "Etc/GMT-4",
     flag: "FR" // eigentlich RE aber gleiche Flagge
   },
   {
     country: "French Southern and Antarctic Lands (France)",
-    zone: "Indian/Kerguelen",
+    subdiv: [
+      {title: "Crozet Islands"},
+      {title: "Scattered Islands in the Indian Ocean"},
+    ],
+    zone: "Etc/GMT-4",
+    flag: "TF"
+  },
+  {
+    country: "French Southern and Antarctic Lands (France)",
+    subdiv: [
+      {title: "Kerguelen Islands"},
+      {title: "St. Paul and Amsterdam Islands"},
+    ],
+    zone: "Etc/GMT-5",
     flag: "TF"
   },
   {
     country: "Gabon",
-    zone: "Africa/Libreville",
+    zone: "Etc/GMT-1",
     flag: "GA"
   },
   {
     country: "The Gambia",
-    zone: "Africa/Banjul",
+    zone: "Etc/GMT+1",
     flag: "GM"
   },
   {
     country: "Ghana",
-    zone: "Africa/Accra",
+    zone: "Etc/GMT+0",
     flag: "GH"
   },
   {
     country: "Guinea",
-    zone: "Africa/Conakry",
+    zone: "Etc/GMT+1",
     flag: "GN"
   },
   {
     country: "Guinea-Bissau",
-    zone: "Africa/Bissau",
+    zone: "Etc/GMT+1",
     flag: "GW"
   },
   {
     country: "Kenya",
-    zone: "Africa/Nairobi",
+    zone: "Etc/GMT-2",
     flag: "KE"
   },
   {
     country: "Lesotho",
-    zone: "Africa/Maseru",
+    zone: "Etc/GMT-2",
     flag: "LS"
   },
   {
     country: "Liberia",
-    zone: "Africa/Monrovia",
+    zone: "Etc/GMT+1",
     flag: "LR"
   },
   {
     country: "Libya",
-    zone: "Africa/Tripoli",
+    zone: "Etc/GMT-1",
     flag: "LY"
   },
   {
     country: "Madagascar",
-    zone: "Indian/Antananarivo",
+    zone: "Etc/GMT-3",
     flag: "MG"
   },
   {
     country: "Malawi",
-    zone: "Africa/Blantyre",
+    zone: "Etc/GMT-2",
     flag: "MW"
   },
   {
     country: "Mali",
-    zone: "Africa/Bamako",
+    zone: "Etc/GMT+0",
     flag: "ML"
   },
   {
     country: "Mauritania",
-    zone: "Africa/Nouakchott",
+    zone: "Etc/GMT+1",
     flag: "MR"
   },
   {
     country: "Mauritius",
-    zone: "Indian/Mauritius",
+    zone: "Etc/GMT-4",
     flag: "MU"
   },
   {
     country: "Morocco",
-    zone: "Africa/Casablanca",
+    zone: "Etc/GMT+0",
     flag: "MA"
   },
   {
     country: "Mozambique",
-    zone: "Africa/Maputo",
+    zone: "Etc/GMT-2",
     flag: "MZ"
   },
   {
     country: "Namibia",
-    zone: "Africa/Windhoek",
+    zone: "Etc/GMT-1",
     flag: "NA"
   },
   {
     country: "Niger",
-    zone: "Africa/Niamey",
+    zone: "Etc/GMT-1",
     flag: "NE"
   },
   {
     country: "Nigeria",
-    zone: "Africa/Lagos",
+    zone: "Etc/GMT-1",
     flag: "NG"
   },
   {
     country: "Republic of the Congo",
-    zone: "Africa/Brazzaville",
+    zone: "Etc/GMT-1",
     flag: "CG"
   },
   {
     country: "Rwanda",
-    zone: "Africa/Kigali",
+    zone: "Etc/GMT-2",
     flag: "RW"
   },
   {
     country: "São Tomé and Príncipe",
-    zone: "Africa/Sao_Tome",
+    zone: "Etc/GMT+0",
     flag: "ST"
   },
   {
     country: "Sahrawi Arab Democratic Republic",
-    zone: "Africa/El_Aaiun",
+    zone: "Etc/GMT+1",
     flag: "EH"
   },
   {
     country: "Senegal",
-    zone: "Africa/Dakar",
+    zone: "Etc/GMT+1",
     flag: "SN"
   },
   {
     country: "Seychelles",
-    zone: "Indian/Mahe",
+    zone: "Etc/GMT-3",
     flag: "SC"
   },
   {
     country: "Sierra Leone",
-    zone: "Africa/Freetown",
+    zone: "Etc/GMT+1",
     flag: "SL"
   },
   {
     country: "Somalia",
-    zone: "Africa/Mogadishu",
+    zone: "Etc/GMT-3",
     flag: "SO"
   },
   {
     country: "South Africa",
-    zone: "Africa/Johannesburg",
+    subdiv: [
+      {title: "Northern Cape"},
+      {title: "Western Cape"},
+    ],
+    zone: "Etc/GMT-1",
+    flag: "ZA"
+  },
+  {
+    country: "South Africa",
+    subdiv: [
+      {title: "Eastern Cape"},
+      {title: "Free State"},
+      {title: "Gauteng"},
+      {title: "KwaZulu-Natal"},
+      {title: "Limpopo"},
+      {title: "Mpumalanga"},
+      {title: "North West"},
+    ],
+    zone: "Etc/GMT-2",
     flag: "ZA"
   },
   {
     country: "South Sudan",
-    zone: "Africa/Juba",
+    zone: "Etc/GMT-2",
     flag: "SS"
   },
   {
@@ -301,52 +332,59 @@ export default [
       {title: "Ceuta"}, 
       {title: "Melilla"}
     ],
-    zone: "Africa/Ceuta",
+    zone: "Etc/GMT+0",
     flag: "ES"
   },
   {
     country: "Sudan",
-    zone: "Africa/Khartoum",
+    zone: "Etc/GMT-2",
     flag: "SD"
   },
   {
     country: "Tanzania",
-    zone: "Africa/Dar_es_Salaam",
+    zone: "Etc/GMT-2",
     flag: "TZ"
   },
   {
     country: "Togo",
-    zone: "Africa/Lome",
+    zone: "Etc/GMT+0",
     flag: "TG"
   },
   {
     country: "Tunisia",
-    zone: "Africa/Tunis",
+    zone: "Etc/GMT-1",
     flag: "TN"
   },
   {
     country: "Uganda",
-    zone: "Africa/Kampala",
+    zone: "Etc/GMT-2",
     flag: "UG"
   },
   {
     country: "United Kingdom",
     subdiv: [
       {title: "Ascension"}, 
-      {title: "St. Helena"}, 
       {title: "Tristan da Cunha"}
     ],
-    zone: "Atlantic/St_Helena",
+    zone: "Etc/GMT+1",
+    flag: "GB" // eigentlich SH
+  },
+  {
+    country: "United Kingdom",
+    subdiv: [
+      {title: "St. Helena"}, 
+    ],
+    zone: "Etc/GMT+0",
     flag: "GB" // eigentlich SH, aber Flagge hier die gleiche
   },
   {
     country: "Zambia",
-    zone: "Africa/Lusaka",
+    zone: "Etc/GMT-2",
     flag: "ZM"
   },
   {
     country: "Zimbabwe",
-    zone: "Africa/Harare",
+    zone: "Etc/GMT-2",
     flag: "ZW"
   }
 ]
