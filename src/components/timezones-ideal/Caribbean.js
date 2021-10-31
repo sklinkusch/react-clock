@@ -1,67 +1,67 @@
 export default [
   {
     country: "American Virgin Islands (United States)",
-    zone: "America/St_Thomas",
+    zone: "Etc/GMT+4",
     flag: "VI"
   },
   {
     country: "Anguilla (United Kingdom)",
-    zone: "America/Anguilla",
+    zone: "Etc/GMT+4",
     flag: "AI"
   },
   {
     country: "Antigua and Barbuda",
-    zone: "America/Antigua",
+    zone: "Etc/GMT+4",
     flag: "AG"
   },
   {
     country: "Aruba (Netherlands)",
-    zone: "America/Aruba",
+    zone: "Etc/GMT+5",
     flag: "AW"
   },
   {
     country: "Bahamas",
-    zone: "America/Nassau",
+    zone: "Etc/GMT+5",
     flag: "BS"
   },
   {
     country: "Barbados",
-    zone: "America/Barbados",
+    zone: "Etc/GMT+4",
     flag: "BB"
   },
   {
     country: "Bermuda (United Kingdom)",
-    zone: "Atlantic/Bermuda",
+    zone: "Etc/GMT+4",
     flag: "BM"
   },
   {
     country: "British Virgin Islands (United Kingdom)",
-    zone: "America/Tortola",
+    zone: "Etc/GMT+4",
     flag: "VG"
   },
   {
     country: "Cayman Islands (United Kingdom)",
-    zone: "America/Cayman",
+    zone: "Etc/GMT+5",
     flag: "KY"
   },
   {
     country: "Cuba",
-    zone: "America/Havana",
+    zone: "Etc/GMT+5",
     flag: "CU"
   },
   {
     country: "Curaçao (Netherlands)",
-    zone: "America/Curacao",
+    zone: "Etc/GMT+5",
     flag: "CW",
   },
   {
     country: "Dominica",
-    zone: "America/Dominica",
+    zone: "Etc/GMT+4",
     flag: "DM"
   },
   {
     country: "Dominican Republic",
-    zone: "America/Santo_Domingo",
+    zone: "Etc/GMT+5",
     flag: "DO"
   },
   {
@@ -69,7 +69,7 @@ export default [
     subdiv: [
       {title: "Guadeloupe"}
     ],
-    zone: "America/Guadeloupe",
+    zone: "Etc/GMT+4",
     flag: "FR" // eigentlich GP
   },
   {
@@ -77,12 +77,12 @@ export default [
     subdiv: [
       {title: "Saint-Martin"}
     ],
-    zone: "America/Marigot",
+    zone: "Etc/GMT+4",
     flag: "FR" // eigentlich MF
   },
   {
     country: "Saint-Barthélemy (France)",
-    zone: "America/St_Barthelemy",
+    zone: "Etc/GMT+4",
     flag: "BL"
   },
   {
@@ -90,77 +90,84 @@ export default [
     subdiv: [
       {title: "Saint-Pierre and Miquelon"}
     ],
-    zone: "America/Miquelon",
+    zone: "Etc/GMT+4",
     flag: "FR" // eigentlich DF
   },
   {
     country: "Grenada",
-    zone: "America/Grenada",
+    zone: "Etc/GMT+4",
     flag: "GD"
   },
   {
     country: "Haiti",
-    zone: "America/Port-au-Prince",
+    zone: "Etc/GMT+5",
     flag: "HT"
   },
   {
     country: "Jamaica",
-    zone: "America/Jamaica",
+    zone: "Etc/GMT+5",
     flag: "JM"
   },
   {
     country: "Martinique (France)",
-    zone: "America/Martinique",
+    zone: "Etc/GMT+4",
     flag: "MQ"
   },
   {
     country: "Montserrat (United Kingdom)",
-    zone: "America/Montserrat",
+    zone: "Etc/GMT+4",
     flag: "MS"
   },
   {
     country: "Netherlands",
     subdiv: [
       {title: "Bonaire"}, 
+    ],
+    zone: "Etc/GMT+5",
+    flag: "NL" // eigentlich BQ
+  },
+  {
+    country: "Netherlands",
+    subdiv: [
       {title: "Saba"}, 
       {title: "Sint Eustatius"}
     ],
-    zone: "America/Kralendijk",
+    zone: "Etc/GMT+4",
     flag: "NL" // eigentlich BQ
   },
   {
     country: "Puerto Rico (United States)",
-    zone: "America/Puerto_Rico",
+    zone: "Etc/GMT+4",
     flag: "PR"
   },
   {
     country: "Saint Kitts and Nevis",
-    zone: "America/St_Kitts",
+    zone: "Etc/GMT+4",
     flag: "KN"
   },
   {
     country: "Saint Lucia",
-    zone: "America/St_Lucia",
+    zone: "Etc/GMT+4",
     flag: "LC"
   },
   {
     country: "Saint Vincent and the Grenadines",
-    zone: "America/St_Vincent",
+    zone: "Etc/GMT+4",
     flag: "VC"
   },
   {
     country: "Sint Maarten (Netherlands)",
-    zone: "America/Lower_Princes",
+    zone: "Etc/GMT+4",
     flag: "SX"
   },
   {
     country: "Trinidad and Tobago",
-    zone: "America/Port_of_Spain",
+    zone: "Etc/GMT+4",
     flag: "TT"
   },
   {
     country: "Turks and Caicos Islands (United Kingdom)",
-    zone: "America/Grand_Turk",
+    zone: "Etc/GMT+5",
     flag: "TC"
   },
 ]

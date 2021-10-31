@@ -4,7 +4,7 @@ export default [
     subdiv: [
       {title: "Casey (Australia)"}
     ],
-    zone: "Antarctica/Casey",
+    zone: "Etc/GMT-11",
     flag: "AQ"
   },
   {
@@ -12,7 +12,7 @@ export default [
     subdiv: [
       {title: "Davis (Australia)"}
     ],
-    zone: "Antarctica/Davis",
+    zone: "Etc/GMT-7",
     flag: "AQ"
   },
   {
@@ -20,7 +20,7 @@ export default [
     subdiv: [
       {title: "Adélie Land/Dumont-d'Urville Station"}
     ],
-    zone: "Antarctica/DumontDUrville",
+    zone: "Etc/GMT-10",
     flag: "TF"
   },
   {
@@ -28,7 +28,7 @@ export default [
     subdiv: [
       {title: "Mawson (Australia)"}
     ],
-    zone: "Antarctica/Mawson",
+    zone: "Etc/GMT-5",
     flag: "AQ"
   },
   {
@@ -36,7 +36,7 @@ export default [
     subdiv: [
       {title: "McMurdo (United States)"}
     ],
-    zone: "Antarctica/McMurdo",
+    zone: "Etc/GMT-12",
     flag: "AQ"
   },
   {
@@ -44,7 +44,7 @@ export default [
     subdiv: [
       {title: "Palmer (United States)"}
     ],
-    zone: "Antarctica/Palmer",
+    zone: "Etc/GMT+3",
     flag: "AQ"
   },
   {
@@ -52,7 +52,7 @@ export default [
     subdiv: [
       {title: "Rothera (United Kingdom)"}
     ],
-    zone: "Antarctica/Rothera",
+    zone: "Etc/GMT+3",
     flag: "AQ"
   },
   {
@@ -60,7 +60,7 @@ export default [
     subdiv: [
       {title: "Shōwa (Japan)"}
     ],
-    zone: "Antarctica/Syowa",
+    zone: "Etc/GMT-3",
     flag: "AQ"
   },
   {
@@ -68,7 +68,7 @@ export default [
     subdiv: [
       {title: "Troll (Norway)"}
     ],
-    zone: "Antarctica/Troll",
+    zone: "Etc/GMT+0",
     flag: "AQ"
   },
   {
@@ -76,7 +76,7 @@ export default [
     subdiv: [
       {title: "Vostok (Russia)"}
     ],
-    zone: "Antarctica/Vostok",
+    zone: "Etc/GMT-6",
     flag: "AQ"
   }
 ]
