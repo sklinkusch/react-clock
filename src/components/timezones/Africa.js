@@ -135,7 +135,7 @@ export default [
       {title: "Mayotte"}
     ],
     zone: "Indian/Mayotte",
-    flag: "YT"
+    flag: "FR" // eigentlich YT aber gleiche Flagge
   },
   {
     country: "France",
@@ -143,7 +143,7 @@ export default [
       {title: "Réunion"}
     ],
     zone: "Indian/Reunion",
-    flag: "RE"
+    flag: "FR" // eigentlich RE aber gleiche Flagge
   },
   {
     country: "French Southern and Antarctic Lands (France)",
@@ -337,7 +337,7 @@ export default [
       {title: "Tristan da Cunha"}
     ],
     zone: "Atlantic/St_Helena",
-    flag: "SH"
+    flag: "GB" // eigentlich SH, aber Flagge hier die gleiche
   },
   {
     country: "Zambia",
