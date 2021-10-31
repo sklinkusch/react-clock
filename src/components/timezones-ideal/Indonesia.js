@@ -2,6 +2,17 @@ export default [
   {
     country: "Indonesia",
     subdiv: [
+      {title: "Central Kalimantan"}, 
+      {title: "Java"}, 
+      {title: "Sumatra"},
+      {title: "West Kalimantan"}
+    ],
+    zone: "Etc/GMT-7",
+    flag: "ID"
+  },
+  {
+    country: "Indonesia",
+    subdiv: [
       {title: "Bali"}, 
       {title: "East Kalimantan"}, 
       {title: "East Nusa Tenggara"}, 
@@ -10,25 +21,7 @@ export default [
       {title: "Sulawesi"}, 
       {title: "West Nusa Tenggara"}
     ],
-    zone: "Asia/Makassar",
-    flag: "ID"
-  },
-  {
-    country: "Indonesia",
-    subdiv: [
-      {title: "Java"}, 
-      {title: "Sumatra"}
-    ],
-    zone: "Asia/Jakarta",
-    flag: "ID"
-  },
-  {
-    country: "Indonesia",
-    subdiv: [
-      {title: "Central Kalimantan"}, 
-      {title: "West Kalimantan"}
-    ],
-    zone: "Asia/Pontianak",
+    zone: "Etc/GMT-8",
     flag: "ID"
   },
   {
@@ -39,7 +32,7 @@ export default [
       {title: "Papua"}, 
       {title: "West Papua"}
     ],
-    zone: "Asia/Jayapura",
+    zone: "Etc/GMT-9",
     flag: "ID"
   },
 ]
