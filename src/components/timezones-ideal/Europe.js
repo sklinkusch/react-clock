@@ -1,47 +1,47 @@
 export default [
   {
     country: "Åland (Finland)",
-    zone: "Europe/Mariehamn",
+    zone: "Etc/GMT-2",
     flag: "AX"
   },
   {
     country: "Albania",
-    zone: "Europe/Tirane",
+    zone: "Etc/GMT-1",
     flag: "AL"
   },
   {
     country: "Andorra",
-    zone: "Europe/Andorra",
+    zone: "Etc/GMT+0",
     flag: "AD"
   },
   {
     country: "Austria",
-    zone: "Europe/Vienna",
+    zone: "Etc/GMT-1",
     flag: "AT"
   },
   {
     country: "Belarus",
-    zone: "Europe/Minsk",
+    zone: "Etc/GMT-2",
     flag: "BY"
   },
   {
     country: "Belgium",
-    zone: "Europe/Brussels",
+    zone: "Etc/GMT+0",
     flag: "BE"
   },
   {
     country: "Bosnia and Herzegovina",
-    zone: "Europe/Sarajevo",
+    zone: "Etc/GMT-1",
     flag: "BA"
   },
   {
     country: "Bulgaria",
-    zone: "Europe/Sofia",
+    zone: "Etc/GMT-2",
     flag: "BG"
   },
   {
     country: "Croatia",
-    zone: "Europe/Zagreb",
+    zone: "Etc/GMT-1",
     flag: "HR"
   },
   {
@@ -49,7 +49,7 @@ export default [
     subdiv: [
       {title: "Republic of Cyprus"}
     ],
-    zone: "Asia/Nicosia",
+    zone: "Etc/GMT-2",
     flag: "CY"
   },
   {
@@ -57,12 +57,12 @@ export default [
     subdiv: [
       {title: "Turkish Republic of Northern Cyprus"}
     ],
-    zone: "Asia/Famagusta",
+    zone: "Etc/GMT-2",
     flag: "CY"
   },
   {
     country: "Czechia",
-    zone: "Europe/Prague",
+    zone: "Etc/GMT-1",
     flag: "CZ"
   },
   {
@@ -74,22 +74,22 @@ export default [
       {title: "Sjælland"},
       {title: "Syddanmark"},
     ],
-    zone: "Europe/Copenhagen",
+    zone: "Etc/GMT-1",
     flag: "DK"
   },
   {
     country: "Estonia",
-    zone: "Europe/Tallinn",
+    zone: "Etc/GMT-2",
     flag: "EE"
   },
   {
     country: "Faroe Islands (Denmark)",
-    zone: "Atlantic/Faroe",
+    zone: "Etc/GMT+0",
     flag: "FO"
   },
   {
     country: "Finland",
-    zone: "Europe/Helsinki",
+    zone: "Etc/GMT-2",
     flag: "FI"
   },
   {
@@ -109,22 +109,22 @@ export default [
       {title: "Pays de la Loire"},
       {title: "Provence-Alpes-Côte d'Azur"}
     ],
-    zone: "Europe/Paris",
+    zone: "Etc/GMT+0",
     flag: "FR"
   },
   {
     country: "Germany",
-    zone: "Europe/Berlin",
+    zone: "Etc/GMT-1",
     flag: "DE"
   },
   {
     country: "Gibraltar (United Kingdom)",
-    zone: "Europe/Gibraltar",
+    zone: "Etc/GMT+0",
     flag: "GI"
   },
   {
     country: "Greece",
-    zone: "Europe/Athens",
+    zone: "Etc/GMT-2",
     flag: "GR"
   },
   {
@@ -132,7 +132,7 @@ export default [
     subdiv: [
       {title: "Danmarkshavn"}
     ],
-    zone: "America/Danmarkshavn",
+    zone: "Etc/GMT+1",
     flag: "GL"
   },
   {
@@ -141,7 +141,7 @@ export default [
       {title: "Ittoqqortoormit"}, 
       {title: "Scoresbysund"}
     ],
-    zone: "America/Scoresbysund",
+    zone: "Etc/GMT+1",
     flag: "GL"
   },
   {
@@ -150,7 +150,7 @@ export default [
       {title: "Thule"}, 
       {title: "Pituffik"}
     ],
-    zone: "America/Thule",
+    zone: "Etc/GMT+4",
     flag: "GL"
   },
   {
@@ -158,72 +158,72 @@ export default [
     subdiv: [
       {title: "Western Greenland"}
     ],
-    zone: "America/Nuuk",
+    zone: "Etc/GMT+3",
     flag: "GL",
   },
   {
     country: "Guernsey (United Kingdom)",
-    zone: "Europe/Guernsey",
+    zone: "Etc/GMT+0",
     flag: "GG"
   },
   {
     country: "Hungary",
-    zone: "Europe/Budapest",
+    zone: "Etc/GMT-1",
     flag: "HU"
   },
   {
     country: "Iceland",
-    zone: "Atlantic/Reykjavik",
+    zone: "Etc/GMT+1",
     flag: "IS"
   },
   {
     country: "Ireland",
-    zone: "Europe/Dublin",
+    zone: "Etc/GMT+1",
     flag: "IE"
   },
   {
     country: "Isle of Man (United Kingdom)",
-    zone: "Europe/Isle_of_Man",
+    zone: "Etc/GMT+0",
     flag: "IM"
   },
   {
     country: "Italy",
-    zone: "Europe/Rome",
+    zone: "Etc/GMT-1",
     flag: "IT"
   },
   {
     country: "Jersey (United Kingdom)",
-    zone: "Europe/Jersey",
+    zone: "Etc/GMT+0",
     flag: "JE"
   },
   {
     country: "Kosovo",
-    zone: "Europe/Belgrade",  // no explicit timezone for Kosovo/Pristina
+    zone: "Etc/GMT-1",  // no explicit timezone for Kosovo/Pristina
     flag: "XK"
   },
   {
     country: "Latvia",
-    zone: "Europe/Riga",
+    zone: "Etc/GMT-2",
     flag: "LV"
   },
   {
     country: "Liechtenstein",
-    zone: "Europe/Vaduz",
+    zone: "Etc/GMT-1",
     flag: "LI"
   },
   {
     country: "Lithuania",
-    zone: "Europe/Vilnius",
+    zone: "Etc/GMT-2",
     flag: "LT"
   },
   {
     country: "Luxembourg",
-    zone: "Europe/Luxembourg",
+    zone: "Etc/GMT+0",
     flag: "LU"
   },
   {
     country: "Malta",
-    zone: "Europe/Malta",
+    zone: "Etc/GMT-1",
     flag: "MT"
   },
   {
@@ -233,7 +233,7 @@ export default [
       {title: "Chişinău"}, 
       {title: "Comrat"}
     ],
-    zone: "Europe/Chisinau",
+    zone: "Etc/GMT-2",
     flag: "MD"
   },
   {
@@ -242,32 +242,32 @@ export default [
       {title: "Bender"}, 
       {title: "Tiraspol"}
     ],
-    zone: "Europe/Tiraspol",
+    zone: "Etc/GMT-2",
     flag: "MD"
   },
   {
     country: "Monaco",
-    zone: "Europe/Monaco",
+    zone: "Etc/GMT+0",
     flag: "MC"
   },
   {
     country: "Montenegro",
-    zone: "Europe/Podgorica",
+    zone: "Etc/GMT-1",
     flag: "ME"
   },
   {
     country: "Netherlands",
-    zone: "Europe/Amsterdam",
+    zone: "Etc/GMT+0",
     flag: "NL"
   },
   {
     country: "North Macedonia",
-    zone: "Europe/Skopje",
+    zone: "Etc/GMT-1",
     flag: "MK"
   },
   {
     country: "Norway",
-    zone: "Europe/Oslo",
+    zone: "Etc/GMT-1",
     flag: "NO"
   },
   {
@@ -275,7 +275,7 @@ export default [
     subdiv: [
       {title: "Jan Mayen"}
     ],
-    zone: "Atlantic/Jan_Mayen",
+    zone: "Etc/GMT+1",
     flag: "SV"
   },
   {
@@ -283,12 +283,12 @@ export default [
     subdiv: [
       {title: "Svalbard"}
     ],
-    zone: "Arctic/Longyearbyen",
+    zone: "Etc/GMt-1",
     flag: "SV"
   },
   {
     country: "Poland",
-    zone: "Europe/Warsaw",
+    zone: "Etc/GMT-1",
     flag: "PL"
   },
   {
@@ -300,7 +300,7 @@ export default [
       {title: "Lisboa Region"},
       {title: "Northern Portugal"},
     ],
-    zone: "Europe/Lisbon",
+    zone: "Etc/GMT+1",
     flag: "PT"
   },
   {
@@ -308,7 +308,7 @@ export default [
     subdiv: [
       {title: "Madeira"}
     ],
-    zone: "Atlantic/Madeira",
+    zone: "Etc/GMT+1",
     flag: "PT"
   },
   {
@@ -316,32 +316,32 @@ export default [
     subdiv: [
       {title: "Azores"}
     ],
-    zone: "Atlantic/Azores",
+    zone: "Etc/GMT+2",
     flag: "PT"
   },
   {
     country: "Romania",
-    zone: "Europe/Bucharest",
+    zone: "Etc/GMT-2",
     flag: "RO"
   },
   {
     country: "San Marino",
-    zone: "Europe/San_Marino",
+    zone: "Etc/GMT-1",
     flag: "SM"
   },
   {
     country: "Serbia",
-    zone: "Europe/Belgrade",
+    zone: "Etc/GMT-1",
     flag: "RS"
   },
   {
     country: "Slovakia",
-    zone: "Europe/Bratislava",
+    zone: "Etc/GMT-1",
     flag: "SK"
   },
   {
     country: "Slovenia",
-    zone: "Europe/Ljubljana",
+    zone: "Etc/GMT-1",
     flag: "SI"
   },
   {
@@ -364,7 +364,7 @@ export default [
       {title: "Region of Murcia"},
       {title: "Valencian Community"},
     ],
-    zone: "Europe/Madrid",
+    zone: "Etc/GMT+0",
     flag: "ES"
   },
   {
@@ -372,17 +372,17 @@ export default [
     subdiv: [
       {title: "Canary Islands"}
     ],
-    zone: "Atlantic/Canary",
+    zone: "Etc/GMT+1",
     flag: "ES"
   },
   {
     country: "Sweden",
-    zone: "Europe/Stockholm",
+    zone: "Etc/GMT-1",
     flag: "SE"
   },
   {
     country: "Switzerland",
-    zone: "Europe/Zurich",
+    zone: "Etc/GMT-1",
     flag: "CH"
   },
   {
@@ -392,7 +392,7 @@ export default [
       {title: "Scotland"}, 
       {title: "Wales"}
     ],
-    zone: "Europe/London",
+    zone: "Etc/GMT+0",
     flag: "GB"
   },
   {
@@ -400,17 +400,17 @@ export default [
     subdiv: [
       {title: "Northern Ireland"}
     ],
-    zone: "Europe/Belfast",
+    zone: "Etc/GMT+1",
     flag: "GB"
   },
   {
     country: "Ukraine",
-    zone: "Europe/Kiev",
+    zone: "Etc/GMT-2",
     flag: "UA"
   },
   {
     country: "Vatican City",
-    zone: "Europe/Vatican",
+    zone: "Etc/GMT-1",
     flag: "VA"
   }
 ]
