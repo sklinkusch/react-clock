@@ -124,6 +124,22 @@ export default [
   },
   {
     country: "Greece",
+    subdiv: [
+      {title: "Epirus and Western Macedonia"},
+      {title: "Peloponnese, Western Greece and the Ionian"},
+    ],
+    zone: "Etc/GMT-1",
+    flag: "GR"
+  },
+  {
+    country: "Greece",
+    subdiv: [
+      {title: "Aegean"},
+      {title: "Attica"},
+      {title: "Crete"},
+      {title: "Macedonia and Thrace"},
+      {title: "Thessaly and Central Greece"},
+    ],
     zone: "Etc/GMT-2",
     flag: "GR"
   },

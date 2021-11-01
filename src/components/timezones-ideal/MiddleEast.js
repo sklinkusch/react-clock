@@ -1,108 +1,191 @@
 export default [
   {
     country: "Afghanistan",
-    zone: "Asia/Kabul",
+    utcOffset: 270,
     flag: "AF"
   },
   {
     country: "Armenia",
-    zone: "Asia/Yerevan",
+    zone: "Etc/GMT-3",
     flag: "AM"
   },
   {
     country: "Azerbaijan",
-    zone: "Asia/Baku",
+    zone: "Etc/GMT-3",
     flag: "AZ"
   },
   {
     country: "Bahrain",
-    zone: "Asia/Bahrain",
+    zone: "Etc/GMT-3",
     flag: "BH"
   },
   {
     country: "Georgia",
-    zone: "Asia/Tbilisi",
+    zone: "Etc/GMT-3",
     flag: "GE"
   },
   {
     country: "Iran",
-    zone: "Asia/Tehran",
+    utcOffset: 210,
     flag: "IR"
   },
   {
     country: "Iraq",
-    zone: "Asia/Baghdad",
+    zone: "Etc/GMT-3",
     flag: "IQ"
   },
   {
     country: "Israel",
-    zone: "Asia/Jerusalem",
+    zone: "Etc/GMT-2",
     flag: "IL"
   },
   {
     country: "Jordan",
-    zone: "Asia/Amman",
+    zone: "Etc/GMT-2",
     flag: "JO"
   },
   {
     country: "Kuwait",
-    zone: "Asia/Kuwait",
+    zone: "Etc/GMT-3",
     flag: "KW"
   },
   {
     country: "Lebanon",
-    zone: "Asia/Beirut",
+    zone: "Etc/GMT-2",
     flag: "LB"
   },
   {
     country: "Oman",
-    zone: "Asia/Muscat",
+    zone: "Etc/GMT-4",
     flag: "OM"
   },
   {
     country: "Palestine",
     subdiv: [
-      {title: "Gaza Strip"}
-    ],
-    zone: "Asia/Gaza",
-    flag: "PS"
-  },
-  {
-    country: "Palestine",
-    subdiv: [
+      {title: "Gaza Strip"},
       {title: "West Bank"}
     ],
-    zone: "Asia/Hebron",
+    zone: "Etc/GMT-2",
     flag: "PS"
   },
   {
     country: "Qatar",
-    zone: "Asia/Qatar",
+    zone: "Etc/GMT-3",
     flag: "QA"
   },
   {
     country: "Saudi Arabia",
-    zone: "Asia/Riyadh",
+    zone: "Etc/GMT-3",
     flag: "SA"
   },
   {
     country: "Syria",
-    zone: "Asia/Damascus",
+    zone: "Etc/GMT-3",
     flag: "SY"
   },
   {
     country: "Turkey",
-    zone: "Europe/Istanbul",
+    subdiv: [
+      {title: "Adana"},
+      {title: "Afyonkarahisar"},
+      {title: "Aksaray"},
+      {title: "Amasya"},
+      {title: "Ankara"},
+      {title: "Antalya"},
+      {title: "Aydin"},
+      {title: "Balıkesir"},
+      {title: "Bartın"},
+      {title: "Bilecik"},
+      {title: "Bolu"},
+      {title: "Burdur"},
+      {title: "Bursa"},
+      {title: "Çanakkale"},
+      {title: "Çankırı"},
+      {title: "Çorum"},
+      {title: "Denizli"},
+      {title: "Düzce"},
+      {title: "Edirne"},
+      {title: "Eskişehir"},
+      {title: "Hatay"},
+      {title: "Isparta"},
+      {title: "Mersin"},
+      {title: "İstanbul"},
+      {title: "İzmir"},
+      {title: "Kahramanmaraş"},
+      {title: "Karabük"},
+      {title: "Karaman"},
+      {title: "Kastamonu"},
+      {title: "Kayseri"},
+      {title: "Kırıkkale"},
+      {title: "Kırklareli"},
+      {title: "Kırşehir"},
+      {title: "Kocaeli"},
+      {title: "Konya"},
+      {title: "Kütahya"},
+      {title: "Manisa"},
+      {title: "Muğla"},
+      {title: "Nevşehir"},
+      {title: "Niğde"},
+      {title: "Osmaniye"},
+      {title: "Sakarya"},
+      {title: "Samsun"},
+      {title: "Sinop"},
+      {title: "Sivas"},
+      {title: "Tekirdağ"},
+      {title: "Tokat"},
+      {title: "Uşak"},
+      {title: "Yalova"},
+      {title: "Yozgat"},
+      {title: "Zonguldak"},
+    ],
+    zone: "Etc/GMT-2",
+    flag: "TR"
+  },
+  {
+    country: "Turkey",
+    subdiv: [
+      {title: "Adıyaman"},
+      {title: "Ağrı"},
+      {title: "Ardahan"},
+      {title: "Artvin"},
+      {title: "Batman"},
+      {title: "Bayburt"},
+      {title: "Bingöl"},
+      {title: "Bitlis"},
+      {title: "Diyarbakır"},
+      {title: "Elazığ"},
+      {title: "Erzincan"},
+      {title: "Erzurum"},
+      {title: "Gaziantep"},
+      {title: "Giresun"},
+      {title: "Gümüşhane"},
+      {title: "Hakkari"},
+      {title: "Iğdır"},
+      {title: "Kars"},
+      {title: "Kilis"},
+      {title: "Malatya"},
+      {title: "Mardin"},
+      {title: "Muş"},
+      {title: "Ordu"},
+      {title: "Rize"},
+      {title: "Şanlıurfa"},
+      {title: "Siirt"},
+      {title: "Şırnak"},
+      {title: "Trabzon"},
+      {title: "Tunceli"},
+      {title: "Van"},
+    ],
+    zone: "Etc/GMT-3",
     flag: "TR"
   },
   {
     country: "United Arab Emirates",
-    zone: "Asia/Dubai",
+    utcOffset: 210,
     flag: "AE"
   },
   {
     country: "Yemen",
-    zone: "Asia/Aden",
+    zone: "Etc/GMT-3",
     flag: "YE"
   }
 ]
