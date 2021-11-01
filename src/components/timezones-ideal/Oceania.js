@@ -1,17 +1,17 @@
 export default [
   {
     country: "American Samoa (United States)",
-    zone: "Pacific/Pago_Pago",
+    zone: "Etc/GMT+11",
     flag: "AS"
   },
   {
     country: "Cook Islands (New Zealand)",
-    zone: "Pacific/Rarotonga",
+    zone: "Etc/GMT+11",
     flag: "CK"
   },
   {
     country: "Fiji",
-    zone: "Pacific/Fiji",
+    zone: "Etc/GMT-12",
     flag: "FJ"
   },
   {
@@ -21,7 +21,7 @@ export default [
       {title: "Society Islands"}, 
       {title: "Tuamotus"}
     ],
-    zone: "Pacific/Tahiti",
+    zone: "Etc/GMT+10",
     flag: "PF"
   },
   {
@@ -29,7 +29,7 @@ export default [
     subdiv: [
       {title: "Gambier Islands"}
     ],
-    zone: "Pacific/Gambier",
+    zone: "Etc/GMT+9",
     flag: "PF"
   },
   {
@@ -37,21 +37,36 @@ export default [
     subdiv: [
       {title: "Marquesas Islands"}
     ],
-    zone: "Pacific/Marquesas",
+    zone: "Etc/GMT+9",
     flag: "PF"
   },
   {
     country: "Guam (United States)",
-    zone: "Pacific/Guam",
+    zone: "Etc/GMT-10",
     flag: "GU"
   },
   {
     country: "Kiribati",
     subdiv: [
       {title: "Banaba"}, 
+    ],
+    zone: "Etc/GMT-11",
+    flag: "KI"
+  },
+  {
+    country: "Kiribati",
+    subdiv: [
       {title: "Gilbert Islands"}
     ],
-    zone: "Pacific/Tarawa",
+    zone: "Etc/GMT-12",
+    flag: "KI"
+  },
+  {
+    country: "Kiribati",
+    subdiv: [
+      {title: "Phoenix Islands"}
+    ],
+    zone: "Etc/GMT-13",
     flag: "KI"
   },
   {
@@ -60,53 +75,12 @@ export default [
       {title: "Kiritimati"}, 
       {title: "Line Islands"}
     ],
-    zone: "Pacific/Kiritimati",
-    flag: "KI"
-  },
-  {
-    country: "Kiribati",
-    subdiv: [
-      {title: "Phoenix Islands"}
-    ],
-    zone: "Pacific/Enderbury",
+    zone: "Etc/GMT-14",
     flag: "KI"
   },
   {
     country: "Marshall Islands",
-    subdiv: [
-      {title: "Kwajalein Atoll"}
-    ],
-    zone: "Pacific/Kwajalein",
-    flag: "MH"
-  },
-  {
-    country: "Marshall Islands",
-    subdiv: [
-      {title: "Ailanglaplap Atoll"},
-      {title: "Ailuk Atoll"},
-      {title: "Arno Atoll"},
-      {title: "Aur Atoll"},
-      {title: "Ebon Atoll"},
-      {title: "Enewetok / Ujelang"},
-      {title: "Jabat Island"},
-      {title: "Jaluit Atoll"},
-      {title: "Kili / Bikini / Ejit"},
-      {title: "Lae Atoll"},
-      {title: "Lib Island"},
-      {title: "Likiep Atoll"},
-      {title: "Majuro Atoll"},
-      {title: "Maloelap Atoll"},
-      {title: "Mejit Island"},
-      {title: "Mili Atoll"},
-      {title: "Namorik Atoll"},
-      {title: "Namu Atoll"},
-      {title: "Rongelap Atoll"},
-      {title: "Ujae Atoll"},
-      {title: "Utirik Atoll"},
-      {title: "Wotho Atoll"},
-      {title: "Wotje Atoll"}
-    ],
-    zone: "Pacific/Majuro",
+    zone: "Etc/GMT-11",
     flag: "MH"
   },
   {
@@ -115,56 +89,42 @@ export default [
       {title: "Chuuk"}, 
       {title: "Yap"}
     ],
-    zone: "Pacific/Chuuk",
+    zone: "Etc/GMT-10",
     flag: "FM"
   },
   {
     country: "Micronesia",
     subdiv: [
-      {title: "Kosrae"}
-    ],
-    zone: "Pacific/Kosrae",
-    flag: "FM"
-  },
-  {
-    country: "Micronesia",
-    subdiv: [
+      {title: "Kosrae"},
       {title: "Pohnpei"}
     ],
-    zone: "Pacific/Pohnpei",
+    zone: "Etc/GMT-11",
     flag: "FM"
   },
   {
     country: "Nauru",
-    zone: "Pacific/Nauru",
+    zone: "Etc/GMT-11",
     flag: "NR"
   },
   {
     country: "New Caledonia (France)",
-    zone: "Pacific/Noumea",
+    zone: "Etc/GMT-11",
     flag: "NC"
   },
   {
     country: "New Zealand",
     subdiv: [
-      {title: "Auckland"},
-      {title: "Bay of Plenty"},
-      {title: "Canterbury"},
-      {title: "Gisborne"},
-      {title: "Hawke's Bay"},
-      {title: "Manawatu-Wanganui"},
-      {title: "Marlborough"},
-      {title: "Nelson"},
-      {title: "Northland"},
-      {title: "Otago"},
-      {title: "Southland"},
-      {title: "Taranaki"},
-      {title: "Tasman"},
-      {title: "Waikato"},
-      {title: "West Coast"},
-      {title: "Wellington"}
+      {title: "South Island"},
     ],
-    zone: "Pacific/Auckland",
+    zone: "Etc/GMT-11",
+    flag: "NZ"
+  },
+  {
+    country: "New Zealand",
+    subdiv: [
+      {title: "North Island"},
+    ],
+    zone: "Etc/GMT-12",
     flag: "NZ"
   },
   {
@@ -172,88 +132,57 @@ export default [
     subdiv: [
       {title: "Chatham Islands"}
     ],
-    zone: "Pacific/Chatham",
+    zone: "Etc/GMT-12",
     flag: "NZ"
   },
   {
-    country: "Niue (New Zealand)",
+    country: "Etc/GMT-11",
     zone: "Pacific/Niue",
     flag: "NU"
   },
   {
     country: "Northern Mariana Islands (United States)",
-    zone: "Pacific/Saipan",
+    zone: "Etc/GMT-10",
     flag: "MP"
   },
   {
     country: "Palau",
-    zone: "Pacific/Palau",
+    zone: "Etc/GMT-9",
     flag: "PW"
   },
   {
     country: "Papua New Guinea",
-    subdiv: [
-      {title: "Bougainville"}
-    ],
-    zone: "Pacific/Bougainville",
-    flag: "PG"
-  },
-  {
-    country: "Papua New Guinea",
-    subdiv: [
-      {title: "Central"},
-      {title: "Chimbu"},
-      {title: "Eastern Highlands"},
-      {title: "East New Britain"},
-      {title: "East Sepik"},
-      {title: "Enga"},
-      {title: "Guff"},
-      {title: "Hela"},
-      {title: "Jiwaka"},
-      {title: "Madang"},
-      {title: "Manus"},
-      {title: "Milne Bay"},
-      {title: "Morobe"},
-      {title: "National Capital District"},
-      {title: "New Ireland"},
-      {title: "Northern"},
-      {title: "Southern Highlands"},
-      {title: "Western Highlands"},
-      {title: "Western Province"},
-      {title: "West New Britain"},
-      {title: "West Sepik"},
-    ],
-    zone: "Pacific/Port_Moresby",
+    zone: "Etc/GMT-10",
     flag: "PG"
   },
   {
     country: "Pitcairn Islands (United Kingdom)",
-    zone: "Pacific/Pitcairn",
+    zone: "Etc/GMT-9",
     flag: "PN"
   },
   {
     country: "Samoa",
-    zone: "Pacific/Apia",
+    zone: "Etc/GMT-13",
     flag: "WS"
   },
   {
     country: "Solomon Islands",
-    zone: "Pacific/Guadalcanal",
+    zone: "Etc/GMT-11",
     flag: "SB"
   },
   {
     country: "Tokelau (New Zealand)",
-    zone: "Pacific/Fakaofo",
+    zone: "Etc/GMT-13",
     flag: "TK"
   },
   {
     country: "Tonga",
-    zone: "Pacific/Tongatapu",
+    zone: "Etc/GMT-12",
     flag: "TO"
   },
   {
     country: "Tuvalu",
-    zone: "Pacific/Funafuti",
+    zone: "Etc/GMT-12",
     flag: "TV"
   },
   {
@@ -261,7 +190,7 @@ export default [
     subdiv: [
       {title: "Hawaii"}
     ],
-    zone: "Pacific/Honolulu",
+    zone: "Etc/GMT+10",
     flag: "US"
   },
   {
@@ -269,7 +198,7 @@ export default [
     subdiv: [
       {title: "Johnston Atoll"}
     ],
-    zone: "Pacific/Johnston",
+    zone: "Etc/GMT+11",
     flag: "US" // eigentlich UM
   },
   {
@@ -278,7 +207,7 @@ export default [
       {title: "Midway Islands"}, 
       {title: "Palmyra Atoll"}
     ],
-    zone: "Pacific/Midway",
+    zone: "Etc/GMT+12",
     flag: "US" // eigentlich UM
   },
   {
@@ -286,17 +215,17 @@ export default [
     subdiv: [
       {title: "Wake"}
     ],
-    zone: "Pacific/Wake",
+    zone: "Etc/GMT-11",
     flag: "US" // eigentlich UM
   },
   {
     country: "Vanuatu",
-    zone: "Pacific/Efate",
+    zone: "Etc/GMT-11",
     flag: "VU"
   },
   {
     country: "Wallis and Futuna (France)",
-    zone: "Pacific/Wallis",
+    zone: "Etc/GMT-12",
     flag: "WF"
   }
 ]
