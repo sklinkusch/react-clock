@@ -23,7 +23,17 @@ export default function Ideal() {
       return true
     }) : allStates
     const unsortedStates = filteredStates.map(tz => {
-      const {country, zone, flag, subdiv } = tz
+      const {country, zone, flag, subdiv, utcOffset = undefined } = tz 
+      if (utcOffset) {
+        const prefix = utcOffset < 0 ? "-" : "+"
+        const hours = Math.floor(Math.abs(utcOffset)/60)
+        const formattedHours = hours < 10 ? `0${hours}` : `${hours}`
+        const minutes = Math.abs(utcOffset) - (60 * hours)
+        const formattedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`
+        const offset = `${prefix}${formattedHours}:${formattedMinutes}`
+        const numericOffset = utcOffset
+        return { country, zone: null, flag, offset, numericOffset, subdiv }
+      }
       const offset = moment().tz(zone).format("Z")
       const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
       return { country, zone, flag, offset, numericOffset, subdiv }
@@ -58,7 +68,7 @@ export default function Ideal() {
           }} />
       </div>
       <div className="row album sk-album"> 
-      {timezones && timezones.length > 0 && timezones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} />)}
+      {timezones && timezones.length > 0 && timezones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} offset={time.numericOffset} />)}
       </div>
     </div>
   );
