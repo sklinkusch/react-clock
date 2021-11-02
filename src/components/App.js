@@ -5,7 +5,7 @@ import Ideal from "../pages/Ideal";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={`/${process.env.PUBLIC_URL}`}>
       <Switch>
         <Route path="/ideal">
           <Ideal />
