@@ -4,254 +4,176 @@ export default [
     subdiv: [
       {title: "Kaliningrad Oblast"}
     ],
-    zone: "Europe/Kaliningrad",
+    zone: "Etc/GMT-1",
+    flag: "RU"
+  },
+  {
+    country: "Russia",
+    subdiv: [
+      {title: "Saint Petersburg"}, 
+      {title: "Sevastopol"}, 
+      {title: "Crimea"},
+      {title: "Karelia"}, 
+      {title: "Belgorod Oblast"}, 
+      {title: "Bryansk Oblast"},
+      {title: "Kaluga Oblast"}, 
+      {title: "Kursk Oblast"}, 
+      {title: "Leningrad Oblast"}, 
+      {title: "Murmansk Oblast"}, 
+      {title: "Novgorod Oblast"}, 
+      {title: "Oryol Oblast"}, 
+      {title: "Pskov Oblast"}, 
+      {title: "Smolensk Oblast"}, 
+      {title: "Tula Oblast"}, 
+      {title: "Tver Oblast"},
+    ],
+    zone: "Etc/GMT-2",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
       {title: "Moscow"}, 
-      {title: "Saint Petersburg"}, 
-      {title: "Karelia"}, 
-      {title: "Komi"}, 
-      {title: "Arkhangelsk Oblast"}, 
-      {title: "Bryansk Oblast"}, 
-      {title: "Ivanovo Oblast"}, 
-      {title: "Kaluga Oblast"}, 
-      {title: "Kostroma Oblast"}, 
-      {title: "Leningrad Oblast"}, 
-      {title: "Moscow Oblast"}, 
-      {title: "Murmansk Oblast"}, 
-      {title: "Novgorod Oblast"}, 
-      {title: "Oryol Oblast"}, 
-      {title: "Pskov Oblast"}, 
-      {title: "Ryazan Oblast"}, 
-      {title: "Smolensk Oblast"}, 
-      {title: "Tula Oblast"}, 
-      {title: "Tver Oblast"}, 
-      {title: "Vladimir Oblast"}, 
-      {title: "Vologda Oblast"}, 
-      {title: "Yaroslavl Oblast"}, 
-      {title: "Nenets Autonomous Okrug"}
-    ],
-    zone: "Europe/Moscow",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Adygea"}, 
-      {title: "Chechnya"}, 
-      {title: "Dagestan"}, 
+      {title: "Adygea"},
+      {title: "Chechnya"},
+      {title: "Chuvashia"},
+      {title: "Dagestan"},
       {title: "Ingushetia"}, 
       {title: "Kabardino-Balkaria"}, 
       {title: "Kalmykia"}, 
       {title: "Karachay-Cherkessia"}, 
+      {title: "Mari El"},
+      {title: "Mordovia"}, 
       {title: "North Ossetia-Alania"}, 
+      {title: "Tatarstan"}, 
+      {title: "Udmurtia"}, 
       {title: "Krasnodar Region"}, 
       {title: "Stavropol Region"}, 
-      {title: "Astrakhan Oblast"}, 
-      {title: "Rostov Oblast"}, 
-      {title: "Volgograd Oblast"}
-    ],
-    zone: "Europe/Astrakhan",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Chuvashia"}, 
-      {title: "Tatarstan"}, 
-      {title: "Mari El"}, 
-      {title: "Mordovia"}, 
+      {title: "Arkhangelsk Oblast"}, 
+      {title: "Astrakhan Oblast"},
+      {title: "Ivanovo Oblast"},
       {title: "Kirov Oblast"}, 
-      {title: "Nizhnyi Novgorod Oblast"}
-    ],
-    zone: "Europe/Kirov",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Belgorod Oblast"}, 
-      {title: "Kursk Oblast"}, 
+      {title: "Kostroma Oblast"}, 
       {title: "Lipetsk Oblast"}, 
+      {title: "Moscow Oblast"}, 
+      {title: "Nizhnyi Novgorod Oblast"},
       {title: "Penza Oblast"}, 
-      {title: "Saratov Oblast"}, 
-      {title: "Tambov Oblast"}, 
-      {title: "Voronezh Oblast"}
-    ],
-    zone: "Europe/Saratov",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Sevastopol"}, 
-      {title: "Crimea"}
-    ],
-    zone: "Europe/Simferopol",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Udmurtia"}, 
+      {title: "Rostov Oblast"}, 
+      {title: "Ryazan Oblast"}, 
       {title: "Samara Oblast"}, 
-      {title: "Ulyanovsk Oblast"}
+      {title: "Saratov Oblast"},
+      {title: "Tambov Oblast"}, 
+      {title: "Ulyanovsk Oblast"},
+      {title: "Vladimir Oblast"}, 
+      {title: "Volgograd Oblast"},
+      {title: "Vologda Oblast"},
+      {title: "Voronezh Oblast"},
+      {title: "Yaroslavl Oblast"}, 
+      {title: "Nenets Autonomous Okrug", extra: "(west of 52.5° E)"}
     ],
-    zone: "Europe/Samara",
+    zone: "Etc/GMT-3",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Bashkortostan"}, 
+      {title: "Bashkortostan"},
+      {title: "Komi"}, 
       {title: "Perm Region"}, 
       {title: "Chelyabinsk Oblast"}, 
       {title: "Kurgan Oblast"}, 
       {title: "Orenburg Oblast"}, 
       {title: "Sverdlovsk Oblast"}, 
+      {title: "Nenets Autonomous Okrug", extra: "(east of 52.5° E)"}
+    ],
+    zone: "Etc/GMT-4",
+    flag: "RU"
+  },
+  {
+    country: "Russia",
+    subdiv: [
+      {title: "Altai Region"},
+      {title: "Novosibirsk Oblast"},
+      {title: "Omsk Oblast"},
       {title: "Tyumen Oblast"}, 
       {title: "Khanty-Mansi Autonomous Okrug"}, 
-      {title: "Yamalo-Nenets Autonomous Okrug"}
+      {title: "Yamalo-Nenets Autonomous Okrug"},
     ],
-    zone: "Asia/Yekaterinburg",
+    zone: "Etc/GMT-5",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Omsk Oblast"}
-    ],
-    zone: "Asia/Omsk",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Altai Republic"}, 
-      {title: "Altai Region"}
-    ],
-    zone: "Asia/Barnaul",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
+      {title: "Altai Republic"},
       {title: "Khakassia"}, 
       {title: "Tuva Republic"}, 
-      {title: "Krasnoyarsk Region"}
+      {title: "Krasnoyarsk Region", extra: "(west of 97.5° E)"},
+      {title: "Kemerovo Oblast"},
+      {title: "Tomsk Oblast"},
     ],
-    zone: "Asia/Krasnoyarsk",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Kemerovo Oblast"}
-    ],
-    zone: "Asia/Novokuznetsk",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Novosibirsk Oblast"}
-    ],
-    zone: "Asia/Novosibirsk",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Tomsk Oblast"}
-    ],
-    zone: "Asia/Tomsk",
+    zone: "Etc/GMT-6",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
       {title: "Buryatia"}, 
-      {title: "Irkutsk Oblast"}
+      {title: "Sakha", extra: "(west of 112.5° E)"},
+      {title: "Krasnoyarsk Region", extra: "(east of 97.5°E)"},
+      {title: "Irkutsk Oblast", extra: "(west of 112.5° E)"},
     ],
-    zone: "Asia/Irkutsk",
+    zone: "Etc/GMT-7",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Sakha", extra: "(western part)"}, 
-      {title: "Amur Oblast"}
+      {title: "Sakha", extra: "(112.5° E – 127.5° E)"},
+      {title: "Amur Oblast"},
+      {title: "Irkutsk Oblast", extra: "(east of 112.5° E)"},
+      {title: "Zabaykalsky Krai"},
     ],
-    zone: "Asia/Yakutsk",
+    zone: "Etc/GMT-8",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Zabaykalsky Krai"}
-    ],
-    zone: "Asia/Chita",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
+      {title: "Sakha", extra: "(127.5°E – 142.5° E)"},
       {title: "Khabarovsk Region"}, 
       {title: "Primorsky Krai"}, 
-      {title: "Jewish Autonomous Oblast"}
+      {title: "Sakhalin Oblast"},
+      {title: "Jewish Autonomous Oblast"},
     ],
-    zone: "Asia/Vladivostok",
+    zone: "Etc/GMT-9",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Sakha", extra: "(central part)"}
+      {title: "Sakha", extra: "(east of 142.5° E)"},
+      {title: "Magadan Oblast", extra: "(west of 157.5° E)"}
     ],
-    zone: "Asia/Ust-Nera",
+    zone: "Etc/GMT-10",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Sakha", extra: "(eastern part)"}
+      {title: "Magadan Oblast", extra: "(east of 157.5° E)"},
+      {title: "Kamchatka"},
+      {title: "Chukotka Autonomous Okrug", extra: "(west of 172.5° E)"},
     ],
-    zone: "Asia/Srednekolymsk",
+    zone: "Etc/GMT-11",
     flag: "RU"
   },
   {
     country: "Russia",
     subdiv: [
-      {title: "Magadan Oblast"}
+      {title: "Chukotka Autonomous Okrug", extra: "(east of 172.5° E)"},
     ],
-    zone: "Asia/Magadan",
+    zone: "Etc/GMT-12",
     flag: "RU"
   },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Sakhalin Oblast"}
-    ],
-    zone: "Asia/Sakhalin",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Kamchatka"}
-    ],
-    zone: "Asia/Kamchatka",
-    flag: "RU"
-  },
-  {
-    country: "Russia",
-    subdiv: [
-      {title: "Chukotka Autonomous Okrug"}
-    ],
-    zone: "Asia/Anadyr",
-    flag: "RU"
-  }
 ]
