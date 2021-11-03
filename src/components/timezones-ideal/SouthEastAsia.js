@@ -1,22 +1,22 @@
 export default [
   {
     country: "Brunei",
-    zone: "Asia/Brunei",
+    zone: "Etc/GMT-8",
     flag: "BN"
   },
   {
     country: "Cambodia",
-    zone: "Asia/Phnom_Penh",
+    zone: "Etc/GMT-7",
     flag: "KH"
   },
   {
     country: "Christmas Island (Australia)",
-    zone: "Indian/Christmas",
+    zone: "Etc/GMT-7",
     flag: "CX"
   },
   {
     country: "Laos",
-    zone: "Asia/Vientiane",
+    zone: "Etc/GMT-7",
     flag: "LA"
   },
   {
@@ -36,7 +36,7 @@ export default [
       {title: "Selangor"},
       {title: "Terengganu"},
     ],
-    zone: "Asia/Kuala_Lumpur",
+    zone: "Etc/GMT-7",
     flag: "MY"
   },
   {
@@ -46,32 +46,32 @@ export default [
       {title: "Sabah"}, 
       {title: "Sarawak"}
     ],
-    zone: "Asia/Kuching",
+    zone: "Etc/GMT-8",
     flag: "MY"
   },
   {
     country: "Philippines",
-    zone: "Asia/Manila",
+    zone: "Etc/GMT-8",
     flag: "PH"
   },
   {
     country: "Singapore",
-    zone: "Asia/Singapore",
+    zone: "Etc/GMT-7",
     flag: "SG"
   },
   {
     country: "Thailand",
-    zone: "Asia/Bangkok",
+    zone: "Etc/GMT-7",
     flag: "TH"
   },
   {
     country: "Timor-Leste",
-    zone: "Asia/Dili",
+    zone: "Etc/GMT-8",
     flag: "TL"
   },
   {
     country: "Vietnam",
-    zone: "Asia/Ho_Chi_Minh",
+    zone: "Etc/GMT-7",
     flag: "VN"
   }
 ]
