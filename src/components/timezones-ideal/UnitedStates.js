@@ -1,171 +1,112 @@
 export default [
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Alabama"}, 
-      {title: "Arkansas"}, 
-      {title: "Florida", extra: "(west of Appalachicola River)"}, 
-      {title: "Illinois"}, 
-      {title: "Iowa"}, 
-      {title: "Kansas", extra: "(most of state)"}, 
-      {title: "Kentucky", extra: "(western 40%)"}, 
-      {title: "Louisiana"}, 
-      {title: "Minnesota"}, 
-      {title: "Mississippi"}, 
-      {title: "Missouri"}, 
-      {title: "Nebraska", extra: "(most of state)"}, 
-      {title: "Oklahoma"}, 
-      {title: "South Dakota", extra: "(eastern half)"}, 
-      {title: "Tennessee", extra: "(most of state)"}, 
-      {title: "Texas", extra: "(most of state)"}, 
-      {title: "Wisconsin"}
+      {title: "Alaska", extra: "(west of 172.5° W)"},
     ],
-    zone: "America/Chicago",
+    zone: "Etc/GMT+12",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Alaska", extra: "(west of 169°30' W)"}
+      {title: "Alaska", extra: "(172.5° W – 157.5° W)"},
     ],
-    zone: "America/Adak",
+    zone: "Etc/GMT+11",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Alaska", extra: "(east of 169°30' W)"}
+      {title: "Alaska", extra: "(157.5° W – 142.5° W)"},
     ],
-    zone: "America/Anchorage",
+    zone: "Etc/GMT+10",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Arizona", extra: "(except Navajo Nation Reservation)"}
+      {title: "Alaska", extra: "(east of 142.5° W)"},
     ],
-    zone: "America/Phoenix",
+    zone: "Etc/GMT+9",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Arizona", extra: "(Navajo Nation Reservation)"}
+      {title: "California"},
+      {title: "Idaho"},
+      {title: "Nevada"},
+      {title: "Oregon"},
+      {title: "Washington"},
     ],
-    zone: "America/Shiprock",
+    zone: "Etc/GMT+8",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "California"}, 
-      {title: "Nevada", extra: "(most of state)"}, 
-      {title: "Oregon", extra: "(most of state)"}, 
-      {title: "Washington"}
+      {title: "Arizona"},
+      {title: "Colorado"},
+      {title: "Kansas"},
+      {title: "Montana"},
+      {title: "Nebraska"},
+      {title: "New Mexico"},
+      {title: "North Dakota"},
+      {title: "Oklahoma"},
+      {title: "South Dakota"},
+      {title: "Texas"},
+      {title: "Utah"},
+      {title: "Wyoming"},
     ],
-    zone: "America/Los_Angeles",
+    zone: "Etc/GMT+7",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Colorado"}, 
-      {title: "Kansas", extra: "(western border counties)"}, 
-      {title: "Montana"}, 
-      {title: "Nebraska", extra: "(western third)"}, 
-      {title: "Nevada", extra: "(West Wendover)"}, 
-      {title: "New Mexico"}, 
-      {title: "North Dakota", extra: "(southwestern part)"}, 
-      {title: "South Dakota", extra: "(western half)"}, 
-      {title: "Texas", extra: "(El Paso, Hudspeth)"}, 
-      {title: "Utah"}, 
-      {title: "Wyoming"}
+      {title: "Alabama"},
+      {title: "Arkansas"},
+      {title: "Florida", extra: "(panhandle)"},
+      {title: "Illinois"},
+      {title: "Indiana"},
+      {title: "Iowa"},
+      {title: "Kentucky"},
+      {title: "Louisiana"},
+      {title: "Michigan"},
+      {title: "Minnesota"},
+      {title: "Mississippi"},
+      {title: "Missouri"},
+      {title: "Tennessee"},
+      {title: "Wisconsin"},
     ],
-    zone: "America/Denver",
+    zone: "Etc/GMT+6",
     flag: "US"
   },
   {
-    country: "United States",
+    country: "United States of America",
     subdiv: [
-      {title: "Connecticut"}, 
+      {title: "Connecticut"},
       {title: "Delaware"}, 
       {title: "District of Columbia"}, 
-      {title: "Florida", extra: "(east of Appalachicola River)"}, 
-      {title: "Georgia"}, 
-      {title: "Maine"}, 
-      {title: "Maryland"}, 
-      {title: "Massachusetts"}, 
-      {title: "New Hampshire"}, 
-      {title: "New Jersey"}, 
-      {title: "New York"}, 
-      {title: "North Carolina"}, 
-      {title: "Ohio"}, 
-      {title: "Pennsylvania"}, 
-      {title: "Rhode Island"}, 
-      {title: "South Carolina"}, 
-      {title: "Tennessee", extra: "(eastern part)"}, 
-      {title: "Vermont"}, 
-      {title: "Virginia"}, 
-      {title: "West Virginia"}
+      {title: "Florida", extra: "(except panhandle)"},
+      {title: "Georgia"},
+      {title: "Maine"},
+      {title: "Maryland"},
+      {title: "Massachusetts"},
+      {title: "New Hampshire"},
+      {title: "New Jersey"},
+      {title: "New York"},
+      {title: "North Carolina"},
+      {title: "Ohio"},
+      {title: "Pennsylvania"},
+      {title: "Rhode Island"},
+      {title: "South Carolina"},
+      {title: "Vermont"},
+      {title: "Virginia"},
+      {title: "West Virginia"},
     ],
-    zone: "America/New_York",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Idaho", extra: "(most of state)"}, 
-      {title: "Oregon", extra: "(Malheur County)"}
-    ],
-    zone: "America/Boise",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Indiana", extra: "(most of state)"}
-    ],
-    zone: "America/Indiana/Indianapolis",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Indiana", extra: "(northwest and southwest)"}
-    ],
-    zone: "America/Indiana/Knox",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Kentucky", extra: "(eastern 60%)"}
-    ],
-    zone: "America/Kentucky/Louisville",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Michigan", extra: "(most of state)"}
-    ],
-    zone: "America/Detroit",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Michigan", extra: "(counties bordering Wisconsin)"}
-    ],
-    zone: "America/Menominee",
-    flag: "US"
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "North Dakota", extra: "(most of state)"}
-    ],
-    zone: "America/North_Dakota/Center",
+    zone: "Etc/GMT+5",
     flag: "US"
   },
 ]
