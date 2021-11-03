@@ -1,157 +1,71 @@
 export default [
   {
     country: "Argentina",
-    zone: "America/Argentina/Buenos_Aires",
+    zone: "Etc/GMT+4",
     flag: "AR"
   },
   {
     country: "Bolivia",
-    zone: "America/La_Paz",
+    zone: "Etc/GMT+4",
     flag: "BO"
   },
   {
     country: "Brazil",
     subdiv: [
-      {title: "Acre"}
-    ],
-    zone: "America/Rio_Branco",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
+      {title: "Acre"},
       {title: "Amazonas", extra: "(western part)"}
     ],
-    zone: "America/Eirunepe",
+    zone: "Etc/GMT+5",
     flag: "BR"
   },
   {
     country: "Brazil",
     subdiv: [
+      {title: "Amazonas", extra: "(eastern part)"},
+      {title: "Mato Grosso"},
+      {title: "Mato Grosso do Sul"},
+      {title: "Pará", extra: "(west of 52.5° W)"},
+      {title: "Rio Grande do Sul"}, 
+      {title: "Rondônia"},
+      {title: "Roraima"},
+    ],
+    zone: "Etc/GMT+4",
+    flag: "BR"
+  },
+  {
+    country: "Brazil",
+    subdiv: [
+      {title: "Amapá"},
+      {title: "Bahia"},
+      {title: "Ceará"}, 
       {title: "Distrito Federal"}, 
       {title: "Espírito Santo"}, 
       {title: "Goiás"}, 
+      {title: "Maranhão"}, 
       {title: "Minas Gerais"}, 
+      {title: "Pará", extra: "(east of 52.5° W)"},
       {title: "Paraná"}, 
+      {title: "Pernambuco"},
+      {title: "Piauí"}, 
       {title: "Rio de Janeiro"}, 
-      {title: "Rio Grande do Sul"}, 
       {title: "Santa Catarina"}, 
-      {title: "São Paulo"}
+      {title: "São Paulo"},
+      {title: "Tocantins"},
     ],
-    zone: "America/Sao_Paulo",
+    zone: "Etc/GMT+3",
     flag: "BR"
   },
   {
     country: "Brazil",
     subdiv: [
       {title: "Alagoas"}, 
-      {title: "Sergipe"}
-    ],
-    zone: "America/Maceio",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Amapá"}
-    ],
-    zone: "America/Belem",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Bahia"}
-    ],
-    zone: "America/Bahia",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Ceará"}, 
-      {title: "Maranhão"}, 
-      {title: "Paraíba"}, 
-      {title: "Piauí"}, 
-      {title: "Rio Grande do Norte"}
-    ],
-    zone: "America/Fortaleza",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Pará"}
-    ],
-    zone: "America/Santarem",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Pernambuco"}
-    ],
-    zone: "America/Recife",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Tocantins"}
-    ],
-    zone: "America/Araguaina",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Amazonas", extra: "(eastern part)"}
-    ],
-    zone: "America/Manaus",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Mato Grosso"}
-    ],
-    zone: "America/Cuiaba",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Mato Grosso do Sul"}
-    ],
-    zone: "America/Campo_Grande",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Rondônia"}
-    ],
-    zone: "America/Porto_Velho",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Roraima"}
-    ],
-    zone: "America/Boa_Vista",
-    flag: "BR"
-  },
-  {
-    country: "Brazil",
-    subdiv: [
-      {title: "Atol das Rocas"}, 
       {title: "Fernando de Noronha"}, 
-      {title: "Martim Vaz"}, 
+      {title: "Paraíba"}, 
+      {title: "Rio Grande do Norte"},
+      {title: "Sergipe"},
       {title: "Trinidade"}, 
-      {title: "Saint Peter and Saint Paul Archipelago"}
     ],
-    zone: "America/Noronha",
+    zone: "Etc/GMT+2",
     flag: "BR"
   },
   {
@@ -159,7 +73,7 @@ export default [
     subdiv: [
       {title: "Easter Island"}
     ],
-    zone: "Pacific/Easter",
+    zone: "Etc/GMT+7",
     flag: "CL"
   },
   {
@@ -174,6 +88,7 @@ export default [
       {title: "Coquimbo"},
       {title: "Los Lagos"},
       {title: "Los Ríos"},
+      {title: "Magallanes and Antártica Chilena Region"},
       {title: "Maule"},
       {title: "Ñuble"},
       {title: "Región del Libertador Bernardo O'Higgins"},
@@ -181,20 +96,12 @@ export default [
       {title: "Tarapacá"},
       {title: "Valparaíso", extra: "(continental part)"},
     ],
-    zone: "America/Santiago",
-    flag: "CL"
-  },
-  {
-    country: "Chile",
-    subdiv: [
-      {title: "Magallanes and Antártica Chilena Region"}
-    ],
-    zone: "America/Punta_Arenas",
+    zone: "Etc/GMT+5",
     flag: "CL"
   },
   {
     country: "Colombia",
-    zone: "America/Bogota",
+    zone: "Etc/GMT+5",
     flag: "CO"
   },
   {
@@ -224,7 +131,7 @@ export default [
       {title: "Tungurahua"},
       {title: "Zamora Chinchipe"}
     ],
-    zone: "America/Guayaquil",
+    zone: "Etc/GMT+5",
     flag: "EC"
   },
   {
@@ -232,12 +139,12 @@ export default [
     subdiv: [
       {title: "Galápagos"}
     ],
-    zone: "Pacific/Galapagos",
+    zone: "Etc/GMT+6",
     flag: "EC"
   },
   {
     country: "Falkland Islands (United Kingdom)",
-    zone: "Atlantic/Stanley",
+    zone: "Etc/GMT+4",
     flag: "FK"
   },
   {
@@ -245,42 +152,42 @@ export default [
     subdiv: [
       {title: "French Guiana"}
     ],
-    zone: "America/Cayenne",
+    zone: "Etc/GMT+4",
     flag: "FR" // eigentlich GF
   },
   {
     country: "Guyana",
-    zone: "America/Guyana",
+    zone: "Etc/GMT+4",
     flag: "GY"
   },
   {
     country: "Paraguay",
-    zone: "America/Asuncion",
+    zone: "Etc/GMT+4",
     flag: "PY"
   },
   {
     country: "Peru",
-    zone: "America/Lima",
+    zone: "Etc/GMT+5",
     flag: "PE"
   },
   {
     country: "South Georgia and the South Sandwich Islands (United Kingdom)",
-    zone: "Atlantic/South_Georgia",
+    zone: "Etc/GMT+2",
     flag: "GS"
   },
   {
     country: "Suriname",
-    zone: "America/Paramaribo",
+    zone: "Etc/GMT+4",
     flag: "SR"
   },
   {
     country: "Uruguay",
-    zone: "America/Montevideo",
+    zone: "Etc/GMT+4",
     flag: "UY"
   },
   {
     country: "Venezuela",
-    zone: "America/Caracas",
+    zone: "Etc/GMT+4",
     flag: "VE"
   }
 ]
