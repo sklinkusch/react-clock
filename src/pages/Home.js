@@ -50,8 +50,7 @@ export default function Home() {
   }, [])
   return (
     <div className="app">
-      <h1>World Time Clock</h1>
-      <div style={{ textAlign: "center", marginBottom: "24px" }}>
+      <div style={{ textAlign: "center", marginBottom: "24px", marginTop: "24px" }}>
         <input type="text" placeholder="Filter countries" onChange={(e) => {
           setFiltVal(e.target.value)
           prepareZones(e.target.value)
