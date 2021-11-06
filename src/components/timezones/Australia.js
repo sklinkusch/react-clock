@@ -1,3 +1,5 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Australia",
@@ -5,7 +7,8 @@ export default [
       {title: "Western Australia", extra: "(most of state)"}
     ],
     zone: "Australia/Perth",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Perth")
   },
   {
     country: "Australia",
@@ -13,7 +16,8 @@ export default [
       {title: "Western Australia", extra: "(Eucla)"}
     ],
     zone: "Australia/Eucla",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Eucla")
   },
   {
     country: "Australia",
@@ -21,7 +25,8 @@ export default [
       {title: "Northern Territory"}
     ],
     zone: "Australia/Darwin",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Darwin")
   },
   {
     country: "Australia",
@@ -29,7 +34,8 @@ export default [
       {title: "Queensland"}
     ],
     zone: "Australia/Brisbane",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Brisbane")
   },
   {
     country: "Australia",
@@ -37,7 +43,8 @@ export default [
       {title: "South Australia"}
     ],
     zone: "Australia/Adelaide",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Adelaide")
   },
   {
     country: "Australia",
@@ -45,7 +52,8 @@ export default [
       {title: "New South Wales", extra: "(most of state)"}
     ],
     zone: "Australia/Sydney",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Sydney")
   },
   {
     country: "Australia",
@@ -53,7 +61,8 @@ export default [
       {title: "Australian Capital Territory"}
     ],
     zone: "Australia/Canberra",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Canberra")
   },
   {
     country: "Australia",
@@ -61,7 +70,8 @@ export default [
       {title: "New South Wales", extra: "(Yancowinna)"}
     ],
     zone: "Australia/Broken_Hill",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Broken_Hill")
   },
   {
     country: "Australia",
@@ -69,7 +79,8 @@ export default [
       {title: "Victoria"}
     ],
     zone: "Australia/Melbourne",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Melbourne")
   },
   {
     country: "Australia",
@@ -77,7 +88,8 @@ export default [
       {title: "Tasmania"}
     ],
     zone: "Australia/Hobart",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Hobart")
   },
   {
     country: "Australia",
@@ -85,7 +97,8 @@ export default [
       {title: "Lord Howe Island"}
     ],
     zone: "Australia/Lord_Howe",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Lord_Howe")
   },
   {
     country: "Australia",
@@ -93,6 +106,7 @@ export default [
       {title: "Norfolk Island"}
     ],
     zone: "Pacific/Norfolk",
-    flag: "AU"
+    flag: "AU",
+    cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Norfolk")
   },
 ]
