@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
+import { useDebugState } from "use-named-state";
 import moment from "moment-timezone";
 import Clock from "../components/Clock";
 import timezonesRaw from "../components/data"
 import "../styles/App.css";
 
 export default function Home() {
-  const [allStates] = useState(timezonesRaw)
-  const [filtVal, setFiltVal] = useState("")
-  const [timezones, setTimezones] = useState(null)
+  const [allStates] = useDebugState("allStates", timezonesRaw)
+  const [filtVal, setFiltVal] = useDebugState("filterValue", "")
+  const [timezones, setTimezones] = useDebugState("timezones", null)
   const prepareZones = (filterVal) => {
     const filterValue = filterVal ? filterVal : filtVal
     const Now = moment().utc().format("x")
