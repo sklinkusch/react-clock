@@ -1,34 +1,29 @@
+import cityList from "cities15000-json"
+
 export default [
   {
     country: "Brunei",
     zone: "Asia/Brunei",
-    flag: "BN"
+    flag: "BN",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "BN" && city.tz === "Asia/Brunei"),
   },
   {
     country: "Cambodia",
     zone: "Asia/Phnom_Penh",
     flag: "KH",
-    cities: [
-      "Battambang",
-      "Kampong Cham",
-      "Kampong Chhnang",
-      "Phnom Penh",
-      "Pursat",
-      "Siem Reap",
-    ]
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "KH" && city.tz === "Asia/Phnom_Penh")
   },
   {
     country: "Christmas Island (Australia)",
     zone: "Indian/Christmas",
-    flag: "CX"
+    flag: "CX",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "CX" && city.tz === "Indian/Christmas")
   },
   {
     country: "Laos",
     zone: "Asia/Vientiane",
     flag: "LA",
-    cities: [
-      "Vientiane"
-    ]
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "LA" && city.tz === "Asia/Vientiane")
   },
   {
     country: "Malaysia",
@@ -49,18 +44,7 @@ export default [
     ],
     zone: "Asia/Kuala_Lumpur",
     flag: "MY",
-    cities: [
-      "Ampang Jaya",
-      "Ipoh",
-      "Johor Bahru",
-      "Klang",
-      "Kuala Lumpur",
-      "Kuantan",
-      "Petaling Jaya",
-      "Seremban",
-      "Shah Alam",
-      "Subang Jaya",
-    ]
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "MY" && city.tz === "Asia/Kuala_Lumpur")
   },
   {
     country: "Malaysia",
@@ -71,35 +55,36 @@ export default [
     ],
     zone: "Asia/Kuching",
     flag: "MY",
-    cities: [
-      "Kota Kinabulu",
-      "Kuching",
-      "Sandakan"
-    ]
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "MY" && city.tz === "Asia/Kuching")
   },
   {
     country: "Philippines",
     zone: "Asia/Manila",
-    flag: "PH"
+    flag: "PH",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "PH" && city.tz === "Asia/Manila")
   },
   {
     country: "Singapore",
     zone: "Asia/Singapore",
-    flag: "SG"
+    flag: "SG",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "SG" && city.tz === "Asia/Singapore")
   },
   {
     country: "Thailand",
     zone: "Asia/Bangkok",
-    flag: "TH"
+    flag: "TH",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "TH" && city.tz === "Asia/Bangkok")
   },
   {
     country: "Timor-Leste",
     zone: "Asia/Dili",
-    flag: "TL"
+    flag: "TL",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "TL" && city.tz === "Asia/Dili")
   },
   {
     country: "Vietnam",
     zone: "Asia/Ho_Chi_Minh",
-    flag: "VN"
+    flag: "VN",
+    cities: cityList.filter(city => city.population >= 500000 && city.country === "VN" && city.tz === "Asia/Ho_Chi_Minh")
   }
 ]
