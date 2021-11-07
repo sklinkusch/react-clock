@@ -106,8 +106,8 @@ export default class Clock extends React.Component {
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={reducedFlags} />
-          {this.state.cities && this.state.cities.length > 0 && (
-            <details>
+          {this.state.cities && this.state.cities.length > 0 ? (
+            <details style={{ width: "95%", paddingLeft: "2.5%", paddingRight: "2.5%"}}>
               <summary>Major cities</summary>
               <ul>
                 {this.state.cities.map((city, index) => (
@@ -118,6 +118,8 @@ export default class Clock extends React.Component {
                 ))}
               </ul>
             </details>
+          ) : (
+            <div style={{ height: "24.5px"}} />
           )}
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
