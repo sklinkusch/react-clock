@@ -1,3 +1,5 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Kazakhstan",
@@ -12,7 +14,8 @@ export default [
       {title: "Turkistan Region"}
     ],
     zone: "Asia/Almaty",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Almaty")
   },
   {
     country: "Kazakhstan",
@@ -20,7 +23,8 @@ export default [
       {title: "Kostanay Region"}
     ],
     zone: "Asia/Qostanay",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Qostanay")
   },
   {
     country: "Kazakhstan",
@@ -28,7 +32,8 @@ export default [
       {title: "Kyzylorda Region"}
     ],
     zone: "Asia/Qyzylorda",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Qyzylorda")
   },
   {
     country: "Kazakhstan",
@@ -36,7 +41,8 @@ export default [
       {title: "Aktobe Region"}
     ],
     zone: "Asia/Aqtobe",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Aqtobe")
   },
   {
     country: "Kazakhstan",
@@ -44,7 +50,8 @@ export default [
       {title: "Atyrau Region"}
     ],
     zone: "Asia/Atyrau",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Atyrau")
   },
   {
     country: "Kazakhstan",
@@ -52,7 +59,8 @@ export default [
       {title: "Mangystau Region"}
     ],
     zone: "Asia/Aqtau",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Aqtau")
   },
   {
     country: "Kazakhstan",
@@ -60,26 +68,31 @@ export default [
       {title: "West Kazakhstan Region"}
     ],
     zone: "Asia/Oral",
-    flag: "KZ"
+    flag: "KZ",
+    cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Oral")
   },
   {
     country: "Kyrgyzstan",
     zone: "Asia/Bishkek",
-    flag: "KG"
+    flag: "KG",
+    cities: cityList.filter(city => city.country === "KG" && city.tz === "Asia/Bishkek")
   },
   {
     country: "Tajikistan",
     zone: "Asia/Dushanbe",
-    flag: "TJ"
+    flag: "TJ",
+    cities: cityList.filter(city => city.country === "TJ" && city.tz === "Asia/Dushanbe")
   },
   {
     country: "Turkmenistan",
     zone: "Asia/Ashgabat",
-    flag: "TM"
+    flag: "TM",
+    cities: cityList.filter(city => city.country === "TM" && city.tz === "Asia/Ashgabat")
   },
   {
     country: "Uzbekistan",
     zone: "Asia/Tashkent",
-    flag: "UZ"
+    flag: "UZ",
+    cities: cityList.filter(city => city.country === "UZ" && city.tz === "Asia/Tashkent")
   },
 ]
