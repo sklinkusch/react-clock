@@ -1,3 +1,5 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Russia",
@@ -5,7 +7,8 @@ export default [
       {title: "Kaliningrad Oblast"}
     ],
     zone: "Europe/Kaliningrad",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Kaliningrad")
   },
   {
     country: "Russia",
@@ -35,7 +38,8 @@ export default [
       {title: "Nenets Autonomous Okrug"}
     ],
     zone: "Europe/Moscow",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Moscow")
   },
   {
     country: "Russia",
@@ -55,7 +59,8 @@ export default [
       {title: "Volgograd Oblast"}
     ],
     zone: "Europe/Astrakhan",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Astrakhan")
   },
   {
     country: "Russia",
@@ -68,7 +73,8 @@ export default [
       {title: "Nizhnyi Novgorod Oblast"}
     ],
     zone: "Europe/Kirov",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Kirov")
   },
   {
     country: "Russia",
@@ -82,7 +88,8 @@ export default [
       {title: "Voronezh Oblast"}
     ],
     zone: "Europe/Saratov",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Saratov")
   },
   {
     country: "Russia",
@@ -91,7 +98,8 @@ export default [
       {title: "Crimea"}
     ],
     zone: "Europe/Simferopol",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Simferopol")
   },
   {
     country: "Russia",
@@ -101,7 +109,8 @@ export default [
       {title: "Ulyanovsk Oblast"}
     ],
     zone: "Europe/Samara",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Samara")
   },
   {
     country: "Russia",
@@ -117,7 +126,8 @@ export default [
       {title: "Yamalo-Nenets Autonomous Okrug"}
     ],
     zone: "Asia/Yekaterinburg",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Yekaterinburg")
   },
   {
     country: "Russia",
@@ -125,7 +135,8 @@ export default [
       {title: "Omsk Oblast"}
     ],
     zone: "Asia/Omsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Omsk")
   },
   {
     country: "Russia",
@@ -134,7 +145,8 @@ export default [
       {title: "Altai Region"}
     ],
     zone: "Asia/Barnaul",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Barnaul")
   },
   {
     country: "Russia",
@@ -144,7 +156,8 @@ export default [
       {title: "Krasnoyarsk Region"}
     ],
     zone: "Asia/Krasnoyarsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Krasnoyarsk")
   },
   {
     country: "Russia",
@@ -152,7 +165,8 @@ export default [
       {title: "Kemerovo Oblast"}
     ],
     zone: "Asia/Novokuznetsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Novokuznetsk")
   },
   {
     country: "Russia",
@@ -160,7 +174,8 @@ export default [
       {title: "Novosibirsk Oblast"}
     ],
     zone: "Asia/Novosibirsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Novosibirsk")
   },
   {
     country: "Russia",
@@ -168,7 +183,8 @@ export default [
       {title: "Tomsk Oblast"}
     ],
     zone: "Asia/Tomsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Tomsk")
   },
   {
     country: "Russia",
@@ -177,7 +193,8 @@ export default [
       {title: "Irkutsk Oblast"}
     ],
     zone: "Asia/Irkutsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Irkutsk")
   },
   {
     country: "Russia",
@@ -186,7 +203,8 @@ export default [
       {title: "Amur Oblast"}
     ],
     zone: "Asia/Yakutsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Yakutsk")
   },
   {
     country: "Russia",
@@ -194,7 +212,8 @@ export default [
       {title: "Zabaykalsky Krai"}
     ],
     zone: "Asia/Chita",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Chita")
   },
   {
     country: "Russia",
@@ -204,7 +223,8 @@ export default [
       {title: "Jewish Autonomous Oblast"}
     ],
     zone: "Asia/Vladivostok",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Vladivostok")
   },
   {
     country: "Russia",
@@ -212,7 +232,8 @@ export default [
       {title: "Sakha", extra: "(central part)"}
     ],
     zone: "Asia/Ust-Nera",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Ust-Nera")
   },
   {
     country: "Russia",
@@ -220,7 +241,8 @@ export default [
       {title: "Sakha", extra: "(eastern part)"}
     ],
     zone: "Asia/Srednekolymsk",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Srednekolymsk")
   },
   {
     country: "Russia",
@@ -228,7 +250,8 @@ export default [
       {title: "Magadan Oblast"}
     ],
     zone: "Asia/Magadan",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Magadan")
   },
   {
     country: "Russia",
@@ -236,7 +259,8 @@ export default [
       {title: "Sakhalin Oblast"}
     ],
     zone: "Asia/Sakhalin",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Sakhalin")
   },
   {
     country: "Russia",
@@ -244,7 +268,8 @@ export default [
       {title: "Kamchatka"}
     ],
     zone: "Asia/Kamchatka",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Kamchatka")
   },
   {
     country: "Russia",
@@ -252,6 +277,7 @@ export default [
       {title: "Chukotka Autonomous Okrug"}
     ],
     zone: "Asia/Anadyr",
-    flag: "RU"
+    flag: "RU",
+    cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Anadyr")
   }
 ]
