@@ -111,7 +111,7 @@ export default class Clock extends React.Component {
               <summary>Major cities</summary>
               <ul>
                 {this.state.cities.map((city, index) => (
-                <li key={`city-${index}`}>
+                <li key={`city-${index}`} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                   <span>{city.asciiname}</span>
                   <Flag code={city.country} />
                 </li>
