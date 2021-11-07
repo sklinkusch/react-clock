@@ -54,7 +54,23 @@ export default class Clock extends React.Component {
       date: moment(),
       formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
       formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
-      formattedZone: "UTC" + moment.tz(this.props.zone).format("Z")
+      formattedZone: "UTC" + moment.tz(this.props.zone).format("Z"),
+      cities: this.props.cities.sort((a, b) => {
+        if (a.asciiname < b.asciiname) {
+          return -1
+        } else if (b.asciiname < a.asciiname) {
+          return +1
+        } else if (a.country < b.country) {
+          return -1
+        } else if (b.country < a.country) {
+          return +1
+        } else if (a.adminCode < b.adminCode) {
+          return -1
+        } else if (b.adminCode < a.adminCode) {
+          return +1
+        }
+        return 0
+      })
     };
   }
   componentDidMount() {
@@ -90,6 +106,19 @@ export default class Clock extends React.Component {
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={reducedFlags} />
+          {this.state.cities && this.state.cities.length > 0 && (
+            <details>
+              <summary>Major cities</summary>
+              <ul>
+                {this.state.cities.map((city, index) => (
+                <li key={`city-${index}`}>
+                  <span>{city.asciiname}</span>
+                  <Flag code={city.country} />
+                </li>
+                ))}
+              </ul>
+            </details>
+          )}
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
         </div>

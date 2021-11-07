@@ -24,21 +24,22 @@ export default function Home() {
       return true
     }) : allStates
     const unsortedStates = filteredStates.map(tz => {
-      const {country, zone, flag, subdiv } = tz
+      const {country, zone, flag, subdiv, cities = [] } = tz
       const offset = moment().tz(zone).format("Z")
       const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
-      return { country, zone, flag, offset, numericOffset, subdiv }
+      return { country, zone, flag, offset, numericOffset, subdiv, cities }
     })
     const sortedStates = unsortedStates.sort((a,b) => (a.numericOffset - b.numericOffset))
     const timezoneObject = sortedStates.reduce((acc, curr) => {
       const obj = {...acc}
-      const { flag: code, offset, country: title, zone, numericOffset, subdiv = [] } = curr
+      const { flag: code, offset, country: title, zone, numericOffset, subdiv = [], cities = [] } = curr
       const city = "UTC" + offset
       const flag = { code, title, subdiv }
       if (obj.hasOwnProperty(city)) {
         obj[city].flags.push(flag)
+        obj[city].cities = obj[city].cities.concat(cities)
       } else {
-        obj[city] = { city, numericOffset, zone, flags: [flag] }
+        obj[city] = { city, numericOffset, zone, flags: [flag], cities }
       }
       return obj
     }, {})
@@ -58,7 +59,7 @@ export default function Home() {
           }} />
       </div>
       <div className="row album sk-album"> 
-      {timezones && timezones.length > 0 && timezones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} />)}
+      {timezones && timezones.length > 0 && timezones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} cities={time.cities} />)}
       </div>
     </div>
   );
