@@ -55,7 +55,7 @@ export default class Clock extends React.Component {
       formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
       formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
       formattedZone: "UTC" + moment.tz(this.props.zone).format("Z"),
-      cities: this.props.cities.sort((a, b) => {
+      cities: this.props.cities ? this.props.cities.sort((a, b) => {
         if (a.asciiname < b.asciiname) {
           return -1
         } else if (b.asciiname < a.asciiname) {
@@ -70,7 +70,7 @@ export default class Clock extends React.Component {
           return +1
         }
         return 0
-      })
+      }) : []
     };
   }
   componentDidMount() {
