@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDebugState } from "use-named-state";
 import moment from "moment-timezone";
-import Clock from "../components/Clock";
+import IdealClock from "../components/IdealClock";
 import timezonesRaw from "../components/data-ideal"
 import "../styles/App.css";
 
@@ -24,7 +24,7 @@ export default function Ideal() {
       return true
     }) : allStates
     const unsortedStates = filteredStates.map(tz => {
-      const {country, zone, flag, subdiv, utcOffset = undefined } = tz 
+      const {country, zone, flag, subdiv, utcOffset = undefined, cities = [] } = tz 
       if (utcOffset) {
         const prefix = utcOffset < 0 ? "-" : "+"
         const hours = Math.floor(Math.abs(utcOffset)/60)
@@ -33,22 +33,23 @@ export default function Ideal() {
         const formattedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`
         const offset = `${prefix}${formattedHours}:${formattedMinutes}`
         const numericOffset = utcOffset
-        return { country, zone: null, flag, offset, numericOffset, subdiv }
+        return { country, zone: null, flag, offset, numericOffset, subdiv, cities }
       }
       const offset = moment().tz(zone).format("Z")
       const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
-      return { country, zone, flag, offset, numericOffset, subdiv }
+      return { country, zone, flag, offset, numericOffset, subdiv, cities }
     })
     const sortedStates = unsortedStates.sort((a,b) => (a.numericOffset - b.numericOffset))
     const timezoneObject = sortedStates.reduce((acc, curr) => {
       const obj = {...acc}
-      const { flag: code, offset, country: title, zone, numericOffset, subdiv = [] } = curr
+      const { flag: code, offset, country: title, zone, numericOffset, subdiv = [], cities = [] } = curr
       const city = "UTC" + offset
       const flag = { code, title, subdiv }
       if (obj.hasOwnProperty(city)) {
         obj[city].flags.push(flag)
+        obj[city].cities = obj[city].cities.concat(cities)
       } else {
-        obj[city] = { city, numericOffset, zone, flags: [flag] }
+        obj[city] = { city, numericOffset, zone, flags: [flag], cities }
       }
       return obj
     }, {})
@@ -68,7 +69,7 @@ export default function Ideal() {
           }} />
       </div>
       <div className="row album sk-album"> 
-      {timezones && timezones.length > 0 && timezones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} offset={time.numericOffset} />)}
+      {timezones && timezones.length > 0 && timezones.map((time, index) => <IdealClock key={index} flags={time.flags} city={time.city} zone={time.zone} offset={time.numericOffset} cities={time.cities} />)}
       </div>
     </div>
   );
