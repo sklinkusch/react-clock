@@ -1,3 +1,5 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Antarctica",
@@ -5,7 +7,8 @@ export default [
       {title: "Casey (Australia)"}
     ],
     zone: "Etc/GMT-11",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Casey")
   },
   {
     country: "Antarctica",
@@ -13,7 +16,8 @@ export default [
       {title: "Davis (Australia)"}
     ],
     zone: "Etc/GMT-7",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Davis")
   },
   {
     country: "French Southern and Antarctic Lands (France)",
@@ -21,7 +25,8 @@ export default [
       {title: "Adélie Land/Dumont-d'Urville Station"}
     ],
     zone: "Etc/GMT-10",
-    flag: "TF"
+    flag: "TF",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/DumontDUrville")
   },
   {
     country: "Antarctica",
@@ -29,7 +34,8 @@ export default [
       {title: "Mawson (Australia)"}
     ],
     zone: "Etc/GMT-5",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Mawson")
   },
   {
     country: "Antarctica",
@@ -37,7 +43,8 @@ export default [
       {title: "McMurdo (United States)"}
     ],
     zone: "Etc/GMT-12",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/McMurdo")
   },
   {
     country: "Antarctica",
@@ -45,7 +52,8 @@ export default [
       {title: "Palmer (United States)"}
     ],
     zone: "Etc/GMT+3",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Palmer")
   },
   {
     country: "Antarctica",
@@ -53,7 +61,8 @@ export default [
       {title: "Rothera (United Kingdom)"}
     ],
     zone: "Etc/GMT+3",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Rothera")
   },
   {
     country: "Antarctica",
@@ -61,7 +70,8 @@ export default [
       {title: "Shōwa (Japan)"}
     ],
     zone: "Etc/GMT-3",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Syowa")
   },
   {
     country: "Antarctica",
@@ -69,7 +79,8 @@ export default [
       {title: "Troll (Norway)"}
     ],
     zone: "Etc/GMT+0",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Troll")
   },
   {
     country: "Antarctica",
@@ -77,6 +88,7 @@ export default [
       {title: "Vostok (Russia)"}
     ],
     zone: "Etc/GMT-6",
-    flag: "AQ"
+    flag: "AQ",
+    cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Vostok")
   }
 ]
