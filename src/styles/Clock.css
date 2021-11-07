@@ -73,3 +73,8 @@
   margin-inline: 5px;
   max-width: 35px;
 }
+
+details img {
+  height: 22px;
+  width: auto;
+}
