@@ -312,6 +312,19 @@ export default [
   },
   {
     country: "Norway",
+    subdiv: [
+      {title: "Agder"},
+      {title: "Innlandet"},
+      {title: "Møre og Romsdal"},
+      {title: "Nordland"},
+      {title: "Oslo"},
+      {title: "Rogaland"},
+      {title: "Troms og Finnmark"},
+      {title: "Trøndelag"},
+      {title: "Vestfold og Telemark"},
+      {title: "Vestland"},
+      {title: "Viken"},
+    ],
     zone: "Europe/Oslo",
     flag: "NO",
     cities: cityList.filter(city => city.country === "NO" && city.tz === "Europe/Oslo")
@@ -322,7 +335,7 @@ export default [
       {title: "Jan Mayen"}
     ],
     zone: "Atlantic/Jan_Mayen",
-    flag: "SV",
+    flag: "NO", // eigentlich SJ
     cities: cityList.filter(city => city.country === "SV" && city.tz === "Atlantic/Jan_Mayen")
   },
   {
@@ -331,7 +344,7 @@ export default [
       {title: "Svalbard"}
     ],
     zone: "Arctic/Longyearbyen",
-    flag: "SV",
+    flag: "NO", // eigentlich SJ
     cities: cityList.filter(city => city.country === "SV" && city.tz === "Arctic/Longyearbyen")
   },
   {
