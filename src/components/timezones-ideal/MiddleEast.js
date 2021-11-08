@@ -1,191 +1,308 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Afghanistan",
     utcOffset: 270,
-    flag: "AF"
+    flag: "AF",
+    cities: cityList.filter(city => city.country === "AF")
   },
   {
     country: "Armenia",
     zone: "Etc/GMT-3",
-    flag: "AM"
+    flag: "AM",
+    cities: cityList.filter(city => city.country === "AM")
   },
   {
     country: "Azerbaijan",
     zone: "Etc/GMT-3",
-    flag: "AZ"
+    flag: "AZ",
+    cities: cityList.filter(city => city.country === "AZ")
   },
   {
     country: "Bahrain",
     zone: "Etc/GMT-3",
-    flag: "BH"
+    flag: "BH",
+    cities: cityList.filter(city => city.country === "BH")
   },
   {
     country: "Georgia",
     zone: "Etc/GMT-3",
-    flag: "GE"
+    flag: "GE",
+    cities: cityList.filter(city => city.country === "GE")
   },
   {
     country: "Iran",
     utcOffset: 210,
-    flag: "IR"
+    flag: "IR",
+    cities: cityList.filter(city => city.country === "IR")
   },
   {
     country: "Iraq",
     zone: "Etc/GMT-3",
-    flag: "IQ"
+    flag: "IQ",
+    cities: cityList.filter(city => city.country === "IQ")
   },
   {
     country: "Israel",
     zone: "Etc/GMT-2",
-    flag: "IL"
+    flag: "IL",
+    cities: cityList.filter(city => city.country === "IL")
   },
   {
     country: "Jordan",
     zone: "Etc/GMT-2",
-    flag: "JO"
+    flag: "JO",
+    cities: cityList.filter(city => city.country === "JO")
   },
   {
     country: "Kuwait",
     zone: "Etc/GMT-3",
-    flag: "KW"
+    flag: "KW",
+    cities: cityList.filter(city => city.country === "KW")
   },
   {
     country: "Lebanon",
     zone: "Etc/GMT-2",
-    flag: "LB"
+    flag: "LB",
+    cities: cityList.filter(city => city.country === "LB")
   },
   {
     country: "Oman",
     zone: "Etc/GMT-4",
-    flag: "OM"
+    flag: "OM",
+    cities: cityList.filter(city => city.country === "OM")
   },
   {
     country: "Palestine",
-    subdiv: [
-      {title: "Gaza Strip"},
-      {title: "West Bank"}
-    ],
     zone: "Etc/GMT-2",
-    flag: "PS"
+    flag: "PS",
+    cities: cityList.filter(city => city.country === "PS")
   },
   {
     country: "Qatar",
     zone: "Etc/GMT-3",
-    flag: "QA"
+    flag: "QA",
+    cities: cityList.filter(city => city.country === "QA")
   },
   {
     country: "Saudi Arabia",
     zone: "Etc/GMT-3",
-    flag: "SA"
+    flag: "SA",
+    cities: cityList.filter(city => city.country === "SA")
   },
   {
     country: "Syria",
     zone: "Etc/GMT-3",
-    flag: "SY"
+    flag: "SY",
+    cities: cityList.filter(city => city.country === "SY")
   },
   {
     country: "Turkey",
     subdiv: [
-      {title: "Adana"},
-      {title: "Afyonkarahisar"},
-      {title: "Aksaray"},
-      {title: "Amasya"},
-      {title: "Ankara"},
-      {title: "Antalya"},
-      {title: "Aydin"},
-      {title: "Balıkesir"},
-      {title: "Bartın"},
-      {title: "Bilecik"},
-      {title: "Bolu"},
-      {title: "Burdur"},
-      {title: "Bursa"},
-      {title: "Çanakkale"},
-      {title: "Çankırı"},
-      {title: "Çorum"},
-      {title: "Denizli"},
-      {title: "Düzce"},
-      {title: "Edirne"},
-      {title: "Eskişehir"},
-      {title: "Hatay"},
-      {title: "Isparta"},
-      {title: "Mersin"},
-      {title: "İstanbul"},
-      {title: "İzmir"},
-      {title: "Kahramanmaraş"},
-      {title: "Karabük"},
-      {title: "Karaman"},
-      {title: "Kastamonu"},
-      {title: "Kayseri"},
-      {title: "Kırıkkale"},
-      {title: "Kırklareli"},
-      {title: "Kırşehir"},
-      {title: "Kocaeli"},
-      {title: "Konya"},
-      {title: "Kütahya"},
-      {title: "Manisa"},
-      {title: "Muğla"},
-      {title: "Nevşehir"},
-      {title: "Niğde"},
-      {title: "Osmaniye"},
-      {title: "Sakarya"},
-      {title: "Samsun"},
-      {title: "Sinop"},
-      {title: "Sivas"},
-      {title: "Tekirdağ"},
-      {title: "Tokat"},
-      {title: "Uşak"},
-      {title: "Yalova"},
-      {title: "Yozgat"},
-      {title: "Zonguldak"},
+      {title: "Adana"}, // 81
+      {title: "Afyonkarahisar"}, // 03
+      {title: "Aksaray"}, // 75
+      {title: "Amasya"}, // 05
+      {title: "Ankara"}, // 68
+      {title: "Antalya"}, // 07
+      {title: "Aydin"}, // 09
+      {title: "Balıkesir"}, // 10
+      {title: "Bartın"}, // 87
+      {title: "Bilecik"}, // 11
+      {title: "Bolu"}, // 14
+      {title: "Burdur"}, // 15
+      {title: "Bursa"}, // 16
+      {title: "Çanakkale"}, // 17
+      {title: "Çankırı"}, // 82
+      {title: "Çorum"}, // 19
+      {title: "Denizli"}, // 20
+      {title: "Düzce"}, // 93
+      {title: "Edirne"}, // 22
+      {title: "Eskişehir"}, // 26
+      {title: "Hatay"}, // 31
+      {title: "Isparta"}, // 33
+      {title: "Mersin"}, // 32
+      {title: "İstanbul"}, // 34
+      {title: "İzmir"}, // 35
+      {title: "Kahramanmaraş"}, // 46
+      {title: "Karabük"}, // 89
+      {title: "Karaman"}, // 78
+      {title: "Kastamonu"}, // 37
+      {title: "Kayseri"}, // 38
+      {title: "Kırıkkale"}, // 79
+      {title: "Kırklareli"}, // 39
+      {title: "Kırşehir"}, // 40
+      {title: "Kocaeli"}, // 41
+      {title: "Konya"}, // 71
+      {title: "Kütahya"}, // 43
+      {title: "Manisa"}, // 45
+      {title: "Muğla"}, // 48
+      {title: "Nevşehir"}, // 50
+      {title: "Niğde"}, // 73
+      {title: "Osmaniye"}, // 91
+      {title: "Sakarya"}, // 54
+      {title: "Samsun"}, // 55
+      {title: "Sinop"}, // 57
+      {title: "Sivas"}, // 58
+      {title: "Tekirdağ"}, // 59
+      {title: "Tokat"}, // 60
+      {title: "Uşak"}, // 64
+      {title: "Yalova"}, // 92
+      {title: "Yozgat"}, // 66
+      {title: "Zonguldak"}, // 85
     ],
     zone: "Etc/GMT-2",
-    flag: "TR"
+    flag: "TR",
+    cities: cityList.filter(city => {
+      if(city.country === "TR") {
+        switch(city.adminCode) {
+          case "03":
+          case "05":
+          case "07":
+          case "09":
+          case "10":
+          case "11":
+          case "14":
+          case "15":
+          case "16":
+          case "17":
+          case "19":
+          case "20":
+          case "22":
+          case "26":
+          case "31":
+          case "32":
+          case "33":
+          case "34":
+          case "35":
+          case "37":
+          case "38":
+          case "39":
+          case "40":
+          case "41":
+          case "43":
+          case "45":
+          case "46":
+          case "48":
+          case "50":
+          case "54":
+          case "55":
+          case "57":
+          case "58":
+          case "59":
+          case "60":
+          case "64":
+          case "66":
+          case "68":
+          case "71":
+          case "73":
+          case "75":
+          case "78":
+          case "79":
+          case "81":
+          case "82":
+          case "85":
+          case "87":
+          case "89":
+          case "91":
+          case "92":
+          case "93":
+            return true
+          default:
+            return false
+        }
+      }
+      return false
+    })
   },
   {
     country: "Turkey",
     subdiv: [
-      {title: "Adıyaman"},
-      {title: "Ağrı"},
-      {title: "Ardahan"},
-      {title: "Artvin"},
-      {title: "Batman"},
-      {title: "Bayburt"},
-      {title: "Bingöl"},
-      {title: "Bitlis"},
-      {title: "Diyarbakır"},
-      {title: "Elazığ"},
-      {title: "Erzincan"},
-      {title: "Erzurum"},
-      {title: "Gaziantep"},
-      {title: "Giresun"},
-      {title: "Gümüşhane"},
-      {title: "Hakkari"},
-      {title: "Iğdır"},
-      {title: "Kars"},
-      {title: "Kilis"},
-      {title: "Malatya"},
-      {title: "Mardin"},
-      {title: "Muş"},
-      {title: "Ordu"},
-      {title: "Rize"},
-      {title: "Şanlıurfa"},
-      {title: "Siirt"},
-      {title: "Şırnak"},
-      {title: "Trabzon"},
-      {title: "Tunceli"},
-      {title: "Van"},
+      {title: "Adıyaman"}, // 02
+      {title: "Ağrı"}, // 04
+      {title: "Ardahan"}, // 86
+      {title: "Artvin"}, // 08
+      {title: "Batman"}, // 76
+      {title: "Bayburt"}, // 77
+      {title: "Bingöl"}, // 12
+      {title: "Bitlis"}, // 13
+      {title: "Diyarbakır"}, // 21
+      {title: "Elazığ"}, // 23
+      {title: "Erzincan"}, // 24
+      {title: "Erzurum"}, // 25
+      {title: "Gaziantep"}, // 83
+      {title: "Giresun"}, // 28
+      {title: "Gümüşhane"}, // 69
+      {title: "Hakkari"}, // 70
+      {title: "Iğdır"}, // 88
+      {title: "Kars"}, // 84
+      {title: "Kilis"}, // 90
+      {title: "Malatya"}, // 44
+      {title: "Mardin"}, // 72
+      {title: "Muş"}, // 49
+      {title: "Ordu"}, // 52
+      {title: "Rize"}, // 53
+      {title: "Şanlıurfa"}, // 63
+      {title: "Siirt"}, // 74
+      {title: "Şırnak"}, // 80
+      {title: "Trabzon"}, // 61
+      {title: "Tunceli"}, // 62
+      {title: "Van"}, // 65
     ],
     zone: "Etc/GMT-3",
-    flag: "TR"
+    flag: "TR",
+    cities: cityList.filter(city => {
+      if(city.country === "TR") {
+        switch(city.adminCode) {
+          case "02":
+          case "04":
+          case "08":
+          case "12":
+          case "13":
+          case "21":
+          case "23":
+          case "24":
+          case "25":
+          case "28":
+          case "44":
+          case "49":
+          case "52":
+          case "53":
+          case "61":
+          case "62":
+          case "63":
+          case "65":
+          case "69":
+          case "70":
+          case "72":
+          case "74":
+          case "76":
+          case "77":
+          case "80":
+          case "83":
+          case "84":
+          case "86":
+          case "88":
+          case "90":
+            return true
+          default:
+            return false
+        }
+      }
+      return false
+    })
   },
   {
     country: "United Arab Emirates",
     utcOffset: 210,
-    flag: "AE"
+    flag: "AE",
+    cities: cityList.filter(city => city.country === "AE")
   },
   {
     country: "Yemen",
     zone: "Etc/GMT-3",
-    flag: "YE"
+    flag: "YE",
+    cities: cityList.filter(city => city.country === "YE")
   }
 ]
