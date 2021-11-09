@@ -94,16 +94,6 @@ export default [
   {
     country: "Russia",
     subdiv: [
-      {title: "Sevastopol"}, 
-      {title: "Crimea"}
-    ],
-    zone: "Europe/Simferopol",
-    flag: "RU",
-    cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Simferopol")
-  },
-  {
-    country: "Russia",
-    subdiv: [
       {title: "Udmurtia"}, 
       {title: "Samara Oblast"}, 
       {title: "Ulyanovsk Oblast"}

@@ -480,9 +480,46 @@ export default [
   },
   {
     country: "Ukraine",
+    subdiv: [
+      {title: "Cherkasy Oblast"}, // 01
+      {title: "Chernihiv Oblast"}, // 02
+      {title: "Chernivtsi Oblast"}, // 03
+      {title: "Dnipro Oblast"}, // 04
+      {title: "Donetsk Oblast", extra: "(only partly controlled by Ukraine)"}, // 05
+      {title: "Ivano-Frankivsk Oblast"}, // 06
+      {title: "Kharkiv Oblast"}, // 07
+      {title: "Kherson Oblast"}, // 08
+      {title: "Khmelnytskyy Oblast"}, // 09
+      {title: "Kirovohrad Oblast"}, // 10
+      {title: "Kyyiv"}, // 12
+      {title: "Kyiv Oblast"}, // 13
+      {title: "Luhansk Oblast", extra: "(only partly controlled by Ukraine)"}, // 14
+      {title: "Lviv Oblast"}, // 15
+      {title: "Mykolayiv Oblast"}, // 16
+      {title: "Odesa Oblast"}, // 17
+      {title: "Poltava Oblast"}, // 18
+      {title: "Rivne Oblast"}, // 19
+      {title: "Sumy Oblast"}, // 21
+      {title: "Ternopil Oblast"}, // 22
+      {title: "Vinnitsya Oblast"}, // 23
+      {title: "Volyn Oblast"}, // 24
+      {title: "Zakarpattya Oblast"}, // 25
+      {title: "Zaporizhzhya Oblast"}, // 26
+      {title: "Zhytomyr Oblast"}, // 27
+    ],
     zone: "Europe/Kiev",
     flag: "UA",
     cities: cityList.filter(city => city.country === "UA" && city.tz === "Europe/Kiev")
+  },
+  {
+    country: "Ukraine",
+    subdiv: [
+      {title: "Sevastopol", extra: "(controlled by Russia)"}, 
+      {title: "Crimea Autonomous Republic", extra: "(controlled by Russia)"}
+    ],
+    zone: "Europe/Simferopol",
+    flag: "UA",
+    cities: cityList.filter(city => city.country === "UA" && city.tz === "Europe/Simferopol")
   },
   {
     country: "Vatican City",
