@@ -92,7 +92,7 @@ export default class IdealClock extends React.Component {
   }
   render(props) {
     const { city, flags } = this.props
-    const { formattedDate, formattedTime } = this.state
+    const { formattedDate, formattedTime, cities } = this.state
     const sortedFlags = flags.sort((a, b) => a.title.localeCompare(b.title, "de", {sensitivy: "base"}))
     const reducedFlags = sortedFlags.reduce((acc, curr) => {
       const arr = [...acc]
@@ -112,19 +112,20 @@ export default class IdealClock extends React.Component {
       }
       return arr
     }, [])
+    const uniqueCities = [ ...new Set(cities) ]
     return (
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={reducedFlags} />
-          {this.state.cities && this.state.cities.length > 0 ? (
+          {cities && cities.length > 0 ? (
             <details style={{ width: "95%", paddingLeft: "2.5%", paddingRight: "2.5%"}}>
               <summary>Major cities</summary>
               <ul>
-                {this.state.cities.map((city, index) => (
+                {uniqueCities.map((city, index) => (
                 <li key={`city-${index}`} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-                  <span>{city.asciiname}</span>
-                  <Flag code={city.country} />
+                  <span style={{ flexBasis: "65%", textAlign: "left" }}>{city.asciiname}</span>
+                  <Flag code={city.country} style={{ flexBasis: "35px" }}/>
                   <span>{getSunTime(city)}</span>
                 </li>
                 ))}
