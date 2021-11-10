@@ -10,20 +10,8 @@ export default function Ideal() {
   const [filtVal, setFiltVal] = useDebugState("filterValue","")
   const [timezones, setTimezones] = useDebugState("timezones",null)
   const prepareZones = (filterVal) => {
-    const filterValue = filterVal ? filterVal : filtVal
-    const Now = moment().utc().format("x")
-    const filteredStates = filterValue !== ""  ? allStates.filter(tz => {
-      const { country, subdiv = [] } = tz
-      const title = `${country}: ${subdiv.map(item => item.title).join(", ")}`
-      if(filterVal !== ""){
-        if(title.toLowerCase().includes(filterValue.toLowerCase())) {
-          return true
-        }
-        return false
-      }
-      return true
-    }) : allStates
-    const unsortedStates = filteredStates.map(tz => {
+    const unsortedStates = allStates.map(tz => {
+      const Now = moment().utc().format("x")
       const {country, zone, flag, subdiv, utcOffset = undefined, cities = [] } = tz 
       if (utcOffset) {
         const prefix = utcOffset < 0 ? "-" : "+"
@@ -54,7 +42,24 @@ export default function Ideal() {
       return obj
     }, {})
     const timezoneArray = Object.values(timezoneObject).sort((a,b) => (a.numericOffset - b.numericOffset))
-    setTimezones(timezoneArray)
+    const filterValue = filterVal != null ? filterVal : filtVal
+    const filteredStates = filterValue !== ""  ? timezoneArray.filter(tz => {
+      const { flags, cities } = tz
+      const filteredFlags = flags.filter(flag => {
+        const { title: country, subdiv = [] } = flag
+        const title = subdiv.length > 0 ? `${country}: ${subdiv.map(item => item.title).join(", ")}` : country
+        if(filterValue !== ""){
+          if(title.toLowerCase().includes(filterValue.toLowerCase())) return true
+          return false
+        }
+        return true
+      })
+      if(filteredFlags.length > 0) return true
+      const filteredCities = cities.filter(city => city.asciiname.toLowerCase().includes(filterValue.toLowerCase()))
+      if(filteredCities.length > 0) return true
+      return false
+    }) : timezoneArray
+    setTimezones(filteredStates)
   }
   useEffect(() => {
     prepareZones()

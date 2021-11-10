@@ -66,22 +66,6 @@ export default class IdealClock extends React.Component {
       formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
       formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
       formattedZone: "UTC" + moment.tz(this.props.zone).format("Z"),
-      cities: this.props.cities ? this.props.cities.sort((a, b) => {
-        if (a.asciiname < b.asciiname) {
-          return -1
-        } else if (b.asciiname < a.asciiname) {
-          return +1
-        } else if (a.country < b.country) {
-          return -1
-        } else if (b.country < a.country) {
-          return +1
-        } else if (a.adminCode < b.adminCode) {
-          return -1
-        } else if (b.adminCode < a.adminCode) {
-          return +1
-        }
-        return 0
-      }) : []
     };
   }
   componentDidMount() {
@@ -91,8 +75,8 @@ export default class IdealClock extends React.Component {
     clearInterval(this.timerID);
   }
   render(props) {
-    const { city, flags } = this.props
-    const { formattedDate, formattedTime, cities } = this.state
+    const { city = "", flags = [], cities = [] } = this.props
+    const { formattedDate, formattedTime } = this.state
     const sortedFlags = flags.sort((a, b) => a.title.localeCompare(b.title, "de", {sensitivy: "base"}))
     const reducedFlags = sortedFlags.reduce((acc, curr) => {
       const arr = [...acc]
@@ -118,11 +102,19 @@ export default class IdealClock extends React.Component {
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={reducedFlags} />
-          {cities && cities.length > 0 ? (
+          {uniqueCities && uniqueCities.length > 0 ? (
             <details style={{ width: "95%", paddingLeft: "2.5%", paddingRight: "2.5%"}}>
               <summary>Major cities</summary>
               <ul>
-                {uniqueCities.map((city, index) => (
+                {uniqueCities.sort((a,b) => {
+                  if(a.asciiname.toLowerCase() < b.asciiname.toLowerCase()) return -1
+                  if(b.asciiname.toLowerCase() < a.asciiname.toLowerCase()) return +1
+                  if(a.country.toLowerCase() < b.country.toLowerCase()) return -1
+                  if(b.country.toLowerCase() < a.country.toLowerCase()) return +1
+                  if(a.adminCode.toLowerCase() < b.adminCode.toLowerCase()) return -1
+                  if(b.adminCode.toLowerCase() < a.adminCode.toLowerCase()) return +1
+                  return 0
+                }).map((city, index) => (
                 <li key={`city-${index}`} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                   <span style={{ flexBasis: "65%", textAlign: "left" }}>{city.asciiname}</span>
                   <Flag code={city.country} style={{ flexBasis: "35px" }}/>
