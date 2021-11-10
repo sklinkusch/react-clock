@@ -1,113 +1,196 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Bangladesh",
     zone: "Etc/GMT-6",
-    flag: "BD"
+    flag: "BD",
+    cities: cityList.filter(city => city.country === "BD")
   },
   {
     country: "Bhutan",
     zone: "Etc/GMT-6",
-    flag: "BT"
+    flag: "BT",
+    cities: cityList.filter(city => city.country === "BT")
   },
   {
     country: "British Indian Ocean Territory (United Kingdom)",
     zone: "Etc/GMT-5",
-    flag: "IO"
+    flag: "IO",
+    cities: cityList.filter(city => city.country === "IO")
   },
   {
     country: "Cocos Islands (Australia)",
     zone: "Etc/GMT-6",
-    flag: "CC"
+    flag: "CC",
+    cities: cityList.filter(city => city.country === "CC")
   },
   {
     country: "India",
     subdiv: [
-      {title: "Andhra Pradesh"},
-      {title: "Chhattisgarh"},
-      {title: "Goa"},
-      {title: "Gujarat"},
-      {title: "Haryana"},
-      {title: "Himachal Pradesh"},
-      {title: "Karnataka"},
-      {title: "Kerala"},
-      {title: "Madhya Pradesh"},
-      {title: "Maharashtra"},
-      {title: "Punjab"},
-      {title: "Rajasthan"},
-      {title: "Tamil Nadu"},
-      {title: "Telangana"},
-      {title: "Uttarakhand"},
-      {title: "Uttar Pradesh"},
-      {title: "Dadra and Nagar Haveli and Daman and Du"},
-      {title: "Delhi"},
-      {title: "Jammu and Kashmir"},
-      {title: "Ladakh"},
-      {title: "Lakshadweep"},
-      {title: "Puducherry"},
+      {title: "Andhra Pradesh"}, // 02
+      {title: "Chhattisgarh"}, // 37
+      {title: "Goa"}, // 33
+      {title: "Gujarat"}, // 09
+      {title: "Haryana"}, // 10
+      {title: "Himachal Pradesh"}, // 11
+      {title: "Karnataka"}, // 19
+      {title: "Kerala"}, // 13
+      {title: "Madhya Pradesh"}, // 35
+      {title: "Maharashtra"}, // 16
+      {title: "Punjab"}, // 23
+      {title: "Rajasthan"}, // 24
+      {title: "Tamil Nadu"}, // 25
+      {title: "Telangana"}, // 40
+      {title: "Uttarakhand"}, // 39
+      {title: "Uttar Pradesh"}, // 36
+      {title: "Dadra and Nagar Haveli and Daman and Du"}, // 52
+      {title: "Delhi"}, // 07
+      {title: "Jammu and Kashmir"}, // 12
+      {title: "Ladakh"}, // 41
+      {title: "Lakshadweep"}, // 14
+      {title: "Puducherry"}, // 22
     ],
     zone: "Etc/GMT-5",
-    flag: "IN"
+    flag: "IN",
+    cities: cityList.filter(city => {
+      if(city.country === "IN") {
+        switch(city.adminCode) {
+          case "02":
+          case "07":
+          case "09":
+          case "10":
+          case "11":
+          case "12":
+          case "13":
+          case "14":
+          case "16":
+          case "19":
+          case "22":
+          case "23":
+          case "24":
+          case "25":
+          case "33":
+          case "35":
+          case "36":
+          case "37":
+          case "39":
+          case "40":
+          case "41":
+          case "52":
+            return true
+          default:
+            return false
+        }
+      }
+      return false
+    })
   },
   {
     country: "India",
     subdiv: [
-      {title: "Arunachal Pradesh"},
-      {title: "Assam"},
-      {title: "Bihar"},
-      {title: "Jharkhand"},
-      {title: "Manipur"},
-      {title: "Meghalaya"},
-      {title: "Mizoram"},
-      {title: "Nagaland"},
-      {title: "Odisha"},
-      {title: "Sikkim"},
-      {title: "Tripura"},
-      {title: "West Bengal"},
-      {title: "Andaman and Nicobar Islands"},
-      {title: "Chandigarh"},
+      {title: "Arunachal Pradesh"}, // 30
+      {title: "Assam"}, // 03
+      {title: "Bihar"}, // 34
+      {title: "Jharkhand"}, // 38
+      {title: "Manipur"}, // 17
+      {title: "Meghalaya"}, // 18
+      {title: "Mizoram"}, // 31
+      {title: "Nagaland"}, // 20
+      {title: "Odisha"}, // 21
+      {title: "Sikkim"}, // 29
+      {title: "Tripura"}, // 26
+      {title: "West Bengal"}, // 28
+      {title: "Andaman and Nicobar Islands"}, // 01
+      {title: "Chandigarh"}, // 05
     ],
     zone: "Etc/GMT-6",
-    flag: "IN"
+    flag: "IN",
+    cities: cityList.filter(city => {
+      if(city.country === "IN") {
+        switch(city.adminCode) {
+          case "01":
+          case "03":
+          case "05":
+          case "17":
+          case "18":
+          case "20":
+          case "21":
+          case "26":
+          case "28":
+          case "29":
+          case "30":
+          case "31":
+          case "34":
+          case "38":
+            return true
+          default:
+            return false
+        }
+      }
+      return false
+    })
   },
   {
     country: "Myanmar",
     utcOffset: 390,
-    flag: "MM"
+    flag: "MM",
+    cities: cityList.filter(city => city.country === "MM")
   },
   {
     country: "Nepal",
     zone: "Etc/GMT-5",
-    flag: "NP"
+    flag: "NP",
+    cities: cityList.filter(city => city.country === "NP")
   },
   {
     country: "Maldives",
     zone: "Etc/GMT-5",
-    flag: "MV"
+    flag: "MV",
+    cities: cityList.filter(city => city.country === "MV")
   },
   {
     country: "Pakistan",
     subdiv: [
-      {title: "Balochistan"},
+      {title: "Balochistan"}, // 02
     ],
     zone: "Etc/GMT-4",
-    flag: "PK"
+    flag: "PK",
+    cities: cityList.filter(city => city.country === "PK" && city.adminCode === "02")
   },
   {
     country: "Pakistan",
     subdiv: [
-      {title: "Azad Jammu and Kashmir"},
-      {title: "Gilgit-Baltistan"},
-      {title: "Islamabad Capital Territory"},
-      {title: "Khyber Pakhtunkhwa"},
-      {title: "Punjab"},
-      {title: "Sindh"},
+      {title: "Azad Jammu and Kashmir"}, // 06
+      {title: "Gilgit-Baltistan"}, // 07
+      {title: "Islamabad Capital Territory"}, // 08
+      {title: "Khyber Pakhtunkhwa"}, // 03
+      {title: "Punjab"}, // 04
+      {title: "Sindh"}, // 05
     ],
     zone: "Etc/GMT-5",
-    flag: "PK"
+    flag: "PK",
+    cities: cityList.filter(city => {
+      if(city.country === "PK") {
+        switch(city.adminCode) {
+          case "03":
+          case "04":
+          case "05":
+          case "06":
+          case "07":
+          case "08":
+            return true
+          default:
+            return false
+        }
+      }
+      return false
+    })
   },
   {
     country: "Sri Lanka",
     zone: "Etc/GMT-5",
-    flag: "LK"
+    flag: "LK",
+    cities: cityList.filter(city => city.country === "LK")
   }
 ]

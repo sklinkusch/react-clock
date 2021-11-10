@@ -6,6 +6,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.3",
+    "cities15000-json": "^1.0.0",
     "gh-pages": "^2.0.1",
     "jquery": "^3.5.1",
     "moment-timezone": "^0.5.33",
@@ -16,7 +17,8 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "2.1.8",
     "react-world-flags": "^1.4.0",
-    "reactstrap": "^9.0.0"
+    "reactstrap": "^9.0.0",
+    "use-named-state": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

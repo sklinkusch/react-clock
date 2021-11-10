@@ -1,8 +1,11 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "China",
     zone: "Asia/Shanghai",
-    flag: "CN"
+    flag: "CN",
+    cities: cityList.filter(city => city.country === "CN" && city.tz === "Asia/Shanghai")
   },
   {
     country: "China",
@@ -10,22 +13,26 @@ export default [
       {title: "Xinjiang"}
     ],
     zone: "Asia/Urumqi",
-    flag: "CN"
+    flag: "CN",
+    cities: cityList.filter(city => city.country === "CN" && city.tz === "Asia/Urumqi")
   },
   {
     country: "Hong Kong (China)",
     zone: "Asia/Hong_Kong",
-    flag: "HK"
+    flag: "HK",
+    cities: cityList.filter(city => city.country === "HK" && city.tz === "Asia/Hong_Kong")
   },
   {
     country: "Japan",
     zone: "Asia/Tokyo",
-    flag: "JP"
+    flag: "JP",
+    cities: cityList.filter(city => city.country === "JP" && city.tz === "Asia/Tokyo")
   },
   {
     country: "Macau (China)",
     zone: "Asia/Macau",
-    flag: "MO"
+    flag: "MO",
+    cities: cityList.filter(city => city.country === "MO" && city.tz === "Asia/Macau")
   },
   {
     country: "Mongolia",
@@ -46,7 +53,8 @@ export default [
       {title: "Övörkhanghai"}
     ],
     zone: "Asia/Ulaanbaatar",
-    flag: "MN"
+    flag: "MN",
+    cities: cityList.filter(city => city.country === "MN" && city.tz === "Asia/Ulaanbaatar")
   },
   {
     country: "Mongolia",
@@ -55,7 +63,8 @@ export default [
       {title: "Sükhbaatar"}
     ],
     zone: "Asia/Choibalsan",
-    flag: "MN"
+    flag: "MN",
+    cities: cityList.filter(city => city.country === "MN" && city.tz === "Asia/Choibalsan")
   },
   {
     country: "Mongolia",
@@ -67,21 +76,25 @@ export default [
       {title: "Zavkhan"}
     ],
     zone: "Asia/Hovd",
-    flag: "MN"
+    flag: "MN",
+    cities: cityList.filter(city => city.country === "MN" && city.tz === "Asia/Hovd")
   },
   {
     country: "North Korea",
     zone: "Asia/Pyongyang",
-    flag: "KP"
+    flag: "KP",
+    cities: cityList.filter(city => city.country === "KP" && city.tz === "Asia/Pyongyang")
   },
   {
     country: "South Korea",
     zone: "Asia/Seoul",
-    flag: "KR"
+    flag: "KR",
+    cities: cityList.filter(city => city.country === "KR" && city.tz === "Asia/Seoul")
   },
   {
     country: "Taiwan",
     zone: "Asia/Taipei",
-    flag: "TW"
+    flag: "TW",
+    cities: cityList.filter(city => city.country === "TW" && city.tz === "Asia/Taipei")
   }
 ]

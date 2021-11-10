@@ -1,9 +1,10 @@
-import React, { useState } from "react"
+import React from "react"
+import { useDebugState } from "use-named-state";
 import { Collapse, Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink } from "reactstrap";
 import { NavLink as RRNavLink, withRouter } from "react-router-dom"
 
 function Header() {
-  const [isOpen, setOpen] = useState(false) 
+  const [isOpen, setOpen] = useDebugState("isOpen",false) 
   const toggle = () => {
     setOpen(!isOpen)
   }

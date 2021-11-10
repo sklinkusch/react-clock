@@ -1,28 +1,35 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Belize",
     zone: "America/Belize",
-    flag: "BZ"
+    flag: "BZ",
+    cities: cityList.filter(city => city.country === "BZ" && city.tz === "America/Belize")
   },
   {
     country: "Costa Rica",
     zone: "America/Costa_Rica",
-    flag: "CR"
+    flag: "CR",
+    cities: cityList.filter(city => city.country === "CR" && city.tz === "America/Costa_Rica")
   },
   {
     country: "El Salvador",
     zone: "America/El_Salvador",
-    flag: "SV"
+    flag: "SV",
+    cities: cityList.filter(city => city.country === "SV" && city.tz === "America/El_Salvador")
   },
   {
     country: "Guatemala",
     zone: "America/Guatemala",
-    flag: "GT"
+    flag: "GT",
+    cities: cityList.filter(city => city.country === "GT" && city.tz === "America/Guatemala")
   },
   {
     country: "Honduras",
     zone: "America/Tegucigalpa",
-    flag: "HN"
+    flag: "HN",
+    cities: cityList.filter(city => city.country === "HN" && city.tz === "America/Tegucigalpa")
   },
   {
     country: "Mexico",
@@ -54,7 +61,8 @@ export default [
       {title: "Zacatecas"}
     ],
     zone: "America/Mexico_City",
-    flag: "MX"
+    flag: "MX",
+    cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Mexico_City")
   },
   {
     country: "Mexico",
@@ -62,7 +70,8 @@ export default [
       {title: "Baja California"}
     ],
     zone: "America/Tijuana",
-    flag: "MX"
+    flag: "MX",
+    cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Tijuana")
   },
   {
     country: "Mexico",
@@ -71,10 +80,10 @@ export default [
       {title: "Chihuahua"},
       {title: "Nayarit"},
       {title: "Sinaloa"}
-    ]
-    ,
+    ],
     zone: "America/Mazatlan",
-    flag: "MX"
+    flag: "MX",
+    cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Mazatlan")
   },
   {
     country: "Mexico",
@@ -82,7 +91,8 @@ export default [
       {title: "Quintana Roo"}
     ],
     zone: "America/Cancun",
-    flag: "MX"
+    flag: "MX",
+    cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Cancun")
   },
   {
     country: "Mexico",
@@ -91,16 +101,19 @@ export default [
       {title: "Revillagigedo Islands"}
     ],
     zone: "America/Hermosillo",
-    flag: "MX"
+    flag: "MX",
+    cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Hermosillo")
   },
   {
     country: "Nicaragua",
     zone: "America/Managua",
-    flag: "NI"
+    flag: "NI",
+    cities: cityList.filter(city => city.country === "NI" && city.tz === "America/Managua")
   },
   {
     country: "Panama",
     zone: "America/Panama",
-    flag: "PA"
+    flag: "PA",
+    cities: cityList.filter(city => city.country === "PA" && city.tz === "America/Panama")
   },
 ]

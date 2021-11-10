@@ -1,3 +1,5 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "United States",
@@ -21,7 +23,8 @@ export default [
       {title: "Wisconsin"}
     ],
     zone: "America/Chicago",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Chicago")
   },
   {
     country: "United States",
@@ -29,7 +32,8 @@ export default [
       {title: "Alaska", extra: "(west of 169°30' W)"}
     ],
     zone: "America/Adak",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Adak")
   },
   {
     country: "United States",
@@ -37,7 +41,8 @@ export default [
       {title: "Alaska", extra: "(east of 169°30' W)"}
     ],
     zone: "America/Anchorage",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Anchorage")
   },
   {
     country: "United States",
@@ -45,7 +50,8 @@ export default [
       {title: "Arizona", extra: "(except Navajo Nation Reservation)"}
     ],
     zone: "America/Phoenix",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Phoenix")
   },
   {
     country: "United States",
@@ -53,7 +59,8 @@ export default [
       {title: "Arizona", extra: "(Navajo Nation Reservation)"}
     ],
     zone: "America/Shiprock",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Shiprock")
   },
   {
     country: "United States",
@@ -64,7 +71,8 @@ export default [
       {title: "Washington"}
     ],
     zone: "America/Los_Angeles",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Los_Angeles")
   },
   {
     country: "United States",
@@ -82,7 +90,8 @@ export default [
       {title: "Wyoming"}
     ],
     zone: "America/Denver",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Denver")
   },
   {
     country: "United States",
@@ -109,7 +118,8 @@ export default [
       {title: "West Virginia"}
     ],
     zone: "America/New_York",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/New_York")
   },
   {
     country: "United States",
@@ -118,7 +128,8 @@ export default [
       {title: "Oregon", extra: "(Malheur County)"}
     ],
     zone: "America/Boise",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Boise")
   },
   {
     country: "United States",
@@ -126,7 +137,8 @@ export default [
       {title: "Indiana", extra: "(most of state)"}
     ],
     zone: "America/Indiana/Indianapolis",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Indiana/Indianapolis")
   },
   {
     country: "United States",
@@ -134,7 +146,8 @@ export default [
       {title: "Indiana", extra: "(northwest and southwest)"}
     ],
     zone: "America/Indiana/Knox",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Indiana/Knox")
   },
   {
     country: "United States",
@@ -142,7 +155,8 @@ export default [
       {title: "Kentucky", extra: "(eastern 60%)"}
     ],
     zone: "America/Kentucky/Louisville",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Kentucky/Louisville")
   },
   {
     country: "United States",
@@ -150,7 +164,8 @@ export default [
       {title: "Michigan", extra: "(most of state)"}
     ],
     zone: "America/Detroit",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Detroit")
   },
   {
     country: "United States",
@@ -158,7 +173,8 @@ export default [
       {title: "Michigan", extra: "(counties bordering Wisconsin)"}
     ],
     zone: "America/Menominee",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/Menominee")
   },
   {
     country: "United States",
@@ -166,6 +182,7 @@ export default [
       {title: "North Dakota", extra: "(most of state)"}
     ],
     zone: "America/North_Dakota/Center",
-    flag: "US"
+    flag: "US",
+    cities: cityList.filter(city => city.country === "US" && city.tz === "America/North_Dakota/Center")
   },
 ]

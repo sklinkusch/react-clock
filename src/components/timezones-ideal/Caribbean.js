@@ -1,68 +1,83 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "American Virgin Islands (United States)",
     zone: "Etc/GMT+4",
-    flag: "VI"
+    flag: "VI",
+    cities: cityList.filter(city => city.country === "VI")
   },
   {
     country: "Anguilla (United Kingdom)",
     zone: "Etc/GMT+4",
-    flag: "AI"
+    flag: "AI",
+    cities: cityList.filter(city => city.country === "AI")
   },
   {
     country: "Antigua and Barbuda",
     zone: "Etc/GMT+4",
-    flag: "AG"
+    flag: "AG",
+    cities: cityList.filter(city => city.country === "AG")
   },
   {
     country: "Aruba (Netherlands)",
     zone: "Etc/GMT+5",
-    flag: "AW"
+    flag: "AW",
+    cities: cityList.filter(city => city.country === "AW")
   },
   {
     country: "Bahamas",
     zone: "Etc/GMT+5",
-    flag: "BS"
+    flag: "BS",
+    cities: cityList.filter(city => city.country === "BS")
   },
   {
     country: "Barbados",
     zone: "Etc/GMT+4",
-    flag: "BB"
+    flag: "BB",
+    cities: cityList.filter(city => city.country === "BB")
   },
   {
     country: "Bermuda (United Kingdom)",
     zone: "Etc/GMT+4",
-    flag: "BM"
+    flag: "BM",
+    cities: cityList.filter(city => city.country === "BM")
   },
   {
     country: "British Virgin Islands (United Kingdom)",
     zone: "Etc/GMT+4",
-    flag: "VG"
+    flag: "VG",
+    cities: cityList.filter(city => city.country === "VG")
   },
   {
     country: "Cayman Islands (United Kingdom)",
     zone: "Etc/GMT+5",
-    flag: "KY"
+    flag: "KY",
+    cities: cityList.filter(city => city.country === "KY")
   },
   {
     country: "Cuba",
     zone: "Etc/GMT+5",
-    flag: "CU"
+    flag: "CU",
+    cities: cityList.filter(city => city.country === "CU")
   },
   {
     country: "Curaçao (Netherlands)",
     zone: "Etc/GMT+5",
     flag: "CW",
+    cities: cityList.filter(city => city.country === "CW")
   },
   {
     country: "Dominica",
     zone: "Etc/GMT+4",
-    flag: "DM"
+    flag: "DM",
+    cities: cityList.filter(city => city.country === "DM")
   },
   {
     country: "Dominican Republic",
     zone: "Etc/GMT+5",
-    flag: "DO"
+    flag: "DO",
+    cities: cityList.filter(city => city.country === "DO")
   },
   {
     country: "France",
@@ -70,7 +85,8 @@ export default [
       {title: "Guadeloupe"}
     ],
     zone: "Etc/GMT+4",
-    flag: "FR" // eigentlich GP
+    flag: "FR", // eigentlich GP
+    cities: cityList.filter(city => city.country === "GP")
   },
   {
     country: "France",
@@ -78,12 +94,14 @@ export default [
       {title: "Saint-Martin"}
     ],
     zone: "Etc/GMT+4",
-    flag: "FR" // eigentlich MF
+    flag: "FR", // eigentlich MF
+    cities: cityList.filter(city => city.country === "MF")
   },
   {
     country: "Saint-Barthélemy (France)",
     zone: "Etc/GMT+4",
-    flag: "BL"
+    flag: "BL",
+    cities: cityList.filter(city => city.country === "BL")
   },
   {
     country: "France",
@@ -91,32 +109,38 @@ export default [
       {title: "Saint-Pierre and Miquelon"}
     ],
     zone: "Etc/GMT+4",
-    flag: "FR" // eigentlich DF
+    flag: "FR", // eigentlich DF
+    cities: cityList.filter(city => city.country === "DF")
   },
   {
     country: "Grenada",
     zone: "Etc/GMT+4",
-    flag: "GD"
+    flag: "GD",
+    cities: cityList.filter(city => city.country === "GD")
   },
   {
     country: "Haiti",
     zone: "Etc/GMT+5",
-    flag: "HT"
+    flag: "HT",
+    cities: cityList.filter(city => city.country === "HT")
   },
   {
     country: "Jamaica",
     zone: "Etc/GMT+5",
-    flag: "JM"
+    flag: "JM",
+    cities: cityList.filter(city => city.country === "JM")
   },
   {
     country: "Martinique (France)",
     zone: "Etc/GMT+4",
-    flag: "MQ"
+    flag: "MQ",
+    cities: cityList.filter(city => city.country === "MQ")
   },
   {
     country: "Montserrat (United Kingdom)",
     zone: "Etc/GMT+4",
-    flag: "MS"
+    flag: "MS",
+    cities: cityList.filter(city => city.country === "MS")
   },
   {
     country: "Netherlands",
@@ -124,7 +148,8 @@ export default [
       {title: "Bonaire"}, 
     ],
     zone: "Etc/GMT+5",
-    flag: "NL" // eigentlich BQ
+    flag: "NL", // eigentlich BQ
+    cities: cityList.filter(city => city.country === "BQ" && city.adminCode === "BO")
   },
   {
     country: "Netherlands",
@@ -133,41 +158,49 @@ export default [
       {title: "Sint Eustatius"}
     ],
     zone: "Etc/GMT+4",
-    flag: "NL" // eigentlich BQ
+    flag: "NL", // eigentlich BQ
+    cities: cityList.filter(city => city.country === "BQ" && ["SB", "SE"].includes(city.adminCode))
   },
   {
     country: "Puerto Rico (United States)",
     zone: "Etc/GMT+4",
-    flag: "PR"
+    flag: "PR",
+    cities: cityList.filter(city => city.country === "PR")
   },
   {
     country: "Saint Kitts and Nevis",
     zone: "Etc/GMT+4",
-    flag: "KN"
+    flag: "KN",
+    cities: cityList.filter(city => city.country === "KN")
   },
   {
     country: "Saint Lucia",
     zone: "Etc/GMT+4",
-    flag: "LC"
+    flag: "LC",
+    cities: cityList.filter(city => city.country === "LC")
   },
   {
     country: "Saint Vincent and the Grenadines",
     zone: "Etc/GMT+4",
-    flag: "VC"
+    flag: "VC",
+    cities: cityList.filter(city => city.country === "VC")
   },
   {
     country: "Sint Maarten (Netherlands)",
     zone: "Etc/GMT+4",
-    flag: "SX"
+    flag: "SX",
+    cities: cityList.filter(city => city.country === "SX")
   },
   {
     country: "Trinidad and Tobago",
     zone: "Etc/GMT+4",
-    flag: "TT"
+    flag: "TT",
+    cities: cityList.filter(city => city.country === "TT")
   },
   {
     country: "Turks and Caicos Islands (United Kingdom)",
     zone: "Etc/GMT+5",
-    flag: "TC"
+    flag: "TC",
+    cities: cityList.filter(city => city.country === "TC")
   },
 ]

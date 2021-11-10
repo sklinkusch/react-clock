@@ -1,3 +1,5 @@
+import cityList from "./cityList"
+
 export default [
   {
     country: "Indonesia",
@@ -11,7 +13,8 @@ export default [
       {title: "West Nusa Tenggara"}
     ],
     zone: "Asia/Makassar",
-    flag: "ID"
+    flag: "ID",
+    cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Makassar")
   },
   {
     country: "Indonesia",
@@ -20,7 +23,8 @@ export default [
       {title: "Sumatra"}
     ],
     zone: "Asia/Jakarta",
-    flag: "ID"
+    flag: "ID",
+    cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Jakarta")
   },
   {
     country: "Indonesia",
@@ -29,7 +33,8 @@ export default [
       {title: "West Kalimantan"}
     ],
     zone: "Asia/Pontianak",
-    flag: "ID"
+    flag: "ID",
+    cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Pontianak")
   },
   {
     country: "Indonesia",
@@ -40,6 +45,7 @@ export default [
       {title: "West Papua"}
     ],
     zone: "Asia/Jayapura",
-    flag: "ID"
+    flag: "ID",
+    cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Jayapura")
   },
 ]
