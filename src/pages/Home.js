@@ -33,20 +33,23 @@ export default function Home() {
     }, {})
     const timezoneArray = Object.values(timezoneObject).sort((a,b) => (a.numericOffset - b.numericOffset))
     const filterValue = filterVal ? filterVal : filtVal
-    const filteredZones = filterValue !== ""  ? timezoneArray.filter(timezone => {
-      const { country, subdiv = [], cities = [] } = timezone
-      const title = `${country}: ${subdiv.map(item => item.title).join(", ")}`
-      if(filterVal !== ""){
-        if(title.toLowerCase().includes(filterValue.toLowerCase())) {
-          return true
+    const filteredStates = filterValue !== ""  ? timezoneArray.filter(tz => {
+      const { flags, cities } = tz
+      const filteredFlags = flags.filter(flag => {
+        const { title: country, subdiv = [] } = flag
+        const title = subdiv.length > 0 ? `${country}: ${subdiv.map(item => item.title).join(", ")}` : country
+        if(filterValue !== ""){
+          if(title.toLowerCase().includes(filterValue.toLowerCase())) return true
+          return false
         }
-        const filteredCities = cities.filter(city => city.asciiname.toLowerCase().includes(filterValue.toLowerCase()))
-        if(filteredCities.length > 0) return true
-        return false
-      }
-      return true
+        return true
+      })
+      if(filteredFlags.length > 0) return true
+      const filteredCities = cities.filter(city => city.asciiname.toLowerCase().includes(filterValue.toLowerCase()))
+      if(filteredCities.length > 0) return true
+      return false
     }) : timezoneArray
-    setTimezones(filteredZones)
+    setTimezones(filteredStates)
   }
   useEffect(() => {
     prepareZones()
