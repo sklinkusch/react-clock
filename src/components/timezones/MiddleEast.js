@@ -113,7 +113,18 @@ export default [
     country: "Turkey",
     zone: "Europe/Istanbul",
     flag: "TR",
-    cities: cityList.filter(city => city.country === "TR" && city.tz === "Asia/Istanbul")
+    cities: cityList.filter(city => {
+      if(city.country === "TR") {
+        switch(city.tz) {
+          case "Asia/Istanbul":
+          case "Europe/Istanbul":
+            return true
+          default:
+            return false
+        }
+      }
+      return false
+    })
   },
   {
     country: "United Arab Emirates",

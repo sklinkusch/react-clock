@@ -9,6 +9,16 @@ const cityList = cities500k.filter(city => {
       case "PPLC":
       case "PPLG":
         return true
+      case "PPLA2":
+        switch(city.asciiname) {
+          case "The Bronx":
+          case "Brooklyn":
+          case "Manhattan":
+          case "Borough of Queens":
+            return false
+          default:
+            return true
+        }
       default:
         return false
     }
