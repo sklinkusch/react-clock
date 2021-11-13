@@ -1,6 +1,7 @@
 import React from "react";
 import Flag from "react-world-flags";
 import moment from "moment-timezone";
+import ClockTitle from "./ClockTitle";
 import "../styles/Clock.css";
 
 const getSunTime = (city) => {
@@ -12,17 +13,6 @@ const getSunTime = (city) => {
   const offset = `${offsetSign}${offsetHours < 10 ? `0${offsetHours}` : `${offsetHours}`}:${offsetMins < 10 ? `0${offsetMins}` : `${offsetMins}`}`
   const sunTime = moment().utcOffset(offset).format("HH:mm")
   return sunTime
-}
-
-const ClockTitle = ({ city }) => {
-  const correctedCity = city.replace("-","–")
-  return (
-    <h2>
-      <span>
-        {correctedCity}
-      </span>
-    </h2>
-  )
 }
 
 function getMultiTitle(flagTitle, flagSubdiv){

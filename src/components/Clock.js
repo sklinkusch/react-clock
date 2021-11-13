@@ -1,18 +1,8 @@
 import React from "react";
 import Flag from "react-world-flags";
 import moment from "moment-timezone";
+import ClockTitle from "./ClockTitle";
 import "../styles/Clock.css";
-
-const ClockTitle = ({ city }) => {
-  const correctedCity = city.replace("-","–")
-  return (
-    <h2>
-      <span>
-        {correctedCity}
-      </span>
-    </h2>
-  )
-}
 
 function getMultiTitle(flagTitle, flagSubdiv){
   if(flagSubdiv.length === 1) {
