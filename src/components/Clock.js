@@ -4,10 +4,7 @@ import ClockTitle from "./ClockTitle";
 import ClockFlags from "./ClockFlags";
 import "../styles/Clock.css";
 import ClockCities from "./ClockCities";
-
-const ClockDate = ({date}) => (<p>{date}</p>)
-
-const ClockTime = ({date}) => (<p>{date}</p>)
+import { ClockDate, ClockTime } from "./ClockHelpers"
 
 export default class Clock extends React.Component {
   constructor(props) {
