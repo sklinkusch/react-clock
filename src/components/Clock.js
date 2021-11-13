@@ -1,9 +1,9 @@
 import React from "react";
-import Flag from "react-world-flags";
 import moment from "moment-timezone";
 import ClockTitle from "./ClockTitle";
 import ClockFlags from "./ClockFlags";
 import "../styles/Clock.css";
+import ClockCities from "./ClockCities";
 
 const ClockDate = ({date}) => (<p>{date}</p>)
 
@@ -52,29 +52,7 @@ export default class Clock extends React.Component {
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={reducedFlags} />
-          {cities && cities.length > 0 ? (
-            <details style={{ width: "95%", paddingLeft: "2.5%", paddingRight: "2.5%"}}>
-              <summary>Major cities</summary>
-              <ul>
-                {cities.sort((a,b) => {
-                  if(a.asciiname.toLowerCase() < b.asciiname.toLowerCase()) return -1
-                  if(b.asciiname.toLowerCase() < a.asciiname.toLowerCase()) return +1
-                  if(a.country.toLowerCase() < b.country.toLowerCase()) return -1
-                  if(b.country.toLowerCase() < a.country.toLowerCase()) return +1
-                  if(a.adminCode.toLowerCase() < b.adminCode.toLowerCase()) return -1
-                  if(b.adminCode.toLowerCase() < a.adminCode.toLowerCase()) return +1
-                  return 0
-                }).map((city, index) => (
-                <li key={`city-${index}`} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-                  <span>{city.asciiname}</span>
-                  <Flag code={city.country} />
-                </li>
-                ))}
-              </ul>
-            </details>
-          ) : (
-            <div style={{ height: "24.5px"}} />
-          )}
+          <ClockCities uniqueCities={cities} />
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
         </div>
