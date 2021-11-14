@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDebugState } from "use-named-state";
 import moment from "moment-timezone";
-import IdealClock from "../components/IdealClock";
+import Clock from "../components/Clock";
 import timezonesRaw from "../components/data-ideal"
 import "../styles/App.css";
 
@@ -74,7 +74,7 @@ export default function Ideal() {
           }} />
       </div>
       <div className="row album sk-album"> 
-      {timezones && timezones.length > 0 && timezones.map((time, index) => <IdealClock key={index} flags={time.flags} city={time.city} zone={time.zone} offset={time.numericOffset} cities={time.cities} />)}
+      {timezones && timezones.length > 0 && timezones.map((time, index) => <Clock key={index} flags={time.flags} city={time.city} zone={time.zone} offset={time.numericOffset} cities={time.cities} />)}
       </div>
     </div>
   );

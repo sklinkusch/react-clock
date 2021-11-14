@@ -2,11 +2,11 @@ import React from "react";
 import moment from "moment-timezone";
 import ClockTitle from "./ClockTitle";
 import ClockFlags from "./ClockFlags";
+import ClockCities from "./ClockCities"
 import "../styles/Clock.css";
-import ClockCities from "./ClockCities";
 import { ClockDate, ClockTime } from "./ClockHelpers"
 
-export default class Clock extends React.Component {
+export default class IdealClock extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
@@ -22,8 +22,8 @@ export default class Clock extends React.Component {
   componentWillUnmount() {
     clearInterval(this.timerID);
   }
-  render() {
-    const { city, flags, cities } = this.props
+  render(props) {
+    const { city = "", flags = [], cities = [] } = this.props
     const { formattedDate, formattedTime } = this.state
     const sortedFlags = flags.sort((a, b) => a.title.localeCompare(b.title, "de", {sensitivy: "base"}))
     const reducedFlags = sortedFlags.reduce((acc, curr) => {
@@ -44,12 +44,13 @@ export default class Clock extends React.Component {
       }
       return arr
     }, [])
+    const uniqueCities = [ ...new Set(cities) ]
     return (
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
           <ClockFlags flags={reducedFlags} />
-          <ClockCities uniqueCities={cities} />
+          <ClockCities uniqueCities={uniqueCities} />
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
         </div>
