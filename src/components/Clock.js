@@ -12,8 +12,8 @@ const formatDate = (offset) => {
   const unixTime = Date.now()
   const add = offset * 60 * 1000
   const localUnixTime = unixTime + add
-  const formattedDate = new Date(localUnixTime).toLocaleDateString("en-GB")
-  const formattedTime = new Date(localUnixTime).toLocaleTimeString("en-GB")
+  const formattedDate = new Date(localUnixTime).toLocaleDateString("en-GB", { timeZone: "Etc/GMT+0"})
+  const formattedTime = new Date(localUnixTime).toLocaleTimeString("en-GB", { timeZone: "Etc/GMT+0"})
   return { date: formattedDate, time: formattedTime }
 }
 

@@ -1,15 +1,13 @@
 import React, { Fragment } from "react"
 import Flag from "react-world-flags"
-import moment from "moment-timezone"
 
 const getSunTime = (city) => {
   const { lon } = city 
+  const now = Date.now()
   const offsetRaw = lon * 4
-  const offsetSign = offsetRaw > 0 ? "+" : "-"
-  const offsetHours = Math.floor(Math.abs(offsetRaw)/60)
-  const offsetMins = Math.abs(offsetRaw) % 60
-  const offset = `${offsetSign}${offsetHours < 10 ? `0${offsetHours}` : `${offsetHours}`}:${offsetMins < 10 ? `0${offsetMins}` : `${offsetMins}`}`
-  const sunTime = moment().utcOffset(offset).format("HH:mm")
+  const offsetMs = offsetRaw * 60 * 1000
+  const time = now + offsetMs
+  const sunTime = new Date(time).toLocaleTimeString("en-GB", {timeZone: "Etc/GMT+0"}).split(":").slice(0,2).join(":")
   return sunTime
 }
 
