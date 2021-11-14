@@ -183,7 +183,7 @@ export default [
     subdiv: [
       {title: "Western Greenland"}
     ],
-    zone: "America/Nuuk",
+    zone: "America/Godthab",
     flag: "GL",
     cities: cityList.filter(city => city.country === "GL" && city.tz === "America/Nuuk")
   },
