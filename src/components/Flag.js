@@ -35,16 +35,46 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇦🇽</span>
     case "AZ":
       return <span title={title} role="img" aria-label={title}>🇦🇿</span>
+    case "BA":
+      return <span title={title} role="img" aria-label={title}>🇧🇦</span>
     case "BB":
       return <span title={title} role="img" aria-label={title}>🇧🇧</span>
+    case "BD":
+      return <span title={title} role="img" aria-label={title}>🇧🇩</span>
+    case "BE":
+      return <span title={title} role="img" aria-label={title}>🇧🇪</span>
+    case "BF":
+      return <span title={title} role="img" aria-label={title}>🇧🇫</span>
+    case "BG":
+      return <span title={title} role="img" aria-label={title}>🇧🇬</span>
+    case "BH":
+      return <span title={title} role="img" aria-label={title}>🇧🇭</span>
+    case "BI":
+      return <span title={title} role="img" aria-label={title}>🇧🇮</span>
+    case "BJ":
+      return <span title={title} role="img" aria-label={title}>🇧🇯</span>
+    case "BL":
+      return <span title={title} role="img" aria-label={title}>🇧🇱</span>
     case "BM":
       return <span title={title} role="img" aria-label={title}>🇧🇲</span>
+    case "BN":
+      return <span title={title} role="img" aria-label={title}>🇧🇳</span>
     case "BO":
       return <span title={title} role="img" aria-label={title}>🇧🇴</span>
+    case "BQ":
+      return <span title={title} role="img" aria-label={title}>🇧🇶</span>
     case "BR":
       return <span title={title} role="img" aria-label={title}>🇧🇷</span>
     case "BS":
       return <span title={title} role="img" aria-label={title}>🇧🇸</span>
+    case "BT":
+      return <span title={title} role="img" aria-label={title}>🇧🇹</span>
+    case "BV":
+      return <span title={title} role="img" aria-label={title}>🇧🇻</span>
+    case "BW":
+      return <span title={title} role="img" aria-label={title}>🇧🇼</span>
+    case "BY":
+      return <span title={title} role="img" aria-label={title}>🇧🇾</span>
     case "BZ":
       return <span title={title} role="img" aria-label={title}>🇧🇿</span>
     case "CA":
