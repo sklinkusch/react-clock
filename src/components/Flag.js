@@ -273,8 +273,50 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇱🇻</span>
     case "LY":
       return <span title={title} role="img" aria-label={title}>🇱🇾</span>
+    case "MA":
+      return <span title={title} role="img" aria-label={title}>🇲🇦</span>
+    case "MC":
+      return <span title={title} role="img" aria-label={title}>🇲🇨</span>
+    case "MD":
+      return <span title={title} role="img" aria-label={title}>🇲🇩</span>
+    case "ME":
+      return <span title={title} role="img" aria-label={title}>🇲🇪</span>
+    case "MG":
+      return <span title={title} role="img" aria-label={title}>🇲🇬</span>
+    case "MH":
+      return <span title={title} role="img" aria-label={title}>🇲🇭</span>
+    case "MK":
+      return <span title={title} role="img" aria-label={title}>🇲🇰</span>
+    case "ML":
+      return <span title={title} role="img" aria-label={title}>🇲🇱</span>
+    case "MM":
+      return <span title={title} role="img" aria-label={title}>🇲🇲</span>
+    case "MN":
+      return <span title={title} role="img" aria-label={title}>🇲🇳</span>
+    case "MO":
+      return <span title={title} role="img" aria-label={title}>🇲🇴</span>
+    case "MP":
+      return <span title={title} role="img" aria-label={title}>🇲🇵</span>
+    case "MQ":
+      return <span title={title} role="img" aria-label={title}>🇲🇶</span>
+    case "MR":
+      return <span title={title} role="img" aria-label={title}>🇲🇷</span>
+    case "MS":
+      return <span title={title} role="img" aria-label={title}>🇲🇸</span>
+    case "MT":
+      return <span title={title} role="img" aria-label={title}>🇲🇹</span>
+    case "MU":
+      return <span title={title} role="img" aria-label={title}>🇲🇺</span>
+    case "MV":
+      return <span title={title} role="img" aria-label={title}>🇲🇻</span>
+    case "MW":
+      return <span title={title} role="img" aria-label={title}>🇲🇼</span>
     case "MX":
       return <span title={title} role="img" aria-label={title}>🇲🇽</span>
+    case "MY":
+      return <span title={title} role="img" aria-label={title}>🇲🇾</span>
+    case "MZ":
+      return <span title={title} role="img" aria-label={title}>🇲🇿</span>
     case "NI":
       return <span title={title} role="img" aria-label={title}>🇳🇮</span>
     case "NU":
