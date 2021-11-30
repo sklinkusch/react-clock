@@ -37,6 +37,8 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇨🇷</span>
     case "CU":
       return <span title={title} role="img" aria-label={title}>🇨🇺</span>
+    case "CW":
+      return <span title={title} role="img" aria-label={title}>🇨🇼</span>
     case "EC":
       return <span title={title} role="img" aria-label={title}>🇪🇨</span>
     case "GT":
