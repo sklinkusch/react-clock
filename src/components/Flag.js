@@ -3,6 +3,8 @@ import WFlag from "react-world-flags"
 
 const Flag = ({code, title}) => {
   switch(code) {
+    case "AI":
+      return <span title={title} role="img" aria-label={title}>🇦🇮</span>
     case "AQ":
       return <span title={title} role="img" aria-label={title}>🇦🇶</span>
     case "AS":
