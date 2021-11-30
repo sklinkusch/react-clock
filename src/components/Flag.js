@@ -5,6 +5,8 @@ const Flag = ({code, title}) => {
   switch(code) {
     case "AS":
       return <span title={title} role="img" aria-label={title}>🇦🇸</span>
+    case "BR":
+      return <span title={title} role="img" aria-label={title}>🇧🇷</span>
     case "BS":
       return <span title={title} role="img" aria-label={title}>🇧🇸</span>
     case "BZ":
