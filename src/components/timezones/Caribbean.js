@@ -143,14 +143,9 @@ export default [
     cities: cityList.filter(city => city.country === "MS" && city.tz === "America/Montserrat")
   },
   {
-    country: "Netherlands",
-    subdiv: [
-      {title: "Bonaire"}, 
-      {title: "Saba"}, 
-      {title: "Sint Eustatius"}
-    ],
+    country: "Bonaire, Saba, Sint Eustatius",
     zone: "America/Kralendijk",
-    flag: "NL", // eigentlich BQ
+    flag: "BQ",
     cities: cityList.filter(city => city.country === "BQ" && city.tz === "America/Kralendijk")
   },
   {

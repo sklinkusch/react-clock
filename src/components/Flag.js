@@ -129,6 +129,30 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇩🇿</span>
     case "EC":
       return <span title={title} role="img" aria-label={title}>🇪🇨</span>
+    case "EE":
+      return <span title={title} role="img" aria-label={title}>🇪🇪</span>
+    case "EG":
+      return <span title={title} role="img" aria-label={title}>🇪🇬</span>
+    case "EH":
+      return <span title={title} role="img" aria-label={title}>🇪🇭</span>
+    case "ER":
+      return <span title={title} role="img" aria-label={title}>🇪🇷</span>
+    case "ES":
+      return <span title={title} role="img" aria-label={title}>🇪🇸</span>
+    case "ET":
+      return <span title={title} role="img" aria-label={title}>🇪🇹</span>
+    case "FI":
+      return <span title={title} role="img" aria-label={title}>🇫🇮</span>
+    case "FJ":
+      return <span title={title} role="img" aria-label={title}>🇫🇯</span>
+    case "FK":
+      return <span title={title} role="img" aria-label={title}>🇫🇰</span>
+    case "FM":
+      return <span title={title} role="img" aria-label={title}>🇫🇲</span>
+    case "FO":
+      return <span title={title} role="img" aria-label={title}>🇫🇴</span>
+    case "FR":
+      return <span title={title} role="img" aria-label={title}>🇫🇷</span>
     case "GT":
       return <span title={title} role="img" aria-label={title}>🇬🇹</span>
     case "HN":
