@@ -1,5 +1,5 @@
 import React from "react"
-import Flag from "react-world-flags"
+import Flag from "./Flag"
 
 function getMultiTitle(flagTitle, flagSubdiv){
   if(flagSubdiv.length === 1) {
