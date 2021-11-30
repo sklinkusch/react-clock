@@ -317,10 +317,32 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇲🇾</span>
     case "MZ":
       return <span title={title} role="img" aria-label={title}>🇲🇿</span>
+    case "NA":
+      return <span title={title} role="img" aria-label={title}>🇳🇦</span>
+    case "NC":
+      return <span title={title} role="img" aria-label={title}>🇳🇨</span>
+    case "NE":
+      return <span title={title} role="img" aria-label={title}>🇳🇪</span>
+    case "NF":
+      return <span title={title} role="img" aria-label={title}>🇳🇫</span>
+    case "NG":
+      return <span title={title} role="img" aria-label={title}>🇳🇬</span>
     case "NI":
       return <span title={title} role="img" aria-label={title}>🇳🇮</span>
+    case "NL":
+      return <span title={title} role="img" aria-label={title}>🇳🇱</span>
+    case "NO":
+      return <span title={title} role="img" aria-label={title}>🇳🇴</span>
+    case "NP":
+      return <span title={title} role="img" aria-label={title}>🇳🇵</span>
+    case "NR":
+      return <span title={title} role="img" aria-label={title}>🇳🇷</span>
     case "NU":
       return <span title={title} role="img" aria-label={title}>🇳🇺</span>
+    case "NZ":
+      return <span title={title} role="img" aria-label={title}>🇳🇿</span>
+    case "OM":
+      return <span title={title} role="img" aria-label={title}>🇴🇲</span>
     case "PA":
       return <span title={title} role="img" aria-label={title}>🇵🇦</span>
     case "PE":
