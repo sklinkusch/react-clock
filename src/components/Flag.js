@@ -189,12 +189,46 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇬🇼</span>
     case "GY":
       return <span title={title} role="img" aria-label={title}>🇬🇾</span>
+    case "HK":
+      return <span title={title} role="img" aria-label={title}>🇭🇰</span>
+    case "HM":
+      return <span title={title} role="img" aria-label={title}>🇭🇲</span>
     case "HN":
       return <span title={title} role="img" aria-label={title}>🇭🇳</span>
+    case "HR":
+      return <span title={title} role="img" aria-label={title}>🇭🇷</span>
     case "HT":
       return <span title={title} role="img" aria-label={title}>🇭🇹</span>
+    case "HU":
+      return <span title={title} role="img" aria-label={title}>🇭🇺</span>
+    case "ID":
+      return <span title={title} role="img" aria-label={title}>🇮🇩</span>
+    case "IE":
+      return <span title={title} role="img" aria-label={title}>🇮🇪</span>
+    case "IL":
+      return <span title={title} role="img" aria-label={title}>🇮🇱</span>
+    case "IM":
+      return <span title={title} role="img" aria-label={title}>🇮🇲</span>
+    case "IN":
+      return <span title={title} role="img" aria-label={title}>🇮🇳</span>
+    case "IO":
+      return <span title={title} role="img" aria-label={title}>🇮🇴</span>
+    case "IQ":
+      return <span title={title} role="img" aria-label={title}>🇮🇶</span>
+    case "IR":
+      return <span title={title} role="img" aria-label={title}>🇮🇷</span>
+    case "IS":
+      return <span title={title} role="img" aria-label={title}>🇮🇸</span>
+    case "IT":
+      return <span title={title} role="img" aria-label={title}>🇮🇹</span>
+    case "JE":
+      return <span title={title} role="img" aria-label={title}>🇯🇪</span>
     case "JM":
       return <span title={title} role="img" aria-label={title}>🇯🇲</span>
+    case "JO":
+      return <span title={title} role="img" aria-label={title}>🇯🇴</span>
+    case "JP":
+      return <span title={title} role="img" aria-label={title}>🇯🇵</span>
     case "KY":
       return <span title={title} role="img" aria-label={title}>🇰🇾</span>
     case "MX":
