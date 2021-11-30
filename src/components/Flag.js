@@ -229,8 +229,28 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇯🇴</span>
     case "JP":
       return <span title={title} role="img" aria-label={title}>🇯🇵</span>
+    case "KE":
+      return <span title={title} role="img" aria-label={title}>🇰🇪</span>
+    case "KG":
+      return <span title={title} role="img" aria-label={title}>🇰🇬</span>
+    case "KH":
+      return <span title={title} role="img" aria-label={title}>🇰🇭</span>
+    case "KI":
+      return <span title={title} role="img" aria-label={title}>🇰🇮</span>
+    case "KM":
+      return <span title={title} role="img" aria-label={title}>🇰🇲</span>
+    case "KN":
+      return <span title={title} role="img" aria-label={title}>🇰🇳</span>
+    case "KP":
+      return <span title={title} role="img" aria-label={title}>🇰🇵</span>
+    case "KR":
+      return <span title={title} role="img" aria-label={title}>🇰🇷</span>
+    case "KW":
+      return <span title={title} role="img" aria-label={title}>🇰🇼</span>
     case "KY":
       return <span title={title} role="img" aria-label={title}>🇰🇾</span>
+    case "KZ":
+      return <span title={title} role="img" aria-label={title}>🇰🇿</span>
     case "MX":
       return <span title={title} role="img" aria-label={title}>🇲🇽</span>
     case "NI":
