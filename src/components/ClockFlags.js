@@ -24,7 +24,7 @@ const ClockFlags = ({flags}) => (
         ? getMultiTitle(flag.title, flag.subdiv)
         : flag.title
       return (
-        <Flag key={index} code={flag.code} title={flagTitle} height="20" />
+        <Flag key={index} code={flag.code} title={flagTitle} />
       )
     })}
   </div>
