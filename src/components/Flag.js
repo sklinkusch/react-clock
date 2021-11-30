@@ -3,16 +3,38 @@ import WFlag from "react-world-flags"
 
 const Flag = ({code, title}) => {
   switch(code) {
+    case "AD":
+      return <span title={title} role="img" aria-label={title}>🇦🇩</span>
+    case "AE":
+      return <span title={title} role="img" aria-label={title}>🇦🇪</span>
+    case "AF":
+      return <span title={title} role="img" aria-label={title}>🇦🇫</span>
     case "AG":
       return <span title={title} role="img" aria-label={title}>🇦🇬</span>
     case "AI":
       return <span title={title} role="img" aria-label={title}>🇦🇮</span>
+    case "AL":
+      return <span title={title} role="img" aria-label={title}>🇦🇱</span>
+    case "AM":
+      return <span title={title} role="img" aria-label={title}>🇦🇲</span>
+    case "AO":
+      return <span title={title} role="img" aria-label={title}>🇦🇴</span>
     case "AQ":
       return <span title={title} role="img" aria-label={title}>🇦🇶</span>
+    case "AR":
+      return <span title={title} role="img" aria-label={title}>🇦🇷</span>
     case "AS":
       return <span title={title} role="img" aria-label={title}>🇦🇸</span>
+    case "AT":
+      return <span title={title} role="img" aria-label={title}>🇦🇹</span>
+    case "AU":
+      return <span title={title} role="img" aria-label={title}>🇦🇺</span>
     case "AW":
       return <span title={title} role="img" aria-label={title}>🇦🇼</span>
+    case "AX":
+      return <span title={title} role="img" aria-label={title}>🇦🇽</span>
+    case "AZ":
+      return <span title={title} role="img" aria-label={title}>🇦🇿</span>
     case "BB":
       return <span title={title} role="img" aria-label={title}>🇧🇧</span>
     case "BM":
