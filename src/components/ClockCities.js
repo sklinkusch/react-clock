@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-import Flag from "react-world-flags"
+import Flag from "./Flag"
 
 const getSunTime = (city) => {
   const { lon } = city 
