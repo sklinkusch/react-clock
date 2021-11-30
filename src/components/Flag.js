@@ -79,18 +79,42 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇧🇿</span>
     case "CA":
       return <span title={title} role="img" aria-label={title}>🇨🇦</span>
+    case "CC":
+      return <span title={title} role="img" aria-label={title}>🇨🇨</span>
+    case "CD":
+      return <span title={title} role="img" aria-label={title}>🇨🇩</span>
+    case "CF":
+      return <span title={title} role="img" aria-label={title}>🇨🇫</span>
+    case "CG":
+      return <span title={title} role="img" aria-label={title}>🇨🇬</span>
+    case "CH":
+      return <span title={title} role="img" aria-label={title}>🇨🇭</span>
+    case "CI":
+      return <span title={title} role="img" aria-label={title}>🇨🇮</span>
     case "CK":
       return <span title={title} role="img" aria-label={title}>🇨🇰</span>
     case "CL":
       return <span title={title} role="img" aria-label={title}>🇨🇱</span>
+    case "CM":
+      return <span title={title} role="img" aria-label={title}>🇨🇲</span>
+    case "CN":
+      return <span title={title} role="img" aria-label={title}>🇨🇳</span>
     case "CO":
       return <span title={title} role="img" aria-label={title}>🇨🇴</span>
     case "CR":
       return <span title={title} role="img" aria-label={title}>🇨🇷</span>
     case "CU":
       return <span title={title} role="img" aria-label={title}>🇨🇺</span>
+    case "CV":
+      return <span title={title} role="img" aria-label={title}>🇨🇻</span>
     case "CW":
       return <span title={title} role="img" aria-label={title}>🇨🇼</span>
+    case "CX":
+      return <span title={title} role="img" aria-label={title}>🇨🇽</span>
+    case "CY":
+      return <span title={title} role="img" aria-label={title}>🇨🇾</span>
+    case "CZ":
+      return <span title={title} role="img" aria-label={title}>🇨🇿</span>
     case "EC":
       return <span title={title} role="img" aria-label={title}>🇪🇨</span>
     case "GT":
