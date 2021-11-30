@@ -1,5 +1,4 @@
 import React from 'react'
-import WFlag from "react-world-flags"
 
 const Flag = ({code, title}) => {
   switch(code) {
@@ -425,16 +424,84 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇸🇾</span>
     case "SZ":
       return <span title={title} role="img" aria-label={title}>🇸🇿</span>
+    case "TA":
+      return <span title={title} role="img" aria-label={title}>🇹🇦</span>
     case "TC":
       return <span title={title} role="img" aria-label={title}>🇹🇨</span>
+    case "TD":
+      return <span title={title} role="img" aria-label={title}>🇹🇩</span>
+    case "TF":
+      return <span title={title} role="img" aria-label={title}>🇹🇫</span>
+    case "TG":
+      return <span title={title} role="img" aria-label={title}>🇹🇬</span>
+    case "TH":
+      return <span title={title} role="img" aria-label={title}>🇹🇭</span>
+    case "TJ":
+      return <span title={title} role="img" aria-label={title}>🇹🇯</span>
+    case "TK":
+      return <span title={title} role="img" aria-label={title}>🇹🇰</span>
+    case "TL":
+      return <span title={title} role="img" aria-label={title}>🇹🇱</span>
+    case "TM":
+      return <span title={title} role="img" aria-label={title}>🇹🇲</span>
+    case "TN":
+      return <span title={title} role="img" aria-label={title}>🇹🇳</span>
+    case "TO":
+      return <span title={title} role="img" aria-label={title}>🇹🇴</span>
+    case "TR":
+      return <span title={title} role="img" aria-label={title}>🇹🇷</span>
+    case "TT":
+      return <span title={title} role="img" aria-label={title}>🇹🇹</span>
+    case "TV":
+      return <span title={title} role="img" aria-label={title}>🇹🇻</span>
+    case "TW":
+      return <span title={title} role="img" aria-label={title}>🇹🇼</span>
+    case "TZ":
+      return <span title={title} role="img" aria-label={title}>🇹🇿</span>
+    case "UA":
+      return <span title={title} role="img" aria-label={title}>🇺🇦</span>
+    case "UG":
+      return <span title={title} role="img" aria-label={title}>🇺🇬</span>
+    case "UM":
+      return <span title={title} role="img" aria-label={title}>🇺🇲</span>
     case "US":
       return <span title={title} role="img" aria-label={title}>🇺🇸</span>
+    case "UY":
+      return <span title={title} role="img" aria-label={title}>🇺🇾</span>
+    case "UZ":
+      return <span title={title} role="img" aria-label={title}>🇺🇿</span>
+    case "VA":
+      return <span title={title} role="img" aria-label={title}>🇻🇦</span>
+    case "VC":
+      return <span title={title} role="img" aria-label={title}>🇻🇨</span>
+    case "VE":
+      return <span title={title} role="img" aria-label={title}>🇻🇪</span>
     case "VG":
       return <span title={title} role="img" aria-label={title}>🇻🇬</span>
     case "VI":
       return <span title={title} role="img" aria-label={title}>🇻🇮</span>
+    case "VN":
+      return <span title={title} role="img" aria-label={title}>🇻🇳</span>
+    case "VU":
+      return <span title={title} role="img" aria-label={title}>🇻🇺</span>
+    case "WF":
+      return <span title={title} role="img" aria-label={title}>🇼🇫</span>
+    case "WS":
+      return <span title={title} role="img" aria-label={title}>🇼🇸</span>
+    case "XK":
+      return <span title={title} role="img" aria-label={title}>🇽🇰</span>
+    case "YE":
+      return <span title={title} role="img" aria-label={title}>🇾🇪</span>
+    case "YT":
+      return <span title={title} role="img" aria-label={title}>🇾🇹</span>
+    case "ZA":
+      return <span title={title} role="img" aria-label={title}>🇿🇦</span>
+    case "ZM":
+      return <span title={title} role="img" aria-label={title}>🇿🇲</span>
+    case "ZW":
+      return <span title={title} role="img" aria-label={title}>🇿🇼</span>
     default:
-      return <WFlag title={title} code={code} />
+      return <span title={title} role="img" aria-label={title}>🏴‍☠️</span>
   }
 }
 
