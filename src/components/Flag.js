@@ -115,6 +115,18 @@ const Flag = ({code, title}) => {
       return <span title={title} role="img" aria-label={title}>🇨🇾</span>
     case "CZ":
       return <span title={title} role="img" aria-label={title}>🇨🇿</span>
+    case "DE":
+      return <span title={title} role="img" aria-label={title}>🇩🇪</span>
+    case "DJ":
+      return <span title={title} role="img" aria-label={title}>🇩🇯</span>
+    case "DK":
+      return <span title={title} role="img" aria-label={title}>🇩🇰</span>
+    case "DM":
+      return <span title={title} role="img" aria-label={title}>🇩🇲</span>
+    case "DO":
+      return <span title={title} role="img" aria-label={title}>🇩🇴</span>
+    case "DZ":
+      return <span title={title} role="img" aria-label={title}>🇩🇿</span>
     case "EC":
       return <span title={title} role="img" aria-label={title}>🇪🇨</span>
     case "GT":
