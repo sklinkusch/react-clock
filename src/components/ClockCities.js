@@ -1,5 +1,6 @@
 import React, { Fragment } from "react"
 import Flag from "./Flag"
+import { countries } from "./data"
 
 const getSunTime = (city) => {
   const { lon } = city 
@@ -29,7 +30,7 @@ const ClockCities = ({uniqueCities}) => {
             }).map((city, index) => (
               <li key={`city-${index}`} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
                 <span style={{ flexBasis: "65%", textAlign: "left" }}>{city.asciiname}</span>
-                <Flag code={city.country} style={{ flexBasis: "35px", position: "relative", bottom: "4px" }}/>
+                <Flag code={city.country} title={countries[city.country] || city.country} style={{ flexBasis: "35px", position: "relative", bottom: "4px" }}/>
                 <span>{getSunTime(city)}</span>
               </li>
             ))}
