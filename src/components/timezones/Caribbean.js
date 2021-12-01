@@ -80,12 +80,9 @@ export default [
     cities: cityList.filter(city => city.country === "DO" && city.tz === "America/Santo_Domingo")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Guadeloupe"}
-    ],
+    country: "Guadeloupe (France)",
     zone: "America/Guadeloupe",
-    flag: "FR", // eigentlich GP
+    flag: "GP",
     cities: cityList.filter(city => city.country === "GP" && city.tz === "America/Guadeloupe")
   },
   {
@@ -94,7 +91,7 @@ export default [
       {title: "Saint-Martin"}
     ],
     zone: "America/Marigot",
-    flag: "FR", // eigentlich MF
+    flag: "FR", // eigentlich MF 
     cities: cityList.filter(city => city.country === "MF" && city.tz === "America/Marigot")
   },
   {
@@ -104,13 +101,10 @@ export default [
     cities: cityList.filter(city => city.country === "BL" && city.tz === "America/St_Barthelemy")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Saint-Pierre and Miquelon"}
-    ],
+    country: "Saint-Pierre and Miquelon (France)",
     zone: "America/Miquelon",
-    flag: "FR", // eigentlich DF
-    cities: cityList.filter(city => city.country === "DF" && city.tz === "America/Miquelon")
+    flag: "PM",
+    cities: cityList.filter(city => city.country === "PM" && city.tz === "America/Miquelon")
   },
   {
     country: "Grenada",
