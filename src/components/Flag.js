@@ -2,6 +2,8 @@ import React from 'react'
 
 const Flag = ({code, title, ...attributes}) => {
   switch(code) {
+    case "AC":
+      return <span title={title} role="img" aria-label={title} {...attributes}>🇦🇨</span>
     case "AD":
       return <span title={title} role="img" aria-label={title} {...attributes}>🇦🇩</span>
     case "AE":
