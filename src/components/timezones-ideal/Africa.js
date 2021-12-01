@@ -152,21 +152,15 @@ export default [
     cities: cityList.filter(city => city.country === "ET")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Mayotte"}
-    ],
+    country: "Mayotte (France)",
     zone: "Etc/GMT-3",
-    flag: "FR", // eigentlich YT aber gleiche Flagge
+    flag: "YT",
     cities: cityList.filter(city => city.country === "YT")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Réunion"}
-    ],
+    country: "La Réunion (France)",
     zone: "Etc/GMT-4",
-    flag: "FR", // eigentlich RE aber gleiche Flagge
+    flag: "RE",
     cities: cityList.filter(city => city.country === "RE")
   },
   {
@@ -423,23 +417,22 @@ export default [
     cities: cityList.filter(city => city.country === "UG")
   },
   {
-    country: "United Kingdom",
-    subdiv: [
-      {title: "Ascension"}, 
-      {title: "Tristan da Cunha"}
-    ],
+    country: "Ascension (United Kingdom)",
     zone: "Etc/GMT+1",
-    flag: "GB", // eigentlich SH
-    cities: cityList.filter(city => city.country === "SH" && ["01","03"].includes(city.adminCode))
+    flag: "AC",
+    cities: cityList.filter(city => city.country === "SH" && city.adminCode === "01")
   },
   {
-    country: "United Kingdom",
-    subdiv: [
-      {title: "St. Helena"}, 
-    ],
+    country: "St. Helena (United Kingdom)",
     zone: "Etc/GMT+0",
-    flag: "GB", // eigentlich SH, aber Flagge hier die gleiche
+    flag: "SH",
     cities: cityList.filter(city => city.country === "SH" && city.adminCode === "02")
+  },
+  {
+    country: "Tristan da Cunha (United Kingdom)",
+    zone: "Etc/GMT+1",
+    flag: "TA",
+    cities: cityList.filter(city => city.country === "SH" && city.adminCode === "03")
   },
   {
     country: "Zambia",

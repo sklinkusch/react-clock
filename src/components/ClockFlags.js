@@ -1,5 +1,5 @@
 import React from "react"
-import Flag from "react-world-flags"
+import Flag from "./Flag"
 
 function getMultiTitle(flagTitle, flagSubdiv){
   if(flagSubdiv.length === 1) {
@@ -24,7 +24,7 @@ const ClockFlags = ({flags}) => (
         ? getMultiTitle(flag.title, flag.subdiv)
         : flag.title
       return (
-        <Flag key={index} code={flag.code} title={flagTitle} height="20" />
+        <Flag key={index} code={flag.code} title={flagTitle} />
       )
     })}
   </div>

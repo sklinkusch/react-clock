@@ -68,13 +68,19 @@
   padding-top: 0;
 }
 
-.album-item img {
+.album-item > div > span[role="img"] {
+  display: inline-block;
+  height: 20px;
+  font-size: 25px;
   margin-right: 5px;
   margin-inline: 5px;
   max-width: 35px;
+  cursor: default;
 }
 
-details img {
+details span[role="img"] {
   height: 22px;
+  font-size: 22px;
   width: auto;
+  cursor: default;
 }

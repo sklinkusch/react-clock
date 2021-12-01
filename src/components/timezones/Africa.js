@@ -152,21 +152,15 @@ export default [
     cities: cityList.filter(city => city.country === "ET" && city.tz === "Africa/Addis_Ababa")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Mayotte"}
-    ],
+    country: "Mayotte (France)",
     zone: "Indian/Mayotte",
-    flag: "FR", // eigentlich YT aber gleiche Flagge
+    flag: "YT",
     cities: cityList.filter(city => city.country === "YT" && city.tz === "Indian/Mayotte")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Réunion"}
-    ],
+    country: "La Réunion (France)",
     zone: "Indian/Reunion",
-    flag: "FR", // eigentlich RE aber gleiche Flagge
+    flag: "RE",
     cities: cityList.filter(city => city.country === "RE" && city.tz === "Indian/Reunion")
   },
   {
@@ -390,15 +384,22 @@ export default [
     cities: cityList.filter(city => city.country === "UG" && city.tz === "Africa/Kampala")
   },
   {
-    country: "United Kingdom",
-    subdiv: [
-      {title: "Ascension"}, 
-      {title: "St. Helena"}, 
-      {title: "Tristan da Cunha"}
-    ],
+    country: "Ascension (United Kingdom)",
     zone: "Atlantic/St_Helena",
-    flag: "GB", // eigentlich SH, aber Flagge hier die gleiche
+    flag: "AC",
+    cities: cityList.filter(city => city.country === "AC" && city.tz === "Atlantic/St_Helena")
+  },
+  {
+    country: "St. Helena (United Kingdom)",
+    zone: "Atlantic/St_Helena",
+    flag: "SH",
     cities: cityList.filter(city => city.country === "SH" && city.tz === "Atlantic/St_Helena")
+  },
+  {
+    country: "Tristan da Cunha (United Kingdom)",
+    zone: "Atlantic/St_Helena",
+    flag: "TA",
+    cities: cityList.filter(city => city.country === "TA" && city.tz === "Atlantic/St_Helena")
   },
   {
     country: "Zambia",

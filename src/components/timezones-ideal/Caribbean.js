@@ -80,12 +80,9 @@ export default [
     cities: cityList.filter(city => city.country === "DO")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Guadeloupe"}
-    ],
+    country: "Guadeloupe (France)",
     zone: "Etc/GMT+4",
-    flag: "FR", // eigentlich GP
+    flag: "GP",
     cities: cityList.filter(city => city.country === "GP")
   },
   {
@@ -104,13 +101,10 @@ export default [
     cities: cityList.filter(city => city.country === "BL")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "Saint-Pierre and Miquelon"}
-    ],
+    country: "Saint-Pierre and Miquelon (France)",
     zone: "Etc/GMT+4",
-    flag: "FR", // eigentlich DF
-    cities: cityList.filter(city => city.country === "DF")
+    flag: "PM",
+    cities: cityList.filter(city => city.country === "PM")
   },
   {
     country: "Grenada",
@@ -143,22 +137,22 @@ export default [
     cities: cityList.filter(city => city.country === "MS")
   },
   {
-    country: "Netherlands",
+    country: "Bonaire, Saba, and Sint Eustatius (Netherlands)",
     subdiv: [
       {title: "Bonaire"}, 
     ],
     zone: "Etc/GMT+5",
-    flag: "NL", // eigentlich BQ
+    flag: "BQ",
     cities: cityList.filter(city => city.country === "BQ" && city.adminCode === "BO")
   },
   {
-    country: "Netherlands",
+    country: "Bonaire, Saba, and Sint Eustatius (Netherlands)",
     subdiv: [
       {title: "Saba"}, 
       {title: "Sint Eustatius"}
     ],
     zone: "Etc/GMT+4",
-    flag: "NL", // eigentlich BQ
+    flag: "BQ",
     cities: cityList.filter(city => city.country === "BQ" && ["SB", "SE"].includes(city.adminCode))
   },
   {
