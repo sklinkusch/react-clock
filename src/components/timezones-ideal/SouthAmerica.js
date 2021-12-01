@@ -236,12 +236,9 @@ export default [
     cities: cityList.filter(city => city.country === "FK")
   },
   {
-    country: "France",
-    subdiv: [
-      {title: "French Guiana"}
-    ],
+    country: "French Guiana (France)",
     zone: "Etc/GMT+4",
-    flag: "FR", // eigentlich GF
+    flag: "GF",
     cities: cityList.filter(city => city.country === "GF")
   },
   {
