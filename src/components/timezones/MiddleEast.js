@@ -27,9 +27,32 @@ export default [
   },
   {
     country: "Georgia",
+    subdiv: [
+      {title: "Ajaria"},
+      {title: "Guria"},
+      {title: "Imereti"},
+      {title: "Kakheti"},
+      {title: "Kvemo Kartli"},
+      {title: "Mtskheta-Mtianeti"},
+      {title: "Racha Lechkhumi and Kvemo Svaneti"},
+      {title: "Samtskhe-Javakheti"},
+      {title: "Shida Kartli", extra: "(only partly controlled by Georgia)"},
+      {title: "Samegrelo-Zemo Svaneti"},
+      {title: "Tbilisi"}
+    ],
     zone: "Asia/Tbilisi",
     flag: "GE",
-    cities: cityList.filter(city => city.country === "GE" && city.tz === "Asia/Tbilisi")
+    cities: cityList.filter(city => city.country === "GE" && city.tz === "Asia/Tbilisi" && city.adminCode !== "02")
+  },
+  {
+    country: "Georgia",
+    subdiv: [
+      {title: "Abkhazia", extra: "(controlled by Russia/Abkhazia)"},
+      {title: "Shida Kartli", extra: "(partly controlled by Russia/South Ossetia)"}
+    ],
+    zone: "Europe/Moscow",
+    flag: "GE",
+    cities: cityList.filter(city => city.country === "GE" && city.adminCode === "02")
   },
   {
     country: "Iran",
