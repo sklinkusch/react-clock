@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, lazy } from "react";
 import { useDebugState } from "use-named-state";
-import Clock from "../components/Clock";
 import timezonesRaw from "../components/data"
 import { findTimeZone, getZonedTime } from "timezone-support"
 import "../styles/App.css";
+const Clock = lazy(() => import("../components/Clock"));
 
 const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
 

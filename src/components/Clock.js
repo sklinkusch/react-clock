@@ -1,10 +1,10 @@
-import React from "react";
+import React, { lazy } from "react";
 import { getZonedTime, findTimeZone } from "timezone-support"
-import ClockTitle from "./ClockTitle";
-import ClockFlags from "./ClockFlags";
-import ClockCities from "./ClockCities"
 import "../styles/Clock.css";
 import { ClockDate, ClockTime } from "./ClockHelpers"
+const ClockTitle = lazy(() => import("./ClockTitle"))
+const ClockFlags = lazy(() => import("./ClockFlags"))
+const ClockCities = lazy(() => import("./ClockCities"))
 
 const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
 

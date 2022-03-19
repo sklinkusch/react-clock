@@ -1,5 +1,5 @@
-import React from "react"
-import Flag from "./Flag"
+import React, { lazy } from "react"
+const Flag = lazy(() => import("./Flag"))
 
 function getMultiTitle(flagTitle, flagSubdiv){
   if(flagSubdiv.length === 1) {
