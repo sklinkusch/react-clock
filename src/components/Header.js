@@ -15,7 +15,7 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink to="" activeClassName="active" tag={RRNavLink}>Real Time zones</NavLink>
+              <NavLink to="" exact={true} activeClassName="active" tag={RRNavLink}>Real Time zones</NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/ideal" activeClassName="active" tag={RRNavLink}>Ideal Time zones</NavLink>
