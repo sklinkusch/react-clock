@@ -509,7 +509,7 @@ export default [
     ],
     zone: "Europe/Kiev",
     flag: "UA",
-    cities: cityList.filter(city => city.country === "UA" && city.tz === "Europe/Kiev")
+    cities: cityList.filter(city => city.country === "UA" && city.tz === "Europe/Kiev" && city.name !== "Donetsk")
   },
   {
     country: "Ukraine",
@@ -520,6 +520,16 @@ export default [
     zone: "Europe/Simferopol",
     flag: "UA",
     cities: cityList.filter(city => city.country === "UA" && city.tz === "Europe/Simferopol")
+  },
+  {
+  country: "Ukraine",
+    subdiv: [
+      {title: "Donetsk Oblast", extra: "(partly controlled by Russia/Donetsk People's Republic)"}, // 05
+      {title: "Luhansk Oblast", extra: "(partly controlled by Russia/Luhansk People's Republic)"}, // 14
+    ],
+    zone: "Europe/Moscow",
+    flag: "UA",
+    cities: cityList.filter(city => city.country === "UA" && city.name === "Donetsk")
   },
   {
     country: "Vatican City",
