@@ -8,7 +8,7 @@ import "../styles/App.css";
 const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
 
 const getOffset = (number) => {
-  const sign = (number > 0) ? "+" : "-"
+  const sign = (number > 0) ? "+" : (number < 0) ? "-" : "±"
   const offset = Math.abs(number)
   const hours = pad(Math.floor(offset/60))
   const minutes = pad(offset % 60)
