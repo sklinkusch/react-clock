@@ -509,7 +509,52 @@ export default [
     ],
     zone: "Europe/Kiev",
     flag: "UA",
-    cities: cityList.filter(city => city.country === "UA" && city.tz === "Europe/Kiev" && city.name !== "Donetsk")
+    cities: cityList.filter(city => {
+      if(city.country === "UA") {
+        if(city.tz === "Europe/Kiev") {
+          switch(city.adminCode) {
+            case "01":
+            case "02":
+            case "03":
+            case "04":
+            case "06":
+            case "07":
+            case "08":
+            case "09":
+            case "10":
+            case "12":
+            case "13":
+            case "15":
+            case "16":
+            case "17":
+            case "18":
+            case "19":
+            case "21":
+            case "22":
+            case "23":
+            case "24":
+            case "25":
+            case "26":
+            case "27":
+              return true
+            case "05":
+              if(city.asciiname === "Donetsk") {
+                return false
+              } else {
+                return true
+              }
+            case "14":
+              return false
+            default:
+              return true
+          }
+        } else {
+          return false
+        }
+      } else {
+        return false
+      }
+    })
   },
   {
     country: "Ukraine",
@@ -529,7 +574,24 @@ export default [
     ],
     zone: "Europe/Moscow",
     flag: "UA",
-    cities: cityList.filter(city => city.country === "UA" && city.name === "Donetsk")
+    cities: cityList.filter(city => {
+      if(city.country === "UA") {
+        switch(city.adminCode) {
+          case "14":
+            return true
+          case "05":
+            if(city.asciiname === "Donetsk") {
+              return true
+            } else {
+              return false
+            }
+          default:
+            return false
+        }      
+      } else {
+        return false
+      }
+    })
   },
   {
     country: "Vatican City",
