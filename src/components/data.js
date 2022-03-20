@@ -16,7 +16,7 @@ import SouthAsia from "./timezones/SouthAsia"
 import SouthEastAsia from "./timezones/SouthEastAsia"
 import UnitedStates from "./timezones/UnitedStates"
 
-export const countries = {
+const countries = {
   AC: "Ascension (United Kingdom)",
   AD: "Andorra",
   AE: "United Arab Emirates",
@@ -192,7 +192,7 @@ export const countries = {
   PA: "Panama",
   PE: "Peru",
   PF: "French Polynesia (France)",
-  PG: "Papue New Guinea",
+  PG: "Papua New Guinea",
   PH: "Philippines",
   PK: "Pakistan",
   PL: "Poland",
@@ -269,6 +269,7 @@ export const countries = {
   ZW: "Zimbabwe"
 }
 
+export { countries }
 export default [
   ...Africa, 
   ...Antarctica,
