@@ -6,7 +6,6 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.3",
-    "cities15000-json": "^1.0.0",
     "gh-pages": "^2.0.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
