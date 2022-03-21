@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "http://sklinkusch.github.io/react-clock",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.3",
     "gh-pages": "^2.0.1",
     "jquery": "^3.5.1",
