@@ -300,17 +300,7 @@ export default [
   {
     country: "United States",
     subdiv: [
-      {title: "Johnston Atoll"}
-    ],
-    zone: "Pacific/Johnston",
-    flag: "US", // eigentlich UM
-    cities: cityList.filter(city => city.country === "UM" && city.tz === "Pacific/Johnston")
-  },
-  {
-    country: "United States",
-    subdiv: [
-      {title: "Midway Islands"}, 
-      {title: "Palmyra Atoll"}
+      {title: "Midway Islands"}
     ],
     zone: "Pacific/Midway",
     flag: "US", // eigentlich UM
