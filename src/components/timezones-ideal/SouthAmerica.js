@@ -130,7 +130,6 @@ export default [
       {title: "Paraíba"}, // 17
       {title: "Rio Grande do Norte"}, // 22
       {title: "Sergipe"}, // 28
-      {title: "Trinidade"}, 
     ],
     zone: "Etc/GMT+2",
     flag: "BR",

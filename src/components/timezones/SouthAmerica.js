@@ -164,10 +164,7 @@ export default [
   {
     country: "Brazil",
     subdiv: [
-      {title: "Atol das Rocas"}, 
       {title: "Fernando de Noronha"}, 
-      {title: "Martim Vaz"}, 
-      {title: "Trinidade"}, 
       {title: "Saint Peter and Saint Paul Archipelago"}
     ],
     zone: "America/Noronha",

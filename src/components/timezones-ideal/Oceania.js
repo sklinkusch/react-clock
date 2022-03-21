@@ -234,8 +234,8 @@ export default [
     cities: cityList.filter(city => city.country === "NZ" && city.adminCode === "10")
   },
   {
-    country: "Etc/GMT-11",
-    zone: "Pacific/Niue",
+    country: "Niue (New Zealand)",
+    zone: "Etc/GMT+11",
     flag: "NU",
     cities: cityList.filter(city => city.country === "NU")
   },
@@ -305,8 +305,7 @@ export default [
   {
     country: "United States",
     subdiv: [
-      {title: "Midway Islands"}, // 300
-      {title: "Palmyra Atoll"} // 400
+      {title: "Midway Islands"} // 300
     ],
     zone: "Etc/GMT+12",
     flag: "US", // eigentlich UM
@@ -314,7 +313,6 @@ export default [
       if(city.country === "UM") {
         switch(city.adminCode) {
           case "300":
-          case "400":
             return true
           default:
             return false
