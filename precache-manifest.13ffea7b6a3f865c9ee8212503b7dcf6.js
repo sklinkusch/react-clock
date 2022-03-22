@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "56516668104c40fe6bc3",
-    "url": "/react-clock/static/js/runtime~main.5591c48a.js"
+    "revision": "e20edf0c11adbff1e94f",
+    "url": "/react-clock/static/js/runtime~main.aed3fc28.js"
   },
   {
     "revision": "29816443a9cf42feed61",
@@ -12,12 +12,12 @@ self.__precacheManifest = [
     "url": "/react-clock/static/js/1.2b23a360.chunk.js"
   },
   {
-    "revision": "315fb0bd62c1a62a109e",
+    "revision": "9cc80adbdf8271b077d4",
     "url": "/react-clock/static/css/2.1da240ea.chunk.css"
   },
   {
-    "revision": "315fb0bd62c1a62a109e",
-    "url": "/react-clock/static/js/2.739944e1.chunk.js"
+    "revision": "9cc80adbdf8271b077d4",
+    "url": "/react-clock/static/js/2.019ca0d2.chunk.js"
   },
   {
     "revision": "acbaeecf74347653fcfb",
@@ -28,24 +28,24 @@ self.__precacheManifest = [
     "url": "/react-clock/static/js/4.a6884c3e.chunk.js"
   },
   {
-    "revision": "8e9a2c3b78843115bc57",
+    "revision": "65d9d8da67601411fd49",
     "url": "/react-clock/static/css/main.dd30d8f9.chunk.css"
   },
   {
-    "revision": "8e9a2c3b78843115bc57",
-    "url": "/react-clock/static/js/main.e61937d7.chunk.js"
+    "revision": "65d9d8da67601411fd49",
+    "url": "/react-clock/static/js/main.8ab2f1fb.chunk.js"
   },
   {
     "revision": "29816443a9cf42feed61",
     "url": "/react-clock/static/js/0.aa8aecfb.chunk.js"
   },
   {
-    "revision": "29effdd6c57c48d7dae7",
-    "url": "/react-clock/static/css/7.425fdfe4.chunk.css"
+    "revision": "d9edca91205ae415185b",
+    "url": "/react-clock/static/css/7.2734e874.chunk.css"
   },
   {
-    "revision": "29effdd6c57c48d7dae7",
-    "url": "/react-clock/static/js/7.20babf80.chunk.js"
+    "revision": "d9edca91205ae415185b",
+    "url": "/react-clock/static/js/7.a7737bb3.chunk.js"
   },
   {
     "revision": "5f87213ab90901a324df",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/react-clock/static/media/Digital7Mono-B1g5.58045dab.ttf"
   },
   {
-    "revision": "ea1fb0d6ec61f887fa95cbb71b08b897",
+    "revision": "701e7d5849b048ada3812af5f9a1b142",
     "url": "/react-clock/index.html"
   }
 ];
