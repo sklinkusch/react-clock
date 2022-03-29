@@ -1,6 +1,7 @@
 import React, { Fragment } from "react"
 import Flag from "./Flag"
 import { countries } from "./data"
+import { getPermLocale } from "./getLocale"
 
 const getSunTime = (city) => {
   const { lon } = city 
@@ -17,7 +18,7 @@ const ClockCities = ({uniqueCities}) => {
     <Fragment>
       {uniqueCities && uniqueCities.length > 0 ? (
         <details style={{ width: "95%", paddingLeft: "2.5%", paddingRight: "2.5%"}}>
-          <summary>Major cities</summary>
+          <summary>{getPermLocale("MajorCities")}</summary>
           <ul>
             {uniqueCities.sort((a,b) => {
               if(a.asciiname.toLowerCase() < b.asciiname.toLowerCase()) return -1

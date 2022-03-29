@@ -1,0 +1,22 @@
+{
+  "WorldTimeClock": {
+    "de": "Weltzeituhr",
+    "en": "World Time Clock"
+  },
+  "RealTimeZones": {
+    "de": "Reale Zeitzonen",
+    "en": "Real Time zones"
+  },
+  "IdealTimeZones": {
+    "de": "Ideale Zeitzonen",
+    "en": "Ideal Time zones"
+  },
+  "MajorCities": {
+    "de": "Größte Städte",
+    "en": "Major cities"
+  },
+  "FilterCountries": {
+    "de": "Länder filtern",
+    "en": "Filter countries"
+  }
+}
