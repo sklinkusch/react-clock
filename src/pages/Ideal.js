@@ -3,6 +3,7 @@ import { useDebugState } from "use-named-state";
 import { findTimeZone, getZonedTime } from "timezone-support"
 import timezonesRaw from "../components/data-ideal"
 import "../styles/App.css";
+import { getPermLocale } from "../components/getLocale";
 const Clock = lazy(() => import("../components/Clock"))
 
 const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
@@ -79,7 +80,7 @@ export default function Ideal() {
   return (
     <div className="app">
       <div style={{ textAlign: "center", marginBottom: "24px", marginTop: "24px" }}>
-        <input type="text" placeholder="Filter countries" onChange={(e) => {
+        <input type="text" placeholder={getPermLocale("FilterCountries")} onChange={(e) => {
           setFiltVal(e.target.value)
           prepareZones(e.target.value)
           }} />
