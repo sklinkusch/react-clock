@@ -20,14 +20,20 @@ export default function Home() {
   const [allStates] = useDebugState("allStates", timezonesRaw)
   const [filtVal, setFiltVal] = useDebugState("filterValue", "")
   const [timezones, setTimezones] = useDebugState("timezones", null)
+  const currentLanguage = window.navigator.language
   const prepareZones = (filterVal) => {
     const unsortedStates = allStates.map(tz => {
       const {country, zone, flag, subdiv = [], cities = [] } = tz
+      const namedCountry = typeof country == "object"
+        ? country.hasOwnProperty(currentLanguage)
+          ? country[currentLanguage]
+          : country["en"]
+        : country
       const timezone = findTimeZone(zone)
       const now = getZonedTime(Date.now(), timezone)
       const numericOffset = -1 * now.zone.offset
       const offset = getOffset(numericOffset)
-      return { country, zone, flag, offset, numericOffset, subdiv, cities }
+      return { country: namedCountry, zone, flag, offset, numericOffset, subdiv, cities }
     })
     const sortedStates = unsortedStates.sort((a,b) => (a.numericOffset - b.numericOffset))
     const timezoneObject = sortedStates.reduce((acc, curr) => {
