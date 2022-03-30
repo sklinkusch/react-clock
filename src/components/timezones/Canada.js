@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Alberta"}, 
       {title: "British Columbia", extra: "(southeast)"}
@@ -12,7 +15,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Edmonton")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "British Columbia", extra: "(most of province)"}
     ],
@@ -21,7 +27,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Vancouver")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Labrador", extra: "(most of province)"}
     ],
@@ -30,7 +39,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Goose_Bay")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Manitoba"}
     ],
@@ -39,7 +51,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Winnipeg")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "New Brunswick"}
     ],
@@ -48,7 +63,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Moncton")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Newfoundland"}, 
       {title: "Labrador", extra: "(southeast)"}
@@ -58,7 +76,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/St_Johns")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Northwest Territories"}
     ],
@@ -67,7 +88,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Yellowknife")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Nova Scotia"}, 
       {title: "Prince Edward Island"}
@@ -77,7 +101,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Halifax")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Nunavut", extra: "(west of 102° W, Kitikmeot Region)"}
     ],
@@ -86,7 +113,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Cambridge_Bay")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Nunavut", extra: "(102° W – 85° W, Resolute, Kivalliq Region)"}
     ],
@@ -95,7 +125,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Rankin_Inlet")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Nunavut", extra: "(east of 85° W, Qikiqtaaluk Region)"}
     ],
@@ -104,7 +137,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Pangnirtung")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Nunavut", extra: "(Coral Harbour)"}, 
       {title: "Ontario", extra: "(Atikokan)"}
@@ -114,7 +150,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Atikokan")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Ontario", extra: "(west of 90° W)"}
     ],
@@ -123,7 +162,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Rainy_River")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Ontario", extra: "(most of province)"}, 
       {title: "Québec", extra: "(west of 63° W)"}
@@ -133,7 +175,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Toronto")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Québec", extra: "(east of 63° W)"}
     ],
@@ -142,7 +187,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Blanc-Sablon")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Saskatchewan"}
     ],
@@ -151,7 +199,10 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Regina")
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Yukon"}
     ],
@@ -160,3 +211,5 @@ export default [
     cities: cityList.filter(city => city.country === "CA" && city.tz === "America/Whitehorse")
   },
 ]
+
+export default countryList

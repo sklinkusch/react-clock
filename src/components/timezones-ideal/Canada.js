@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Newfoundland and Labrador"}, // 05
       {title: "New Brunswick"}, // 04
@@ -27,7 +30,10 @@ export default [
     })
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Nunavut", extra: "(82.5°W – 67.5°W)"}, // 14
       {title: "Ontario", extra: "(eastern part)"}, // 08
@@ -46,7 +52,10 @@ export default [
     })
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Manitoba", extra: "(eastern part)"}, // 03
       {title: "Nunavut", extra: "(97.5°W – 82.5°W)"}, // 14
@@ -65,7 +74,10 @@ export default [
     })
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Manitoba", extra: "(western part)"}, // 03
       {title: "Northwest Territories", extra: "(eastern part)"}, // 13
@@ -86,7 +98,10 @@ export default [
     })
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "Alberta"}, // 01
       {title: "British Columbia", extra: "(eastern part)"}, // 02
@@ -107,7 +122,10 @@ export default [
     })
   },
   {
-    country: "Canada",
+    country: {
+      de: "Kanada",
+      en: "Canada"
+    },
     subdiv: [
       {title: "British Columbia", extra: "(western part)"}, // 02
       {title: "Northwest Territories", extra: "(western part)"}, // 13
@@ -126,3 +144,5 @@ export default [
     })
   },
 ]
+
+export default countryList
