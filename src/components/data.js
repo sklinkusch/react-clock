@@ -270,7 +270,7 @@ const countries = {
 }
 
 export { countries }
-export default [
+const tzlist = [
   ...Africa, 
   ...Antarctica,
   ...Australia,
@@ -289,3 +289,5 @@ export default [
   ...SouthEastAsia,
   ...UnitedStates
 ]
+
+export default tzlist

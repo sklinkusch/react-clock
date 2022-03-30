@@ -5,6 +5,7 @@ import timezonesRaw from "../components/data-ideal"
 import "../styles/App.css";
 import { getPermLocale } from "../components/getLocale";
 const Clock = lazy(() => import("../components/Clock"))
+/* eslint-disable react-hooks/exhaustive-deps */
 
 const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
 
