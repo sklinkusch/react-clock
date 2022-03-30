@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Casey (Australia)"}
     ],
@@ -11,7 +14,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Casey")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Davis (Australia)"}
     ],
@@ -20,7 +26,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Davis")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Dumont-d'Urville (France)"}
     ],
@@ -29,7 +38,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/DumontDUrville")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Mawson (Australia)"}
     ],
@@ -38,7 +50,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Mawson")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "McMurdo (United States)"}
     ],
@@ -47,7 +62,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/McMurdo")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Palmer (United States)"}
     ],
@@ -56,7 +74,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Palmer")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Rothera (United Kingdom)"}
     ],
@@ -65,7 +86,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Rothera")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Shōwa (Japan)"}
     ],
@@ -74,7 +98,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Syowa")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Troll (Norway)"}
     ],
@@ -83,7 +110,10 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Troll")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
       {title: "Vostok (Russia)"}
     ],
@@ -92,3 +122,5 @@ export default [
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Vostok")
   }
 ]
+
+export default countryList
