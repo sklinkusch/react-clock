@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Western Australia"} // 08
     ],
@@ -11,7 +14,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.adminCode === "08")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Northern Territory"}, // 03
       {title: "South Australia"}, // 05
@@ -21,7 +27,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && ["03","05"].includes(city.adminCode))
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Australian Capital Territory"}, // 01
       {title: "New South Wales"}, // 02
@@ -34,7 +43,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && ["01","02","04","06","07"].includes(city.adminCode))
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Lord Howe Island"},
       {title: "Norfolk Island"}
@@ -44,3 +56,5 @@ export default [
     cities: []
   },
 ]
+
+export default countryList

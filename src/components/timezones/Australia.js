@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Western Australia", extra: "(most of state)"}
     ],
@@ -11,7 +14,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Perth")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Western Australia", extra: "(Eucla)"}
     ],
@@ -20,7 +26,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Eucla")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Northern Territory"}
     ],
@@ -29,7 +38,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Darwin")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Queensland"}
     ],
@@ -38,7 +50,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Brisbane")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "South Australia"}
     ],
@@ -47,7 +62,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Adelaide")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "New South Wales", extra: "(most of state)"}
     ],
@@ -56,7 +74,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Sydney")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Australian Capital Territory"}
     ],
@@ -65,7 +86,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Canberra")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "New South Wales", extra: "(Yancowinna)"}
     ],
@@ -74,7 +98,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Broken_Hill")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Victoria"}
     ],
@@ -83,7 +110,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Melbourne")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Tasmania"}
     ],
@@ -92,7 +122,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Hobart")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Lord Howe Island"}
     ],
@@ -101,7 +134,10 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Lord_Howe")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
       {title: "Norfolk Island"}
     ],
@@ -110,3 +146,5 @@ export default [
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Norfolk")
   },
 ]
+
+export default countryList
