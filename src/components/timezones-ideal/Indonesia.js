@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Aceh"}, // 01
       {title: "Bengkulu"}, // 03
@@ -51,7 +54,10 @@ export default [
     })
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Bali"}, // 02
       {title: "Kalimantan Selatan"}, // 12
@@ -88,7 +94,10 @@ export default [
     })
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Maluku"}, // 28
       {title: "Maluku Utara"}, // 29
@@ -109,3 +118,5 @@ export default [
     })
   },
 ]
+
+export default countryList

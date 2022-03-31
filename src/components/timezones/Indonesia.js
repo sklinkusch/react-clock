@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Bali"}, 
       {title: "East Kalimantan"}, 
@@ -17,7 +20,10 @@ export default [
     cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Makassar")
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Java"}, 
       {title: "Sumatra"}
@@ -27,7 +33,10 @@ export default [
     cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Jakarta")
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Central Kalimantan"}, 
       {title: "West Kalimantan"}
@@ -37,7 +46,10 @@ export default [
     cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Pontianak")
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
       {title: "Maluku"}, 
       {title: "North Maluku"}, 
@@ -49,3 +61,5 @@ export default [
     cities: cityList.filter(city => city.country === "ID" && city.tz === "Asia/Jayapura")
   },
 ]
+
+export default countryList
