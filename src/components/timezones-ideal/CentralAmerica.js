@@ -1,38 +1,56 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Belize",
+    country: {
+      de: "Belize",
+      en: "Belize"
+    },
     zone: "Etc/GMT+7",
     flag: "BZ",
     cities: cityList.filter(city => city.country === "BZ")
   },
   {
-    country: "Costa Rica",
+    country: {
+      de: "Costa Rica",
+      en: "Costa Rica"
+    },
     zone: "Etc/GMT+6",
     flag: "CR",
     cities: cityList.filter(city => city.country === "CR")
   },
   {
-    country: "El Salvador",
+    country: {
+      de: "El Salvador",
+      en: "El Salvador"
+    },
     zone: "Etc/GMT+6",
     flag: "SV",
     cities: cityList.filter(city => city.country === "SV")
   },
   {
-    country: "Guatemala",
+    country: {
+      de: "Guatemala",
+      en: "Guatemala"
+    },
     zone: "Etc/GMT+6",
     flag: "GT",
     cities: cityList.filter(city => city.country === "GT")
   },
   {
-    country: "Honduras",
+    country: {
+      de: "Honduras",
+      en: "Honduras"
+    },
     zone: "Etc/GMT+6",
     flag: "HN",
     cities: cityList.filter(city => city.country === "HN")
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Baja California"}, // 02
       {title: "Baja California Sur"}, // 03
@@ -50,7 +68,10 @@ export default [
     })
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Aguascalientes"}, // 01
       {title: "Chihuahua"}, // 06
@@ -109,7 +130,10 @@ export default [
     })
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Campeche"}, // 04
       {title: "Chiapas"}, // 05
@@ -136,15 +160,23 @@ export default [
     })
   },
   {
-    country: "Nicaragua",
+    country: {
+      de: "Nicaragua",
+      en: "Nicaragua"
+    },
     zone: "Etc/GMT+6",
     flag: "NI",
     cities: cityList.filter(city => city.country === "NI")
   },
   {
-    country: "Panama",
+    country: {
+      de: "Panama",
+      en: "Panama"
+    },
     zone: "Etc/GMT+5",
     flag: "PA",
     cities: cityList.filter(city => city.country === "PA")
   },
 ]
+
+export default countryList
