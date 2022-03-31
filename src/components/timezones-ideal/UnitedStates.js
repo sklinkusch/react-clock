@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(west of 172.5° W)"},
     ],
@@ -23,7 +26,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(172.5° W – 157.5° W)"},
     ],
@@ -43,7 +49,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(157.5° W – 142.5° W)"},
     ],
@@ -63,7 +72,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(east of 142.5° W)"},
     ],
@@ -83,7 +95,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "California"},
       {title: "Idaho"},
@@ -110,7 +125,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Arizona"},
       {title: "Colorado"},
@@ -151,7 +169,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alabama"},
       {title: "Arkansas"},
@@ -198,7 +219,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Connecticut"},
       {title: "Delaware"}, 
@@ -255,3 +279,5 @@ export default [
     })
   },
 ]
+
+export default countryList

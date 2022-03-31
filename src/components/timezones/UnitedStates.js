@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alabama"}, 
       {title: "Arkansas"}, 
@@ -27,7 +30,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Chicago")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(west of 169°30' W)"}
     ],
@@ -36,7 +42,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Adak")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(east of 169°30' W)"}
     ],
@@ -45,7 +54,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Anchorage")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Arizona", extra: "(except Navajo Nation Reservation)"}
     ],
@@ -54,7 +66,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Phoenix")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Arizona", extra: "(Navajo Nation Reservation)"}
     ],
@@ -63,7 +78,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Shiprock")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "California"}, 
       {title: "Nevada", extra: "(most of state)"}, 
@@ -75,7 +93,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Los_Angeles")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Colorado"}, 
       {title: "Kansas", extra: "(western border counties)"}, 
@@ -94,7 +115,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Denver")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Connecticut"}, 
       {title: "Delaware"}, 
@@ -122,7 +146,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/New_York")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Idaho", extra: "(most of state)"}, 
       {title: "Oregon", extra: "(Malheur County)"}
@@ -132,7 +159,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Boise")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Indiana", extra: "(most of state)"}
     ],
@@ -141,7 +171,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Indiana/Indianapolis")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Indiana", extra: "(northwest and southwest)"}
     ],
@@ -150,7 +183,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Indiana/Knox")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Kentucky", extra: "(eastern 60%)"}
     ],
@@ -159,7 +195,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Kentucky/Louisville")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Michigan", extra: "(most of state)"}
     ],
@@ -168,7 +207,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Detroit")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Michigan", extra: "(counties bordering Wisconsin)"}
     ],
@@ -177,7 +219,10 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/Menominee")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "North Dakota", extra: "(most of state)"}
     ],
@@ -186,3 +231,5 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "America/North_Dakota/Center")
   },
 ]
+
+export default countryList
