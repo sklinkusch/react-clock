@@ -1,14 +1,20 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     zone: "Asia/Shanghai",
     flag: "CN",
     cities: cityList.filter(city => city.country === "CN" && city.tz === "Asia/Shanghai")
   },
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     subdiv: [
       {title: "Xinjiang"}
     ],
@@ -17,25 +23,37 @@ export default [
     cities: cityList.filter(city => city.country === "CN" && city.tz === "Asia/Urumqi")
   },
   {
-    country: "Hong Kong (China)",
+    country: {
+      de: "Hongkong (VR China)",
+      en: "Hong Kong (PR of China)"
+    },
     zone: "Asia/Hong_Kong",
     flag: "HK",
     cities: cityList.filter(city => city.country === "HK" && city.tz === "Asia/Hong_Kong")
   },
   {
-    country: "Japan",
+    country: {
+      de: "Japan",
+      en: "Japan"
+    },
     zone: "Asia/Tokyo",
     flag: "JP",
     cities: cityList.filter(city => city.country === "JP" && city.tz === "Asia/Tokyo")
   },
   {
-    country: "Macau (China)",
+    country: {
+      de: "Macau (VR China)",
+      en: "Macau (PR of China)"
+    },
     zone: "Asia/Macau",
     flag: "MO",
     cities: cityList.filter(city => city.country === "MO" && city.tz === "Asia/Macau")
   },
   {
-    country: "Mongolia",
+    country: {
+      de: "Mongolei",
+      en: "Mongolia"
+    },
     subdiv: [
       {title: "Arkhangai"}, 
       {title: "Bayankhongor"}, 
@@ -57,7 +75,10 @@ export default [
     cities: cityList.filter(city => city.country === "MN" && city.tz === "Asia/Ulaanbaatar")
   },
   {
-    country: "Mongolia",
+    country: {
+      de: "Mongolei",
+      en: "Mongolia"
+    },
     subdiv: [
       {title: "Dornod"}, 
       {title: "Sükhbaatar"}
@@ -67,7 +88,10 @@ export default [
     cities: cityList.filter(city => city.country === "MN" && city.tz === "Asia/Choibalsan")
   },
   {
-    country: "Mongolia",
+    country: {
+      de: "Mongolei",
+      en: "Mongolia"
+    },
     subdiv: [
       {title: "Bayan-Ölgii"}, 
       {title: "Govi-Altai"}, 
@@ -80,21 +104,32 @@ export default [
     cities: cityList.filter(city => city.country === "MN" && city.tz === "Asia/Hovd")
   },
   {
-    country: "North Korea",
+    country: {
+      de: "Nordkorea",
+      en: "North Korea"
+    },
     zone: "Asia/Pyongyang",
     flag: "KP",
     cities: cityList.filter(city => city.country === "KP" && city.tz === "Asia/Pyongyang")
   },
   {
-    country: "South Korea",
+    country: {
+      de: "Südkorea",
+      en: "South Korea"
+    },
     zone: "Asia/Seoul",
     flag: "KR",
     cities: cityList.filter(city => city.country === "KR" && city.tz === "Asia/Seoul")
   },
   {
-    country: "Taiwan",
+    country: {
+      de: "Taiwan",
+      en: "Taiwan"
+    },
     zone: "Asia/Taipei",
     flag: "TW",
     cities: cityList.filter(city => city.country === "TW" && city.tz === "Asia/Taipei")
   }
 ]
+
+export default countryList

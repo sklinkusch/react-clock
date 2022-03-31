@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     subdiv: [
       {title: "Tibet", extra: "(west of 82.5°E)"}, // 14
       {title: "Xinjiang", extra: "(west of 82.5°E)"}, // 13
@@ -19,7 +22,10 @@ export default [
     })
   },
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     subdiv: [
       {title: "Gansu", extra: "(west of 97.5°E)"}, // 15
       {title: "Qinghai", extra: "(west of 97.5°E)"}, // 06
@@ -40,7 +46,10 @@ export default [
     })
   },
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     subdiv: [
       {title: "Chongqing"}, // 33
       {title: "Gansu", extra: "(east of 97.5°E)"}, // 15
@@ -83,7 +92,10 @@ export default [
     })
   },
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     subdiv: [
       {title: "Anhui"}, // 01
       {title: "Beijing"}, // 22
@@ -130,7 +142,10 @@ export default [
     })
   },
   {
-    country: "China",
+    country: {
+      de: "Volksrepublik China",
+      en: "People's Republic of China"
+    },
     subdiv: [
       {title: "Heilongjiang", extra: "(east of 127.5°E)"}, // 08
       {title: "Jilin", extra: "(east of 127.5°E)"}, // 05
@@ -147,25 +162,37 @@ export default [
     })
   },
   {
-    country: "Hong Kong (China)",
+    country: {
+      de: "Hongkong (VR China)",
+      en: "Hong Kong (PR of China)"
+    },
     zone: "Etc/GMT-8",
     flag: "HK",
     cities: cityList.filter(city => city.country === "HK")
   },
   {
-    country: "Japan",
+    country: {
+      de: "Japan",
+      en: "Japan"
+    },
     zone: "Etc/GMT-9",
     flag: "JP",
     cities: cityList.filter(city => city.country === "JP")
   },
   {
-    country: "Macau (China)",
+    country: {
+      de: "Macau (VR China)",
+      en: "Macau (PR of China)"
+    },
     zone: "Etc/GMT-8",
     flag: "MO",
     cities: cityList.filter(city => city.country === "MO")
   },
   {
-    country: "Mongolia",
+    country: {
+      de: "Mongolei",
+      en: "Mongolia"
+    },
     subdiv: [
       {title: "Bayan-Ölgii"}, // 03
       {title: "Govi-Altai"}, // 10
@@ -188,7 +215,10 @@ export default [
     })
   },
   {
-    country: "Mongolia",
+    country: {
+      de: "Mongolei",
+      en: "Mongolia"
+    },
     subdiv: [
       {title: "Arkhangai"}, // 01
       {title: "Bayankhongor"}, // 02
@@ -229,7 +259,10 @@ export default [
     })
   },
   {
-    country: "Mongolia",
+    country: {
+      de: "Mongolei",
+      en: "Mongolia"
+    },
     subdiv: [
       {title: "Dornod"}, // 06
       {title: "Sükhbaatar"} // 17
@@ -246,21 +279,32 @@ export default [
     })
   },
   {
-    country: "North Korea",
+    country: {
+      de: "Nordkorea",
+      en: "North Korea"
+    },
     zone: "Etc/GMT-9",
     flag: "KP",
     cities: cityList.filter(city => city.country === "KP")
   },
   {
-    country: "South Korea",
+    country: {
+      de: "Südkorea",
+      en: "South Korea"
+    },
     zone: "Etc/GMT-9",
     flag: "KR",
     cities: cityList.filter(city => city.country === "KR")
   },
   {
-    country: "Taiwan",
+    country: {
+      de: "Taiwan",
+      en: "Taiwan"
+    },
     zone: "Etc/GMT-8",
     flag: "TW",
     cities: cityList.filter(city => city.country === "TW")
   }
 ]
+
+export default countryList
