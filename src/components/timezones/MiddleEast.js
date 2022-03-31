@@ -1,32 +1,47 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Afghanistan",
+    country: {
+      de: "Afghanistan",
+      en: "Afghanistan"
+    },
     zone: "Asia/Kabul",
     flag: "AF",
     cities: cityList.filter(city => city.country === "AF" && city.tz === "Asia/Kabul")
   },
   {
-    country: "Armenia",
+    country: {
+      de: "Armenien",
+      en: "Armenia"
+    },
     zone: "Asia/Yerevan",
     flag: "AM",
     cities: cityList.filter(city => city.country === "AM" && city.tz === "Asia/Yerevan")
   },
   {
-    country: "Azerbaijan",
+    country: {
+      de: "Aserbaidschan",
+      en: "Azerbaijan"
+    },
     zone: "Asia/Baku",
     flag: "AZ",
     cities: cityList.filter(city => city.country === "AZ" && city.tz === "Asia/Baku")
   },
   {
-    country: "Bahrain",
+    country: {
+      de: "Bahrain",
+      en: "Bahrain"
+    },
     zone: "Asia/Bahrain",
     flag: "BH",
     cities: cityList.filter(city => city.country === "BH" && city.tz === "Asia/Bahrain")
   },
   {
-    country: "Georgia",
+    country: {
+      de: "Georgien",
+      en: "Georgia"
+    },
     subdiv: [
       {title: "Ajaria"},
       {title: "Guria"},
@@ -45,7 +60,10 @@ export default [
     cities: cityList.filter(city => city.country === "GE" && city.tz === "Asia/Tbilisi" && city.adminCode !== "02")
   },
   {
-    country: "Georgia",
+    country: {
+      de: "Georgien",
+      en: "Georgia"
+    },
     subdiv: [
       {title: "Abkhazia", extra: "(controlled by Russia/Abkhazia)"},
       {title: "Shida Kartli", extra: "(partly controlled by Russia/South Ossetia)"}
@@ -55,49 +73,73 @@ export default [
     cities: cityList.filter(city => city.country === "GE" && city.adminCode === "02")
   },
   {
-    country: "Iran",
+    country: {
+      de: "Iran",
+      en: "Iran"
+    },
     zone: "Asia/Tehran",
     flag: "IR",
     cities: cityList.filter(city => city.country === "IR" && city.tz === "Asia/Tehran")
   },
   {
-    country: "Iraq",
+    country: {
+      de: "Irak",
+      en: "Iraq"
+    },
     zone: "Asia/Baghdad",
     flag: "IQ",
     cities: cityList.filter(city => city.country === "IQ" && city.tz === "Asia/Baghdad")
   },
   {
-    country: "Israel",
+    country: {
+      de: "Israel",
+      en: "Israel"
+    },
     zone: "Asia/Jerusalem",
     flag: "IL",
     cities: cityList.filter(city => city.country === "IL" && city.tz === "Asia/Jerusalem")
   },
   {
-    country: "Jordan",
+    country: {
+      de: "Jordanien",
+      en: "Jordan"
+    },
     zone: "Asia/Amman",
     flag: "JO",
     cities: cityList.filter(city => city.country === "JO" && city.tz === "Asia/Amman")
   },
   {
-    country: "Kuwait",
+    country: {
+      de: "Kuwait",
+      en: "Kuwait"
+    },
     zone: "Asia/Kuwait",
     flag: "KW",
     cities: cityList.filter(city => city.country === "KW" && city.tz === "Asia/Kuwait")
   },
   {
-    country: "Lebanon",
+    country: {
+      de: "Libanon",
+      en: "Lebanon"
+    },
     zone: "Asia/Beirut",
     flag: "LB",
     cities: cityList.filter(city => city.country === "LB" && city.tz === "Asia/Beirut")
   },
   {
-    country: "Oman",
+    country: {
+      de: "Oman",
+      en: "Oman"
+    },
     zone: "Asia/Muscat",
     flag: "OM",
     cities: cityList.filter(city => city.country === "OM" && city.tz === "Asia/Muscat")
   },
   {
-    country: "Palestine",
+    country: {
+      de: "Palästina",
+      en: "Palestine"
+    },
     subdiv: [
       {title: "Gaza Strip"}
     ],
@@ -106,7 +148,10 @@ export default [
     cities: cityList.filter(city => city.country === "PS" && city.tz === "Asia/Gaza")
   },
   {
-    country: "Palestine",
+    country: {
+      de: "Palästina",
+      en: "Palestine"
+    },
     subdiv: [
       {title: "West Bank"}
     ],
@@ -115,25 +160,37 @@ export default [
     cities: cityList.filter(city => city.country === "PS" && city.tz === "Asia/Hebron")
   },
   {
-    country: "Qatar",
+    country: {
+      de: "Katar",
+      en: "Qatar"
+    },
     zone: "Asia/Qatar",
     flag: "QA",
     cities: cityList.filter(city => city.country === "QA" && city.tz === "Asia/Qatar")
   },
   {
-    country: "Saudi Arabia",
+    country: {
+      de: "Saudi-Arabien",
+      en: "Saudi Arabia"
+    },
     zone: "Asia/Riyadh",
     flag: "SA",
     cities: cityList.filter(city => city.country === "SA" && city.tz === "Asia/Riyadh")
   },
   {
-    country: "Syria",
+    country: {
+      de: "Syrien",
+      en: "Syria"
+    },
     zone: "Asia/Damascus",
     flag: "SY",
     cities: cityList.filter(city => city.country === "SY" && city.tz === "Asia/Damascus")
   },
   {
-    country: "Turkey",
+    country: {
+      de: "Türkei",
+      en: "Turkey"
+    },
     zone: "Europe/Istanbul",
     flag: "TR",
     cities: cityList.filter(city => {
@@ -150,15 +207,23 @@ export default [
     })
   },
   {
-    country: "United Arab Emirates",
+    country: {
+      de: "Vereinigte Arabische Emirate",
+      en: "United Arab Emirates"
+    },
     zone: "Asia/Dubai",
     flag: "AE",
     cities: cityList.filter(city => city.country === "AE" && city.tz === "Asia/Dubai")
   },
   {
-    country: "Yemen",
+    country: {
+      de: "Jemen",
+      en: "Yemen"
+    },
     zone: "Asia/Aden",
     flag: "YE",
     cities: cityList.filter(city => city.country === "YE" && city.tz === "Asia/Aden")
   }
 ]
+
+export default countryList

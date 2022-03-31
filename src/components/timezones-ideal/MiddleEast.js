@@ -1,104 +1,155 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Afghanistan",
+    country: {
+      de: "Afghanistan",
+      en: "Afghanistan"
+    },
     utcOffset: 270,
     flag: "AF",
     cities: cityList.filter(city => city.country === "AF")
   },
   {
-    country: "Armenia",
+    country: {
+      de: "Armenien",
+      en: "Armenia"
+    },
     zone: "Etc/GMT-3",
     flag: "AM",
     cities: cityList.filter(city => city.country === "AM")
   },
   {
-    country: "Azerbaijan",
+    country: {
+      de: "Aserbaidschan",
+      en: "Azerbaijan"
+    },
     zone: "Etc/GMT-3",
     flag: "AZ",
     cities: cityList.filter(city => city.country === "AZ")
   },
   {
-    country: "Bahrain",
+    country: {
+      de: "Bahrain",
+      en: "Bahrain"
+    },
     zone: "Etc/GMT-3",
     flag: "BH",
     cities: cityList.filter(city => city.country === "BH")
   },
   {
-    country: "Georgia",
+    country: {
+      de: "Georgien",
+      en: "Georgia"
+    },
     zone: "Etc/GMT-3",
     flag: "GE",
     cities: cityList.filter(city => city.country === "GE")
   },
   {
-    country: "Iran",
+    country: {
+      de: "Iran",
+      en: "Iran"
+    },
     utcOffset: 210,
     flag: "IR",
     cities: cityList.filter(city => city.country === "IR")
   },
   {
-    country: "Iraq",
+    country: {
+      de: "Irak",
+      en: "Iraq"
+    },
     zone: "Etc/GMT-3",
     flag: "IQ",
     cities: cityList.filter(city => city.country === "IQ")
   },
   {
-    country: "Israel",
+    country: {
+      de: "Israel",
+      en: "Israel"
+    },
     zone: "Etc/GMT-2",
     flag: "IL",
     cities: cityList.filter(city => city.country === "IL")
   },
   {
-    country: "Jordan",
+    country: {
+      de: "Jordanien",
+      en: "Jordan"
+    },
     zone: "Etc/GMT-2",
     flag: "JO",
     cities: cityList.filter(city => city.country === "JO")
   },
   {
-    country: "Kuwait",
+    country: {
+      de: "Kuwait",
+      en: "Kuwait"
+    },
     zone: "Etc/GMT-3",
     flag: "KW",
     cities: cityList.filter(city => city.country === "KW")
   },
   {
-    country: "Lebanon",
+    country: {
+      de: "Libanon",
+      en: "Lebanon"
+    },
     zone: "Etc/GMT-2",
     flag: "LB",
     cities: cityList.filter(city => city.country === "LB")
   },
   {
-    country: "Oman",
+    country: {
+      de: "Oman",
+      en: "Oman"
+    },
     zone: "Etc/GMT-4",
     flag: "OM",
     cities: cityList.filter(city => city.country === "OM")
   },
   {
-    country: "Palestine",
+    country: {
+      de: "Palästina",
+      en: "Palestine"
+    },
     zone: "Etc/GMT-2",
     flag: "PS",
     cities: cityList.filter(city => city.country === "PS")
   },
   {
-    country: "Qatar",
+    country: {
+      de: "Katar",
+      en: "Qatar"
+    },
     zone: "Etc/GMT-3",
     flag: "QA",
     cities: cityList.filter(city => city.country === "QA")
   },
   {
-    country: "Saudi Arabia",
+    country: {
+      de: "Saudi-Arabien",
+      en: "Saudi Arabia"
+    },
     zone: "Etc/GMT-3",
     flag: "SA",
     cities: cityList.filter(city => city.country === "SA")
   },
   {
-    country: "Syria",
+    country: {
+      de: "Syrien",
+      en: "Syria"
+    },
     zone: "Etc/GMT-3",
     flag: "SY",
     cities: cityList.filter(city => city.country === "SY")
   },
   {
-    country: "Turkey",
+    country: {
+      de: "Türkei",
+      en: "Turkey"
+    },
     subdiv: [
       {title: "Adana"}, // 81
       {title: "Afyonkarahisar"}, // 03
@@ -217,7 +268,10 @@ export default [
     })
   },
   {
-    country: "Turkey",
+    country: {
+      de: "Türkei",
+      en: "Turkey"
+    },
     subdiv: [
       {title: "Adıyaman"}, // 02
       {title: "Ağrı"}, // 04
@@ -294,15 +348,23 @@ export default [
     })
   },
   {
-    country: "United Arab Emirates",
+    country: {
+      de: "Vereinigte Arabische Emirate",
+      en: "United Arab Emirates"
+    },
     utcOffset: 210,
     flag: "AE",
     cities: cityList.filter(city => city.country === "AE")
   },
   {
-    country: "Yemen",
+    country: {
+      de: "Jemen",
+      en: "Yemen"
+    },
     zone: "Etc/GMT-3",
     flag: "YE",
     cities: cityList.filter(city => city.country === "YE")
   }
 ]
+
+export default countryList
