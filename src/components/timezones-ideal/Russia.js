@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Kaliningrad Oblast"} //23
     ],
@@ -11,7 +14,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.adminCode === "23")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Saint Petersburg"}, // 66
       {title: "Karelia"}, // 28
@@ -56,7 +62,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Moscow"}, // 48 
       {title: "Adygea"}, // 01
@@ -149,7 +158,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Bashkortostan"}, // 08
       {title: "Komi"}, // 34
@@ -184,7 +196,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Altai Region"}, // 04
       {title: "Novosibirsk Oblast"}, // 53
@@ -213,7 +228,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Altai Republic"}, // 03
       {title: "Khakassia"}, // 31
@@ -244,7 +262,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Buryatia"}, // 11
       {title: "Sakha", extra: "(west of 112.5° E)"}, // 63
@@ -273,7 +294,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakha", extra: "(112.5° E – 127.5° E)"}, // 63
       {title: "Amur Oblast"}, // 05
@@ -302,7 +326,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakha", extra: "(127.5°E – 142.5° E)"}, // 63
       {title: "Khabarovsk Region"}, // 30
@@ -331,7 +358,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakha", extra: "(east of 142.5° E)"}, // 63
       {title: "Magadan Oblast", extra: "(west of 157.5° E)"} // 44
@@ -355,7 +385,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Magadan Oblast", extra: "(east of 157.5° E)"}, // 44
       {title: "Kamchatka"}, // 92
@@ -382,7 +415,10 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Chukotka Autonomous Okrug", extra: "(east of 172.5° E)"},
     ],
@@ -391,3 +427,5 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.adminCode === "15" && city.lon >= 172.5)
   },
 ]
+
+export default countryList

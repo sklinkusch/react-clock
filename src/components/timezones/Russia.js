@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Kaliningrad Oblast"}
     ],
@@ -11,7 +14,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Kaliningrad")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Moscow"}, 
       {title: "Saint Petersburg"}, 
@@ -42,7 +48,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Moscow")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Adygea"}, 
       {title: "Chechnya"}, 
@@ -63,7 +72,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Astrakhan")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Chuvashia"}, 
       {title: "Tatarstan"}, 
@@ -77,7 +89,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Kirov")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Belgorod Oblast"}, 
       {title: "Kursk Oblast"}, 
@@ -92,7 +107,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Saratov")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Udmurtia"}, 
       {title: "Samara Oblast"}, 
@@ -103,7 +121,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Europe/Samara")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Bashkortostan"}, 
       {title: "Perm Region"}, 
@@ -120,7 +141,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Yekaterinburg")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Omsk Oblast"}
     ],
@@ -129,7 +153,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Omsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Altai Republic"}, 
       {title: "Altai Region"}
@@ -139,7 +166,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Barnaul")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Khakassia"}, 
       {title: "Tuva Republic"}, 
@@ -150,7 +180,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Krasnoyarsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Kemerovo Oblast"}
     ],
@@ -159,7 +192,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Novokuznetsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Novosibirsk Oblast"}
     ],
@@ -168,7 +204,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Novosibirsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Tomsk Oblast"}
     ],
@@ -177,7 +216,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Tomsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Buryatia"}, 
       {title: "Irkutsk Oblast"}
@@ -187,7 +229,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Irkutsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakha", extra: "(western part)"}, 
       {title: "Amur Oblast"}
@@ -197,7 +242,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Yakutsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Zabaykalsky Krai"}
     ],
@@ -206,7 +254,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Chita")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Khabarovsk Region"}, 
       {title: "Primorsky Krai"}, 
@@ -217,7 +268,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Vladivostok")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakha", extra: "(central part)"}
     ],
@@ -226,7 +280,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Ust-Nera")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakha", extra: "(eastern part)"}
     ],
@@ -235,7 +292,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Srednekolymsk")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Magadan Oblast"}
     ],
@@ -244,7 +304,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Magadan")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Sakhalin Oblast"}
     ],
@@ -253,7 +316,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Sakhalin")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Kamchatka"}
     ],
@@ -262,7 +328,10 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Kamchatka")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
       {title: "Chukotka Autonomous Okrug"}
     ],
@@ -271,3 +340,5 @@ export default [
     cities: cityList.filter(city => city.country === "RU" && city.tz === "Asia/Anadyr")
   }
 ]
+
+export default countryList
