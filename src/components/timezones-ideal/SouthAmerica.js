@@ -1,20 +1,29 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Argentina",
+    country: {
+      de: "Argentinien",
+      en: "Argentina"
+    },
     zone: "Etc/GMT+4",
     flag: "AR",
     cities: cityList.filter(city => city.country === "AR")
   },
   {
-    country: "Bolivia",
+    country: {
+      de: "Bolivien",
+      en: "Bolivia"
+    },
     zone: "Etc/GMT+4",
     flag: "BO",
     cities: cityList.filter(city => city.country === "BO")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Acre"}, // 01
       {title: "Amazonas", extra: "(western part)"} // 04
@@ -37,7 +46,10 @@ export default [
     })
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Amazonas", extra: "(eastern part)"}, // 04
       {title: "Mato Grosso"}, // 14
@@ -72,7 +84,10 @@ export default [
     })
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Amapá"}, // 03
       {title: "Bahia"}, // 05
@@ -123,7 +138,10 @@ export default [
     })
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Alagoas"}, // 02
       {title: "Fernando de Noronha"}, 
@@ -150,7 +168,10 @@ export default [
     })
   },
   {
-    country: "Chile",
+    country: {
+      de: "Chile",
+      en: "Chile"
+    },
     subdiv: [
       {title: "Easter Island"}
     ],
@@ -159,7 +180,10 @@ export default [
     cities: cityList.filter(city => city.country === "CL" && city.tz === "Pacific/Easter")
   },
   {
-    country: "Chile",
+    country: {
+      de: "Chile",
+      en: "Chile"
+    },
     subdiv: [
       {title: "Aisén"},
       {title: "Antofagasta"},
@@ -183,13 +207,19 @@ export default [
     cities: cityList.filter(city => city.country === "CL" && city.tz !== "Pacific/Easter")
   },
   {
-    country: "Colombia",
+    country: {
+      de: "Kolumbien",
+      en: "Colombia"
+    },
     zone: "Etc/GMT+5",
     flag: "CO",
     cities: cityList.filter(city => city.country === "CO")
   },
   {
-    country: "Ecuador",
+    country: {
+      de: "Ecuador",
+      en: "Ecuador"
+    },
     subdiv: [
       {title: "Azuay"},
       {title: "Bolívar"},
@@ -220,7 +250,10 @@ export default [
     cities: cityList.filter(city => city.country === "CL" && city.tz !== "Pacific/Galapagos")
   },
   {
-    country: "Ecuador",
+    country: {
+      de: "Ecuador",
+      en: "Ecuador"
+    },
     subdiv: [
       {title: "Galápagos"}
     ],
@@ -229,57 +262,86 @@ export default [
     cities: cityList.filter(city => city.country === "CL" && city.tz === "Pacific/Galapagos")
   },
   {
-    country: "Falkland Islands (United Kingdom)",
+    country: {
+      de: "Falklandinseln (Vereinigtes Königreich)",
+      en: "Falkland Islands (United Kingdom)"
+    },
     zone: "Etc/GMT+4",
     flag: "FK",
     cities: cityList.filter(city => city.country === "FK")
   },
   {
-    country: "French Guiana (France)",
+    country: {
+      de: "Französisch-Guayana (Frankreich)",
+      en: "French Guiana (France)"
+    },
     zone: "Etc/GMT+4",
     flag: "GF",
     cities: cityList.filter(city => city.country === "GF")
   },
   {
-    country: "Guyana",
+    country: {
+      de: "Guyana",
+      en: "Guyana"
+    },
     zone: "Etc/GMT+4",
     flag: "GY",
     cities: cityList.filter(city => city.country === "GY")
   },
   {
-    country: "Paraguay",
+    country: {
+      de: "Paraguay",
+      en: "Paraguay"
+    },
     zone: "Etc/GMT+4",
     flag: "PY",
     cities: cityList.filter(city => city.country === "PY")
   },
   {
-    country: "Peru",
+    country: {
+      de: "Peru",
+      en: "Peru"
+    },
     zone: "Etc/GMT+5",
     flag: "PE",
     cities: cityList.filter(city => city.country === "PE")
   },
   {
-    country: "South Georgia and the South Sandwich Islands (United Kingdom)",
+    country: {
+      de: "Südgeorgien und die Südlichen Sandwichinseln (Vereinigtes Königreich)",
+      en: "South Georgia and the South Sandwich Islands (United Kingdom)"
+    },
     zone: "Etc/GMT+2",
     flag: "GS",
     cities: cityList.filter(city => city.country === "GS")
   },
   {
-    country: "Suriname",
+    country: {
+      de: "Suriname",
+      en: "Suriname"
+    },
     zone: "Etc/GMT+4",
     flag: "SR",
     cities: cityList.filter(city => city.country === "SR")
   },
   {
-    country: "Uruguay",
+    country: {
+      de: "Uruguay",
+      en: "Uruguay"
+    },
     zone: "Etc/GMT+4",
     flag: "UY",
     cities: cityList.filter(city => city.country === "UY")
   },
   {
-    country: "Venezuela",
+    country: {
+      de: "Venezuela",
+      en: "Venezuela"
+    },
     zone: "Etc/GMT+4",
     flag: "VE",
     cities: cityList.filter(city => city.country === "VE")
   }
 ]
+
+export default countryList
