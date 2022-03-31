@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Akmola Region"}, 
       {title: "Almaty Region"}, 
@@ -18,7 +21,10 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Almaty")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Kostanay Region"}
     ],
@@ -27,7 +33,10 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Qostanay")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Kyzylorda Region"}
     ],
@@ -36,7 +45,10 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Qyzylorda")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Aktobe Region"}
     ],
@@ -45,7 +57,10 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Aqtobe")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Atyrau Region"}
     ],
@@ -54,7 +69,10 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Atyrau")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Mangystau Region"}
     ],
@@ -63,7 +81,10 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Aqtau")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "West Kazakhstan Region"}
     ],
@@ -72,27 +93,41 @@ export default [
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Oral")
   },
   {
-    country: "Kyrgyzstan",
+    country: {
+      de: "Kirgisistan",
+      en: "Kyrgyzstan"
+    },
     zone: "Asia/Bishkek",
     flag: "KG",
     cities: cityList.filter(city => city.country === "KG" && city.tz === "Asia/Bishkek")
   },
   {
-    country: "Tajikistan",
+    country: {
+      de: "Tadschikistan",
+      en: "Tajikistan"
+    },
     zone: "Asia/Dushanbe",
     flag: "TJ",
     cities: cityList.filter(city => city.country === "TJ" && city.tz === "Asia/Dushanbe")
   },
   {
-    country: "Turkmenistan",
+    country: {
+      de: "Turkmenistan",
+      en: "Turkmenistan"
+    },
     zone: "Asia/Ashgabat",
     flag: "TM",
     cities: cityList.filter(city => city.country === "TM" && city.tz === "Asia/Ashgabat")
   },
   {
-    country: "Uzbekistan",
+    country: {
+      de: "Usbekistan",
+      en: "Uzbekistan"
+    },
     zone: "Asia/Tashkent",
     flag: "UZ",
     cities: cityList.filter(city => city.country === "UZ" && city.tz === "Asia/Tashkent")
   },
 ]
+
+export default countryList

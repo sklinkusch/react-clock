@@ -1,8 +1,11 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Atyrau Region"}, // 06
       {title: "Mangystau Region"}, // 09
@@ -20,7 +23,10 @@ export default [
     })
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Aktobe Region"}, // 04
       {title: "Kostanay Region"}, // 13
@@ -41,7 +47,10 @@ export default [
     })
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
       {title: "Akmola Region"}, // 03
       {title: "Almaty Region"}, // 01
@@ -76,27 +85,41 @@ export default [
     })
   },
   {
-    country: "Kyrgyzstan",
+    country: {
+      de: "Kirgisistan",
+      en: "Kyrgyzstan"
+    },
     zone: "Etc/GMT-5",
     flag: "KG",
     cities: cityList.filter(city => city.country === "KG")
   },
   {
-    country: "Tajikistan",
+    country: {
+      de: "Tadschikistan",
+      en: "Tajikistan"
+    },
     zone: "Etc/GMT-5",
     flag: "TJ",
     cities: cityList.filter(city => city.country === "TJ")
   },
   {
-    country: "Turkmenistan",
+    country: {
+      de: "Turkmenistan",
+      en: "Turkmenistan"
+    },
     zone: "Etc/GMT-4",
     flag: "TM",
     cities: cityList.filter(city => city.country === "TM")
   },
   {
-    country: "Uzbekistan",
+    country: {
+      de: "Usbekistan",
+      en: "Uzbekistan"
+    },
     zone: "Etc/GMT-4",
     flag: "UZ",
     cities: cityList.filter(city => city.country === "UZ")
   },
 ]
+
+export default countryList
