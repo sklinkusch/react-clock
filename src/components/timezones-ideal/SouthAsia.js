@@ -1,32 +1,47 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Bangladesh",
+    country: {
+      de: "Bangladesch",
+      en: "Bangladesh"
+    },
     zone: "Etc/GMT-6",
     flag: "BD",
     cities: cityList.filter(city => city.country === "BD")
   },
   {
-    country: "Bhutan",
+    country: {
+      de: "Bhutan",
+      en: "Bhutan"
+    },
     zone: "Etc/GMT-6",
     flag: "BT",
     cities: cityList.filter(city => city.country === "BT")
   },
   {
-    country: "British Indian Ocean Territory (United Kingdom)",
+    country: {
+      de: "Britisches Territorium im Indischen Ozean (Vereinigtes Territorium)",
+      en: "British Indian Ocean Territory (United Kingdom)"
+    },
     zone: "Etc/GMT-5",
     flag: "IO",
     cities: cityList.filter(city => city.country === "IO")
   },
   {
-    country: "Cocos Islands (Australia)",
+    country: {
+      de: "Kokosinseln (Australien)",
+      en: "Cocos Islands (Australia)"
+    },
     zone: "Etc/GMT-6",
     flag: "CC",
     cities: cityList.filter(city => city.country === "CC")
   },
   {
-    country: "India",
+    country: {
+      de: "Indien",
+      en: "India"
+    },
     subdiv: [
       {title: "Andhra Pradesh"}, // 02
       {title: "Chhattisgarh"}, // 37
@@ -87,7 +102,10 @@ export default [
     })
   },
   {
-    country: "India",
+    country: {
+      de: "Indien",
+      en: "India"
+    },
     subdiv: [
       {title: "Arunachal Pradesh"}, // 30
       {title: "Assam"}, // 03
@@ -132,25 +150,37 @@ export default [
     })
   },
   {
-    country: "Myanmar",
+    country: {
+      de: "Myanmar",
+      en: "Myanmar"
+    },
     utcOffset: 390,
     flag: "MM",
     cities: cityList.filter(city => city.country === "MM")
   },
   {
-    country: "Nepal",
+    country: {
+      de: "Nepal",
+      en: "Nepal"
+    },
     zone: "Etc/GMT-5",
     flag: "NP",
     cities: cityList.filter(city => city.country === "NP")
   },
   {
-    country: "Maldives",
+    country: {
+      de: "Malediven",
+      en: "Maldives"
+    },
     zone: "Etc/GMT-5",
     flag: "MV",
     cities: cityList.filter(city => city.country === "MV")
   },
   {
-    country: "Pakistan",
+    country: {
+      de: "Pakistan",
+      en: "Pakistan"
+    },
     subdiv: [
       {title: "Balochistan"}, // 02
     ],
@@ -159,7 +189,10 @@ export default [
     cities: cityList.filter(city => city.country === "PK" && city.adminCode === "02")
   },
   {
-    country: "Pakistan",
+    country: {
+      de: "Pakistan",
+      en: "Pakistan"
+    },
     subdiv: [
       {title: "Azad Jammu and Kashmir"}, // 06
       {title: "Gilgit-Baltistan"}, // 07
@@ -188,9 +221,14 @@ export default [
     })
   },
   {
-    country: "Sri Lanka",
+    country: {
+      de: "Sri Lanka",
+      en: "Sri Lanka"
+    },
     zone: "Etc/GMT-5",
     flag: "LK",
     cities: cityList.filter(city => city.country === "LK")
   }
 ]
+
+export default countryList
