@@ -1,116 +1,173 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Åland (Finland)",
+    country: {
+      de: "Åland (Finnland)",
+      en: "Åland (Finland)"
+    },
     zone: "Etc/GMT-2",
     flag: "AX",
     cities: cityList.filter(city => city.country === "AX")
   },
   {
-    country: "Albania",
+    country: {
+      de: "Albanien",
+      en: "Albania"
+    },
     zone: "Etc/GMT-1",
     flag: "AL",
     cities: cityList.filter(city => city.country === "AL")
   },
   {
-    country: "Andorra",
+    country: {
+      de: "Andorra",
+      en: "Andorra"
+    },
     zone: "Etc/GMT+0",
     flag: "AD",
     cities: cityList.filter(city => city.country === "AD")
   },
   {
-    country: "Austria",
+    country: {
+      de: "Österreich",
+      en: "Austria"
+    },
     zone: "Etc/GMT-1",
     flag: "AT",
     cities: cityList.filter(city => city.country === "AT")
   },
   {
-    country: "Belarus",
+    country: {
+      de: "Belarus",
+      en: "Belarus"
+    },
     zone: "Etc/GMT-2",
     flag: "BY",
     cities: cityList.filter(city => city.country === "BY")
   },
   {
-    country: "Belgium",
+    country: {
+      de: "Belgien",
+      en: "Belgium"
+    },
     zone: "Etc/GMT+0",
     flag: "BE",
     cities: cityList.filter(city => city.country === "BE")
   },
   {
-    country: "Bosnia and Herzegovina",
+    country: {
+      de: "Bosnien und Herzegowina",
+      en: "Bosnia and Herzegovina"
+    },
     zone: "Etc/GMT-1",
     flag: "BA",
     cities: cityList.filter(city => city.country === "BA")
   },
   {
-    country: "Bulgaria",
+    country: {
+      de: "Bulgarien",
+      en: "Bulgaria"
+    },
     zone: "Etc/GMT-2",
     flag: "BG",
     cities: cityList.filter(city => city.country === "BG")
   },
   {
-    country: "Croatia",
+    country: {
+      de: "Kroatien",
+      en: "Croatia"
+    },
     zone: "Etc/GMT-1",
     flag: "HR",
     cities: cityList.filter(city => city.country === "HR")
   },
   {
-    country: "Cyprus",
+    country: {
+      de: "Zypern",
+      en: "Cyprus"
+    },
     zone: "Etc/GMT-2",
     flag: "CY",
     cities: cityList.filter(city => city.country === "CY")
   },
   {
-    country: "Czechia",
+    country: {
+      de: "Tschechien",
+      en: "Czechia"
+    },
     zone: "Etc/GMT-1",
     flag: "CZ",
     cities: cityList.filter(city => city.country === "CZ")
   },
   {
-    country: "Denmark",
+    country: {
+      de: "Dänemark",
+      en: "Denmark"
+    },
     zone: "Etc/GMT-1",
     flag: "DK",
     cities: cityList.filter(city => city.country === "DK")
   },
   {
-    country: "Estonia",
+    country: {
+      de: "Estland",
+      en: "Estonia"
+    },
     zone: "Etc/GMT-2",
     flag: "EE",
     cities: cityList.filter(city => city.country === "EE")
   },
   {
-    country: "Faroe Islands (Denmark)",
+    country: {
+      de: "Färöer (Dänemark)",
+      en: "Faroe Islands (Denmark)"
+    },
     zone: "Etc/GMT+0",
     flag: "FO",
     cities: cityList.filter(city => city.country === "FO")
   },
   {
-    country: "Finland",
+    country: {
+      de: "Finnland",
+      en: "Finland"
+    },
     zone: "Etc/GMT-2",
     flag: "FI",
     cities: cityList.filter(city => city.country === "FI")
   },
   {
-    country: "France",
+    country: {
+      de: "Frankreich",
+      en: "France"
+    },
     zone: "Etc/GMT+0",
     flag: "FR",
     cities: cityList.filter(city => city.country === "FR")
   },
   {
-    country: "Germany",
+    country: {
+      de: "Deutschland",
+      en: "Germany"
+    },
     zone: "Etc/GMT-1",
     flag: "DE",
     cities: cityList.filter(city => city.country === "DE")
   },
   {
-    country: "Gibraltar (United Kingdom)",
+    country: {
+      de: "Gibraltar (Vereinigtes Königreich)",
+      en: "Gibraltar (United Kingdom)"
+    },
     zone: "Etc/GMT+0",
     flag: "GI",
     cities: cityList.filter(city => city.country === "GI")
   },
   {
-    country: "Greece",
+    country: {
+      de: "Griechenland",
+      en: "Greece"
+    },
     subdiv: [
       {title: "Epirus and Western Macedonia"}, // ESYE21, ESYE13
       {title: "Peloponnese, Western Greece and the Ionian"}, // ESYE25, ESYE23, ESYE22
@@ -130,7 +187,10 @@ export default [
     })
   },
   {
-    country: "Greece",
+    country: {
+      de: "Griechenland",
+      en: "Greece"
+    },
     subdiv: [
       {title: "Aegean"}, // ESYE41, ESYE42
       {title: "Attica"}, // ESYE31
@@ -156,7 +216,10 @@ export default [
     })
   },
   {
-    country: "Greenland (Denmark)",
+    country: {
+      de: "Grönland (Dänemark)",
+      en: "Greenland (Denmark)"
+    },
     subdiv: [
       {title: "Danmarkshavn"}
     ],
@@ -165,7 +228,10 @@ export default [
     cities: cityList.filter(city => city.country === "GL" && city.tz === "America/Danmarkshavn")
   },
   {
-    country: "Greenland (Denmark)",
+    country: {
+      de: "Grönland (Dänemark)",
+      en: "Greenland (Denmark)"
+    },
     subdiv: [
       {title: "Ittoqqortoormit"}, 
       {title: "Scoresbysund"}
@@ -175,7 +241,10 @@ export default [
     cities: cityList.filter(city => city.country === "GL" && city.tz === "America/Scoresbysund")
   },
   {
-    country: "Greenland (Denmark)",
+    country: {
+      de: "Grönland (Dänemark)",
+      en: "Greenland (Denmark)"
+    },
     subdiv: [
       {title: "Thule"}, 
       {title: "Pituffik"}
@@ -185,7 +254,10 @@ export default [
     cities: cityList.filter(city => city.country === "GL" && city.tz === "America/Thule")
   },
   {
-    country: "Greenland (Denmark)",
+    country: {
+      de: "Grönland (Dänemark)",
+      en: "Greenland (Denmark)"
+    },
     subdiv: [
       {title: "Western Greenland"}
     ],
@@ -194,115 +266,172 @@ export default [
     cities: cityList.filter(city => city.country === "GL" && city.tz === "America/Nuuk")
   },
   {
-    country: "Guernsey (United Kingdom)",
+    country: {
+      de: "Guernsey (Vereinigtes Königreich)",
+      en: "Guernsey (United Kingdom)"
+    },
     zone: "Etc/GMT+0",
     flag: "GG",
     cities: cityList.filter(city => city.country === "GG")
   },
   {
-    country: "Hungary",
+    country: {
+      de: "Ungarn",
+      en: "Hungary"
+    },
     zone: "Etc/GMT-1",
     flag: "HU",
     cities: cityList.filter(city => city.country === "HU")
   },
   {
-    country: "Iceland",
+    country: {
+      de: "Island",
+      en: "Iceland"
+    },
     zone: "Etc/GMT+1",
     flag: "IS",
     cities: cityList.filter(city => city.country === "IS")
   },
   {
-    country: "Ireland",
+    country: {
+      de: "Irland",
+      en: "Ireland"
+    },
     zone: "Etc/GMT+1",
     flag: "IE",
     cities: cityList.filter(city => city.country === "IE")
   },
   {
-    country: "Isle of Man (United Kingdom)",
+    country: {
+      de: "Isle of Man (Vereinigtes Königreich)",
+      en: "Isle of Man (United Kingdom)"
+    },
     zone: "Etc/GMT+0",
     flag: "IM",
     cities: cityList.filter(city => city.country === "IM")
   },
   {
-    country: "Italy",
+    country: {
+      de: "Italien",
+      en: "Italy"
+    },
     zone: "Etc/GMT-1",
     flag: "IT",
     cities: cityList.filter(city => city.country === "IT")
   },
   {
-    country: "Jersey (United Kingdom)",
+    country: {
+      de: "Jersey (Vereinigtes Königreich)",
+      en: "Jersey (United Kingdom)"
+    },
     zone: "Etc/GMT+0",
     flag: "JE",
     cities: cityList.filter(city => city.country === "JE")
   },
   {
-    country: "Kosovo",
+    country: {
+      de: "Kosovo",
+      en: "Kosovo"
+    },
     zone: "Etc/GMT-1",  // no explicit timezone for Kosovo/Pristina
     flag: "XK",
     cities: cityList.filter(city => city.country === "XK")
   },
   {
-    country: "Latvia",
+    country: {
+      de: "Lettland",
+      en: "Latvia"
+    },
     zone: "Etc/GMT-2",
     flag: "LV",
     cities: cityList.filter(city => city.country === "LV")
   },
   {
-    country: "Liechtenstein",
+    country: {
+      de: "Liechtenstein",
+      en: "Liechtenstein"
+    },
     zone: "Etc/GMT-1",
     flag: "LI",
     cities: cityList.filter(city => city.country === "LI")
   },
   {
-    country: "Lithuania",
+    country: {
+      de: "Litauen",
+      en: "Lithuania"
+    },
     zone: "Etc/GMT-2",
     flag: "LT",
     cities: cityList.filter(city => city.country === "LT")
   },
   {
-    country: "Luxembourg",
+    country: {
+      de: "Luxemburg",
+      en: "Luxembourg"
+    },
     zone: "Etc/GMT+0",
     flag: "LU",
     cities: cityList.filter(city => city.country === "LU")
   },
   {
-    country: "Malta",
+    country: {
+      de: "Malta",
+      en: "Malta"
+    },
     zone: "Etc/GMT-1",
     flag: "MT",
     cities: cityList.filter(city => city.country === "MT")
   },
   {
-    country: "Moldova",
+    country: {
+      de: "Moldau",
+      en: "Moldova"
+    },
     zone: "Etc/GMT-2",
     flag: "MD",
     cities: cityList.filter(city => city.country === "MD")
   },
   {
-    country: "Monaco",
+    country: {
+      de: "Monaco",
+      en: "Monaco"
+    },
     zone: "Etc/GMT+0",
     flag: "MC",
     cities: cityList.filter(city => city.country === "MC")
   },
   {
-    country: "Montenegro",
+    country: {
+      de: "Montenegro",
+      en: "Montenegro"
+    },
     zone: "Etc/GMT-1",
     flag: "ME",
     cities: cityList.filter(city => city.country === "ME")
   },
   {
-    country: "Netherlands",
+    country: {
+      de: "Niederlande",
+      en: "Netherlands"
+    },
     zone: "Etc/GMT+0",
     flag: "NL",
     cities: cityList.filter(city => city.country === "NL")
   },
   {
-    country: "North Macedonia",
+    country: {
+      de: "Nordmazedonien",
+      en: "North Macedonia"
+    },
     zone: "Etc/GMT-1",
     flag: "MK",
     cities: cityList.filter(city => city.country === "MK")
   },
   {
-    country: "Norway",
+    country: {
+      de: "Norwegen",
+      en: "Norway"
+    },
     subdiv: [
       {title: "Agder"},
       {title: "Innlandet"},
@@ -321,7 +450,10 @@ export default [
     cities: cityList.filter(city => city.country === "NO")
   },
   {
-    country: "Norway",
+    country: {
+      de: "Norwegen",
+      en: "Norway"
+    },
     subdiv: [
       {title: "Jan Mayen"}
     ],
@@ -330,7 +462,10 @@ export default [
     cities: cityList.filter(city => city.country === "SJ" && city.adminCode === "22")
   },
   {
-    country: "Norway",
+    country: {
+      de: "Norwegen",
+      en: "Norway"
+    },
     subdiv: [
       {title: "Svalbard"}
     ],
@@ -339,13 +474,19 @@ export default [
     cities: cityList.filter(city => city.country === "SJ" && city.adminCode === "21")
   },
   {
-    country: "Poland",
+    country: {
+      de: "Polen",
+      en: "Poland"
+    },
     zone: "Etc/GMT-1",
     flag: "PL",
     cities: cityList.filter(city => city.country === "PL")
   },
   {
-    country: "Portugal",
+    country: {
+      de: "Portugal",
+      en: "Portugal"
+    },
     subdiv: [
       {title: "Aveiro"}, // 02
       {title: "Beja"}, // 03
@@ -394,7 +535,10 @@ export default [
     })
   },
   {
-    country: "Portugal",
+    country: {
+      de: "Portugal",
+      en: "Portugal"
+    },
     subdiv: [
       {title: "Madeira"} // 10
     ],
@@ -403,7 +547,10 @@ export default [
     cities: cityList.filter(city => city.country === "PT" && city.adminCode === "10")
   },
   {
-    country: "Portugal",
+    country: {
+      de: "Portugal",
+      en: "Portugal"
+    },
     subdiv: [
       {title: "Azores"} // 23
     ],
@@ -412,37 +559,55 @@ export default [
     cities: cityList.filter(city => city.country === "PT" && city.adminCode === "23")
   },
   {
-    country: "Romania",
+    country: {
+      de: "Rumänien",
+      en: "Romania"
+    },
     zone: "Etc/GMT-2",
     flag: "RO",
     cities: cityList.filter(city => city.country === "RO")
   },
   {
-    country: "San Marino",
+    country: {
+      de: "San Marino",
+      en: "San Marino"
+    },
     zone: "Etc/GMT-1",
     flag: "SM",
     cities: cityList.filter(city => city.country === "SM")
   },
   {
-    country: "Serbia",
+    country: {
+      de: "Serbien",
+      en: "Serbia"
+    },
     zone: "Etc/GMT-1",
     flag: "RS",
     cities: cityList.filter(city => city.country === "RS")
   },
   {
-    country: "Slovakia",
+    country: {
+      de: "Slowakei",
+      en: "Slovakia"
+    },
     zone: "Etc/GMT-1",
     flag: "SK",
     cities: cityList.filter(city => city.country === "SK")
   },
   {
-    country: "Slovenia",
+    country: {
+      de: "Slowenien",
+      en: "Slovenia"
+    },
     zone: "Etc/GMT-1",
     flag: "SI",
     cities: cityList.filter(city => city.country === "SI")
   },
   {
-    country: "Spain",
+    country: {
+      de: "Spanien",
+      en: "Spain"
+    },
     subdiv: [
       {title: "Andalucía"}, // 51
       {title: "Aragón"}, // 52
@@ -487,7 +652,10 @@ export default [
     })
   },
   {
-    country: "Spain",
+    country: {
+      de: "Spanien",
+      en: "Spain"
+    },
     subdiv: [
       {title: "Canarias"} // 53
     ],
@@ -496,19 +664,28 @@ export default [
     cities: cityList.filter(city => city.country === "ES" && city.adminCode === "53")
   },
   {
-    country: "Sweden",
+    country: {
+      de: "Schweden",
+      en: "Sweden"
+    },
     zone: "Etc/GMT-1",
     flag: "SE",
     cities: cityList.filter(city => city.country === "SE")
   },
   {
-    country: "Switzerland",
+    country: {
+      de: "Schweiz",
+      en: "Switzerland"
+    },
     zone: "Etc/GMT-1",
     flag: "CH",
     cities: cityList.filter(city => city.country === "CH")
   },
   {
-    country: "United Kingdom",
+    country: {
+      de: "Vereinigtes Königreich",
+      en: "United Kingdom"
+    },
     subdiv: [
       {title: "England"}, // ENG
       {title: "Scotland"}, // SCT
@@ -527,7 +704,10 @@ export default [
     })
   },
   {
-    country: "United Kingdom",
+    country: {
+      de: "Vereinigtes Königreich",
+      en: "United Kingdom"
+    },
     subdiv: [
       {title: "Northern Ireland"} // NIR
     ],
@@ -536,15 +716,23 @@ export default [
     cities: cityList.filter(city => city.country === "GB" && city.adminCode === "NIR")
   },
   {
-    country: "Ukraine",
+    country: {
+      de: "Ukraine",
+      en: "Ukraine"
+    },
     zone: "Etc/GMT-2",
     flag: "UA",
     cities: cityList.filter(city => city.country === "UA")
   },
   {
-    country: "Vatican City",
+    country: {
+      de: "Vatikanstadt",
+      en: "Vatican City"
+    },
     zone: "Etc/GMT-1",
     flag: "VA",
     cities: cityList.filter(city => city.country === "VA")
   }
 ]
+
+export default countryList
