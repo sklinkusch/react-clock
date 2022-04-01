@@ -7,7 +7,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Western Australia"} // 08
+      {
+        title: {
+          de: "Westaustralien",
+          en: "Western Australia"
+        }
+      } // 08
     ],
     zone: "Etc/GMT-8",
     flag: "AU",
@@ -19,8 +24,18 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Northern Territory"}, // 03
-      {title: "South Australia"}, // 05
+      {
+        title: {
+          de: "Nordterritorium",
+          en: "Northern Territory"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Südaustralien",
+          en: "South Australia"
+        }
+      }, // 05
     ],
     zone: "Etc/GMT-9",
     flag: "AU",
@@ -32,11 +47,36 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Australian Capital Territory"}, // 01
-      {title: "New South Wales"}, // 02
-      {title: "Queensland"}, // 04
-      {title: "Tasmania"}, // 06
-      {title: "Victoria"} // 07
+      {
+        title: {
+          de: "Australisches Hauptstadtterritorium",
+          en: "Australian Capital Territory"
+        }
+      }, // 01
+      {
+        title: {
+          de: "Neusüdwales",
+          en: "New South Wales"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Queensland",
+          en: "Queensland"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Tasmanien",
+          en: "Tasmania"
+        }
+      }, // 06
+      {
+        title: {
+          de: "Victoria",
+          en: "Victoria"
+        }
+      } // 07
     ],
     zone: "Etc/GMT-10",
     flag: "AU",
@@ -48,8 +88,18 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Lord Howe Island"},
-      {title: "Norfolk Island"}
+      {
+        title: {
+          de: "Lord-Howe-Inselgruppe",
+          en: "Lord Howe Island"
+        }
+      },
+      {
+        title: {
+          de: "Norfolkinsel",
+          en: "Norfolk Island"
+        }
+      }
     ],
     zone: "Etc/GMT-11",
     flag: "AU",

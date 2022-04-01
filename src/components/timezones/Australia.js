@@ -7,7 +7,16 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Western Australia", extra: "(most of state)"}
+      {
+        title: {
+          de: "Westaustralien",
+          en: "Western Australia",
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "Australia/Perth",
     flag: "AU",
@@ -19,7 +28,13 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Western Australia", extra: "(Eucla)"}
+      {
+        title: {
+          de: "Westaustralien",
+          en: "Western Australia"
+        }, 
+        extra: "(Eucla)"
+      }
     ],
     zone: "Australia/Eucla",
     flag: "AU",
@@ -31,7 +46,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Northern Territory"}
+      {
+        title: {
+          de: "Nordterritorium",
+          en: "Northern Territory"
+        }
+      }
     ],
     zone: "Australia/Darwin",
     flag: "AU",
@@ -43,7 +63,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Queensland"}
+      {
+        title: {
+          de: "Queensland",
+          en: "Queensland"
+        }
+      }
     ],
     zone: "Australia/Brisbane",
     flag: "AU",
@@ -55,7 +80,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "South Australia"}
+      {
+        title: {
+          de: "Südaustralien",
+          en: "South Australia"
+        }
+      }
     ],
     zone: "Australia/Adelaide",
     flag: "AU",
@@ -67,7 +97,16 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "New South Wales", extra: "(most of state)"}
+      {
+        title: {
+          de: "Neusüdwales",
+          en: "New South Wales"
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "Australia/Sydney",
     flag: "AU",
@@ -79,7 +118,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Australian Capital Territory"}
+      {
+        title: {
+          de: "Australisches Hauptstadtterritorium",
+          en: "Australian Capital Territory"
+        }
+      }
     ],
     zone: "Australia/Canberra",
     flag: "AU",
@@ -91,7 +135,13 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "New South Wales", extra: "(Yancowinna)"}
+      {
+        title: {
+          de: "Neusüdwales",
+          en: "New South Wales"
+        }, 
+        extra: "(Yancowinna)"
+      }
     ],
     zone: "Australia/Broken_Hill",
     flag: "AU",
@@ -103,7 +153,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Victoria"}
+      {
+        title: {
+          de: "Victoria",
+          en: "Victoria"
+        }
+      }
     ],
     zone: "Australia/Melbourne",
     flag: "AU",
@@ -115,7 +170,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Tasmania"}
+      {
+        title: {
+          de: "Tasmanien",
+          en: "Tasmania"
+        }
+      }
     ],
     zone: "Australia/Hobart",
     flag: "AU",
@@ -127,7 +187,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Lord Howe Island"}
+      {
+        title: {
+          de: "Lord-Howe-Inselgruppe",
+          en: "Lord Howe Island"
+        }
+      }
     ],
     zone: "Australia/Lord_Howe",
     flag: "AU",
@@ -139,7 +204,12 @@ const countryList = [
       en: "Australia"
     },
     subdiv: [
-      {title: "Norfolk Island"}
+      {
+        title: {
+          de: "Norfolkinsel",
+          en: "Norfolk Island"
+        }
+      }
     ],
     zone: "Pacific/Norfolk",
     flag: "AU",
