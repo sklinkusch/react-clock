@@ -42,9 +42,22 @@ export default class IdealClock extends React.Component {
     clearInterval(this.timerID);
   }
   render(props) {
+    const lang = window.navigator.language
     const { city = "", flags = [], cities = [] } = this.props
     const { formattedDate, formattedTime } = this.state
-    const sortedFlags = flags.sort((a, b) => a.title.localeCompare(b.title, "de", {sensitivy: "base"}))
+    const sortedFlags = flags.sort((a, b) => {
+      const aTitle = typeof a.title === "object"
+        ? a.title.hasOwnProperty(lang)
+          ? a.title[lang] 
+          : a.title["en"]
+        : a.title
+        const bTitle = typeof b.title === "object"
+        ? b.title.hasOwnProperty(lang)
+          ? b.title[lang] 
+          : b.title["en"]
+        : b.title
+      return aTitle.localeCompare(bTitle, "de", {sensitivy: "base"})
+    })
     const reducedFlags = sortedFlags.reduce((acc, curr) => {
       const arr = [...acc]
       const flagIndexes = arr.map(flag => flag.code)
@@ -56,7 +69,19 @@ export default class IdealClock extends React.Component {
             element.subdiv.push(item)
           }
         })
-        const sortedSubdiv = element.subdiv.sort((a,b) => a.title.localeCompare(b.title,"de",{ sensitivy: "base"}))
+        const sortedSubdiv = element.subdiv.sort((a,b) => {
+          const aTitle = typeof a.title === "object"
+        ? a.title.hasOwnProperty(lang)
+          ? a.title[lang] 
+          : a.title["en"]
+        : a.title
+        const bTitle = typeof b.title === "object"
+        ? b.title.hasOwnProperty(lang)
+          ? b.title[lang] 
+          : b.title["en"]
+        : b.title
+      return aTitle.localeCompare(bTitle, "de", {sensitivy: "base"})
+        })
         arr[index].subdiv = sortedSubdiv
       } else {
         arr.push(curr)

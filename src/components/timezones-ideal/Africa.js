@@ -235,8 +235,18 @@ const countryList = [
       en: "French Southern and Antarctic Lands (France)"
     },
     subdiv: [
-      {title: "Crozet Islands"},
-      {title: "Scattered Islands in the Indian Ocean"},
+      {
+        title: {
+          de: "Crozetinseln",
+          en: "Crozet Islands"
+        }
+      },
+      {
+        title: {
+          de: "Îles Éparses",
+          en: "Scattered Islands in the Indian Ocean"
+        }
+      },
     ],
     zone: "Etc/GMT-4",
     flag: "TF",
