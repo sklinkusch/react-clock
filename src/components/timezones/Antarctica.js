@@ -7,7 +7,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Casey (Australia)"}
+      {
+        title: {
+          de: "Casey (Australien)",
+          en: "Casey (Australia)"
+        }
+      }
     ],
     zone: "Antarctica/Casey",
     flag: "AQ",
@@ -19,7 +24,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Davis (Australia)"}
+      {
+        title: {
+          de: "Davis (Australien)",
+          en: "Davis (Australia)"
+        }
+      }
     ],
     zone: "Antarctica/Davis",
     flag: "AQ",
@@ -31,7 +41,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Dumont-d'Urville (France)"}
+      {
+        title: {
+          de: "Dumont-d'Urville (Frankreich)",
+          en: "Dumont-d'Urville (France)"
+        }
+      }
     ],
     zone: "Antarctica/DumontDUrville",
     flag: "AQ",
@@ -43,7 +58,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Mawson (Australia)"}
+      {
+        title: {
+          de: "Mawson (Australien)",
+          en: "Mawson (Australia)"
+        }
+      }
     ],
     zone: "Antarctica/Mawson",
     flag: "AQ",
@@ -55,7 +75,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "McMurdo (United States)"}
+      {
+        title: {
+          de: "McMurdo (USA)",
+          en: "McMurdo (United States)"
+        }
+      }
     ],
     zone: "Antarctica/McMurdo",
     flag: "AQ",
@@ -67,7 +92,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Palmer (United States)"}
+      {
+        title: {
+          de: "Palmer (USA)",
+          en: "Palmer (United States)"
+        }
+      }
     ],
     zone: "Antarctica/Palmer",
     flag: "AQ",
@@ -79,7 +109,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Rothera (United Kingdom)"}
+      {
+        title: {
+          de: "Rothera (Vereinigtes Königreich)",
+          en: "Rothera (United Kingdom)"
+        }
+      }
     ],
     zone: "Antarctica/Rothera",
     flag: "AQ",
@@ -91,7 +126,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Shōwa (Japan)"}
+      {
+        title: {
+          de: "Shōwa (Japan)",
+          en: "Shōwa (Japan)"
+        }
+      }
     ],
     zone: "Antarctica/Syowa",
     flag: "AQ",
@@ -103,7 +143,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Troll (Norway)"}
+      {
+        title: {
+          de: "Troll (Norwegen)",
+          en: "Troll (Norway)"
+        }
+      }
     ],
     zone: "Antarctica/Troll",
     flag: "AQ",
@@ -115,7 +160,12 @@ const countryList = [
       en: "Antarctica"
     },
     subdiv: [
-      {title: "Vostok (Russia)"}
+      {
+        title: {
+          de: "Wostok (Russland)",
+          en: "Vostok (Russia)"
+        }
+      }
     ],
     zone: "Antarctica/Vostok",
     flag: "AQ",
