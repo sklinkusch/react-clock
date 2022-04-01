@@ -234,6 +234,54 @@ const countryList = [
       de: "Französische Süd- und Antarktisgebiete (Frankreich)",
       en: "French Southern and Antarctic Lands (France)"
     },
+    subdiv: [
+      {
+        title: {
+          de: "Îles Éparses",
+          en: "Scattered Islands in the Indian Ocean"
+        }
+      },
+    ],
+    zone: "Indian/Mayotte",
+    flag: "TF",
+    cities: cityList.filter(city => city.country === "TF" && ["02","05"].includes(city.adminCode))
+  },
+  {
+    country: {
+      de: "Französische Süd- und Antarktisgebiete (Frankreich)",
+      en: "French Southern and Antarctic Lands (France)"
+    },
+    subdiv: [
+      {
+        title: {
+          de: "Crozetinseln",
+          en: "Crozet Islands"
+        }
+      },
+    ],
+    zone: "Indian/Reunion",
+    flag: "TF",
+    cities: cityList.filter(city => city.country === "TF" && ["02","05"].includes(city.adminCode))
+  },
+  {
+    country: {
+      de: "Französische Süd- und Antarktisgebiete (Frankreich)",
+      en: "French Southern and Antarctic Lands (France)"
+    },
+    subdiv: [
+      {
+        title: {
+          de: "Kerguelen-Archipel",
+          en: "Kerguelen Islands"
+        }
+      },
+      {
+        title: {
+          de: "Sankt Paul und Amsterdam",
+          en: "St. Paul and Amsterdam Islands"
+        }
+      },
+    ],
     zone: "Indian/Kerguelen",
     flag: "TF",
     cities: cityList.filter(city => city.country === "TF" && city.tz === "Indian/Kerguelen")
@@ -505,8 +553,18 @@ const countryList = [
       en: "Spain"
     },
     subdiv: [
-      {title: "Ceuta"}, 
-      {title: "Melilla"}
+      {
+        title: {
+          de: "Ceuta",
+          en: "Ceuta"
+        }
+      }, 
+      {
+        title: {
+          de: "Melilla",
+          en: "Melilla"
+        }
+      }
     ],
     zone: "Africa/Ceuta",
     flag: "ES",

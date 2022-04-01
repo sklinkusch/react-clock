@@ -258,8 +258,18 @@ const countryList = [
       en: "French Southern and Antarctic Lands (France)"
     },
     subdiv: [
-      {title: "Kerguelen Islands"},
-      {title: "St. Paul and Amsterdam Islands"},
+      {
+        title: {
+          de: "Kerguelen-Archipel",
+          en: "Kerguelen Islands"
+        }
+      },
+      {
+        title: {
+          de: "Sankt Paul und Amsterdam",
+          en: "St. Paul and Amsterdam Islands"
+        }
+      },
     ],
     zone: "Etc/GMT-5",
     flag: "TF",
@@ -514,8 +524,18 @@ const countryList = [
       en: "South Africa"
     },
     subdiv: [
-      {title: "Northern Cape"}, // 08
-      {title: "Western Cape"}, // 11
+      {
+        title: {
+          de: "Nordkap",
+          en: "Northern Cape"
+        }
+      }, // 08
+      {
+        title: {
+          de: "Westkap",
+          en: "Western Cape"
+        }
+      }, // 11
     ],
     zone: "Etc/GMT-1",
     flag: "ZA",
@@ -527,13 +547,48 @@ const countryList = [
       en: "South Africa"
     },
     subdiv: [
-      {title: "Eastern Cape"}, // 05
-      {title: "Free State"}, //  03
-      {title: "Gauteng"}, // 06
-      {title: "KwaZulu-Natal"}, // 02
-      {title: "Limpopo"}, // 09
-      {title: "Mpumalanga"}, // 07
-      {title: "North West"}, // 10
+      {
+        title: {
+          de: "Ostkap",
+          en: "Eastern Cape"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Freistaat",
+          en: "Free State"
+        }
+      }, //  03
+      {
+        title: {
+          de: "Gauteng",
+          en: "Gauteng"
+        }
+      }, // 06
+      {
+        title: {
+          de: "KwaZulu-Natal",
+          en: "KwaZulu-Natal"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Limpopo",
+          en: "Limpopo"
+        }
+      }, // 09
+      {
+        title: {
+          de: "Mpumalanga",
+          en: "Mpumalanga"
+        }
+      }, // 07
+      {
+        title: {
+          de: "Nordwest",
+          en: "North West"
+        }
+      }, // 10
     ],
     zone: "Etc/GMT-2",
     flag: "ZA",
@@ -554,8 +609,18 @@ const countryList = [
       en: "Spain"
     },
     subdiv: [
-      {title: "Ceuta"}, 
-      {title: "Melilla"}
+      {
+        title: {
+          de: "Ceuta",
+          en: "Ceuta"
+        }
+      }, 
+      {
+        title: {
+          de: "Melilla",
+          en: "Melilla"
+        }
+      }
     ],
     zone: "Etc/GMT+0",
     flag: "ES",
