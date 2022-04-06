@@ -133,7 +133,12 @@ const countryList = [
       en: "France"
     },
     subdiv: [
-      {title: "Saint-Martin"}
+      {
+        title: {
+          de: "Saint-Martin",
+          en: "Saint-Martin"
+        }
+      }
     ],
     zone: "Etc/GMT+4",
     flag: "FR", // eigentlich MF
