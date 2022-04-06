@@ -27,6 +27,7 @@ const countryList = [
       } // 07
     ],
     zone: "Etc/GMT-3",
+    flag: "KZ",
     cities : cityList.filter(city => {
       if(city.country === "KZ") {
         if(city.adminCode === "06") return true

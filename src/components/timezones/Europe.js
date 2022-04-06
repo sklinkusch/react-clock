@@ -88,7 +88,12 @@ const countryList = [
       en: "Cyprus"
     },
     subdiv: [
-      {title: "Republic of Cyprus"}
+      {
+        title: {
+          de: "Republik Zypern",
+          en: "Republic of Cyprus"
+        }
+      }
     ],
     zone: "Asia/Nicosia",
     flag: "CY",
@@ -100,7 +105,12 @@ const countryList = [
       en: "Cyprus"
     },
     subdiv: [
-      {title: "Turkish Republic of Northern Cyprus"}
+      {
+        title: {
+          de: "Türkische Republik Nordzypern",
+          en: "Turkish Republic of Northern Cyprus"
+        }
+      }
     ],
     zone: "Asia/Famagusta",
     flag: "CY",
@@ -253,7 +263,12 @@ const countryList = [
       en: "Greenland (Denmark)"
     },
     subdiv: [
-      {title: "Western Greenland"}
+      {
+        title: {
+          de: "Westgrönland",
+          en: "Western Greenland"
+        }
+      }
     ],
     zone: "America/Godthab",
     flag: "GL",
@@ -396,8 +411,20 @@ const countryList = [
       en: "Moldova"
     },
     subdiv: [
-      {title: "Bender", extra: "(controlled by Russia/Transnistria)"}, 
-      {title: "Tiraspol", extra: "(controlled by Russia/Transnistria)"}
+      {
+        title: "Bender", 
+        extra: {
+          de: "(unter russischer/transnistrischer Kontrolle)",
+          en: "(controlled by Russia/Transnistria)"
+        }
+      }, 
+      {
+        title: "Tiraspol", 
+        extra: {
+          de: "(unter russischer/transnistrischer Kontrolle)",
+          en: "(controlled by Russia/Transnistria)"
+        }
+      }
     ],
     zone: "Europe/Tiraspol",
     flag: "MD",
@@ -463,8 +490,8 @@ const countryList = [
   },
   {
     country: {
-      de: "Svalbard und Jan Mayen (Norwegen)",
-      en: "Svalbard and Jan Mayen (Norway)"
+      de: "Norwegen",
+      en: "Norway"
     },
     subdiv: [
       {title: "Jan Mayen"}
@@ -475,8 +502,8 @@ const countryList = [
   },
   {
     country: {
-      de: "Svalbard und Jan Mayen (Norwegen)",
-      en: "Svalbard and Jan Mayen (Norway)"
+      de: "Norwegen",
+      en: "Norway"
     },
     subdiv: [
       {title: "Svalbard"}
@@ -500,11 +527,33 @@ const countryList = [
       en: "Portugal"
     },
     subdiv: [
-      {title: "Alentejo Region"},
-      {title: "Algarve"},
-      {title: "Central Portugal"},
-      {title: "Lisboa Region"},
-      {title: "Northern Portugal"},
+      {
+        title: {
+          de: "Region Alentejo",
+          en: "Alentejo Region"
+        }
+      },
+      {
+        title: "Algarve"
+      },
+      {
+        title: {
+          de: "Zentralportugal",
+          en: "Central Portugal"
+        }
+      },
+      {
+        title: {
+          de: "Metropolregion Lissabon",
+          en: "Lisbon Region"
+        }
+      },
+      {
+        title: {
+          de: "Nordportugal",
+          en: "Northern Portugal"
+        }
+      },
     ],
     zone: "Europe/Lisbon",
     flag: "PT",
@@ -528,7 +577,12 @@ const countryList = [
       en: "Portugal"
     },
     subdiv: [
-      {title: "Azores"}
+      {
+        title: {
+          de: "Azoren",
+          en: "Azores"
+        }
+      }
     ],
     zone: "Atlantic/Azores",
     flag: "PT",
@@ -584,22 +638,82 @@ const countryList = [
       en: "Spain"
     },
     subdiv: [
-      {title: "Andalusia"},
+      {
+        title: {
+          de: "Andalusien",
+          en: "Andalusia"
+        }
+      },
       {title: "Aragon"},
-      {title: "Balearic Islands"},
-      {title: "Basque Country"},
-      {title: "Cantabria"},
-      {title: "Castile and León"},
-      {title: "Castilla-La Mancha"},
-      {title: "Catalonia"},
-      {title: "Chartered Community of Navarre"},
-      {title: "Community of Madrid"},
+      {
+        title: {
+          de: "Balearische Inseln",
+          en: "Balearic Islands"
+        }
+      },
+      {
+        title: {
+          de: "Baskenland",
+          en: "Basque Country"
+        }
+      },
+      {
+        title: {
+          de: "Kantabrien",
+          en: "Cantabria"
+        }
+      },
+      {
+        title: {
+          de: "Kastilien und León",
+          en: "Castile and León"
+        }
+      },
+      {
+        title: {
+          de: "Kastilien-La Mancha",
+          en: "Castilla-La Mancha"
+        }
+      },
+      {
+        title: {
+          de: "Katalonien",
+          en: "Catalonia"
+        }
+      },
+      {
+        title: {
+          de: "Navarra",
+          en: "Navarre"
+        }
+      },
+      {
+        title: {
+          de: "Autonome Gemeinschaft Madrid",
+          en: "Community of Madrid"
+        }
+      },
       {title: "Extremadura"},
-      {title: "Galicia"},
+      {
+        title: {
+          de: "Galicien",
+          en: "Galicia"
+        }
+      },
       {title: "La Rioja"},
-      {title: "Principality of Asturias"},
-      {title: "Region of Murcia"},
-      {title: "Valencian Community"},
+      {
+        title: {
+          de: "Asturien",
+          en: "Asturias"
+        }
+      },
+      {title: "Murcia"},
+      {
+        title: {
+          de: "Valencianische Gemeinschaft",
+          en: "Valencian Community"
+        }
+      },
     ],
     zone: "Europe/Madrid",
     flag: "ES",
@@ -611,7 +725,12 @@ const countryList = [
       en: "Spain"
     },
     subdiv: [
-      {title: "Canary Islands"}
+      {
+        title: {
+          de: "Kanarische Inseln",
+          en: "Canary Islands"
+        }
+      }
     ],
     zone: "Atlantic/Canary",
     flag: "ES",
@@ -641,9 +760,24 @@ const countryList = [
       en: "United Kingdom"
     },
     subdiv: [
-      {title: "England"}, 
-      {title: "Scotland"}, 
-      {title: "Wales"}
+      {
+        title: {
+          de: "England",
+          en: "England"
+        }
+      }, 
+      {
+        title: {
+          de: "Schottland",
+          en: "Scotland"
+        }
+      }, 
+      {
+        title: {
+          de: "Wales",
+          en: "Wales"
+        }
+      }
     ],
     zone: "Europe/London",
     flag: "GB",
@@ -655,7 +789,12 @@ const countryList = [
       en: "United Kingdom"
     },
     subdiv: [
-      {title: "Northern Ireland"}
+      {
+        title: {
+          de: "Nordirland",
+          en: "Northern Ireland"
+        }
+      }
     ],
     zone: "Europe/Belfast",
     flag: "GB",
@@ -667,31 +806,164 @@ const countryList = [
       en: "Ukraine"
     },
     subdiv: [
-      {title: "Cherkasy Oblast"}, // 01
-      {title: "Chernihiv Oblast"}, // 02
-      {title: "Chernivtsi Oblast"}, // 03
-      {title: "Dnipro Oblast"}, // 04
-      {title: "Donetsk Oblast", extra: "(only partly controlled by Ukraine)"}, // 05
-      {title: "Ivano-Frankivsk Oblast"}, // 06
-      {title: "Kharkiv Oblast"}, // 07
-      {title: "Kherson Oblast"}, // 08
-      {title: "Khmelnytskyy Oblast"}, // 09
-      {title: "Kirovohrad Oblast"}, // 10
-      {title: "Kyyiv"}, // 12
-      {title: "Kyiv Oblast"}, // 13
-      {title: "Luhansk Oblast", extra: "(only partly controlled by Ukraine)"}, // 14
-      {title: "Lviv Oblast"}, // 15
-      {title: "Mykolayiv Oblast"}, // 16
-      {title: "Odesa Oblast"}, // 17
-      {title: "Poltava Oblast"}, // 18
-      {title: "Rivne Oblast"}, // 19
-      {title: "Sumy Oblast"}, // 21
-      {title: "Ternopil Oblast"}, // 22
-      {title: "Vinnitsya Oblast"}, // 23
-      {title: "Volyn Oblast"}, // 24
-      {title: "Zakarpattya Oblast"}, // 25
-      {title: "Zaporizhzhya Oblast"}, // 26
-      {title: "Zhytomyr Oblast"}, // 27
+      {
+        title: {
+          de: "Oblast Tscherkassy",
+          en: "Cherkasy Oblast"
+        }
+      }, // 01
+      {
+        title: {
+          de: "Oblast Tschernihiw",
+          en: "Chernihiv Oblast"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Oblast Tscherniwzi",
+          en: "Chernivtsi Oblast"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Oblast Dnipropetrowsk",
+          en: "Dnipro Oblast"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Oblast Donezk",
+          en: "Donetsk Oblast"
+        }, 
+        extra: {
+          de: "(nur teilweise unter ukrainischer Kontrolle)",
+          en: "(only partly controlled by Ukraine)"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Oblast Iwano-Frankiwsk",
+          en: "Ivano-Frankivsk Oblast"
+        }
+      }, // 06
+      {
+        title: {
+          de: "Oblast Charkiw",
+          en: "Kharkiv Oblast"
+        }
+      }, // 07
+      {
+        title: {
+          de: "Oblast Cherson",
+          en: "Kherson Oblast"
+        }
+      }, // 08
+      {
+        title: {
+          de: "Oblast Chmelnyzkyj",
+          en: "Khmelnytskyy Oblast"
+        }
+      }, // 09
+      {
+        title: {
+          de: "Oblast Kirovohrad",
+          en: "Kirovohrad Oblast"
+        }
+      }, // 10
+      {
+        title: {
+          de: "Kiew",
+          en: "Kyiv"
+        }
+      }, // 12
+      {
+        title: {
+          de: "Oblast Kiew",
+          en: "Kyiv Oblast"
+        }
+      }, // 13
+      {
+        title: {
+          de: "Oblast Luhansk",
+          en: "Luhansk Oblast"
+        }, 
+        extra: {
+          de: "(nur teilweise unter ukrainischer Kontrolle)",
+          en: "(only partly controlled by Ukraine)"
+        }
+      }, // 14
+      {
+        title: {
+          de: "Oblast Lwiw",
+          en: "Lviv Oblast"
+        }
+      }, // 15
+      {
+        title: {
+          de: "Oblast Mykolajiw",
+          en: "Mykolayiv Oblast"
+        }
+      }, // 16
+      {
+        title: {
+          de: "Oblast Odessa",
+          en: "Odesa Oblast"
+        }
+      }, // 17
+      {
+        title: {
+          de: "Oblast Poltawa",
+          en: "Poltava Oblast"
+        }
+      }, // 18
+      {
+        title: {
+          de: "Oblast Riwne",
+          en: "Rivne Oblast"
+        }
+      }, // 19
+      {
+        title: {
+          de: "Oblast Sumy",
+          en: "Sumy Oblast"
+        }
+      }, // 21
+      {
+        title: {
+          de: "Oblast Ternopil",
+          en: "Ternopil Oblast"
+        }
+      }, // 22
+      {
+        title: {
+          de: "Oblast Winnyzja",
+          en: "Vinnitsya Oblast"
+        }
+      }, // 23
+      {
+        title: {
+          de: "Oblast Wolyn",
+          en: "Volyn Oblast"
+        }
+      }, // 24
+      {
+        title: {
+          de: "Oblast Transkarpatien",
+          en: "Zakarpattya Oblast"
+        }
+      }, // 25
+      {
+        title: {
+          de: "Oblast Saporischschja",
+          en: "Zaporizhzhya Oblast"
+        }
+      }, // 26
+      {
+        title: {
+          de: "Oblast Schytomyr",
+          en: "Zhytomyr Oblast"
+        }
+      }, // 27
     ],
     zone: "Europe/Kiev",
     flag: "UA",
@@ -748,8 +1020,26 @@ const countryList = [
       en: "Ukraine"
     },
     subdiv: [
-      {title: "Sevastopol", extra: "(controlled by Russia)"}, 
-      {title: "Crimea Autonomous Republic", extra: "(controlled by Russia)"}
+      {
+        title: {
+          de: "Sewastopol",
+          en: "Sevastopol"
+        }, 
+        extra: {
+          de: "(unter russischer Kontrolle)",
+          en: "(controlled by Russia)"
+        }
+      }, 
+      {
+        title: {
+          de: "Autonome Republik Krim",
+          en: "Crimea Autonomous Republic"
+        }, 
+        extra: {
+          de: "(unter russischer Kontrolle)",
+          en: "(controlled by Russia)"
+        }
+      }
     ],
     zone: "Europe/Simferopol",
     flag: "UA",
@@ -761,8 +1051,26 @@ const countryList = [
       en: "Ukraine"
     },
     subdiv: [
-      {title: "Donetsk Oblast", extra: "(partly controlled by Russia/Donetsk People's Republic)"}, // 05
-      {title: "Luhansk Oblast", extra: "(partly controlled by Russia/Luhansk People's Republic)"}, // 14
+      {
+        title: {
+          de: "Oblast Donezk",
+          en: "Donetsk Oblast"
+        }, 
+        extra: {
+          de: "(teils unter der Kontrolle Russlands/der Volksrepublik Donezk)",
+          en: "(partly controlled by Russia/Donetsk People's Republic)"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Oblast Luhansk",
+          en: "Luhansk Oblast"
+        }, 
+        extra: {
+          de: "(teils unter der Kontrolle Russlands/der Volksrepublik Luhansk)",
+          en: "(partly controlled by Russia/Donetsk People's Republic)"
+        }
+      }, // 14
     ],
     zone: "Europe/Moscow",
     flag: "UA",

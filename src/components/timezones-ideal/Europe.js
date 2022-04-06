@@ -169,8 +169,36 @@ const countryList = [
       en: "Greece"
     },
     subdiv: [
-      {title: "Epirus and Western Macedonia"}, // ESYE21, ESYE13
-      {title: "Peloponnese, Western Greece and the Ionian"}, // ESYE25, ESYE23, ESYE22
+      {
+        title: {
+          de: "Epirus",
+          en: "Epirus"
+        }
+      }, // ESYE21
+      {
+        title: {
+          de: "Westmakedonien",
+          en: "Western Macedonia"
+        }
+      }, // ESYE13
+      {
+        title: {
+          de: "Peloponnes",
+          en: "Peloponnese"
+        }
+      }, // ESYE25
+      {
+        title: {
+          de: "Westgriechenland",
+          en: "Western Greece"
+        }
+      }, // ESYE23
+      {
+        title: {
+          de: "Ionische Inseln",
+          en: "Ionian"
+        }
+      }, // ESYE22
     ],
     zone: "Etc/GMT-1",
     flag: "GR",
@@ -192,11 +220,54 @@ const countryList = [
       en: "Greece"
     },
     subdiv: [
-      {title: "Aegean"}, // ESYE41, ESYE42
-      {title: "Attica"}, // ESYE31
-      {title: "Crete"}, // ESYE43
-      {title: "Macedonia and Thrace"}, // ESYE11, ESYE12
-      {title: "Thessaly and Central Greece"}, // ESYE14, ESYE24
+      {
+        title: {
+          de: "Nördliche Ägäis",
+          en: "Northern Aegean"
+        }
+      }, // ESYE41
+      {
+        title: {
+          de: "Südliche Ägäis",
+          en: "Southern Aegean"
+        }
+      }, // ESYE42
+      {
+        title: {
+          de: "Attika",
+          en: "Attica"
+        }
+      }, // ESYE31
+      {
+        title: {
+          de: "Kreta",
+          en: "Crete"
+        }
+      }, // ESYE43
+      {
+        title: {
+          de: "Ostmakedonien und Thrakien",
+          en: "Eastern Macedonia and Thrace"
+        }
+      }, // ESYE11
+      {
+        title: {
+          de: "Zentralmakedonien",
+          en: "Central Macedonia"
+        }
+      }, // ESYE12
+      {
+        title: {
+          de: "Thessalien",
+          en: "Thessaly"
+        }
+      }, // ESYE14
+      {
+        title: {
+          de: "Mittelgriechenland",
+          en: "Central Greece"
+        }
+      }, // ESYE24
     ],
     zone: "Etc/GMT-2",
     flag: "GR",
@@ -259,7 +330,12 @@ const countryList = [
       en: "Greenland (Denmark)"
     },
     subdiv: [
-      {title: "Western Greenland"}
+      {
+        title: {
+          de: "Westgrönland",
+          en: "Western Greenland"
+        }
+      }
     ],
     zone: "Etc/GMT+3",
     flag: "GL",
@@ -498,7 +574,12 @@ const countryList = [
       {title: "Faro"}, // 09
       {title: "Guarda"}, // 11
       {title: "Leiria"}, // 13
-      {title: "Lisboa"}, // 14
+      {
+        title: {
+          de: "Lissabon",
+          en: "Lisbon"
+        }
+      }, // 14
       {title: "Portalegre"}, // 16
       {title: "Porto"}, // 17
       {title: "Santarém"}, // 18
@@ -552,7 +633,12 @@ const countryList = [
       en: "Portugal"
     },
     subdiv: [
-      {title: "Azores"} // 23
+      {
+        title: {
+          de: "Azoren",
+          en: "Azores"
+        }
+      } // 23
     ],
     zone: "Etc/GMT+2",
     flag: "PT",
@@ -609,22 +695,82 @@ const countryList = [
       en: "Spain"
     },
     subdiv: [
-      {title: "Andalucía"}, // 51
+      {
+        title: {
+          de: "Andalusien",
+          en: "Andalusia"
+        }
+      }, // 51
       {title: "Aragón"}, // 52
-      {title: "Asturies"}, // 34
-      {title: "Cantabria"}, // 39
-      {title: "Castilla y León"}, // 55
-      {title: "Castilla-La Mancha"}, // 54
-      {title: "Catalunya"}, // 56
+      {
+        title: {
+          de: "Asturien",
+          en: "Asturias"
+        }
+      }, // 34
+      {
+        title: {
+          de: "Kantabrien",
+          en: "Cantabria"
+        }
+      }, // 39
+      {
+        title: {
+          de: "Kastilien und León",
+          en: "Castile and León"
+        }
+      }, // 55
+      {
+        title: {
+          de: "Kastilien-La Mancha",
+          en: "Castilla-La Mancha"
+        }
+      }, // 54
+      {
+        title: {
+          de: "Katalonien",
+          en: "Catalonia"
+        }
+      }, // 56
       {title: "Extremadura"}, // 57
-      {title: "Galicia"}, // 58
-      {title: "Illes Balears"}, // 07
+      {
+        title: {
+          de: "Galicien",
+          en: "Galicia"
+        }
+      }, // 58
+      {
+        title: {
+          de: "Balearische Inseln",
+          en: "Balearic Islands"
+        }
+      }, // 07
       {title: "Murcia"}, // 31
-      {title: "Comunidad de Madrid"}, // 29
-      {title: "Navarra"}, // 32
-      {title: "Euskal Autonomia Erkidegoa"}, // 59
+      {
+        title: {
+          de: "Autonome Gemeinschaft Madrid",
+          en: "Community of Madrid"
+        }
+      }, // 29
+      {
+        title: {
+          de: "Navarra",
+          en: "Navarre"
+        }
+      }, // 32
+      {
+        title: {
+          de: "Baskenland",
+          en: "Basque Country"
+        }
+      }, // 59
       {title: "La Rioja"}, // 27
-      {title: "Comunidad Valenciana"}, // 60
+      {
+        title: {
+          de: "Valencianische Gemeinschaft",
+          en: "Valencian Community"
+        }
+      }, // 60
     ],
     zone: "Etc/GMT+0",
     flag: "ES",
@@ -657,7 +803,12 @@ const countryList = [
       en: "Spain"
     },
     subdiv: [
-      {title: "Canarias"} // 53
+      {
+        title: {
+          de: "Kanarische Inseln",
+          en: "Canary Islands"
+        }
+      } // 53
     ],
     zone: "Etc/GMT+1",
     flag: "ES",
@@ -687,9 +838,24 @@ const countryList = [
       en: "United Kingdom"
     },
     subdiv: [
-      {title: "England"}, // ENG
-      {title: "Scotland"}, // SCT
-      {title: "Wales"} // WLS
+      {
+        title: {
+          de: "England",
+          en: "England"
+        }
+      }, // ENG
+      {
+        title: {
+          de: "Schottland",
+          en: "Scotland"
+        }
+      }, // SCT
+      {
+        title: {
+          de: "Wales",
+          en: "Wales"
+        }
+      } // WLS
     ],
     zone: "Etc/GMT+0",
     flag: "GB",
@@ -709,7 +875,12 @@ const countryList = [
       en: "United Kingdom"
     },
     subdiv: [
-      {title: "Northern Ireland"} // NIR
+      {
+        title: {
+          de: "Nordirland",
+          en: "Northern Ireland"
+        }
+      } // NIR
     ],
     zone: "Etc/GMT+1",
     flag: "GB",
