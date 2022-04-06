@@ -7,12 +7,50 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Newfoundland and Labrador"}, // 05
-      {title: "New Brunswick"}, // 04
-      {title: "Nova Scotia"}, // 07
-      {title: "Nunavut", extra: "(east of 67.5° W)"}, // 14
-      {title: "Prince Edward Island"}, // 09
-      {title: "Québec", extra: "(eastern part)"} // 10
+      {
+        title: {
+          de: "Neufundland und Labrador",
+          en: "Newfoundland and Labrador"
+        }
+      }, // 05
+      {
+        title: {
+          de: "New Brunswick",
+          en: "New Brunswick"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Nova Scotia",
+          en: "Nova Scotia"
+        }
+      }, // 07
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        }, 
+        extra: {
+          de: "(östlich von 67.5° W)",
+          en: "(east of 67.5° W)"
+        }
+      }, // 14
+      {
+        title: {
+          de: "Prince Edward Island",
+          en: "Prince Edward Island"
+        }
+      }, // 09
+      {
+        title: {
+          de: "Québec",
+          en: "Quebec"
+        },
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      } // 10
     ],
     zone: "Etc/GMT+4",
     flag: "CA",
@@ -35,9 +73,33 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Nunavut", extra: "(82.5°W – 67.5°W)"}, // 14
-      {title: "Ontario", extra: "(eastern part)"}, // 08
-      {title: "Québec", extra: "(western part)"} // 10
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        },
+        extra: "(82.5°W – 67.5°W)"
+      }, // 14
+      {
+        title: {
+          de: "Ontario",
+          en: "Ontario"
+        },
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }, // 08
+      {
+        title: {
+          de: "Québec",
+          en: "Quebec"
+        },
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      } // 10
     ],
     zone: "Etc/GMT+5",
     flag: "CA",
@@ -57,9 +119,33 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Manitoba", extra: "(eastern part)"}, // 03
-      {title: "Nunavut", extra: "(97.5°W – 82.5°W)"}, // 14
-      {title: "Ontario", extra: "(western part)"} // 08
+      {
+        title: {
+          de: "Manitoba",
+          en: "Manitoba"
+        }, 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        },
+        extra: "(97.5°W – 82.5°W)"
+      }, // 14
+      {
+        title: {
+          de: "Ontario",
+          en: "Ontario"
+        },
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      } // 08
     ],
     zone: "Etc/GMT+6",
     flag: "CA",
@@ -79,9 +165,33 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Manitoba", extra: "(western part)"}, // 03
-      {title: "Northwest Territories", extra: "(eastern part)"}, // 13
-      {title: "Nunavut", extra: "(112.5°W – 97.5°W)"}, // 14
+      {
+        title: {
+          de: "Manitoba",
+          en: "Manitoba"
+        }, 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Nordwest-Territorien",
+          en: "Northwest Territories"
+        }, 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }, // 13
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        },
+        extra: "(112.5°W – 97.5°W)"
+      }, // 14
       {title: "Saskatchewan"} // 11
     ],
     zone: "Etc/GMT+7",
@@ -103,10 +213,42 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Alberta"}, // 01
-      {title: "British Columbia", extra: "(eastern part)"}, // 02
-      {title: "Northwest Territories", extra: "(central part)"}, // 13
-      {title: "Nunavut", extra: "(west of 112.5°W)"} // 14
+      {
+        title: {
+          de: "Alberta",
+          en: "Alberta"
+        }
+      }, // 01
+      {
+        title: {
+          de: "British Columbia",
+          en: "British Columbia"
+        },
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Nordwest-Territorien",
+          en: "Northwest Territories"
+        }, 
+        extra: {
+          de: "(mittlerer Teil)",
+          en: "(central part)"
+        }
+      }, // 13
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        },
+        extra: {
+          de: "(westlich von 112.5° W)",
+          en: "(west of 112.5° W)"
+        }
+      } // 14
     ],
     zone: "Etc/GMT+8",
     flag: "CA",
@@ -127,9 +269,32 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "British Columbia", extra: "(western part)"}, // 02
-      {title: "Northwest Territories", extra: "(western part)"}, // 13
-      {title: "Yukon"} // 12
+      {
+        title: {
+          de: "British Columbia",
+          en: "British Columbia"
+        },
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Nordwest-Territorien",
+          en: "Northwest Territories"
+        }, 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      }, // 13
+      {
+        title: {
+          de: "Yukon",
+          en: "Yukon"
+        }
+      } // 12
     ],
     zone: "Etc/GMT+9",
     flag: "CA",

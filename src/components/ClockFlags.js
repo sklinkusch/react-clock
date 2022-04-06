@@ -43,11 +43,11 @@ function getMultiTitle(flagTitle, flagSubdiv){
         : fextra.length > 0
           ? fextra
           : null
-      if (Extra) return { title: Title }
-      return { title: Title, extra: Extra }
+      if (Extra) return { title: Title, extra: Extra }
+      return { title: Title }
     })
     const sortedSubdiv = modSubdiv.sort((a,b) => a.title.localeCompare(b.title,"de",{sensitivy: "base"}))
-    const text = sortedSubdiv.map(item => item.extra ? `${item.title} ${item.extra}` : `${item.title}`).join(", ")
+    const text = sortedSubdiv.map(item => item.extra != null ? `${item.title} ${item.extra}` : `${item.title}`).join(", ")
     const fTitle = typeof flagTitle === "object"
       ? flagTitle.hasOwnProperty(lang)
         ? flagTitle[lang] 

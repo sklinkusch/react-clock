@@ -7,8 +7,22 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Alberta"}, 
-      {title: "British Columbia", extra: "(southeast)"}
+      {
+        title: {
+          de: "Alberta",
+          en: "Alberta"
+        }
+      }, 
+      {
+        title: {
+          de: "British Columbia",
+          en: "British Columbia"
+        }, 
+        extra: {
+          de: "(südöstlicher Teil)",
+          en: "(southeast)"
+        }
+      }
     ],
     zone: "America/Edmonton",
     flag: "CA",
@@ -20,7 +34,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "British Columbia", extra: "(most of province)"}
+      {
+        title: {
+          de: "British Columbia",
+          en: "British Columbia"
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of province)"
+        }
+      }
     ],
     zone: "America/Vancouver",
     flag: "CA",
@@ -32,7 +55,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Labrador", extra: "(most of province)"}
+      {
+        title: {
+          de: "Labrador",
+          en: "Labrador"
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of province)"
+        }
+      }
     ],
     zone: "America/Goose_Bay",
     flag: "CA",
@@ -44,7 +76,12 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Manitoba"}
+      {
+        title: {
+          de: "Manitoba",
+          en: "Manitoba"
+        }
+      }
     ],
     zone: "America/Winnipeg",
     flag: "CA",
@@ -56,7 +93,12 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "New Brunswick"}
+      {
+        title: {
+          de: "New Brunswick",
+          en: "New Brunswick"
+        }
+      }
     ],
     zone: "America/Moncton",
     flag: "CA",
@@ -68,8 +110,22 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Newfoundland"}, 
-      {title: "Labrador", extra: "(southeast)"}
+      {
+        title: {
+          de: "Neufundland",
+          en: "Newfoundland"
+        }
+      }, 
+      {
+        title: {
+          de: "Labrador",
+          en: "Labrador"
+        }, 
+        extra: {
+          de: "(südöstlicher Teil)",
+          en: "(southeast)"
+        }
+      }
     ],
     zone: "America/St_Johns",
     flag: "CA",
@@ -81,7 +137,12 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Northwest Territories"}
+      {
+        title: {
+          de: "Nordwest-Territorien",
+          en: "Northwest Territories"
+        }
+      }
     ],
     zone: "America/Yellowknife",
     flag: "CA",
@@ -93,8 +154,18 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Nova Scotia"}, 
-      {title: "Prince Edward Island"}
+      {
+        title: {
+          de: "Nova Scotia",
+          en: "Nova Scotia"
+        }
+      }, 
+      {
+        title: {
+          de: "Prince Edward Island",
+          en: "Prince Edward Island"
+        }
+      }
     ],
     zone: "America/Halifax",
     flag: "CA",
@@ -106,7 +177,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Nunavut", extra: "(west of 102° W, Kitikmeot Region)"}
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        }, 
+        extra: {
+          de: "(westlich von 102° W, Region Kitikmeot)",
+          en: "(west of 102° W, Kitikmeot Region)"
+        }
+      }
     ],
     zone: "America/Cambridge_Bay",
     flag: "CA",
@@ -118,7 +198,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Nunavut", extra: "(102° W – 85° W, Resolute, Kivalliq Region)"}
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        }, 
+        extra: {
+          de: "(102° W - 85° W, Resolute und Region Kivalliq)",
+          en: "(102° W – 85° W, Resolute, Kivalliq Region)"
+        }
+      }
     ],
     zone: "America/Rankin_Inlet",
     flag: "CA",
@@ -130,7 +219,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Nunavut", extra: "(east of 85° W, Qikiqtaaluk Region)"}
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        }, 
+        extra: {
+          de: "(östlich von 85° W, Region Qikiqtaaluk)",
+          en: "(east of 85° W, Qikiqtaaluk Region)"
+        }
+      }
     ],
     zone: "America/Pangnirtung",
     flag: "CA",
@@ -142,8 +240,26 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Nunavut", extra: "(Coral Harbour)"}, 
-      {title: "Ontario", extra: "(Atikokan)"}
+      {
+        title: {
+          de: "Nunavut",
+          en: "Nunavut"
+        }, 
+        extra: {
+          de: "(Coral Harbour)",          
+          en: "(Coral Harbour)"
+        }
+      }, 
+      {
+        title: {
+          de: "Ontario",
+          en: "Ontario"
+        }, 
+        extra: {
+          de: "(Atikokan)",
+          en: "(Atikokan)"
+        }
+      }
     ],
     zone: "America/Atikokan",
     flag: "CA",
@@ -155,7 +271,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Ontario", extra: "(west of 90° W)"}
+      {
+        title: {
+          de: "Ontario",
+          en: "Ontario"
+        }, 
+        extra: {
+          de: "(westlich von 90° W)",
+          en: "(west of 90° W)"
+        }
+      }
     ],
     zone: "America/Rainy_River",
     flag: "CA",
@@ -167,8 +292,26 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Ontario", extra: "(most of province)"}, 
-      {title: "Québec", extra: "(west of 63° W)"}
+      {
+        title: {
+          de: "Ontario",
+          en: "Ontario"
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of province)"
+        }
+      }, 
+      {
+        title: {
+          de: "Québec",
+          en: "Quebec"
+        }, 
+        extra: {
+          de: "(westlich von 63° W)",
+          en: "(west of 63° W)"
+        }
+      }
     ],
     zone: "America/Toronto",
     flag: "CA",
@@ -180,7 +323,16 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Québec", extra: "(east of 63° W)"}
+      {
+        title: {
+          de: "Québec",
+          en: "Quebec"
+        }, 
+        extra: {
+          de: "(östlich von 63° W)",
+          en: "(east of 63° W)"
+        }
+      }
     ],
     zone: "America/Blanc-Sablon",
     flag: "CA",
@@ -192,7 +344,12 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Saskatchewan"}
+      {
+        title: {
+          de: "Saskatchewan",
+          en: "Saskatchewan"
+        }
+      }
     ],
     zone: "America/Regina",
     flag: "CA",
@@ -204,7 +361,12 @@ const countryList = [
       en: "Canada"
     },
     subdiv: [
-      {title: "Yukon"}
+      {
+        title: {
+          de: "Yukon",
+          en: "Yukon"
+        }
+      }
     ],
     zone: "America/Whitehorse",
     flag: "CA",
