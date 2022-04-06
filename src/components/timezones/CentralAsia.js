@@ -7,14 +7,72 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Akmola Region"}, 
-      {title: "Almaty Region"}, 
-      {title: "East Kazakhstan Region"}, 
-      {title: "Jambyl Region"}, 
-      {title: "Karaganda Region"}, 
-      {title: "North Kazakhstan Region"}, 
-      {title: "Pavlodar Region"}, 
-      {title: "Turkistan Region"}
+      {
+        title: {
+          de: "Oblys Akmola",
+          en: "Akmola Region"
+        }
+      },
+      {
+        title: {
+          de: "Almaty",
+          en: "Almaty"
+        }
+      },
+      {
+        title: {
+          de: "Oblys Almaty",
+          en: "Almaty Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Ostkasachstan",
+          en: "East Kazakhstan Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Schambyl",
+          en: "Jambyl Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Qaraghandy",
+          en: "Karaganda Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Nordkasachstan",
+          en: "North Kazakhstan Region"
+        }
+      },
+      {
+        title: {
+          de: "Nur-Sultan",
+          en: "Nur-Sultan"
+        }
+      },
+      {
+        title: {
+          de: "Oblys Pawlodar",
+          en: "Pavlodar Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Schymkent",
+          en: "Shymkent"
+        }
+      },
+      {
+        title: {
+          de: "Oblys Türkistan",
+          en: "Turkistan Region"
+        }
+      }
     ],
     zone: "Asia/Almaty",
     flag: "KZ",
@@ -26,7 +84,12 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Kostanay Region"}
+      {
+        title: {
+          de: "Oblys Qostonai",
+          en: "Kostanay Region"
+        }
+      }
     ],
     zone: "Asia/Qostanay",
     flag: "KZ",
@@ -38,7 +101,18 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Kyzylorda Region"}
+      {
+        title: {
+          de: "Oblys Qysylorda",
+          en: "Kyzylorda Region"
+        }
+      },
+      {
+        title: {
+          de: "Baikonur",
+          en: "Baykonyr"
+        }
+      } // 18
     ],
     zone: "Asia/Qyzylorda",
     flag: "KZ",
@@ -50,7 +124,12 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Aktobe Region"}
+      {
+        title: {
+          de: "Oblys Aqtöbe",
+          en: "Aktobe Region"
+        }
+      }
     ],
     zone: "Asia/Aqtobe",
     flag: "KZ",
@@ -62,7 +141,12 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Atyrau Region"}
+      {
+        title: {
+          de: "Oblys Atyrau",
+          en: "Atyrau Region"
+        }
+      }
     ],
     zone: "Asia/Atyrau",
     flag: "KZ",
@@ -74,7 +158,12 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Mangystau Region"}
+      {
+        title: {
+          de: "Oblys Mangghystau",
+          en: "Mangystau Region"
+        }
+      }
     ],
     zone: "Asia/Aqtau",
     flag: "KZ",
@@ -86,7 +175,12 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "West Kazakhstan Region"}
+      {
+        title: {
+          de: "Oblys Westkasachstan",
+          en: "West Kazakhstan Region"
+        }
+      }
     ],
     zone: "Asia/Oral",
     flag: "KZ",

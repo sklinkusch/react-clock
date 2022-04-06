@@ -7,9 +7,24 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Atyrau Region"}, // 06
-      {title: "Mangystau Region"}, // 09
-      {title: "West Kazakhstan Region"} // 07
+      {
+        title: {
+          de: "Oblys Atyrau",
+          en: "Atyrau Region"
+        }
+      }, // 06
+      {
+        title: {
+          de: "Oblys Mangghystau",
+          en: "Mangystau Region"
+        }
+      }, // 09
+      {
+        title: {
+          de: "Oblys Westkasachstan",
+          en: "West Kazakhstan Region"
+        }
+      } // 07
     ],
     zone: "Etc/GMT-3",
     cities : cityList.filter(city => {
@@ -28,10 +43,30 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Aktobe Region"}, // 04
-      {title: "Kostanay Region"}, // 13
-      {title: "Kyzylorda Region"}, // 14
-      {title: "Baykonyr"} // 18
+      {
+        title: {
+          de: "Oblys Aqtöbe",
+          en: "Aktobe Region"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Oblys Qostonai",
+          en: "Kostanay Region"
+        }
+      }, // 13
+      {
+        title: {
+          de: "Oblys Qysylorda",
+          en: "Kyzylorda Region"
+        }
+      }, // 14
+      {
+        title: {
+          de: "Baikonur",
+          en: "Baykonyr"
+        }
+      } // 18
     ],
     zone: "Etc/GMT-4",
     flag: "KZ",
@@ -52,17 +87,72 @@ const countryList = [
       en: "Kazakhstan"
     },
     subdiv: [
-      {title: "Akmola Region"}, // 03
-      {title: "Almaty Region"}, // 01
-      {title: "Almaty"}, // 02
-      {title: "Nur-Sultan"}, // 05
-      {title: "East Kazakhstan Region"}, // 15
-      {title: "Jambyl Region"}, // 17
-      {title: "Karaganda Region"}, // 12
-      {title: "North Kazakhstan Region"}, // 16 
-      {title: "Pavlodar Region"}, // 11
-      {title: "Turkistan Region"}, // 10
-      {title: "Shymkent"} // 1537272
+      {
+        title: {
+          de: "Oblys Akmola",
+          en: "Akmola Region"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Oblys Almaty",
+          en: "Almaty Region"
+        }
+      }, // 01
+      {
+        title: {
+          de: "Almaty",
+          en: "Almaty"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Nur-Sultan",
+          en: "Nur-Sultan"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Oblys Ostkasachstan",
+          en: "East Kazakhstan Region"
+        }
+      }, // 15
+      {
+        title: {
+          de: "Oblys Schambyl",
+          en: "Jambyl Region"
+        }
+      }, // 17
+      {
+        title: {
+          de: "Oblys Qaraghandy",
+          en: "Karaganda Region"
+        }
+      }, // 12
+      {
+        title: {
+          de: "Oblys Nordkasachstan",
+          en: "North Kazakhstan Region"
+        }
+      }, // 16 
+      {
+        title: {
+          de: "Oblys Pawlodar",
+          en: "Pavlodar Region"
+        }
+      }, // 11
+      {
+        title: {
+          de: "Oblys Türkistan",
+          en: "Turkistan Region"
+        }
+      }, // 10
+      {
+        title: {
+          de: "Schymkent",
+          en: "Shymkent"
+        }
+      } // 1537272
     ],
     zone: "Etc/GMT-5",
     flag: "KZ",
