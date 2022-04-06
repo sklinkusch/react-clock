@@ -54,7 +54,12 @@ const countryList = [
     subdiv: [
       {title: "Baja California"}, // 02
       {title: "Baja California Sur"}, // 03
-      {title: "Revillagigedo Islands"} // nur 45 Einwohner, deshalb 
+      {
+        title: {
+          de: "Revillagigedo-Inseln",
+          en: "Revillagigedo Islands"
+        }
+      } // nur 45 Einwohner, deshalb 
     ],
     zone: "Etc/GMT+8",
     flag: "MX",
@@ -77,13 +82,18 @@ const countryList = [
       {title: "Chihuahua"}, // 06
       {title: "Coahuila"}, // 07
       {title: "Colima"}, // 08
-      {title: "Distrito Federal"}, // 09
       {title: "Durango"}, // 10
       {title: "Guanajuato"}, // 11
       {title: "Guerrero"}, // 12
       {title: "Hidalgo"}, // 13
       {title: "Jalisco"}, // 14
       {title: "México"}, // 15
+      {
+        title: {
+          de: "Mexiko-Stadt",
+          en: "Mexico City"
+        }
+      }, // 09
       {title: "Michoacán"}, // 16
       {title: "Morelos"}, // 17
       {title: "Nayarit"}, // 18

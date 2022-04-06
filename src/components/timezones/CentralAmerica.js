@@ -57,13 +57,18 @@ const countryList = [
       {title: "Chiapas"}, 
       {title: "Coahuila"}, 
       {title: "Colima"}, 
-      {title: "Distrito Federal"}, 
       {title: "Durango"}, 
       {title: "Guanajuato"}, 
       {title: "Guerrero"}, 
       {title: "Hidalgo"}, 
       {title: "Jalisco"}, 
       {title: "México"}, 
+      {
+        title: {
+          de: "Mexiko-Stadt",
+          en: "Mexico City"
+        }
+      }, 
       {title: "Michoacán"}, 
       {title: "Morelos"}, 
       {title: "Nuevo León"}, 
@@ -128,7 +133,12 @@ const countryList = [
     },
     subdiv: [
       {title: "Sonora"},
-      {title: "Revillagigedo Islands"}
+      {
+        title: {
+          de: "Revillagigedo-Inseln",
+          en: "Revillagigedo Islands"
+        }
+      }
     ],
     zone: "America/Hermosillo",
     flag: "MX",
