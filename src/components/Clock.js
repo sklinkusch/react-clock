@@ -1,38 +1,17 @@
 import React, { lazy } from "react";
-import { getZonedTime, findTimeZone } from "timezone-support"
+import moment from "moment-timezone"
 import "../styles/Clock.css";
 import { ClockDate, ClockTime } from "./ClockHelpers"
 const ClockTitle = lazy(() => import("./ClockTitle"))
 const ClockFlags = lazy(() => import("./ClockFlags"))
 const ClockCities = lazy(() => import("./ClockCities"))
 
-const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
-
-const formatDate = (offset) => {
-  const unixTime = Date.now()
-  const add = offset * 60 * 1000
-  const localUnixTime = unixTime + add
-  const formattedDate = new Date(localUnixTime).toLocaleDateString("en-GB", { timeZone: "Etc/GMT+0"})
-  const formattedTime = new Date(localUnixTime).toLocaleTimeString("en-GB", { timeZone: "Etc/GMT+0"})
-  return { date: formattedDate, time: formattedTime }
-}
-
-const getFormattedDate = (date) => {
-  const { year, month, day } = date
-  return `${pad(day)}/${pad(month)}/${pad(year)}`
-}
-
-const getFormattedTime = (date) => {
-  const { hours, minutes, seconds } = date
-  return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`
-}
-
 export default class IdealClock extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      formattedDate: this.props.offset ? formatDate(this.props.offset).date : getFormattedDate(getZonedTime(new Date(), findTimeZone(this.props.zone))),
-      formattedTime: this.props.offset ? formatDate(this.props.offset).time : getFormattedTime(getZonedTime(new Date(), findTimeZone(this.props.zone))),
+      formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
     };
   }
   componentDidMount() {
@@ -103,8 +82,8 @@ export default class IdealClock extends React.Component {
   }
   tick() {
     this.setState({
-      formattedDate: this.props.offset ? formatDate(this.props.offset).date : getFormattedDate(getZonedTime(new Date(), findTimeZone(this.props.zone))),
-      formattedTime: this.props.offset ? formatDate(this.props.offset).time : getFormattedTime(getZonedTime(new Date(), findTimeZone(this.props.zone))),
+      formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
     });
   }
 }
