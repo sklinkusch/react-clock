@@ -34,9 +34,24 @@ const countryList = [
       en: "French Polynesia (France)"
     },
     subdiv: [
-      {title: "Austral Islands"}, // 05
-      {title: "Society Islands"}, // 01, 02
-      {title: "Tuamotus"} // part of 03
+      {
+        title: {
+          de: "Austral-Inseln",
+          en: "Austral Islands"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Gesellschaftsinseln",
+          en: "Society Islands"
+        }
+      }, // 01, 02
+      {
+        title: {
+          de: "Tuamotu-Archipel",
+          en: "Tuamotus"
+        }
+      } // part of 03
     ],
     zone: "Etc/GMT+10",
     flag: "PF",
@@ -59,7 +74,12 @@ const countryList = [
       en: "French Polynesia (France)"
     },
     subdiv: [
-      {title: "Gambier Islands"} // part of 03
+      {
+        title: {
+          de: "Gambierinseln",
+          en: "Gambier Islands"
+        }
+      } // part of 03
     ],
     zone: "Etc/GMT+9",
     flag: "PF"
@@ -70,7 +90,12 @@ const countryList = [
       en: "French Polynesia (France)"
     },
     subdiv: [
-      {title: "Marquesas Islands"} // 04
+      {
+        title: {
+          de: "Marquesasinseln",
+          en: "Marquesas Islands"
+        }
+      } // 04
     ],
     zone: "Etc/GMT+9",
     flag: "PF",
@@ -91,7 +116,12 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Banaba"}, 
+      {
+        title: {
+          de: "Banaba",
+          en: "Banaba"
+        }
+      },
     ],
     zone: "Etc/GMT-11",
     flag: "KI"
@@ -102,7 +132,12 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Gilbert Islands"}
+      {
+        title: {
+          de: "Gilbertinseln",
+          en: "Gilbert Islands"
+        }
+      }
     ],
     zone: "Etc/GMT-12",
     flag: "KI",
@@ -114,7 +149,12 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Phoenix Islands"}
+      {
+        title: {
+          de: "Phoenixinseln",
+          en: "Phoenix Islands"
+        }
+      }
     ],
     zone: "Etc/GMT-13",
     flag: "KI"
@@ -125,8 +165,18 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Kiritimati"}, 
-      {title: "Line Islands"}
+      {
+        title: {
+          de: "Kiritimati",
+          en: "Kiritimati"
+        }
+      },
+      {
+        title: {
+          de: "Line Islands",
+          en: "Line Islands"
+        }
+      }
     ],
     zone: "Etc/GMT-14",
     flag: "KI"
@@ -284,7 +334,12 @@ const countryList = [
       en: "New Zealand"
     },
     subdiv: [
-      {title: "Chatham Islands"} // 10
+      {
+        title: {
+          de: "Chathaminseln",
+          en: "Chatham Islands"
+        }
+      } // 10
     ],
     zone: "Etc/GMT-12",
     flag: "NZ",
@@ -398,7 +453,12 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Midway Islands"} // 300
+      {
+        title: {
+          de: "Midwayinseln",
+          en: "Midway Islands"
+        }
+      } // 300
     ],
     zone: "Etc/GMT+12",
     flag: "US", // eigentlich UM

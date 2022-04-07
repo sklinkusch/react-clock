@@ -34,9 +34,24 @@ const countryList = [
       en: "French Polynesia (France)"
     },
     subdiv: [
-      {title: "Austral Islands"}, 
-      {title: "Society Islands"}, 
-      {title: "Tuamotus"}
+      {
+        title: {
+          de: "Austral-Inseln",
+          en: "Austral Islands"
+        }
+      }, 
+      {
+        title: {
+          de: "Gesellschaftsinseln",
+          en: "Society Islands"
+        }
+      }, 
+      {
+        title: {
+          de: "Tuamotu-Archipel",
+          en: "Tuamotus"
+        }
+      }
     ],
     zone: "Pacific/Tahiti",
     flag: "PF",
@@ -48,7 +63,12 @@ const countryList = [
       en: "French Polynesia (France)"
     },
     subdiv: [
-      {title: "Gambier Islands"}
+      {
+        title: {
+          de: "Gambierinseln",
+          en: "Gambier Islands"
+        }
+      }
     ],
     zone: "Pacific/Gambier",
     flag: "PF",
@@ -60,7 +80,12 @@ const countryList = [
       en: "French Polynesia (France)"
     },
     subdiv: [
-      {title: "Marquesas Islands"}
+      {
+        title: {
+          de: "Marquesasinseln",
+          en: "Marquesas Islands"
+        }
+      }
     ],
     zone: "Pacific/Marquesas",
     flag: "PF",
@@ -81,8 +106,18 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Banaba"}, 
-      {title: "Gilbert Islands"}
+      {
+        title: {
+          de: "Banaba",
+          en: "Banaba"
+        }
+      }, 
+      {
+        title: {
+          de: "Gilbertinseln",
+          en: "Gilbert Islands"
+        }
+      }
     ],
     zone: "Pacific/Tarawa",
     flag: "KI",
@@ -94,8 +129,18 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Kiritimati"}, 
-      {title: "Line Islands"}
+      {
+        title: {
+          de: "Kiritimati",
+          en: "Kiritimati"
+        }
+      }, 
+      {
+        title: {
+          de: "Line Islands",
+          en: "Line Islands"
+        }
+      }
     ],
     zone: "Pacific/Kiritimati",
     flag: "KI",
@@ -107,7 +152,12 @@ const countryList = [
       en: "Kiribati"
     },
     subdiv: [
-      {title: "Phoenix Islands"}
+      {
+        title: {
+          de: "Phoenixinseln",
+          en: "Phoenix Islands"
+        }
+      }
     ],
     zone: "Pacific/Enderbury",
     flag: "KI",
@@ -119,7 +169,9 @@ const countryList = [
       en: "Marshall Islands"
     },
     subdiv: [
-      {title: "Kwajalein Atoll"}
+      {
+        title: "Kwajalein Atoll"
+      }
     ],
     zone: "Pacific/Kwajalein",
     flag: "MH",
@@ -247,7 +299,12 @@ const countryList = [
       en: "New Zealand"
     },
     subdiv: [
-      {title: "Chatham Islands"}
+      {
+        title: {
+          de: "Chathaminseln",
+          en: "Chatham Islands"
+        }
+      }
     ],
     zone: "Pacific/Chatham",
     flag: "NZ",
@@ -396,7 +453,12 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Midway Islands"}
+      {
+        title: {
+          de: "Midwayinseln",
+          en: "Midway Islands"
+        }
+      }
     ],
     zone: "Pacific/Midway",
     flag: "US", // eigentlich UM
