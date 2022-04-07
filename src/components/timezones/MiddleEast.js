@@ -43,17 +43,88 @@ const countryList = [
       en: "Georgia"
     },
     subdiv: [
-      {title: "Ajaria"},
-      {title: "Guria"},
-      {title: "Imereti"},
-      {title: "Kakheti"},
-      {title: "Kvemo Kartli"},
-      {title: "Mtskheta-Mtianeti"},
-      {title: "Racha Lechkhumi and Kvemo Svaneti"},
-      {title: "Samtskhe-Javakheti"},
-      {title: "Shida Kartli", extra: "(only partly controlled by Georgia)"},
-      {title: "Samegrelo-Zemo Svaneti"},
-      {title: "Tbilisi"}
+      {
+        title: {
+          de: "Adscharien",
+          en: "Ajaria"
+        }
+      },
+      {
+        title: {
+          de: "Gurien",
+          en: "Guria"
+        }
+      },
+      {
+        title: {
+          de: "Imeretien",
+          en: "Imereti"
+        },
+        extra: {
+          de: "(nur teilweise unter georgischer Kontrolle)",
+          en: "(only partly controlled by Georgia)"
+        }
+      },
+      {
+        title: {
+          de: "Kachetien",
+          en: "Kakheti"
+        }
+      },
+      {
+        title: {
+          de: "Niederkartlien",
+          en: "Kvemo Kartli"
+        }
+      },
+      {
+        title: {
+          de: "Mzcheta-Mtianeti",
+          en: "Mtskheta-Mtianeti"
+        },
+        extra: {
+          de: "(nur teilweise unter georgischer Kontrolle)",
+          en: "(only partly controlled by Georgia)"
+        }
+      },
+      {
+        title: {
+          de: "Ratscha-Letschchumi und Niederswanetien",
+          en: "Racha Lechkhumi and Kvemo Svaneti"
+        },
+        extra: {
+          de: "(nur teilweise unter georgischer Kontrolle)",
+          en: "(only partly controlled by Georgia)"
+        }
+      },
+      {
+        title: {
+          de: "Samzche-Dschawachetien",
+          en: "Samtskhe-Javakheti"
+        }
+      },
+      {
+        title: {
+          de: "Innerkartlien",
+          en: "Shida Kartli"
+        }, 
+        extra: {
+          de: "(nur teilweise unter georgischer Kontrolle)",
+          en: "(only partly controlled by Georgia)"
+        }
+      },
+      {
+        title: {
+          de: "Mingrelien und Oberswanetien",
+          en: "Samegrelo-Zemo Svaneti"
+        }
+      },
+      {
+        title: {
+          de: "Tiflis",
+          en: "Tbilisi"
+        }
+      }
     ],
     zone: "Asia/Tbilisi",
     flag: "GE",
@@ -65,8 +136,56 @@ const countryList = [
       en: "Georgia"
     },
     subdiv: [
-      {title: "Abkhazia", extra: "(controlled by Russia/Abkhazia)"},
-      {title: "Shida Kartli", extra: "(partly controlled by Russia/South Ossetia)"}
+      {
+        title: {
+          de: "Abchasien",
+          en: "Abkhazia"
+        }, 
+        extra: {
+          de: "(unter russischer/abchasischer Kontrolle)",
+          en: "(controlled by Russia/Abkhazia)"
+        }
+      },
+      {
+        title: {
+          de: "Imeretien",
+          en: "Imereti"
+        },
+        extra: {
+          de: "(teilweise unter russischer/südossetischer Kontrolle)",
+          en: "(partly controlled by Russia/South Ossetia)"
+        }
+      },
+      {
+        title: {
+          de: "Mzcheta-Mtianeti",
+          en: "Mtskheta-Mtianeti"
+        },
+        extra: {
+          de: "(teilweise unter russischer/südossetischer Kontrolle)",
+          en: "(partly controlled by Russia/South Ossetia)"
+        }
+      },
+      {
+        title: {
+          de: "Ratscha-Letschchumi und Niederswanetien",
+          en: "Racha Lechkhumi and Kvemo Svaneti"
+        },
+        extra: {
+          de: "(teilweise unter russischer/südössetischer Kontrolle)",
+          en: "(partly controlled by Russia/South Ossetia)"
+        }
+      },
+      {
+        title: {
+          de: "Innerkartlien",
+          en: "Shida Kartli"
+        }, 
+        extra: {
+          de: "(teilweise unter russischer/südossetischer Kontrolle)",
+          en: "(partly controlled by Russia/South Ossetia)"
+        }
+      }
     ],
     zone: "Europe/Moscow",
     flag: "GE",
@@ -141,7 +260,12 @@ const countryList = [
       en: "Palestine"
     },
     subdiv: [
-      {title: "Gaza Strip"}
+      {
+        title: {
+          de: "Gazastreifen",
+          en: "Gaza Strip"
+        }
+      }
     ],
     zone: "Asia/Gaza",
     flag: "PS",
@@ -153,7 +277,12 @@ const countryList = [
       en: "Palestine"
     },
     subdiv: [
-      {title: "West Bank"}
+      {
+        title: {
+          de: "Westjordanland",
+          en: "West Bank"
+        }
+      }
     ],
     zone: "Asia/Hebron",
     flag: "PS",
