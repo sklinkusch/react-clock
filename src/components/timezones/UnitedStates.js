@@ -9,20 +9,62 @@ const countryList = [
     subdiv: [
       {title: "Alabama"}, 
       {title: "Arkansas"}, 
-      {title: "Florida", extra: "(west of Appalachicola River)"}, 
+      {
+        title: "Florida", 
+        extra: {
+          de: "(westlich des Appalachicola River)",
+          en: "(west of Appalachicola River)"
+        }
+      }, 
       {title: "Illinois"}, 
       {title: "Iowa"}, 
-      {title: "Kansas", extra: "(most of state)"}, 
-      {title: "Kentucky", extra: "(western 40%)"}, 
+      {
+        title: "Kansas", 
+        extra: {
+          de: "(überwiegend)",
+          en: "(most of state)"
+        }
+      }, 
+      {
+        title: "Kentucky", 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western 40%)"
+        }
+      }, 
       {title: "Louisiana"}, 
       {title: "Minnesota"}, 
       {title: "Mississippi"}, 
       {title: "Missouri"}, 
-      {title: "Nebraska", extra: "(most of state)"}, 
+      {
+        title: "Nebraska", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }, 
       {title: "Oklahoma"}, 
-      {title: "South Dakota", extra: "(eastern half)"}, 
-      {title: "Tennessee", extra: "(most of state)"}, 
-      {title: "Texas", extra: "(most of state)"}, 
+      {
+        title: "South Dakota", 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern half)"
+        }
+      }, 
+      {
+        title: "Tennessee", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }, 
+      {
+        title: "Texas", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }, 
       {title: "Wisconsin"}
     ],
     zone: "America/Chicago",
@@ -35,7 +77,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Alaska", extra: "(west of 169°30' W)"}
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(westlich von 169.5° W)",
+          en: "(west of 169.5° W)"
+        }
+      }
     ],
     zone: "America/Adak",
     flag: "US",
@@ -47,7 +95,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Alaska", extra: "(east of 169°30' W)"}
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(östlich von 169.5° W)",
+          en: "(east of 169.5° W)"
+        }
+      }
     ],
     zone: "America/Anchorage",
     flag: "US",
@@ -59,7 +113,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Arizona", extra: "(except Navajo Nation Reservation)"}
+      {
+        title: "Arizona", 
+        extra: {
+          de: "(außer Navajo Nation Reservation)",
+          en: "(except Navajo Nation Reservation)"
+        }
+      }
     ],
     zone: "America/Phoenix",
     flag: "US",
@@ -71,7 +131,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Arizona", extra: "(Navajo Nation Reservation)"}
+      {
+        title: "Arizona", 
+        extra: {
+          de: "(Navajo Nation Reservation)",
+          en: "(Navajo Nation Reservation)"
+        }
+      }
     ],
     zone: "America/Shiprock",
     flag: "US",
@@ -83,9 +149,26 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "California"}, 
-      {title: "Nevada", extra: "(most of state)"}, 
-      {title: "Oregon", extra: "(most of state)"}, 
+      {
+        title: {
+          de: "Kalifornien",
+          en: "California"
+        }
+      }, 
+      {
+        title: "Nevada", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }, 
+      {
+        title: "Oregon", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }, 
       {title: "Washington"}
     ],
     zone: "America/Los_Angeles",
@@ -99,14 +182,44 @@ const countryList = [
     },
     subdiv: [
       {title: "Colorado"}, 
-      {title: "Kansas", extra: "(western border counties)"}, 
+      {
+        title: "Kansas", 
+        extra: {
+          de: "(Gemeinden an der Westgrenze)",
+          en: "(western border counties)"
+        }
+      }, 
       {title: "Montana"}, 
-      {title: "Nebraska", extra: "(western third)"}, 
-      {title: "Nevada", extra: "(West Wendover)"}, 
+      {
+        title: "Nebraska", 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western third)"
+        }
+      }, 
+      {
+        title: "Nevada", 
+        extra: "(West Wendover)"
+      }, 
       {title: "New Mexico"}, 
-      {title: "North Dakota", extra: "(southwestern part)"}, 
-      {title: "South Dakota", extra: "(western half)"}, 
-      {title: "Texas", extra: "(El Paso, Hudspeth)"}, 
+      {
+        title: "North Dakota", 
+        extra: {
+          de: "(südwestlicher Teil)",
+          en: "(southwestern part)"
+        }
+      }, 
+      {
+        title: "South Dakota", 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western half)"
+        }
+      }, 
+      {
+        title: "Texas", 
+        extra: "(El Paso, Hudspeth)"
+      }, 
       {title: "Utah"}, 
       {title: "Wyoming"}
     ],
@@ -123,7 +236,13 @@ const countryList = [
       {title: "Connecticut"}, 
       {title: "Delaware"}, 
       {title: "District of Columbia"}, 
-      {title: "Florida", extra: "(east of Appalachicola River)"}, 
+      {
+        title: "Florida", 
+        extra: {
+          de: "(östlich des Appalachicola River)",
+          en: "(east of Appalachicola River)"
+        }
+      }, 
       {title: "Georgia"}, 
       {title: "Maine"}, 
       {title: "Maryland"}, 
@@ -136,7 +255,13 @@ const countryList = [
       {title: "Pennsylvania"}, 
       {title: "Rhode Island"}, 
       {title: "South Carolina"}, 
-      {title: "Tennessee", extra: "(eastern part)"}, 
+      {
+        title: "Tennessee", 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }, 
       {title: "Vermont"}, 
       {title: "Virginia"}, 
       {title: "West Virginia"}
@@ -151,7 +276,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Idaho", extra: "(most of state)"}, 
+      {
+        title: "Idaho", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }, 
       {title: "Oregon", extra: "(Malheur County)"}
     ],
     zone: "America/Boise",
@@ -164,7 +295,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Indiana", extra: "(most of state)"}
+      {
+        title: "Indiana", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "America/Indiana/Indianapolis",
     flag: "US",
@@ -176,7 +313,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Indiana", extra: "(northwest and southwest)"}
+      {
+        title: "Indiana", 
+        extra: {
+          de: "(Gemeinden im Nordwesten und Südwesten)",
+          en: "(northwest and southwest)"
+        }
+      }
     ],
     zone: "America/Indiana/Knox",
     flag: "US",
@@ -188,7 +331,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Kentucky", extra: "(eastern 60%)"}
+      {
+        title: "Kentucky", 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern 60%)"
+        }
+      }
     ],
     zone: "America/Kentucky/Louisville",
     flag: "US",
@@ -200,7 +349,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Michigan", extra: "(most of state)"}
+      {
+        title: "Michigan", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "America/Detroit",
     flag: "US",
@@ -212,7 +367,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Michigan", extra: "(counties bordering Wisconsin)"}
+      {
+        title: "Michigan", 
+        extra: {
+          de: "(Gemeinden an der Grenze zu Wisconsin)",
+          en: "(counties bordering Wisconsin)"
+        }
+      }
     ],
     zone: "America/Menominee",
     flag: "US",
@@ -224,7 +385,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "North Dakota", extra: "(most of state)"}
+      {
+        title: "North Dakota", 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "America/North_Dakota/Center",
     flag: "US",

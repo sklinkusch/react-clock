@@ -7,7 +7,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Alaska", extra: "(west of 172.5° W)"},
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(westlich von 172.5° W)",
+          en: "(west of 172.5° W)"
+        }
+      },
     ],
     zone: "Etc/GMT+12",
     flag: "US",
@@ -77,7 +83,13 @@ const countryList = [
       en: "United States"
     },
     subdiv: [
-      {title: "Alaska", extra: "(east of 142.5° W)"},
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(östlich von 142.5° W)",
+          en: "(east of 142.5° W)"
+        }
+      },
     ],
     zone: "Etc/GMT+9",
     flag: "US",
@@ -176,7 +188,13 @@ const countryList = [
     subdiv: [
       {title: "Alabama"},
       {title: "Arkansas"},
-      {title: "Florida", extra: "(panhandle)"},
+      {
+        title: "Florida", 
+        extra: {
+          de: "(westlicher Zipfel)",
+          en: "(panhandle)"
+        }
+      },
       {title: "Illinois"},
       {title: "Indiana"},
       {title: "Iowa"},
@@ -227,7 +245,13 @@ const countryList = [
       {title: "Connecticut"},
       {title: "Delaware"}, 
       {title: "District of Columbia"}, 
-      {title: "Florida", extra: "(except panhandle)"},
+      {
+        title: "Florida", 
+        extra: {
+          de: "(Hauptteil)",
+          en: "(except panhandle)"
+        }
+      },
       {title: "Georgia"},
       {title: "Maine"},
       {title: "Maryland"},
