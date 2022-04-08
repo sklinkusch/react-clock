@@ -26,7 +26,13 @@ const countryList = [
     },
     subdiv: [
       {title: "Acre"}, // 01
-      {title: "Amazonas", extra: "(western part)"} // 04
+      {
+        title: "Amazonas", 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      } // 04
     ],
     zone: "Etc/GMT+5",
     flag: "BR",
@@ -51,10 +57,22 @@ const countryList = [
       en: "Brazil"
     },
     subdiv: [
-      {title: "Amazonas", extra: "(eastern part)"}, // 04
+      {
+        title: "Amazonas", 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }, // 04
       {title: "Mato Grosso"}, // 14
       {title: "Mato Grosso do Sul"}, // 11
-      {title: "Pará", extra: "(west of 52.5° W)"}, // 16
+      {
+        title: "Pará", 
+        extra: {
+          de: "(westlich von 52.5° W)",
+          en: "(west of 52.5° W)"
+        }
+      }, // 16
       {title: "Rio Grande do Sul"}, // 23
       {title: "Rondônia"}, // 24
       {title: "Roraima"}, // 25
@@ -97,7 +115,13 @@ const countryList = [
       {title: "Goiás"}, // 29 
       {title: "Maranhão"}, // 13
       {title: "Minas Gerais"}, // 15
-      {title: "Pará", extra: "(east of 52.5° W)"}, // 16
+      {
+        title: "Pará", 
+        extra: {
+          de: "(östlich von 52.5° W)",
+          en: "(east of 52.5° W)"
+        }
+      }, // 16
       {title: "Paraná"}, // 18
       {title: "Pernambuco"}, // 30
       {title: "Piauí"}, // 20
@@ -173,7 +197,12 @@ const countryList = [
       en: "Chile"
     },
     subdiv: [
-      {title: "Easter Island"}
+      {
+        title: {
+          de: "Osterinsel",
+          en: "Easter Island"
+        }
+      }
     ],
     zone: "Etc/GMT+7",
     flag: "CL",
@@ -200,7 +229,13 @@ const countryList = [
       {title: "Región del Libertador Bernardo O'Higgins"},
       {title: "Santiago"},
       {title: "Tarapacá"},
-      {title: "Valparaíso", extra: "(continental part)"},
+      {
+        title: "Valparaíso", 
+        extra: {
+          de: "(Festland)",
+          en: "(continental part)"
+        }
+      },
     ],
     zone: "Etc/GMT+5",
     flag: "CL",

@@ -37,7 +37,13 @@ const countryList = [
       en: "Brazil"
     },
     subdiv: [
-      {title: "Amazonas", extra: "(western part)"}
+      {
+        title: "Amazonas", 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      }
     ],
     zone: "America/Eirunepe",
     flag: "BR",
@@ -158,7 +164,13 @@ const countryList = [
       en: "Brazil"
     },
     subdiv: [
-      {title: "Amazonas", extra: "(eastern part)"}
+      {
+        title: "Amazonas", 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }
     ],
     zone: "America/Manaus",
     flag: "BR",
@@ -219,7 +231,12 @@ const countryList = [
     },
     subdiv: [
       {title: "Fernando de Noronha"}, 
-      {title: "Saint Peter and Saint Paul Archipelago"}
+      {title: 
+        {
+          de: "Sankt-Peter-und-Sankt-Pauls-Felsen",
+          en: "Saint Peter and Saint Paul Archipelago"
+        }
+      }
     ],
     zone: "America/Noronha",
     flag: "BR",
@@ -231,7 +248,12 @@ const countryList = [
       en: "Chile"
     },
     subdiv: [
-      {title: "Easter Island"}
+      {
+        title: {
+          de: "Osterinsel",
+          en: "Easter Island"
+        }
+      }
     ],
     zone: "Pacific/Easter",
     flag: "CL",
@@ -257,7 +279,13 @@ const countryList = [
       {title: "Región del Libertador Bernardo O'Higgins"},
       {title: "Santiago"},
       {title: "Tarapacá"},
-      {title: "Valparaíso", extra: "(continental part)"},
+      {
+        title: "Valparaíso", 
+        extra: {
+          de: "(Festland)",
+          en: "(continental part)"
+        }
+      },
     ],
     zone: "America/Santiago",
     flag: "CL",
@@ -328,7 +356,7 @@ const countryList = [
     ],
     zone: "Pacific/Galapagos",
     flag: "EC",
-    cities: cityList.filter(city => city.country === "EC" && city.tz === "America/Galapagos")
+    cities: cityList.filter(city => city.country === "EC" && city.tz === "Pacific/Galapagos")
   },
   {
     country: {
