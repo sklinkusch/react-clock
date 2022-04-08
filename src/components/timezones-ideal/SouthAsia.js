@@ -59,9 +59,19 @@ const countryList = [
       {title: "Telangana"}, // 40
       {title: "Uttarakhand"}, // 39
       {title: "Uttar Pradesh"}, // 36
-      {title: "Dadra and Nagar Haveli and Daman and Du"}, // 52
+      {
+        title: {
+          de: "Dadra und Nagar Haveli und Daman und Diu",
+          en: "Dadra and Nagar Haveli and Daman and Diu"
+        }
+      }, // 52
       {title: "Delhi"}, // 07
-      {title: "Jammu and Kashmir"}, // 12
+      {
+        title: {
+          de: "Jammu und Kaschmir",
+          en: "Jammu and Kashmir"
+        }
+      }, // 12
       {title: "Ladakh"}, // 41
       {title: "Lakshadweep"}, // 14
       {title: "Puducherry"}, // 22
@@ -118,8 +128,18 @@ const countryList = [
       {title: "Odisha"}, // 21
       {title: "Sikkim"}, // 29
       {title: "Tripura"}, // 26
-      {title: "West Bengal"}, // 28
-      {title: "Andaman and Nicobar Islands"}, // 01
+      {
+        title: {
+          de: "Westbengalen",
+          en: "West Bengal"
+        }
+      }, // 28
+      {
+        title: {
+          de: "Andamanen und Nikobaren",
+          en: "Andaman and Nicobar Islands"
+        }
+      }, // 01
       {title: "Chandigarh"}, // 05
     ],
     zone: "Etc/GMT-6",
@@ -182,7 +202,12 @@ const countryList = [
       en: "Pakistan"
     },
     subdiv: [
-      {title: "Balochistan"}, // 02
+      {
+        title: {
+          de: "Belutschistan",
+          en: "Balochistan"
+        }
+      }, // 02
     ],
     zone: "Etc/GMT-4",
     flag: "PK",
@@ -194,9 +219,19 @@ const countryList = [
       en: "Pakistan"
     },
     subdiv: [
-      {title: "Azad Jammu and Kashmir"}, // 06
+      {
+        title: {
+          de: "Asad Jammu und Kaschmir",
+          en: "Azad Jammu and Kashmir"
+        }
+      }, // 06
       {title: "Gilgit-Baltistan"}, // 07
-      {title: "Islamabad Capital Territory"}, // 08
+      {
+        title: {
+          de: "Hauptstadtterritorium Islamabad",
+          en: "Islamabad Capital Territory"
+        }
+      }, // 08
       {title: "Khyber Pakhtunkhwa"}, // 03
       {title: "Punjab"}, // 04
       {title: "Sindh"}, // 05
