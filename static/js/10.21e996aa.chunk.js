@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-time"]=this["webpackJsonpreact-time"]||[]).push([[10],{71:function(e,t,c){"use strict";c.r(t);c(1);var r=c(3);t.default=function(e){var t=e.city.replace("-","\u2013");return Object(r.jsx)("h2",{children:Object(r.jsx)("span",{children:t})})}}}]);
+//# sourceMappingURL=10.21e996aa.chunk.js.map
