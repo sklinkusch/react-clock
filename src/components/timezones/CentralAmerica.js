@@ -1,51 +1,74 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Belize",
+    country: {
+      de: "Belize",
+      en: "Belize"
+    },
     zone: "America/Belize",
     flag: "BZ",
     cities: cityList.filter(city => city.country === "BZ" && city.tz === "America/Belize")
   },
   {
-    country: "Costa Rica",
+    country: {
+      de: "Costa Rica",
+      en: "Costa Rica"
+    },
     zone: "America/Costa_Rica",
     flag: "CR",
     cities: cityList.filter(city => city.country === "CR" && city.tz === "America/Costa_Rica")
   },
   {
-    country: "El Salvador",
+    country: {
+      de: "El Salvador",
+      en: "El Salvador"
+    },
     zone: "America/El_Salvador",
     flag: "SV",
     cities: cityList.filter(city => city.country === "SV" && city.tz === "America/El_Salvador")
   },
   {
-    country: "Guatemala",
+    country: {
+      de: "Guatemala",
+      en: "Guatemala"
+    },
     zone: "America/Guatemala",
     flag: "GT",
     cities: cityList.filter(city => city.country === "GT" && city.tz === "America/Guatemala")
   },
   {
-    country: "Honduras",
+    country: {
+      de: "Honduras",
+      en: "Honduras"
+    },
     zone: "America/Tegucigalpa",
     flag: "HN",
     cities: cityList.filter(city => city.country === "HN" && city.tz === "America/Tegucigalpa")
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Aguascalientes"}, 
       {title: "Campeche"}, 
       {title: "Chiapas"}, 
       {title: "Coahuila"}, 
       {title: "Colima"}, 
-      {title: "Distrito Federal"}, 
       {title: "Durango"}, 
       {title: "Guanajuato"}, 
       {title: "Guerrero"}, 
       {title: "Hidalgo"}, 
       {title: "Jalisco"}, 
       {title: "México"}, 
+      {
+        title: {
+          de: "Mexiko-Stadt",
+          en: "Mexico City"
+        }
+      }, 
       {title: "Michoacán"}, 
       {title: "Morelos"}, 
       {title: "Nuevo León"}, 
@@ -65,7 +88,10 @@ export default [
     cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Mexico_City")
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Baja California"}
     ],
@@ -74,7 +100,10 @@ export default [
     cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Tijuana")
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Baja California Sur"},
       {title: "Chihuahua"},
@@ -86,7 +115,10 @@ export default [
     cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Mazatlan")
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Quintana Roo"}
     ],
@@ -95,25 +127,41 @@ export default [
     cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Cancun")
   },
   {
-    country: "Mexico",
+    country: {
+      de: "Mexiko",
+      en: "Mexico"
+    },
     subdiv: [
       {title: "Sonora"},
-      {title: "Revillagigedo Islands"}
+      {
+        title: {
+          de: "Revillagigedo-Inseln",
+          en: "Revillagigedo Islands"
+        }
+      }
     ],
     zone: "America/Hermosillo",
     flag: "MX",
     cities: cityList.filter(city => city.country === "MX" && city.tz === "America/Hermosillo")
   },
   {
-    country: "Nicaragua",
+    country: {
+      de: "Nicaragua",
+      en: "Nicaragua"
+    },
     zone: "America/Managua",
     flag: "NI",
     cities: cityList.filter(city => city.country === "NI" && city.tz === "America/Managua")
   },
   {
-    country: "Panama",
+    country: {
+      de: "Panama",
+      en: "Panama"
+    },
     zone: "America/Panama",
     flag: "PA",
     cities: cityList.filter(city => city.country === "PA" && city.tz === "America/Panama")
   },
 ]
+
+export default countryList

@@ -1,10 +1,19 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
-      {title: "Alaska", extra: "(west of 172.5° W)"},
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(westlich von 172.5° W)",
+          en: "(west of 172.5° W)"
+        }
+      },
     ],
     zone: "Etc/GMT+12",
     flag: "US",
@@ -23,7 +32,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(172.5° W – 157.5° W)"},
     ],
@@ -43,7 +55,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alaska", extra: "(157.5° W – 142.5° W)"},
     ],
@@ -63,9 +78,18 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
-      {title: "Alaska", extra: "(east of 142.5° W)"},
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(östlich von 142.5° W)",
+          en: "(east of 142.5° W)"
+        }
+      },
     ],
     zone: "Etc/GMT+9",
     flag: "US",
@@ -83,7 +107,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "California"},
       {title: "Idaho"},
@@ -110,7 +137,10 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Arizona"},
       {title: "Colorado"},
@@ -151,11 +181,20 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Alabama"},
       {title: "Arkansas"},
-      {title: "Florida", extra: "(panhandle)"},
+      {
+        title: "Florida", 
+        extra: {
+          de: "(westlicher Zipfel)",
+          en: "(panhandle)"
+        }
+      },
       {title: "Illinois"},
       {title: "Indiana"},
       {title: "Iowa"},
@@ -198,12 +237,21 @@ export default [
     })
   },
   {
-    country: "United States of America",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Connecticut"},
       {title: "Delaware"}, 
       {title: "District of Columbia"}, 
-      {title: "Florida", extra: "(except panhandle)"},
+      {
+        title: "Florida", 
+        extra: {
+          de: "(Hauptteil)",
+          en: "(except panhandle)"
+        }
+      },
       {title: "Georgia"},
       {title: "Maine"},
       {title: "Maryland"},
@@ -255,3 +303,5 @@ export default [
     })
   },
 ]
+
+export default countryList

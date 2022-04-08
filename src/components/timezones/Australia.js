@@ -1,112 +1,220 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Western Australia", extra: "(most of state)"}
+      {
+        title: {
+          de: "Westaustralien",
+          en: "Western Australia",
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "Australia/Perth",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Perth")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Western Australia", extra: "(Eucla)"}
+      {
+        title: {
+          de: "Westaustralien",
+          en: "Western Australia"
+        }, 
+        extra: "(Eucla)"
+      }
     ],
     zone: "Australia/Eucla",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Eucla")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Northern Territory"}
+      {
+        title: {
+          de: "Nordterritorium",
+          en: "Northern Territory"
+        }
+      }
     ],
     zone: "Australia/Darwin",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Darwin")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Queensland"}
+      {
+        title: {
+          de: "Queensland",
+          en: "Queensland"
+        }
+      }
     ],
     zone: "Australia/Brisbane",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Brisbane")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "South Australia"}
+      {
+        title: {
+          de: "Südaustralien",
+          en: "South Australia"
+        }
+      }
     ],
     zone: "Australia/Adelaide",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Adelaide")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "New South Wales", extra: "(most of state)"}
+      {
+        title: {
+          de: "Neusüdwales",
+          en: "New South Wales"
+        }, 
+        extra: {
+          de: "(größtenteils)",
+          en: "(most of state)"
+        }
+      }
     ],
     zone: "Australia/Sydney",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Sydney")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Australian Capital Territory"}
+      {
+        title: {
+          de: "Australisches Hauptstadtterritorium",
+          en: "Australian Capital Territory"
+        }
+      }
     ],
     zone: "Australia/Canberra",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Canberra")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "New South Wales", extra: "(Yancowinna)"}
+      {
+        title: {
+          de: "Neusüdwales",
+          en: "New South Wales"
+        }, 
+        extra: "(Yancowinna)"
+      }
     ],
     zone: "Australia/Broken_Hill",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Broken_Hill")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Victoria"}
+      {
+        title: {
+          de: "Victoria",
+          en: "Victoria"
+        }
+      }
     ],
     zone: "Australia/Melbourne",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Melbourne")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Tasmania"}
+      {
+        title: {
+          de: "Tasmanien",
+          en: "Tasmania"
+        }
+      }
     ],
     zone: "Australia/Hobart",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Hobart")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Lord Howe Island"}
+      {
+        title: {
+          de: "Lord-Howe-Inselgruppe",
+          en: "Lord Howe Island"
+        }
+      }
     ],
     zone: "Australia/Lord_Howe",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Lord_Howe")
   },
   {
-    country: "Australia",
+    country: {
+      de: "Australien",
+      en: "Australia"
+    },
     subdiv: [
-      {title: "Norfolk Island"}
+      {
+        title: {
+          de: "Norfolkinsel",
+          en: "Norfolk Island"
+        }
+      }
     ],
     zone: "Pacific/Norfolk",
     flag: "AU",
     cities: cityList.filter(city => city.country === "AU" && city.tz === "Australia/Norfolk")
   },
 ]
+
+export default countryList

@@ -1,94 +1,176 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Casey (Australia)"}
+      {
+        title: {
+          de: "Casey (Australien)",
+          en: "Casey (Australia)"
+        }
+      }
     ],
     zone: "Antarctica/Casey",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Casey")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Davis (Australia)"}
+      {
+        title: {
+          de: "Davis (Australien)",
+          en: "Davis (Australia)"
+        }
+      }
     ],
     zone: "Antarctica/Davis",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Davis")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Dumont-d'Urville (France)"}
+      {
+        title: {
+          de: "Dumont-d'Urville (Frankreich)",
+          en: "Dumont-d'Urville (France)"
+        }
+      }
     ],
     zone: "Antarctica/DumontDUrville",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/DumontDUrville")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Mawson (Australia)"}
+      {
+        title: {
+          de: "Mawson (Australien)",
+          en: "Mawson (Australia)"
+        }
+      }
     ],
     zone: "Antarctica/Mawson",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Mawson")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "McMurdo (United States)"}
+      {
+        title: {
+          de: "McMurdo (USA)",
+          en: "McMurdo (United States)"
+        }
+      }
     ],
     zone: "Antarctica/McMurdo",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/McMurdo")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Palmer (United States)"}
+      {
+        title: {
+          de: "Palmer (USA)",
+          en: "Palmer (United States)"
+        }
+      }
     ],
     zone: "Antarctica/Palmer",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Palmer")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Rothera (United Kingdom)"}
+      {
+        title: {
+          de: "Rothera (Vereinigtes Königreich)",
+          en: "Rothera (United Kingdom)"
+        }
+      }
     ],
     zone: "Antarctica/Rothera",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Rothera")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Shōwa (Japan)"}
+      {
+        title: {
+          de: "Shōwa (Japan)",
+          en: "Shōwa (Japan)"
+        }
+      }
     ],
     zone: "Antarctica/Syowa",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Syowa")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Troll (Norway)"}
+      {
+        title: {
+          de: "Troll (Norwegen)",
+          en: "Troll (Norway)"
+        }
+      }
     ],
     zone: "Antarctica/Troll",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Troll")
   },
   {
-    country: "Antarctica",
+    country: {
+      de: "Antarktis",
+      en: "Antarctica"
+    },
     subdiv: [
-      {title: "Vostok (Russia)"}
+      {
+        title: {
+          de: "Wostok (Russland)",
+          en: "Vostok (Russia)"
+        }
+      }
     ],
     zone: "Antarctica/Vostok",
     flag: "AQ",
     cities: cityList.filter(city => city.country === "AQ" && city.tz === "Antarctica/Vostok")
   }
 ]
+
+export default countryList

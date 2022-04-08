@@ -1,38 +1,17 @@
 import React, { lazy } from "react";
-import { getZonedTime, findTimeZone } from "timezone-support"
+import moment from "moment-timezone"
 import "../styles/Clock.css";
 import { ClockDate, ClockTime } from "./ClockHelpers"
 const ClockTitle = lazy(() => import("./ClockTitle"))
 const ClockFlags = lazy(() => import("./ClockFlags"))
 const ClockCities = lazy(() => import("./ClockCities"))
 
-const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
-
-const formatDate = (offset) => {
-  const unixTime = Date.now()
-  const add = offset * 60 * 1000
-  const localUnixTime = unixTime + add
-  const formattedDate = new Date(localUnixTime).toLocaleDateString("en-GB", { timeZone: "Etc/GMT+0"})
-  const formattedTime = new Date(localUnixTime).toLocaleTimeString("en-GB", { timeZone: "Etc/GMT+0"})
-  return { date: formattedDate, time: formattedTime }
-}
-
-const getFormattedDate = (date) => {
-  const { year, month, day } = date
-  return `${pad(day)}/${pad(month)}/${pad(year)}`
-}
-
-const getFormattedTime = (date) => {
-  const { hours, minutes, seconds } = date
-  return `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`
-}
-
 export default class IdealClock extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      formattedDate: this.props.offset ? formatDate(this.props.offset).date : getFormattedDate(getZonedTime(new Date(), findTimeZone(this.props.zone))),
-      formattedTime: this.props.offset ? formatDate(this.props.offset).time : getFormattedTime(getZonedTime(new Date(), findTimeZone(this.props.zone))),
+      formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
     };
   }
   componentDidMount() {
@@ -42,9 +21,22 @@ export default class IdealClock extends React.Component {
     clearInterval(this.timerID);
   }
   render(props) {
+    const lang = window.navigator.language
     const { city = "", flags = [], cities = [] } = this.props
     const { formattedDate, formattedTime } = this.state
-    const sortedFlags = flags.sort((a, b) => a.title.localeCompare(b.title, "de", {sensitivy: "base"}))
+    const sortedFlags = flags.sort((a, b) => {
+      const aTitle = typeof a.title === "object"
+        ? a.title.hasOwnProperty(lang)
+          ? a.title[lang] 
+          : a.title["en"]
+        : a.title
+        const bTitle = typeof b.title === "object"
+        ? b.title.hasOwnProperty(lang)
+          ? b.title[lang] 
+          : b.title["en"]
+        : b.title
+      return aTitle.localeCompare(bTitle, "de", {sensitivy: "base"})
+    })
     const reducedFlags = sortedFlags.reduce((acc, curr) => {
       const arr = [...acc]
       const flagIndexes = arr.map(flag => flag.code)
@@ -56,7 +48,19 @@ export default class IdealClock extends React.Component {
             element.subdiv.push(item)
           }
         })
-        const sortedSubdiv = element.subdiv.sort((a,b) => a.title.localeCompare(b.title,"de",{ sensitivy: "base"}))
+        const sortedSubdiv = element.subdiv.sort((a,b) => {
+          const aTitle = typeof a.title === "object"
+        ? a.title.hasOwnProperty(lang)
+          ? a.title[lang] 
+          : a.title["en"]
+        : a.title
+        const bTitle = typeof b.title === "object"
+        ? b.title.hasOwnProperty(lang)
+          ? b.title[lang] 
+          : b.title["en"]
+        : b.title
+      return aTitle.localeCompare(bTitle, "de", {sensitivy: "base"})
+        })
         arr[index].subdiv = sortedSubdiv
       } else {
         arr.push(curr)
@@ -68,18 +72,18 @@ export default class IdealClock extends React.Component {
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
-          <ClockFlags flags={reducedFlags} />
-          <ClockCities uniqueCities={uniqueCities} />
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
+          <ClockFlags flags={reducedFlags} />
+          <ClockCities uniqueCities={uniqueCities} />
         </div>
       </div>
     );
   }
   tick() {
     this.setState({
-      formattedDate: this.props.offset ? formatDate(this.props.offset).date : getFormattedDate(getZonedTime(new Date(), findTimeZone(this.props.zone))),
-      formattedTime: this.props.offset ? formatDate(this.props.offset).time : getFormattedTime(getZonedTime(new Date(), findTimeZone(this.props.zone))),
+      formattedDate: this.props.offset ? moment().utcOffset(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: this.props.offset ? moment().utcOffset(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
     });
   }
 }

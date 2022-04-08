@@ -1,32 +1,47 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Brunei",
+    country: {
+      de: "Brunei",
+      en: "Brunei"
+    },
     zone: "Etc/GMT-8",
     flag: "BN",
     cities: cityList.filter(city => city.country === "BN")
   },
   {
-    country: "Cambodia",
+    country: {
+      de: "Kambodscha",
+      en: "Cambodia"
+    },
     zone: "Etc/GMT-7",
     flag: "KH",
     cities: cityList.filter(city => city.country === "KH")
   },
   {
-    country: "Christmas Island (Australia)",
+    country: {
+      de: "Weihnachtsinsel (Australien)",
+      en: "Christmas Island (Australia)"
+    },
     zone: "Etc/GMT-7",
     flag: "CX",
     cities: cityList.filter(city => city.country === "CX")
   },
   {
-    country: "Laos",
+    country: {
+      de: "Laos",
+      en: "Laos"
+    },
     zone: "Etc/GMT-7",
     flag: "LA",
     cities: cityList.filter(city => city.country === "LA")
   },
   {
-    country: "Malaysia",
+    country: {
+      de: "Malaysia",
+      en: "Malaysia"
+    },
     subdiv: [
       {title: "Johor"}, // 01
       {title: "Kedah"}, // 02
@@ -69,7 +84,10 @@ export default [
     })
   },
   {
-    country: "Malaysia",
+    country: {
+      de: "Malaysia",
+      en: "Malaysia"
+    },
     subdiv: [
       {title: "Labuan"}, // 15
       {title: "Sabah"},  // 16
@@ -92,33 +110,50 @@ export default [
     })
   },
   {
-    country: "Philippines",
+    country: {
+      de: "Philippinen",
+      en: "Philippines"
+    },
     zone: "Etc/GMT-8",
     flag: "PH",
     cities: cityList.filter(city => city.country === "PH")
   },
   {
-    country: "Singapore",
+    country: {
+      de: "Singapur",
+      en: "Singapore"
+    },
     zone: "Etc/GMT-7",
     flag: "SG",
     cities: cityList.filter(city => city.country === "SG")
   },
   {
-    country: "Thailand",
+    country: {
+      de: "Thailand",
+      en: "Thailand"
+    },
     zone: "Etc/GMT-7",
     flag: "TH",
     cities: cityList.filter(city => city.country === "TH")
   },
   {
-    country: "Timor-Leste",
+    country: {
+      de: "Osttimor",
+      en: "Timor-Leste"
+    },
     zone: "Etc/GMT-8",
     flag: "TL",
     cities: cityList.filter(city => city.country === "TL")
   },
   {
-    country: "Vietnam",
+    country: {
+      de: "Vietnam",
+      en: "Vietnam"
+    },
     zone: "Etc/GMT-7",
     flag: "VN",
     cities: cityList.filter(city => city.country === "VN")
   }
 ]
+
+export default countryList

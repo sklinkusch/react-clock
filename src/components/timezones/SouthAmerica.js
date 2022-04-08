@@ -1,20 +1,29 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Argentina",
+    country: {
+      de: "Argentinien",
+      en: "Argentina"
+    },
     zone: "America/Argentina/Buenos_Aires",
     flag: "AR",
     cities: cityList.filter(city => city.country === "AR" && city.tz.startsWith("America/Argentina"))
   },
   {
-    country: "Bolivia",
+    country: {
+      de: "Bolivien",
+      en: "Bolivia"
+    },
     zone: "America/La_Paz",
     flag: "BO",
     cities: cityList.filter(city => city.country === "BO" && city.tz === "America/La_Paz")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Acre"}
     ],
@@ -23,16 +32,28 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Rio_Branco")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
-      {title: "Amazonas", extra: "(western part)"}
+      {
+        title: "Amazonas", 
+        extra: {
+          de: "(westlicher Teil)",
+          en: "(western part)"
+        }
+      }
     ],
     zone: "America/Eirunepe",
     flag: "BR",
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Eirunepe")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Distrito Federal"}, 
       {title: "Espírito Santo"}, 
@@ -49,7 +70,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Sao_Paulo")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Alagoas"}, 
       {title: "Sergipe"}
@@ -59,7 +83,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Maceio")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Amapá"}
     ],
@@ -68,7 +95,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Belem")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Bahia"}
     ],
@@ -77,7 +107,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Bahia")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Ceará"}, 
       {title: "Maranhão"}, 
@@ -90,7 +123,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Fortaleza")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Pará"}
     ],
@@ -99,7 +135,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Santarem")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Pernambuco"}
     ],
@@ -108,7 +147,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Recife")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Tocantins"}
     ],
@@ -117,16 +159,28 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Araguaina")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
-      {title: "Amazonas", extra: "(eastern part)"}
+      {
+        title: "Amazonas", 
+        extra: {
+          de: "(östlicher Teil)",
+          en: "(eastern part)"
+        }
+      }
     ],
     zone: "America/Manaus",
     flag: "BR",
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Manaus")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Mato Grosso"}
     ],
@@ -135,7 +189,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Cuiaba")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Mato Grosso do Sul"}
     ],
@@ -144,7 +201,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Campo_Grande")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Rondônia"}
     ],
@@ -153,7 +213,10 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Porto_Velho")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Roraima"}
     ],
@@ -162,26 +225,45 @@ export default [
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Boa_Vista")
   },
   {
-    country: "Brazil",
+    country: {
+      de: "Brasilien",
+      en: "Brazil"
+    },
     subdiv: [
       {title: "Fernando de Noronha"}, 
-      {title: "Saint Peter and Saint Paul Archipelago"}
+      {title: 
+        {
+          de: "Sankt-Peter-und-Sankt-Pauls-Felsen",
+          en: "Saint Peter and Saint Paul Archipelago"
+        }
+      }
     ],
     zone: "America/Noronha",
     flag: "BR",
     cities: cityList.filter(city => city.country === "BR" && city.tz === "America/Noronha")
   },
   {
-    country: "Chile",
+    country: {
+      de: "Chile",
+      en: "Chile"
+    },
     subdiv: [
-      {title: "Easter Island"}
+      {
+        title: {
+          de: "Osterinsel",
+          en: "Easter Island"
+        }
+      }
     ],
     zone: "Pacific/Easter",
     flag: "CL",
     cities: cityList.filter(city => city.country === "CL" && city.tz === "Pacific/Easter")
   },
   {
-    country: "Chile",
+    country: {
+      de: "Chile",
+      en: "Chile"
+    },
     subdiv: [
       {title: "Aisén"},
       {title: "Antofagasta"},
@@ -197,14 +279,23 @@ export default [
       {title: "Región del Libertador Bernardo O'Higgins"},
       {title: "Santiago"},
       {title: "Tarapacá"},
-      {title: "Valparaíso", extra: "(continental part)"},
+      {
+        title: "Valparaíso", 
+        extra: {
+          de: "(Festland)",
+          en: "(continental part)"
+        }
+      },
     ],
     zone: "America/Santiago",
     flag: "CL",
     cities: cityList.filter(city => city.country === "CL" && city.tz === "America/Santiago")
   },
   {
-    country: "Chile",
+    country: {
+      de: "Chile",
+      en: "Chile"
+    },
     subdiv: [
       {title: "Magallanes and Antártica Chilena Region"}
     ],
@@ -213,13 +304,19 @@ export default [
     cities: cityList.filter(city => city.country === "CL" && city.tz === "America/Punta_Arenas")
   },
   {
-    country: "Colombia",
+    country: {
+      de: "Kolumbien",
+      en: "Colombia"
+    },
     zone: "America/Bogota",
     flag: "CO",
     cities: cityList.filter(city => city.country === "CO" && city.tz === "America/Bogota")
   },
   {
-    country: "Ecuador",
+    country: {
+      de: "Ecuador",
+      en: "Ecuador"
+    },
     subdiv: [
       {title: "Azuay"},
       {title: "Bolívar"},
@@ -250,66 +347,98 @@ export default [
     cities: cityList.filter(city => city.country === "EC" && city.tz === "America/Guayaquil")
   },
   {
-    country: "Ecuador",
+    country: {
+      de: "Ecuador",
+      en: "Ecuador"
+    },
     subdiv: [
       {title: "Galápagos"}
     ],
     zone: "Pacific/Galapagos",
     flag: "EC",
-    cities: cityList.filter(city => city.country === "EC" && city.tz === "America/Galapagos")
+    cities: cityList.filter(city => city.country === "EC" && city.tz === "Pacific/Galapagos")
   },
   {
-    country: "Falkland Islands (United Kingdom)",
+    country: {
+      de: "Falklandinseln (Vereinigtes Königreich)",
+      en: "Falkland Islands (United Kingdom)"
+    },
     zone: "Atlantic/Stanley",
     flag: "FK",
     cities: cityList.filter(city => city.country === "FK" && city.tz === "Atlantic/Stanley")
   },
   {
-    country: "French Guiana (France)",
+    country: {
+      de: "Französisch-Guayana (Frankreich)",
+      en: "French Guiana (France)"
+    },
     zone: "America/Cayenne",
     flag: "GF",
     cities: cityList.filter(city => city.country === "GF" && city.tz === "America/Cayenne")
   },
   {
-    country: "Guyana",
+    country: {
+      de: "Guyana",
+      en: "Guyana"
+    },
     zone: "America/Guyana",
     flag: "GY",
     cities: cityList.filter(city => city.country === "GY" && city.tz === "America/Guyana")
   },
   {
-    country: "Paraguay",
+    country: {
+      de: "Paraguay",
+      en: "Paraguay"
+    },
     zone: "America/Asuncion",
     flag: "PY",
     cities: cityList.filter(city => city.country === "PY" && city.tz === "America/Asuncion")
   },
   {
-    country: "Peru",
+    country: {
+      de: "Peru",
+      en: "Peru"
+    },
     zone: "America/Lima",
     flag: "PE",
     cities: cityList.filter(city => city.country === "PE" && city.tz === "America/Lima")
   },
   {
-    country: "South Georgia and the South Sandwich Islands (United Kingdom)",
+    country: {
+      de: "Südgeorgien und die Südlichen Sandwichinseln (Vereinigtes Königreich)",
+      en: "South Georgia and the South Sandwich Islands (United Kingdom)"
+    },
     zone: "Atlantic/South_Georgia",
     flag: "GS",
     cities: cityList.filter(city => city.country === "GS" && city.tz === "Atlantic/South_Georgia")
   },
   {
-    country: "Suriname",
+    country: {
+      de: "Suriname",
+      en: "Suriname"
+    },
     zone: "America/Paramaribo",
     flag: "SR",
     cities: cityList.filter(city => city.country === "SR" && city.tz === "America/Paramaribo")
   },
   {
-    country: "Uruguay",
+    country: {
+      de: "Uruguay",
+      en: "Uruguay"
+    },
     zone: "America/Montevideo",
     flag: "UY",
     cities: cityList.filter(city => city.country === "UY" && city.tz === "America/Montevideo")
   },
   {
-    country: "Venezuela",
+    country: {
+      de: "Venezuela",
+      en: "Venezuela"
+    },
     zone: "America/Caracas",
     flag: "VE",
     cities: cityList.filter(city => city.country === "VE" && city.tz === "America/Caracas")
   }
 ]
+
+export default countryList

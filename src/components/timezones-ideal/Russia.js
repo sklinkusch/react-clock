@@ -1,32 +1,113 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Kaliningrad Oblast"} //23
+      {
+        title: {
+          de: "Oblast Kaliningrad",
+          en: "Kaliningrad Oblast"
+        }
+      } //23
     ],
     zone: "Etc/GMT-1",
     flag: "RU",
     cities: cityList.filter(city => city.country === "RU" && city.adminCode === "23")
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Saint Petersburg"}, // 66
-      {title: "Karelia"}, // 28
-      {title: "Belgorod Oblast"}, // 09
-      {title: "Bryansk Oblast"}, // 10
-      {title: "Kaluga Oblast"}, // 25
-      {title: "Kursk Oblast"}, // 41
-      {title: "Leningrad Oblast"}, // 42
-      {title: "Murmansk Oblast"}, // 49
-      {title: "Novgorod Oblast"}, // 52
-      {title: "Oryol Oblast"}, // 56
-      {title: "Pskov Oblast"}, // 60
-      {title: "Smolensk Oblast"}, // 69
-      {title: "Tula Oblast"}, // 76
-      {title: "Tver Oblast"}, // 77
+      {
+        title: {
+          de: "St. Petersburg",
+          en: "Saint Petersburg"
+        }
+      }, // 66
+      {
+        title: {
+          de: "Republik Karelien",
+          en: "Karelia"
+        }
+      }, // 28
+      {
+        title: {
+          de: "Oblast Belgorod",
+          en: "Belgorod Oblast"
+        }
+      }, // 09
+      {
+        title: {
+          de: "Oblast Brjansk",
+          en: "Bryansk Oblast"
+        }
+      }, // 10
+      {
+        title: {
+          de: "Oblast Kaluga",
+          en: "Kaluga Oblast"
+        }
+      }, // 25
+      {
+        title: {
+          de: "Oblast Kursk",
+          en: "Kursk Oblast"
+        }
+      }, // 41
+      {
+        title: {
+          de: "Oblast Leningrad",
+          en: "Leningrad Oblast"
+        }
+      }, // 42
+      {
+        title: {
+          de: "Oblast Murmansk",
+          en: "Murmansk Oblast"
+        }
+      }, // 49
+      {
+        title: {
+          de: "Oblast Nowgorod",
+          en: "Novgorod Oblast"
+        }
+      }, // 52
+      {
+        title: {
+          de: "Oblast Orjol",
+          en: "Oryol Oblast"
+        }
+      }, // 56
+      {
+        title: {
+          de: "Oblast Pskow",
+          en: "Pskov Oblast"
+        }
+      }, // 60
+      {
+        title: {
+          de: "Oblast Smolensk",
+          en: "Smolensk Oblast"
+        }
+      }, // 69
+      {
+        title: {
+          de: "Oblast Tula",
+          en: "Tula Oblast"
+        }
+      }, // 76
+      {
+        title: {
+          de: "Oblast Twer",
+          en: "Tver Oblast"
+        }
+      }, // 77
     ],
     zone: "Etc/GMT-2",
     flag: "RU",
@@ -56,45 +137,237 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Moscow"}, // 48 
-      {title: "Adygea"}, // 01
-      {title: "Chechnya"}, // 12
-      {title: "Chuvashia"}, // 16
-      {title: "Dagestan"}, // 17
-      {title: "Ingushetia"},  // 19
-      {title: "Kabardino-Balkaria"}, // 22 
-      {title: "Kalmykia"}, // 24
-      {title: "Karachay-Cherkessia"}, // 27
-      {title: "Mari El"}, // 45
-      {title: "Mordovia"}, // 46
-      {title: "North Ossetia-Alania"}, // 68
-      {title: "Tatarstan"}, // 73
-      {title: "Udmurtia"}, // 80
-      {title: "Krasnodar Region"}, // 38
-      {title: "Stavropol Region"}, // 70
-      {title: "Arkhangelsk Oblast"}, // 06
-      {title: "Astrakhan Oblast"}, // 07
-      {title: "Ivanovo Oblast"}, // 21
-      {title: "Kirov Oblast"}, // 33
-      {title: "Kostroma Oblast"}, // 37
-      {title: "Lipetsk Oblast"}, // 43
-      {title: "Moscow Oblast"}, // 47
-      {title: "Nizhnyi Novgorod Oblast"}, // 51
-      {title: "Penza Oblast"}, // 57
-      {title: "Rostov Oblast"}, // 61
-      {title: "Ryazan Oblast"}, // 62
-      {title: "Samara Oblast"}, // 65
-      {title: "Saratov Oblast"}, // 67
-      {title: "Tambov Oblast"}, // 72
-      {title: "Ulyanovsk Oblast"}, // 81
-      {title: "Vladimir Oblast"}, // 83
-      {title: "Volgograd Oblast"}, // 84
-      {title: "Vologda Oblast"}, // 85
-      {title: "Voronezh Oblast"}, // 86
-      {title: "Yaroslavl Oblast"}, // 88
-      {title: "Nenets Autonomous Okrug", extra: "(west of 52.5° E)"} // 50
+      {
+        title: {
+          de: "Moskau",
+          en: "Moscow"
+        }
+      }, // 48 
+      {
+        title: {
+          de: "Republik Adygeja",
+          en: "Adygea"
+        }
+      }, // 01
+      {
+        title: {
+          de: "Republik Tschetschenien",
+          en: "Chechnya"
+        }
+      }, // 12
+      {
+        title: {
+          de: "Republik Tschuwaschien",
+          en: "Chuvashia"
+        }
+      }, // 16
+      {
+        title: {
+          de: "Republik Dagestan",
+          en: "Dagestan"
+        }
+      }, // 17
+      {
+        title: {
+          de: "Republik Inguschetien",
+          en: "Ingushetia"
+        }
+      },  // 19
+      {
+        title: {
+          de: "Republik Kabardino-Balkarien",
+          en: "Kabardino-Balkaria"
+        }
+      }, // 22 
+      {
+        title: {
+          de: "Republik Kalmückien",
+          en: "Kalmykia"
+        }
+      }, // 24
+      {
+        title: {
+          de: "Republik Karatschai-Tscherkessien",
+          en: "Karachay-Cherkessia"
+        }
+      }, // 27
+      {
+        title: {
+          de: "Republik Mari El",
+          en: "Mari El"
+        }
+      }, // 45
+      {
+        title: {
+          de: "Republik Mordwinien",
+          en: "Mordovia"
+        }
+      }, // 46
+      {
+        title: {
+          de: "Republik Nordossetien-Alanien",
+          en: "North Ossetia-Alania"
+        }
+      }, // 68
+      {
+        title: {
+          de: "Republik Tatarstan",
+          en: "Tatarstan"
+        }
+      }, // 73
+      {
+        title: {
+          de: "Republik Udmurtien",
+          en: "Udmurtia"
+        }
+      }, // 80
+      {
+        title: {
+          de: "Region Krasnodar",
+          en: "Krasnodar Region"
+        }
+      }, // 38
+      {
+        title: {
+          de: "Region Stawropol",
+          en: "Stavropol Region"
+        }
+      }, // 70
+      {
+        title: {
+          de: "Oblast Archangelsk",
+          en: "Arkhangelsk Oblast"
+        }
+      }, // 06
+      {
+        title: {
+          de: "Oblast Astrachan",
+          en: "Astrakhan Oblast"
+        }
+      }, // 07
+      {
+        title: {
+          de: "Oblast Iwanowo",
+          en: "Ivanovo Oblast"
+        }
+      }, // 21
+      {
+        title: {
+          de: "Oblast Kirow",
+          en: "Kirov Oblast"
+        }
+      }, // 33
+      {
+        title: {
+          de: "Oblast Kostroma",
+          en: "Kostroma Oblast"
+        }
+      }, // 37
+      {
+        title: {
+          de: "Oblast Lipezk",
+          en: "Lipetsk Oblast"
+        }
+      }, // 43
+      {
+        title: {
+          de: "Oblast Moskau",
+          en: "Moscow Oblast"
+        }
+      }, // 47
+      {
+        title: {
+          de: "Oblast Nischni Nowgorod",
+          en: "Nizhnyi Novgorod Oblast"
+        }
+      }, // 51
+      {
+        title: {
+          de: "Oblast Pensa",
+          en: "Penza Oblast"
+        }
+      }, // 57
+      {
+        title: {
+          de: "Oblast Rostow",
+          en: "Rostov Oblast"
+        }
+      }, // 61
+      {
+        title: {
+          de: "Oblast Rjasan",
+          en: "Ryazan Oblast"
+        }
+      }, // 62
+      {
+        title: {
+          de: "Oblast Samara",
+          en: "Samara Oblast"
+        }
+      }, // 65
+      {
+        title: {
+          de: "Oblast Saratow",
+          en: "Saratov Oblast"
+        }
+      }, // 67
+      {
+        title: {
+          de: "Oblast Tambow",
+          en: "Tambov Oblast"
+        }
+      }, // 72
+      {
+        title: {
+          de: "Oblast Uljanowsk",
+          en: "Ulyanovsk Oblast"
+        }
+      }, // 81
+      {
+        title: {
+          de: "Oblast Wladimir",
+          en: "Vladimir Oblast"
+        }
+      }, // 83
+      {
+        title: {
+          de: "Oblast Wolgograd",
+          en: "Volgograd Oblast"
+        }
+      }, // 84
+      {
+        title: {
+          de: "Oblast Wologda",
+          en: "Vologda Oblast"
+        }
+      }, // 85
+      {
+        title: {
+          de: "Oblast Woronesch",
+          en: "Voronezh Oblast"
+        }
+      }, // 86
+      {
+        title: {
+          de: "Oblast Jaroslawl",
+          en: "Yaroslavl Oblast"
+        }
+      }, // 88
+      {
+        title: {
+          de: "Autonomer Kreis der Nenzen",
+          en: "Nenets Autonomous Okrug"
+        }, 
+        extra: {
+          de: "(westlich von 52.5° E)",
+          en: "(west of 52.5° E)"
+        }
+      } // 50
     ],
     zone: "Etc/GMT-3",
     flag: "RU",
@@ -149,16 +422,63 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Bashkortostan"}, // 08
-      {title: "Komi"}, // 34
-      {title: "Perm Region"}, // 90
-      {title: "Chelyabinsk Oblast"}, // 13
-      {title: "Kurgan Oblast"}, // 40
-      {title: "Orenburg Oblast"}, // 55
-      {title: "Sverdlovsk Oblast"}, // 71
-      {title: "Nenets Autonomous Okrug", extra: "(east of 52.5° E)"} // 50
+      {
+        title: {
+          de: "Republik Baschkortostan",
+          en: "Bashkortostan"
+        }
+      }, // 08
+      {
+        title: {
+          de: "Republik Komi",
+          en: "Komi"
+        }
+      }, // 34
+      {
+        title: {
+          de: "Region Perm",
+          en: "Perm Region"
+        }
+      }, // 90
+      {
+        title: {
+          de: "Oblast Tscheljabinsk",
+          en: "Chelyabinsk Oblast"
+        }
+      }, // 13
+      {
+        title: {
+          de: "Oblast Kurgan",
+          en: "Kurgan Oblast"
+        }
+      }, // 40
+      {
+        title: {
+          de: "Oblast Orenburg",
+          en: "Orenburg Oblast"
+        }
+      }, // 55
+      {
+        title: {
+          de: "Oblast Swerdlowsk",
+          en: "Sverdlovsk Oblast"
+        }
+      }, // 71
+      {
+        title: {
+          de: "Autonomer Kreis der Nenzen",
+          en: "Nenets Autonomous Okrug"
+        }, 
+        extra: {
+          de: "(östlich von 52.5° E)",
+          en: "(east of 52.5° E)"
+        }
+      } // 50
     ],
     zone: "Etc/GMT-4",
     flag: "RU",
@@ -184,14 +504,47 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Altai Region"}, // 04
-      {title: "Novosibirsk Oblast"}, // 53
-      {title: "Omsk Oblast"}, // 54
-      {title: "Tyumen Oblast"}, // 78
-      {title: "Khanty-Mansi Autonomous Okrug"}, // 32
-      {title: "Yamalo-Nenets Autonomous Okrug"}, // 87
+      {
+        title: {
+          de: "Region Altai",
+          en: "Altai Region"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Oblast Nowosibirsk",
+          en: "Novosibirsk Oblast"
+        }
+      }, // 53
+      {
+        title: {
+          de: "Oblast Omsk",
+          en: "Omsk Oblast"
+        }
+      }, // 54
+      {
+        title: {
+          de: "Oblast Tjumen",
+          en: "Tyumen Oblast"
+        }
+      }, // 78
+      {
+        title: {
+          de: "Autonomer Kreis der Chanten und Mansen",
+          en: "Khanty-Mansi Autonomous Okrug"
+        }
+      }, // 32
+      {
+        title: {
+          de: "Autonomer Kreis der Jamal-Nenzen",
+          en: "Yamalo-Nenets Autonomous Okrug"
+        }
+      }, // 87
     ],
     zone: "Etc/GMT-5",
     flag: "RU",
@@ -213,14 +566,51 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Altai Republic"}, // 03
-      {title: "Khakassia"}, // 31
-      {title: "Tuva Republic"}, // 79
-      {title: "Krasnoyarsk Region", extra: "(west of 97.5° E)"}, // 91
-      {title: "Kemerovo Oblast"}, // 29
-      {title: "Tomsk Oblast"}, // 75
+      {
+        title: {
+          de: "Republik Altai",
+          en: "Altai Republic"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Republik Chakassien",
+          en: "Khakassia"
+        }
+      }, // 31
+      {
+        title: {
+          de: "Republik Tuwa",
+          en: "Tuva Republic"
+        }
+      }, // 79
+      {
+        title: {
+          de: "Region Krasnojarsk",
+          en: "Krasnoyarsk Region"
+        }, 
+        extra: {
+          de: "(westlich von 97.5° E)",
+          en: "(west of 97.5° E)"
+        }
+      }, // 91
+      {
+        title: {
+          de: "Oblast Kemerowo",
+          en: "Kemerovo Oblast"
+        }
+      }, // 29
+      {
+        title: {
+          de: "Oblast Tomsk",
+          en: "Tomsk Oblast"
+        }
+      }, // 75
     ],
     zone: "Etc/GMT-6",
     flag: "RU",
@@ -244,12 +634,47 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Buryatia"}, // 11
-      {title: "Sakha", extra: "(west of 112.5° E)"}, // 63
-      {title: "Krasnoyarsk Region", extra: "(east of 97.5°E)"}, // 91
-      {title: "Irkutsk Oblast", extra: "(west of 112.5° E)"}, // 20
+      {
+        title: {
+          de: "Republik Burjatien",
+          en: "Buryatia"
+        }
+      }, // 11
+      {
+        title: {
+          de: "Republik Sacha",
+          en: "Sakha"
+        }, 
+        extra: {
+          de: "(westlich von 112.5° E)",
+          en: "(west of 112.5° E)"
+        }
+      }, // 63
+      {
+        title: {
+          de: "Region Krasnojarsk",
+          en: "Krasnoyarsk Region"
+        }, 
+        extra: {
+          de: "(östlich von 97.5° E)",
+          en: "(east of 97.5°E)"
+        }
+      }, // 91
+      {
+        title: {
+          de: "Oblast Irkutsk",
+          en: "Irkutsk Oblast"
+        }, 
+        extra: {
+          de: "(westlich von 112.5° E)",
+          en: "(west of 112.5° E)"
+        }
+      }, // 20
     ],
     zone: "Etc/GMT-7",
     flag: "RU",
@@ -273,12 +698,40 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Sakha", extra: "(112.5° E – 127.5° E)"}, // 63
-      {title: "Amur Oblast"}, // 05
-      {title: "Irkutsk Oblast", extra: "(east of 112.5° E)"}, // 20
-      {title: "Zabaykalsky Krai"}, // 93
+      {
+        title: {
+          de: "Republik Sacha",
+          en: "Sakha"
+        }, 
+        extra: "(112.5° E – 127.5° E)"
+      }, // 63
+      {
+        title: {
+          de: "Oblast Amur",
+          en: "Amur Oblast"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Oblast Irkutsk",
+          en: "Irkutsk Oblast"
+        }, 
+        extra: {
+          de: "(östlich von 112.5° E)",
+          en: "(east of 112.5° E)"
+        }
+      }, // 20
+      {
+        title: {
+          de: "Region Transbaikalien",
+          en: "Zabaykalsky Krai"
+        }
+      }, // 93
     ],
     zone: "Etc/GMT-8",
     flag: "RU",
@@ -302,13 +755,42 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Sakha", extra: "(127.5°E – 142.5° E)"}, // 63
-      {title: "Khabarovsk Region"}, // 30
-      {title: "Primorsky Krai"}, // 59
-      {title: "Sakhalin Oblast"}, // 64
-      {title: "Jewish Autonomous Oblast"}, // 89
+      {
+        title: {
+          de: "Republik Sacha",
+          en: "Sakha"
+        }, 
+        extra: "(127.5°E – 142.5° E)"
+      }, // 63
+      {
+        title: {
+          de: "Region Chabarowsk",
+          en: "Khabarovsk Region"
+        }
+      }, // 30
+      {
+        title: {
+          de: "Region Primorje",
+          en: "Primorsky Krai"
+        }
+      }, // 59
+      {
+        title: {
+          de: "Oblast Sachalin",
+          en: "Sakhalin Oblast"
+        }
+      }, // 64
+      {
+        title: {
+          de: "Jüdische Autonome Oblast",
+          en: "Jewish Autonomous Oblast"
+        }
+      }, // 89
     ],
     zone: "Etc/GMT-9",
     flag: "RU",
@@ -331,10 +813,31 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Sakha", extra: "(east of 142.5° E)"}, // 63
-      {title: "Magadan Oblast", extra: "(west of 157.5° E)"} // 44
+      {
+        title: {
+          de: "Republik Sacha",
+          en: "Sakha"
+        },
+        extra: {
+          de: "(östlich von 142.5° E)",
+          en: "(east of 142.5° E)"
+        }
+      }, // 63
+      {
+        title: {
+          de: "Oblast Magadan",
+          en: "Magadan Oblast"
+        }, 
+        extra: {
+          de: "(westlich von 157.5° E)",
+          en: "(west of 157.5° E)"
+        }
+      } // 44
     ],
     zone: "Etc/GMT-10",
     flag: "RU",
@@ -355,11 +858,37 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Magadan Oblast", extra: "(east of 157.5° E)"}, // 44
-      {title: "Kamchatka"}, // 92
-      {title: "Chukotka Autonomous Okrug", extra: "(west of 172.5° E)"}, // 15
+      {
+        title: {
+          de: "Oblast Magadan",
+          en: "Magadan Oblast"
+        },
+        extra: {
+          de: "(östlich von 157.5° E)",
+          en: "(east of 157.5° E)"
+        }
+      }, // 44
+      {
+        title: {
+          de: "Region Kamtschatka",
+          en: "Kamchatka"
+        }
+      }, // 92
+      {
+        title: {
+          de: "Autonomer Kreis der Tschuktschen",
+          en: "Chukotka Autonomous Okrug"
+        }, 
+        extra: {
+          de: "(westlich von 172.5° E)",
+          en: "(west of 172.5° E)"
+        }
+      }, // 15
     ],
     zone: "Etc/GMT-11",
     flag: "RU",
@@ -382,12 +911,26 @@ export default [
     })
   },
   {
-    country: "Russia",
+    country: {
+      de: "Russland",
+      en: "Russia"
+    },
     subdiv: [
-      {title: "Chukotka Autonomous Okrug", extra: "(east of 172.5° E)"},
+      {
+        title: {
+          de: "Autonomer Kreis der Tschuktschen",
+          en: "Chukotka Autonomous Okrug"
+        },
+        extra: {
+          de: "(östlich von 172.5° E)",
+          en: "(east of 172.5° E)"
+        }
+      },
     ],
     zone: "Etc/GMT-12",
     flag: "RU",
     cities: cityList.filter(city => city.country === "RU" && city.adminCode === "15" && city.lon >= 172.5)
   },
 ]
+
+export default countryList

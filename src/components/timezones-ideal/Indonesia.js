@@ -1,27 +1,120 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
-      {title: "Aceh"}, // 01
-      {title: "Bengkulu"}, // 03
-      {title: "Jakarta Raya"}, // 04
-      {title: "Jambi"}, // 05
-      {title: "Jawa Tengah"}, // 07
-      {title: "Jawa Timur"}, // 08
-      {title: "Yogyakarta"}, // 10
-      {title: "Kalimantan Barat"}, // 11
-      {title: "Kalimantan Tengah"}, // 13 
-      {title: "Lampung"}, // 15
-      {title: "Sumatera Barat"}, // 24
-      {title: "Sumatera Utara"}, // 26
-      {title: "Jawa Barat"}, // 30
-      {title: "Sumatera Selatan"}, // 32
-      {title: "Banten"}, // 33
-      {title: "Bangka-Belitung"}, // 35
-      {title: "Riau"}, // 37
-      {title: "Kepulauan Riau"}, // 40
+      {
+        title: {
+          de: "Aceh",
+          en: "Aceh"
+        }
+      }, // 01
+      {
+        title: {
+          de: "Bengkulu",
+          en: "Bengkulu"
+        }
+      }, // 03
+      {
+        title: {
+          de: "Jakarta",
+          en: "Jakarta"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Jambi",
+          en: "Jambi"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Zentraljava",
+          en: "Central Java"
+        }
+      }, // 07
+      {
+        title: {
+          de: "Ostjava",
+          en: "East Java"
+        }
+      }, // 08
+      {
+        title: {
+          de: "Yogyakarta",
+          en: "Yogyakarta"
+        }
+      }, // 10
+      {
+        title: {
+          de: "Westkalimantan",
+          en: "West Kalimantan"
+        }
+      }, // 11
+      {
+        title: {
+          de: "Zentralkalimantan",
+          en: "Central Kalimantan"
+        }
+      }, // 13 
+      {
+        title: {
+          de: "Lampung",
+          en: "Lampung"
+        }
+      }, // 15
+      {
+        title: {
+          de: "Westsumatra",
+          en: "West Sumatra"
+        }
+      }, // 24
+      {
+        title: {
+          de: "Nordsumatra",
+          en: "North Sumatra"
+        }
+      }, // 26
+      {
+        title: {
+          de: "Westjava",
+          en: "West Java"
+        }
+      }, // 30
+      {
+        title: {
+          de: "Südsumatra",
+          en: "South Sumatra"
+        }
+      }, // 32
+      {
+        title: {
+          de: "Banten",
+          en: "Banten"
+        }
+      }, // 33
+      {
+        title: {
+          de: "Bangka-Belitung",
+          en: "Bangka Belitung"
+        }
+      }, // 35
+      {
+        title: {
+          de: "Riau",
+          en: "Riau"
+        }
+      }, // 37
+      {
+        title: {
+          de: "Riau-Inseln",
+          en: "Riau Islands"
+        }
+      }, // 40
     ],
     zone: "Etc/GMT-7",
     flag: "ID",
@@ -51,20 +144,83 @@ export default [
     })
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
-      {title: "Bali"}, // 02
-      {title: "Kalimantan Selatan"}, // 12
-      {title: "Kalimantan"}, // 14 
-      {title: "Nusa Tenggara Barat"}, // 17
-      {title: "Nusa Tenggara Timur"}, // 18 
-      {title: "Sulawesi Tengah"}, // 21
-      {title: "Sulawesi Tenggara"}, // 22
-      {title: "Sulawesi Utara"}, // 31
-      {title: "Gorontalo"}, // 34
-      {title: "Sulawesi Selatan"}, // 38
-      {title: "Sulawesi Barat"}, // 41
-      {title: "Kalimantan Utara"}, // 42
+      {
+        title: {
+          de: "Bali",
+          en: "Bali"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Südkalimantan",
+          en: "South Kalimantan"
+        }
+      }, // 12
+      {
+        title: {
+          de: "Ostkalimantan",
+          en: "East Kalimantan"
+        }
+      }, // 14 
+      {
+        title: {
+          de: "West-Nusa-Tenggara",
+          en: "West Nusa Tenggara"
+        }
+      }, // 17
+      {
+        title: {
+          de: "Ost-Nusa-Tenggara",
+          en: "East Nusa Tenggara"
+        }
+      }, // 18 
+      {
+        title: {
+          de: "Zentralsulawesi",
+          en: "Central Sulawesi"
+        }
+      }, // 21
+      {
+        title: {
+          de: "Südostsulawesi",
+          en: "Southeast Sulawesi"
+        }
+      }, // 22
+      {
+        title: {
+          de: "Nordsulawesi",
+          en: "North Sulawesi"
+        }
+      }, // 31
+      {
+        title: {
+          de: "Gorontalo",
+          en: "Gorontalo"
+        }
+      }, // 34
+      {
+        title: {
+          de: "Südsulawesi",
+          en: "South Sulawesi"
+        }
+      }, // 38
+      {
+        title: {
+          de: "Westsulawesi",
+          en: "West Sulawesi"
+        }
+      }, // 41
+      {
+        title: {
+          de: "Nordkalimantan",
+          en: "North Kalimantan"
+        }
+      }, // 42
     ],
     zone: "Etc/GMT-8",
     flag: "ID",
@@ -88,12 +244,35 @@ export default [
     })
   },
   {
-    country: "Indonesia",
+    country: {
+      de: "Indonesien",
+      en: "Indonesia"
+    },
     subdiv: [
-      {title: "Maluku"}, // 28
-      {title: "Maluku Utara"}, // 29
-      {title: "Papua"}, // 36
-      {title: "West Papua"}, // 39
+      {
+        title: {
+          de: "Maluku",
+          en: "Maluku"
+        }
+      }, // 28
+      {
+        title: {
+          de: "Nordmaluku",
+          en: "North Maluku"
+        }
+      }, // 29
+      {
+        title: {
+          de: "Papua",
+          en: "Papua"
+        }
+      }, // 36
+      {
+        title: {
+          de: "Westpapua",
+          en: "West Papua"
+        }
+      }, // 39
     ],
     zone: "Etc/GMT-9",
     flag: "ID",
@@ -109,3 +288,5 @@ export default [
     })
   },
 ]
+
+export default countryList

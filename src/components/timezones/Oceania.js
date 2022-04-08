@@ -1,99 +1,187 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "American Samoa (United States)",
+    country: {
+      de: "Amerikanisch-Samoa (USA)",
+      en: "American Samoa (United States)"
+    },
     zone: "Pacific/Pago_Pago",
     flag: "AS",
     cities: cityList.filter(city => city.country === "AS" && city.tz === "Pacific/Pago_Pago")
   },
   {
-    country: "Cook Islands (New Zealand)",
+    country: {
+      de: "Cookinseln (Neuseeland)",
+      en: "Cook Islands (New Zealand)"
+    },
     zone: "Pacific/Rarotonga",
     flag: "CK",
     cities: cityList.filter(city => city.country === "CK" && city.tz === "Pacific/Rarotonga")
   },
   {
-    country: "Fiji",
+    country: {
+      de: "Fidschi",
+      en: "Fiji"
+    },
     zone: "Pacific/Fiji",
     flag: "FJ",
     cities: cityList.filter(city => city.country === "FJ" && city.tz === "Pacific/Fiji")
   },
   {
-    country: "French Polynesia (France)",
+    country: {
+      de: "Französisch-Polynesien (Frankreich)",
+      en: "French Polynesia (France)"
+    },
     subdiv: [
-      {title: "Austral Islands"}, 
-      {title: "Society Islands"}, 
-      {title: "Tuamotus"}
+      {
+        title: {
+          de: "Austral-Inseln",
+          en: "Austral Islands"
+        }
+      }, 
+      {
+        title: {
+          de: "Gesellschaftsinseln",
+          en: "Society Islands"
+        }
+      }, 
+      {
+        title: {
+          de: "Tuamotu-Archipel",
+          en: "Tuamotus"
+        }
+      }
     ],
     zone: "Pacific/Tahiti",
     flag: "PF",
     cities: cityList.filter(city => city.country === "PF" && city.tz === "Pacific/Tahiti")
   },
   {
-    country: "French Polynesia (France)",
+    country: {
+      de: "Französisch-Polynesien (Frankreich)",
+      en: "French Polynesia (France)"
+    },
     subdiv: [
-      {title: "Gambier Islands"}
+      {
+        title: {
+          de: "Gambierinseln",
+          en: "Gambier Islands"
+        }
+      }
     ],
     zone: "Pacific/Gambier",
     flag: "PF",
     cities: cityList.filter(city => city.country === "PF" && city.tz === "Pacific/Gambier")
   },
   {
-    country: "French Polynesia (France)",
+    country: {
+      de: "Französisch-Polynesien (Frankreich)",
+      en: "French Polynesia (France)"
+    },
     subdiv: [
-      {title: "Marquesas Islands"}
+      {
+        title: {
+          de: "Marquesasinseln",
+          en: "Marquesas Islands"
+        }
+      }
     ],
     zone: "Pacific/Marquesas",
     flag: "PF",
     cities: cityList.filter(city => city.country === "PF" && city.tz === "Pacific/Marquesas")
   },
   {
-    country: "Guam (United States)",
+    country: {
+      de: "Guam (USA)",
+      en: "Guam (United States)"
+    },
     zone: "Pacific/Guam",
     flag: "GU",
     cities: cityList.filter(city => city.country === "GU" && city.tz === "Pacific/Guam")
   },
   {
-    country: "Kiribati",
+    country: {
+      de: "Kiribati",
+      en: "Kiribati"
+    },
     subdiv: [
-      {title: "Banaba"}, 
-      {title: "Gilbert Islands"}
+      {
+        title: {
+          de: "Banaba",
+          en: "Banaba"
+        }
+      }, 
+      {
+        title: {
+          de: "Gilbertinseln",
+          en: "Gilbert Islands"
+        }
+      }
     ],
     zone: "Pacific/Tarawa",
     flag: "KI",
     cities: cityList.filter(city => city.country === "KI" && city.tz === "Pacific/Tarawa")
   },
   {
-    country: "Kiribati",
+    country: {
+      de: "Kiribati",
+      en: "Kiribati"
+    },
     subdiv: [
-      {title: "Kiritimati"}, 
-      {title: "Line Islands"}
+      {
+        title: {
+          de: "Kiritimati",
+          en: "Kiritimati"
+        }
+      }, 
+      {
+        title: {
+          de: "Line Islands",
+          en: "Line Islands"
+        }
+      }
     ],
     zone: "Pacific/Kiritimati",
     flag: "KI",
     cities: cityList.filter(city => city.country === "KI" && city.tz === "Pacific/Kiritimati")
   },
   {
-    country: "Kiribati",
+    country: {
+      de: "Kiribati",
+      en: "Kiribati"
+    },
     subdiv: [
-      {title: "Phoenix Islands"}
+      {
+        title: {
+          de: "Phoenixinseln",
+          en: "Phoenix Islands"
+        }
+      }
     ],
     zone: "Pacific/Enderbury",
     flag: "KI",
     cities: cityList.filter(city => city.country === "KI" && city.tz === "Pacific/Enderbury")
   },
   {
-    country: "Marshall Islands",
+    country: {
+      de: "Marshallinseln",
+      en: "Marshall Islands"
+    },
     subdiv: [
-      {title: "Kwajalein Atoll"}
+      {
+        title: "Kwajalein Atoll"
+      }
     ],
     zone: "Pacific/Kwajalein",
     flag: "MH",
     cities: cityList.filter(city => city.country === "MH" && city.tz === "Pacific/Kwajalein")
   },
   {
-    country: "Marshall Islands",
+    country: {
+      de: "Marshallinseln",
+      en: "Marshall Islands"
+    },
     subdiv: [
       {title: "Ailanglaplap Atoll"},
       {title: "Ailuk Atoll"},
@@ -124,7 +212,10 @@ export default [
     cities: cityList.filter(city => city.country === "MH" && city.tz === "Pacific/Majuro")
   },
   {
-    country: "Micronesia",
+    country: {
+      de: "Föderierte Staaten von Mikronesien",
+      en: "Federated States of Micronesia"
+    },
     subdiv: [
       {title: "Chuuk"}, 
       {title: "Yap"}
@@ -134,7 +225,10 @@ export default [
     cities: cityList.filter(city => city.country === "FM" && city.tz === "Pacific/Chuuk")
   },
   {
-    country: "Micronesia",
+    country: {
+      de: "Föderierte Staaten von Mikronesien",
+      en: "Federated States of Micronesia"
+    },
     subdiv: [
       {title: "Kosrae"}
     ],
@@ -143,7 +237,10 @@ export default [
     cities: cityList.filter(city => city.country === "FM" && city.tz === "Pacific/Kosrae")
   },
   {
-    country: "Micronesia",
+    country: {
+      de: "Föderierte Staaten von Mikronesien",
+      en: "Federated States of Micronesia"
+    },
     subdiv: [
       {title: "Pohnpei"}
     ],
@@ -152,19 +249,28 @@ export default [
     cities: cityList.filter(city => city.country === "FM" && city.tz === "Pacific/Pohnpei")
   },
   {
-    country: "Nauru",
+    country: {
+      de: "Nauru",
+      en: "Nauru"
+    },
     zone: "Pacific/Nauru",
     flag: "NR",
     cities: cityList.filter(city => city.country === "NR" && city.tz === "Pacific/Nauru")
   },
   {
-    country: "New Caledonia (France)",
+    country: {
+      de: "Neukaledonien (Frankreich)",
+      en: "New Caledonia (France)"
+    },
     zone: "Pacific/Noumea",
     flag: "NC",
     cities: cityList.filter(city => city.country === "NC" && city.tz === "Pacific/Noumea")
   },
   {
-    country: "New Zealand",
+    country: {
+      de: "Neuseeland",
+      en: "New Zealand"
+    },
     subdiv: [
       {title: "Auckland"},
       {title: "Bay of Plenty"},
@@ -188,34 +294,54 @@ export default [
     cities: cityList.filter(city => city.country === "NZ" && city.tz === "Pacific/Auckland")
   },
   {
-    country: "New Zealand",
+    country: {
+      de: "Neuseeland",
+      en: "New Zealand"
+    },
     subdiv: [
-      {title: "Chatham Islands"}
+      {
+        title: {
+          de: "Chathaminseln",
+          en: "Chatham Islands"
+        }
+      }
     ],
     zone: "Pacific/Chatham",
     flag: "NZ",
     cities: cityList.filter(city => city.country === "NZ" && city.tz === "Pacific/Chatham")
   },
   {
-    country: "Niue (New Zealand)",
+    country: {
+      de: "Niue (Neuseeland)",
+      en: "Niue (New Zealand)"
+    },
     zone: "Pacific/Niue",
     flag: "NU",
     cities: cityList.filter(city => city.country === "NU" && city.tz === "Pacific/Niue")
   },
   {
-    country: "Northern Mariana Islands (United States)",
+    country: {
+      de: "Nördliche Marianen (USA)",
+      en: "Northern Mariana Islands (United States)"
+    },
     zone: "Pacific/Saipan",
     flag: "MP",
     cities: cityList.filter(city => city.country === "MP" && city.tz === "Pacific/Saipan")
   },
   {
-    country: "Palau",
+    country: {
+      de: "Palau",
+      en: "Palau"
+    },
     zone: "Pacific/Palau",
     flag: "PW",
     cities: cityList.filter(city => city.country === "PW" && city.tz === "Pacific/Palau")
   },
   {
-    country: "Papua New Guinea",
+    country: {
+      de: "Papua-Neuguinea",
+      en: "Papua New Guinea"
+    },
     subdiv: [
       {title: "Bougainville"}
     ],
@@ -224,7 +350,10 @@ export default [
     cities: cityList.filter(city => city.country === "PG" && city.tz === "Pacific/Bougainville")
   },
   {
-    country: "Papua New Guinea",
+    country: {
+      de: "Papua-Neuguinea",
+      en: "Papua New Guinea"
+    },
     subdiv: [
       {title: "Central"},
       {title: "Chimbu"},
@@ -253,43 +382,64 @@ export default [
     cities: cityList.filter(city => city.country === "PG" && city.tz === "Pacific/Port_Moresby")
   },
   {
-    country: "Pitcairn Islands (United Kingdom)",
+    country: {
+      de: "Pitcairninseln (Vereinigtes Königreich)",
+      en: "Pitcairn Islands (United Kingdom)"
+    },
     zone: "Pacific/Pitcairn",
     flag: "PN",
     cities: cityList.filter(city => city.country === "PN" && city.tz === "Pacific/Pitcairn")
   },
   {
-    country: "Samoa",
+    country: {
+      de: "Samoa",
+      en: "Samoa"
+    },
     zone: "Pacific/Apia",
     flag: "WS",
     cities: cityList.filter(city => city.country === "WS" && city.tz === "Pacific/Apia")
   },
   {
-    country: "Solomon Islands",
+    country: {
+      de: "Salomonen",
+      en: "Solomon Islands"
+    },
     zone: "Pacific/Guadalcanal",
     flag: "SB",
     cities: cityList.filter(city => city.country === "SB" && city.tz === "Pacific/Guadalcanal")
   },
   {
-    country: "Tokelau (New Zealand)",
+    country: {
+      de: "Tokelau (Neuseeland)",
+      en: "Tokelau (New Zealand)"
+    },
     zone: "Pacific/Fakaofo",
     flag: "TK",
     cities: cityList.filter(city => city.country === "TK" && city.tz === "Pacific/Fakaofo")
   },
   {
-    country: "Tonga",
+    country: {
+      de: "Tonga",
+      en: "Tonga"
+    },
     zone: "Pacific/Tongatapu",
     flag: "TO",
     cities: cityList.filter(city => city.country === "TO" && city.tz === "Pacific/Tongatapu")
   },
   {
-    country: "Tuvalu",
+    country: {
+      de: "Tuvalu",
+      en: "Tuvalu"
+    },
     zone: "Pacific/Funafuti",
     flag: "TV",
     cities: cityList.filter(city => city.country === "TV" && city.tz === "Pacific/Funafuti")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Hawaii"}
     ],
@@ -298,16 +448,27 @@ export default [
     cities: cityList.filter(city => city.country === "US" && city.tz === "Pacific/Honolulu")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
-      {title: "Midway Islands"}
+      {
+        title: {
+          de: "Midwayinseln",
+          en: "Midway Islands"
+        }
+      }
     ],
     zone: "Pacific/Midway",
     flag: "US", // eigentlich UM
     cities: cityList.filter(city => city.country === "UM" && city.tz === "Pacific/Midway")
   },
   {
-    country: "United States",
+    country: {
+      de: "Vereinigte Staaten",
+      en: "United States"
+    },
     subdiv: [
       {title: "Wake"}
     ],
@@ -316,15 +477,23 @@ export default [
     cities: cityList.filter(city => city.country === "UM" && city.tz === "Pacific/Wake")
   },
   {
-    country: "Vanuatu",
+    country: {
+      de: "Vanuatu",
+      en: "Vanuatu"
+    },
     zone: "Pacific/Efate",
     flag: "VU",
     cities: cityList.filter(city => city.country === "VU" && city.tz === "Pacific/Efate")
   },
   {
-    country: "Wallis and Futuna (France)",
+    country: {
+      de: "Wallis und Futuna (Frankreich)",
+      en: "Wallis and Futuna (France)"
+    },
     zone: "Pacific/Wallis",
     flag: "WF",
     cities: cityList.filter(city => city.country === "WF" && city.tz === "Pacific/Wallis")
   }
 ]
+
+export default countryList

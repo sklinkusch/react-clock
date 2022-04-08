@@ -16,7 +16,7 @@ import SouthAsia from "./timezones-ideal/SouthAsia"
 import SouthEastAsia from "./timezones-ideal/SouthEastAsia"
 import UnitedStates from "./timezones-ideal/UnitedStates"
 
-export default [
+const tzlist = [
   ...Africa, 
   ...Antarctica,
   ...Australia,
@@ -35,3 +35,5 @@ export default [
   ...SouthEastAsia,
   ...UnitedStates
 ]
+
+export default tzlist

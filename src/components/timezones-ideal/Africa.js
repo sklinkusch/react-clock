@@ -1,80 +1,119 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Algeria",
+    country: {
+      de: "Algerien",
+      en: "Algeria",
+    },
     zone: "Etc/GMT+0",
     flag: "DZ",
     cities: cityList.filter(city => city.country === "DZ")
   },
   {
-    country: "Angola",
+    country: {
+      de: "Angola",
+      en: "Angola",
+    },
     zone: "Etc/GMT-1",
     flag: "AO",
     cities: cityList.filter(city => city.country === "AO")
   },
   {
-    country: "Benin",
+    country: {
+      de: "Benin",
+      en: "Benin",
+    },
     zone: "Etc/GMT+0",
     flag: "BJ",
     cities: cityList.filter(city => city.country === "BJ")
   },
   {
-    country: "Botswana",
+    country: {
+      de: "Botswana",
+      en: "Botswana"
+    },
     zone: "Etc/GMT-2",
     flag: "BW",
     cities: cityList.filter(city => city.country === "BW")
   },
   {
-    country: "Burkina Faso",
+    country: {
+      de: "Burkina Faso",
+      en: "Burkina Faso"
+    },
     zone: "Etc/GMT+0",
     flag: "BF",
     cities: cityList.filter(city => city.country === "BF")
   },
   {
-    country: "Burundi",
+    country: {
+      de: "Burundi",
+      en: "Burundi"
+    },
     zone: "Etc/GMT-2",
     flag: "BI",
     cities: cityList.filter(city => city.country === "BI")
   },
   {
-    country: "Cabo Verde",
+    country: {
+      de: "Kap Verde",
+      en: "Cabo Verde"
+    },
     zone: "Etc/GMT+2",
     flag: "CV",
     cities: cityList.filter(city => city.country === "CV")
   },
   {
-    country: "Cameroon",
+    country: {
+      de: "Kamerun",
+      en: "Cameroon"
+    },
     zone: "Etc/GMT-1",
     flag: "CM",
     cities: cityList.filter(city => city.country === "CM")
   },
   {
-    country: "Central African Republic",
+    country: {
+      de: "Zentralafrikanische Republik",
+      en: "Central African Republic"
+    },
     zone: "Etc/GMT-1",
     flag: "CF",
     cities: cityList.filter(city => city.country === "CF")
   },
   {
-    country: "Chad",
+    country: {
+      de: "Tschad",
+      en: "Chad"
+    },
     zone: "Etc/GMT-1",
     flag: "TD",
     cities: cityList.filter(city => city.country === "TD")
   },
   {
-    country: "Comoros",
+    country: {
+      de: "Komoren",
+      en: "Comoros"
+    },
     zone: "Etc/GMT-3",
     flag: "KM",
     cities: cityList.filter(city => city.country === "KM")
   },
   {
-    country: "Côte d'Ivoire",
+    country: {
+      de: "Elfenbeinküste",
+      en: "Côte d'Ivoire"
+    },
     zone: "Etc/GMT+0",
     flag: "CI",
     cities: cityList.filter(city => city.country === "CI")
   },
   {
-    country: "Democratic Republic of the Congo",
+    country: {
+      de: "Demokratische Republik Kongo",
+      en: "Democratic Republic of the Congo"
+    },
     subdiv: [
       {title: "Équateur"}, // 02
       {title: "Kasaï"}, // 18
@@ -93,7 +132,10 @@ export default [
     cities: cityList.filter(city => city.country === "CD" && ["02","06","08","18","19","20","24","25","26","28","31"].includes(city.adminCode))
   },
   {
-    country: "Democratic Republic of the Congo",
+    country: {
+      de: "Demokratische Republik Kongo",
+      en: "Democratic Republic of the Congo"
+    },
     subdiv: [
       {title: "Bas-Uele"}, // 13
       {title: "Haut-Katanga"}, // 14 
@@ -116,334 +158,564 @@ export default [
     cities: cityList.filter(city => city.country === "CD" && ["04","10","11","12","13","14","15","16","17","21","22","23","27","29","30"].includes(city.adminCode))
   },
   {
-    country: "Djibouti",
+    country: {
+      de: "Dschibuti",
+      en: "Djibouti"
+    },
     zone: "Etc/GMT-3",
     flag: "DJ",
     cities: cityList.filter(city => city.country === "DJ")
   },
   {
-    country: "Egypt",
+    country: {
+      de: "Ägypten",
+      en: "Egypt"
+    },
     zone: "Etc/GMT-2",
     flag: "EG",
     cities: cityList.filter(city => city.country === "EG")
   },
   {
-    country: "Equatorial Guinea",
+    country: {
+      de: "Äquatorialguinea",
+      en: "Equatorial Guinea"
+    },
     zone: "Etc/GMT-1",
     flag: "GQ",
     cities: cityList.filter(city => city.country === "GQ")
   },
   {
-    country: "Eritrea",
+    country: {
+      de: "Eritrea",
+      en: "Eritrea"
+    },
     zone: "Etc/GMT-3",
     flag: "ER",
     cities: cityList.filter(city => city.country === "ER")
   },
   {
-    country: "eSwatini",
+    country: {
+      de: "eSwatini",
+      en: "eSwatini"
+    },
     zone: "Etc/GMT-2",
     flag: "SZ",
     cities: cityList.filter(city => city.country === "SZ")
   },
   {
-    country: "Ethiopia",
+    country: {
+      de: "Äthiopien",
+      en: "Ethiopia"
+    },
     zone: "Etc/GMT-3",
     flag: "ET",
     cities: cityList.filter(city => city.country === "ET")
   },
   {
-    country: "Mayotte (France)",
+    country: {
+      de: "Mayotte (Frankreich)",
+      en: "Mayotte (France)"
+    },
     zone: "Etc/GMT-3",
     flag: "YT",
     cities: cityList.filter(city => city.country === "YT")
   },
   {
-    country: "La Réunion (France)",
+    country: {
+      de: "La Réunion (Frankreich)",
+      en: "La Réunion (France)"
+    },
     zone: "Etc/GMT-4",
     flag: "RE",
     cities: cityList.filter(city => city.country === "RE")
   },
   {
-    country: "French Southern and Antarctic Lands (France)",
+    country: {
+      de: "Französische Süd- und Antarktisgebiete (Frankreich)",
+      en: "French Southern and Antarctic Lands (France)"
+    },
     subdiv: [
-      {title: "Crozet Islands"},
-      {title: "Scattered Islands in the Indian Ocean"},
+      {
+        title: {
+          de: "Crozetinseln",
+          en: "Crozet Islands"
+        }
+      },
+      {
+        title: {
+          de: "Îles Éparses",
+          en: "Scattered Islands in the Indian Ocean"
+        }
+      },
     ],
     zone: "Etc/GMT-4",
     flag: "TF",
     cities: cityList.filter(city => city.country === "TF" && ["02","05"].includes(city.adminCode))
   },
   {
-    country: "French Southern and Antarctic Lands (France)",
+    country: {
+      de: "Französische Süd- und Antarktisgebiete (Frankreich)",
+      en: "French Southern and Antarctic Lands (France)"
+    },
     subdiv: [
-      {title: "Kerguelen Islands"},
-      {title: "St. Paul and Amsterdam Islands"},
+      {
+        title: {
+          de: "Kerguelen-Archipel",
+          en: "Kerguelen Islands"
+        }
+      },
+      {
+        title: {
+          de: "Sankt Paul und Amsterdam",
+          en: "St. Paul and Amsterdam Islands"
+        }
+      },
     ],
     zone: "Etc/GMT-5",
     flag: "TF",
     cities: cityList.filter(city => city.country === "TF" && ["01","03"].includes(city.adminCode))
   },
   {
-    country: "Gabon",
+    country: {
+      de: "Gabun",
+      en: "Gabon"
+    },
     zone: "Etc/GMT-1",
     flag: "GA",
     cities: cityList.filter(city => city.country === "GA")
   },
   {
-    country: "The Gambia",
+    country: {
+      de: "Gambia",
+      en: "The Gambia"
+    },
     zone: "Etc/GMT+1",
     flag: "GM",
     cities: cityList.filter(city => city.country === "GM")
   },
   {
-    country: "Ghana",
+    country: {
+      de: "Ghana",
+      en: "Ghana"
+    },
     zone: "Etc/GMT+0",
     flag: "GH",
     cities: cityList.filter(city => city.country === "GH")
   },
   {
-    country: "Guinea",
+    country: {
+      de: "Guinea",
+      en: "Guinea"
+    },
     zone: "Etc/GMT+1",
     flag: "GN",
     cities: cityList.filter(city => city.country === "GN")
   },
   {
-    country: "Guinea-Bissau",
+    country: {
+      de: "Guinea-Bissau",
+      en: "Guinea-Bissau"
+    },
     zone: "Etc/GMT+1",
     flag: "GW",
     cities: cityList.filter(city => city.country === "GW")
   },
   {
-    country: "Kenya",
+    country: {
+      de: "Kenia",
+      en: "Kenya"
+    },
     zone: "Etc/GMT-2",
     flag: "KE",
     cities: cityList.filter(city => city.country === "KE")
   },
   {
-    country: "Lesotho",
+    country: {
+      de: "Lesotho",
+      en: "Lesotho"
+    },
     zone: "Etc/GMT-2",
     flag: "LS",
     cities: cityList.filter(city => city.country === "LS")
   },
   {
-    country: "Liberia",
+    country: {
+      de: "Liberia",
+      en: "Liberia"
+    },
     zone: "Etc/GMT+1",
     flag: "LR",
     cities: cityList.filter(city => city.country === "LR")
   },
   {
-    country: "Libya",
+    country: {
+      de: "Libyen",
+      en: "Libya"
+    },
     zone: "Etc/GMT-1",
     flag: "LY",
     cities: cityList.filter(city => city.country === "LY")
   },
   {
-    country: "Madagascar",
+    country: {
+      de: "Madagaskar",
+      en: "Madagascar"
+    },
     zone: "Etc/GMT-3",
     flag: "MG",
     cities: cityList.filter(city => city.country === "MG")
   },
   {
-    country: "Malawi",
+    country: {
+      de: "Malawi",
+      en: "Malawi"
+    },
     zone: "Etc/GMT-2",
     flag: "MW",
     cities: cityList.filter(city => city.country === "MW")
   },
   {
-    country: "Mali",
+    country: {
+      de: "Mali",
+      en: "Mali"
+    },
     zone: "Etc/GMT+0",
     flag: "ML",
     cities: cityList.filter(city => city.country === "ML")
   },
   {
-    country: "Mauritania",
+    country: {
+      de: "Mauretanien",
+      en: "Mauritania"
+    },
     zone: "Etc/GMT+1",
     flag: "MR",
     cities: cityList.filter(city => city.country === "MR")
   },
   {
-    country: "Mauritius",
+    country: {
+      de: "Mauritius",
+      en: "Mauritius"
+    },
     zone: "Etc/GMT-4",
     flag: "MU",
     cities: cityList.filter(city => city.country === "MU")
   },
   {
-    country: "Morocco",
+    country: {
+      de: "Marokko",
+      en: "Morocco"
+    },
     zone: "Etc/GMT+0",
     flag: "MA",
     cities: cityList.filter(city => city.country === "MA")
   },
   {
-    country: "Mozambique",
+    country: {
+      de: "Mosambik",
+      en: "Mozambique"
+    },
     zone: "Etc/GMT-2",
     flag: "MZ",
     cities: cityList.filter(city => city.country === "MZ")
   },
   {
-    country: "Namibia",
+    country: {
+      de: "Namibia",
+      en: "Namibia"
+    },
     zone: "Etc/GMT-1",
     flag: "NA",
     cities: cityList.filter(city => city.country === "NA")
   },
   {
-    country: "Niger",
+    country: {
+      de: "Niger",
+      en: "Niger"
+    },
     zone: "Etc/GMT-1",
     flag: "NE",
     cities: cityList.filter(city => city.country === "NE")
   },
   {
-    country: "Nigeria",
+    country: {
+      de: "Nigeria",
+      en: "Nigeria"
+    },
     zone: "Etc/GMT-1",
     flag: "NG",
     cities: cityList.filter(city => city.country === "NG")
   },
   {
-    country: "Republic of the Congo",
+    country: {
+      de: "Republik Kongo",
+      en: "Republic of the Congo"
+    },
     zone: "Etc/GMT-1",
     flag: "CG",
     cities: cityList.filter(city => city.country === "CG")
   },
   {
-    country: "Rwanda",
+    country: {
+      de: "Ruanda",
+      en: "Rwanda"
+    },
     zone: "Etc/GMT-2",
     flag: "RW",
     cities: cityList.filter(city => city.country === "RW")
   },
   {
-    country: "São Tomé and Príncipe",
+    country: {
+      de: "São Tomé und Príncipe",
+      en: "São Tomé and Príncipe"
+    },
     zone: "Etc/GMT+0",
     flag: "ST",
     cities: cityList.filter(city => city.country === "ST")
   },
   {
-    country: "Sahrawi Arab Democratic Republic",
+    country: {
+      de: "Demokratische Arabische Republik Sahara",
+      en: "Sahrawi Arab Democratic Republic"
+    },
     zone: "Etc/GMT+1",
     flag: "EH",
     cities: cityList.filter(city => city.country === "EH")
   },
   {
-    country: "Senegal",
+    country: {
+      de: "Senegal",
+      en: "Senegal"
+    },
     zone: "Etc/GMT+1",
     flag: "SN",
     cities: cityList.filter(city => city.country === "SN")
   },
   {
-    country: "Seychelles",
+    country: {
+      de: "Seychellen",
+      en: "Seychelles"
+    },
     zone: "Etc/GMT-3",
     flag: "SC",
     cities: cityList.filter(city => city.country === "SC")
   },
   {
-    country: "Sierra Leone",
+    country: {
+      de: "Sierra Leone",
+      en: "Sierra Leone"
+    },
     zone: "Etc/GMT+1",
     flag: "SL",
     cities: cityList.filter(city => city.country === "SL")
   },
   {
-    country: "Somalia",
+    country: {
+      de: "Somalia",
+      en: "Somalia"
+    },
     zone: "Etc/GMT-3",
     flag: "SO",
     cities: cityList.filter(city => city.country === "SO")
   },
   {
-    country: "South Africa",
+    country: {
+      de: "Südafrika",
+      en: "South Africa"
+    },
     subdiv: [
-      {title: "Northern Cape"}, // 08
-      {title: "Western Cape"}, // 11
+      {
+        title: {
+          de: "Nordkap",
+          en: "Northern Cape"
+        }
+      }, // 08
+      {
+        title: {
+          de: "Westkap",
+          en: "Western Cape"
+        }
+      }, // 11
     ],
     zone: "Etc/GMT-1",
     flag: "ZA",
     cities: cityList.filter(city => city.country === "ZA" && ["08","11"].includes(city.adminCode))
   },
   {
-    country: "South Africa",
+    country: {
+      de: "Südafrika",
+      en: "South Africa"
+    },
     subdiv: [
-      {title: "Eastern Cape"}, // 05
-      {title: "Free State"}, //  03
-      {title: "Gauteng"}, // 06
-      {title: "KwaZulu-Natal"}, // 02
-      {title: "Limpopo"}, // 09
-      {title: "Mpumalanga"}, // 07
-      {title: "North West"}, // 10
+      {
+        title: {
+          de: "Ostkap",
+          en: "Eastern Cape"
+        }
+      }, // 05
+      {
+        title: {
+          de: "Freistaat",
+          en: "Free State"
+        }
+      }, //  03
+      {
+        title: {
+          de: "Gauteng",
+          en: "Gauteng"
+        }
+      }, // 06
+      {
+        title: {
+          de: "KwaZulu-Natal",
+          en: "KwaZulu-Natal"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Limpopo",
+          en: "Limpopo"
+        }
+      }, // 09
+      {
+        title: {
+          de: "Mpumalanga",
+          en: "Mpumalanga"
+        }
+      }, // 07
+      {
+        title: {
+          de: "Nordwest",
+          en: "North West"
+        }
+      }, // 10
     ],
     zone: "Etc/GMT-2",
     flag: "ZA",
     cities: cityList.filter(city => city.country === "ZA" && ["02","03","05","06","07","09","10"].includes(city.adminCode))
   },
   {
-    country: "South Sudan",
+    country: {
+      de: "Südsudan",
+      en: "South Sudan"
+    },
     zone: "Etc/GMT-2",
     flag: "SS",
     cities: cityList.filter(city => city.country === "SS")
   },
   {
-    country: "Spain",
+    country: {
+      de: "Spanien",
+      en: "Spain"
+    },
     subdiv: [
-      {title: "Ceuta"}, 
-      {title: "Melilla"}
+      {
+        title: {
+          de: "Ceuta",
+          en: "Ceuta"
+        }
+      }, 
+      {
+        title: {
+          de: "Melilla",
+          en: "Melilla"
+        }
+      }
     ],
     zone: "Etc/GMT+0",
     flag: "ES",
     cities: cityList.filter(city => city.country === "ES" && ["CE", "ML"].includes(city.adminCode))
   },
   {
-    country: "Sudan",
+    country: {
+      de: "Sudan",
+      en: "Sudan"
+    },
     zone: "Etc/GMT-2",
     flag: "SD",
     cities: cityList.filter(city => city.country === "SD")
   },
   {
-    country: "Tanzania",
+    country: {
+      de: "Tansania",
+      en: "Tanzania"
+    },
     zone: "Etc/GMT-2",
     flag: "TZ",
     cities: cityList.filter(city => city.country === "TZ")
   },
   {
-    country: "Togo",
+    country: {
+      de: "Togo",
+      en: "Togo"
+    },
     zone: "Etc/GMT+0",
     flag: "TG",
     cities: cityList.filter(city => city.country === "TG")
   },
   {
-    country: "Tunisia",
+    country: {
+      de: "Tunesien",
+      en: "Tunisia"
+    },
     zone: "Etc/GMT-1",
     flag: "TN",
     cities: cityList.filter(city => city.country === "TN")
   },
   {
-    country: "Uganda",
+    country: {
+      de: "Uganda",
+      en: "Uganda"
+    },
     zone: "Etc/GMT-2",
     flag: "UG",
     cities: cityList.filter(city => city.country === "UG")
   },
   {
-    country: "Ascension (United Kingdom)",
+    country: {
+      de: "Ascension (Vereinigtes Königreich)",
+      en: "Ascension (United Kingdom)"
+    },
     zone: "Etc/GMT+1",
     flag: "AC",
     cities: cityList.filter(city => city.country === "SH" && city.adminCode === "01")
   },
   {
-    country: "St. Helena (United Kingdom)",
+    country: {
+      de: "St. Helena (Vereinigtes Königreich)",
+      en: "St. Helena (United Kingdom)"
+    },
     zone: "Etc/GMT+0",
     flag: "SH",
     cities: cityList.filter(city => city.country === "SH" && city.adminCode === "02")
   },
   {
-    country: "Tristan da Cunha (United Kingdom)",
+    country: {
+      de: "Tristan da Cunha (Vereinigtes Königreich)",
+      en: "Tristan da Cunha (United Kingdom)"
+    },
     zone: "Etc/GMT+1",
     flag: "TA",
     cities: cityList.filter(city => city.country === "SH" && city.adminCode === "03")
   },
   {
-    country: "Zambia",
+    country: {
+      de: "Sambia",
+      en: "Zambia"
+    },
     zone: "Etc/GMT-2",
     flag: "ZM",
     cities: cityList.filter(city => city.country === "ZM")
   },
   {
-    country: "Zimbabwe",
+    country: {
+      de: "Simbabwe",
+      en: "Zimbabwe"
+    },
     zone: "Etc/GMT-2",
     flag: "ZW",
     cities: cityList.filter(city => city.country === "ZW")
   }
 ]
+
+export default countryList

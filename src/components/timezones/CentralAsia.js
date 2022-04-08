@@ -1,98 +1,227 @@
 import cityList from "./cityList"
 
-export default [
+const countryList = [
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "Akmola Region"}, 
-      {title: "Almaty Region"}, 
-      {title: "East Kazakhstan Region"}, 
-      {title: "Jambyl Region"}, 
-      {title: "Karaganda Region"}, 
-      {title: "North Kazakhstan Region"}, 
-      {title: "Pavlodar Region"}, 
-      {title: "Turkistan Region"}
+      {
+        title: {
+          de: "Oblys Akmola",
+          en: "Akmola Region"
+        }
+      },
+      {
+        title: {
+          de: "Almaty",
+          en: "Almaty"
+        }
+      },
+      {
+        title: {
+          de: "Oblys Almaty",
+          en: "Almaty Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Ostkasachstan",
+          en: "East Kazakhstan Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Schambyl",
+          en: "Jambyl Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Qaraghandy",
+          en: "Karaganda Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Oblys Nordkasachstan",
+          en: "North Kazakhstan Region"
+        }
+      },
+      {
+        title: {
+          de: "Nur-Sultan",
+          en: "Nur-Sultan"
+        }
+      },
+      {
+        title: {
+          de: "Oblys Pawlodar",
+          en: "Pavlodar Region"
+        }
+      }, 
+      {
+        title: {
+          de: "Schymkent",
+          en: "Shymkent"
+        }
+      },
+      {
+        title: {
+          de: "Oblys Türkistan",
+          en: "Turkistan Region"
+        }
+      }
     ],
     zone: "Asia/Almaty",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Almaty")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "Kostanay Region"}
+      {
+        title: {
+          de: "Oblys Qostonai",
+          en: "Kostanay Region"
+        }
+      }
     ],
     zone: "Asia/Qostanay",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Qostanay")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "Kyzylorda Region"}
+      {
+        title: {
+          de: "Oblys Qysylorda",
+          en: "Kyzylorda Region"
+        }
+      },
+      {
+        title: {
+          de: "Baikonur",
+          en: "Baykonyr"
+        }
+      } // 18
     ],
     zone: "Asia/Qyzylorda",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Qyzylorda")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "Aktobe Region"}
+      {
+        title: {
+          de: "Oblys Aqtöbe",
+          en: "Aktobe Region"
+        }
+      }
     ],
     zone: "Asia/Aqtobe",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Aqtobe")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "Atyrau Region"}
+      {
+        title: {
+          de: "Oblys Atyrau",
+          en: "Atyrau Region"
+        }
+      }
     ],
     zone: "Asia/Atyrau",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Atyrau")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "Mangystau Region"}
+      {
+        title: {
+          de: "Oblys Mangghystau",
+          en: "Mangystau Region"
+        }
+      }
     ],
     zone: "Asia/Aqtau",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Aqtau")
   },
   {
-    country: "Kazakhstan",
+    country: {
+      de: "Kasachstan",
+      en: "Kazakhstan"
+    },
     subdiv: [
-      {title: "West Kazakhstan Region"}
+      {
+        title: {
+          de: "Oblys Westkasachstan",
+          en: "West Kazakhstan Region"
+        }
+      }
     ],
     zone: "Asia/Oral",
     flag: "KZ",
     cities: cityList.filter(city => city.country === "KZ" && city.tz === "Asia/Oral")
   },
   {
-    country: "Kyrgyzstan",
+    country: {
+      de: "Kirgisistan",
+      en: "Kyrgyzstan"
+    },
     zone: "Asia/Bishkek",
     flag: "KG",
     cities: cityList.filter(city => city.country === "KG" && city.tz === "Asia/Bishkek")
   },
   {
-    country: "Tajikistan",
+    country: {
+      de: "Tadschikistan",
+      en: "Tajikistan"
+    },
     zone: "Asia/Dushanbe",
     flag: "TJ",
     cities: cityList.filter(city => city.country === "TJ" && city.tz === "Asia/Dushanbe")
   },
   {
-    country: "Turkmenistan",
+    country: {
+      de: "Turkmenistan",
+      en: "Turkmenistan"
+    },
     zone: "Asia/Ashgabat",
     flag: "TM",
     cities: cityList.filter(city => city.country === "TM" && city.tz === "Asia/Ashgabat")
   },
   {
-    country: "Uzbekistan",
+    country: {
+      de: "Usbekistan",
+      en: "Uzbekistan"
+    },
     zone: "Asia/Tashkent",
     flag: "UZ",
     cities: cityList.filter(city => city.country === "UZ" && city.tz === "Asia/Tashkent")
   },
 ]
+
+export default countryList

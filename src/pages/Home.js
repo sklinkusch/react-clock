@@ -1,32 +1,29 @@
 import React, { useEffect, lazy } from "react";
 import { useDebugState } from "use-named-state";
 import timezonesRaw from "../components/data"
-import { findTimeZone, getZonedTime } from "timezone-support"
+import moment from "moment-timezone"
 import "../styles/App.css";
+import { getPermLocale } from "../components/getLocale";
 const Clock = lazy(() => import("../components/Clock"));
-
-const pad = (num) => (num < 10 ? `0${num}` : `${num}`)
-
-const getOffset = (number) => {
-  const sign = (number > 0) ? "+" : (number < 0) ? "-" : "±"
-  const offset = Math.abs(number)
-  const hours = pad(Math.floor(offset/60))
-  const minutes = pad(offset % 60)
-  return `${sign}${hours}:${minutes}`
-}
+/* eslint-disable react-hooks/exhaustive-deps */
 
 export default function Home() {
   const [allStates] = useDebugState("allStates", timezonesRaw)
   const [filtVal, setFiltVal] = useDebugState("filterValue", "")
   const [timezones, setTimezones] = useDebugState("timezones", null)
+  const currentLanguage = window.navigator.language
   const prepareZones = (filterVal) => {
     const unsortedStates = allStates.map(tz => {
+      const Now = moment().utc().format("x")
       const {country, zone, flag, subdiv = [], cities = [] } = tz
-      const timezone = findTimeZone(zone)
-      const now = getZonedTime(Date.now(), timezone)
-      const numericOffset = -1 * now.zone.offset
-      const offset = getOffset(numericOffset)
-      return { country, zone, flag, offset, numericOffset, subdiv, cities }
+      const namedCountry = typeof country == "object"
+        ? country.hasOwnProperty(currentLanguage)
+          ? country[currentLanguage]
+          : country["en"]
+        : country
+      const offset = moment().tz(zone).format("Z")
+      const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
+      return { country: namedCountry, zone, flag, offset, numericOffset, subdiv, cities }
     })
     const sortedStates = unsortedStates.sort((a,b) => (a.numericOffset - b.numericOffset))
     const timezoneObject = sortedStates.reduce((acc, curr) => {
@@ -69,7 +66,7 @@ export default function Home() {
   return (
     <div className="app">
       <div style={{ textAlign: "center", marginBottom: "24px", marginTop: "24px" }}>
-        <input type="text" placeholder="Filter countries" onChange={(e) => {
+        <input type="text" placeholder={getPermLocale("FilterCountries")} onChange={(e) => {
           setFiltVal(e.target.value)
           prepareZones(e.target.value)
           }} />
