@@ -72,10 +72,10 @@ export default class IdealClock extends React.Component {
       <div>
         <div className="album-item">
           <ClockTitle city={city} />
-          <ClockFlags flags={reducedFlags} />
-          <ClockCities uniqueCities={uniqueCities} />
           <ClockDate date={formattedDate} />
           <ClockTime date={formattedTime} />
+          <ClockFlags flags={reducedFlags} />
+          <ClockCities uniqueCities={uniqueCities} />
         </div>
       </div>
     );
