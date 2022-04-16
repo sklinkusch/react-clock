@@ -33,7 +33,7 @@ export default function Ideal() {
     const timezoneObject = sortedStates.reduce((acc, curr) => {
       const obj = {...acc}
       const { flag: code, offset, country: title, zone, numericOffset, subdiv = [], cities = [] } = curr
-      const city = "UTC" + offset
+      const city = numericOffset === 0 ? "UTC±00:00" : "UTC" + offset
       const flag = { code, title, subdiv }
       if (obj.hasOwnProperty(city)) {
         obj[city].flags.push(flag)
