@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_time=self.webpackChunkreact_time||[]).push([[941],{4941:function(e,c,r){r.r(c);r(2791);var t=r(184);c.default=function(e){var c=e.city.replace("-","\u2013");return(0,t.jsx)("h2",{children:(0,t.jsx)("span",{children:c})})}}}]);
+//# sourceMappingURL=941.ea6ac0a5.chunk.js.map
