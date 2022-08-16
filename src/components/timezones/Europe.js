@@ -1068,7 +1068,7 @@ const countryList = [
         }, 
         extra: {
           de: "(teils unter der Kontrolle Russlands/der Volksrepublik Luhansk)",
-          en: "(partly controlled by Russia/Donetsk People's Republic)"
+          en: "(partly controlled by Russia/Luhansk People's Republic)"
         }
       }, // 14
     ],
