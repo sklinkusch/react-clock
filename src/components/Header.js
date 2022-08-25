@@ -1,7 +1,7 @@
 import React from "react"
 import { useDebugState } from "use-named-state";
 import { Collapse, Navbar, NavbarBrand, NavbarToggler, Nav, NavItem, NavLink } from "reactstrap";
-import { NavLink as RRNavLink, withRouter } from "react-router-dom"
+import { NavLink as RRNavLink, useNavigate } from "react-router-dom"
 import { getPermLocale } from "./getLocale"
 
 function Header() {
@@ -9,6 +9,7 @@ function Header() {
   const toggle = () => {
     setOpen(!isOpen)
   }
+  const navigate = useNavigate()
   return (
     <Navbar color="dark" dark expand="lg">
         <NavbarBrand href="#">{getPermLocale("WorldTimeClock")}</NavbarBrand>
@@ -16,10 +17,10 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink to="" exact={true} activeClassName="active" tag={RRNavLink}>{getPermLocale("RealTimeZones")}</NavLink>
+              <NavLink to="" onClick={() => navigate("")} exact={true} activeClassName="active" tag={RRNavLink}>{getPermLocale("RealTimeZones")}</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/ideal" activeClassName="active" tag={RRNavLink}>{getPermLocale("IdealTimeZones")}</NavLink>
+              <NavLink to="/ideal" onClick={() => navigate("/ideal")} activeClassName="active" tag={RRNavLink}>{getPermLocale("IdealTimeZones")}</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
@@ -27,4 +28,4 @@ function Header() {
   )
 }
 
-export default withRouter(Header)
+export default Header
