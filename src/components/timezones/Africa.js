@@ -5,6 +5,7 @@ const countryList = [
     country: {
       de: "Algerien",
       en: "Algeria",
+      fr: "Algérie"
     },
     zone: "Africa/Algiers",
     flag: "DZ",
@@ -14,6 +15,7 @@ const countryList = [
     country: {
       de: "Angola",
       en: "Angola",
+      fr: "Angola"
     },
     zone: "Africa/Luanda",
     flag: "AO",
@@ -23,6 +25,7 @@ const countryList = [
     country: {
       de: "Benin",
       en: "Benin",
+      fr: "Bénin"
     },
     zone: "Africa/Porto-Novo",
     flag: "BJ",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Botswana",
-      en: "Botswana"
+      en: "Botswana",
+      fr: "Botswana"
     },
     zone: "Africa/Gaborone",
     flag: "BW",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Burkina Faso",
-      en: "Burkina Faso"
+      en: "Burkina Faso",
+      fr: "Burkina Faso"
     },
     zone: "Africa/Ouagadougou",
     flag: "BF",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Burundi",
-      en: "Burundi"
+      en: "Burundi",
+      fr: "Burundi"
     },
     zone: "Africa/Bujumbura",
     flag: "BI",
@@ -58,7 +64,8 @@ const countryList = [
   {
     country: {
       de: "Kap Verde",
-      en: "Cabo Verde"
+      en: "Cabo Verde",
+      fr: "Cap-Vert"
     },
     zone: "Atlantic/Cape_Verde",
     flag: "CV",
@@ -67,7 +74,8 @@ const countryList = [
   {
     country: {
       de: "Kamerun",
-      en: "Cameroon"
+      en: "Cameroon",
+      fr: "Cameroun"
     },
     zone: "Africa/Douala",
     flag: "CM",
@@ -76,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Zentralafrikanische Republik",
-      en: "Central African Republic"
+      en: "Central African Republic",
+      fr: "République centrafricaine"
     },
     zone: "Africa/Bangui",
     flag: "CF",
@@ -85,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Tschad",
-      en: "Chad"
+      en: "Chad",
+      fr: "Tchad"
     },
     zone: "Africa/Ndjamena",
     flag: "TD",
@@ -94,7 +104,8 @@ const countryList = [
   {
     country: {
       de: "Komoren",
-      en: "Comoros"
+      en: "Comoros",
+      fr: "Comores"
     },
     zone: "Indian/Comoro",
     flag: "KM",
@@ -103,7 +114,8 @@ const countryList = [
   {
     country: {
       de: "Elfenbeinküste",
-      en: "Côte d'Ivoire"
+      en: "Côte d'Ivoire",
+      fr: "Côte d'Ivoire"
     },
     zone: "Africa/Abidjan",
     flag: "CI",
@@ -112,7 +124,8 @@ const countryList = [
   {
     country: {
       de: "Demokratische Republik Kongo",
-      en: "Democratic Republic of the Congo"
+      en: "Democratic Republic of the Congo",
+      fr: "République démocratique du Congo"
     },
     subdiv: [
       {title: "Équateur"}, 
@@ -160,7 +173,8 @@ const countryList = [
   {
     country: {
       de: "Dschibuti",
-      en: "Djibouti"
+      en: "Djibouti",
+      fr: "Djibouti"
     },
     zone: "Africa/Djibouti",
     flag: "DJ",
@@ -169,7 +183,8 @@ const countryList = [
   {
     country: {
       de: "Ägypten",
-      en: "Egypt"
+      en: "Egypt",
+      fr: "Égypte"
     },
     zone: "Africa/Cairo",
     flag: "EG",
@@ -178,7 +193,8 @@ const countryList = [
   {
     country: {
       de: "Äquatorialguinea",
-      en: "Equatorial Guinea"
+      en: "Equatorial Guinea",
+      fr: "Guinée équatoriale"
     },
     zone: "Africa/Malabo",
     flag: "GQ",
@@ -187,7 +203,8 @@ const countryList = [
   {
     country: {
       de: "Eritrea",
-      en: "Eritrea"
+      en: "Eritrea",
+      fr: "Érythrée"
     },
     zone: "Africa/Asmara",
     flag: "ER",
@@ -196,7 +213,8 @@ const countryList = [
   {
     country: {
       de: "eSwatini",
-      en: "eSwatini"
+      en: "eSwatini",
+      fr: "Eswatini"
     },
     zone: "Africa/Mbabane",
     flag: "SZ",
@@ -205,7 +223,8 @@ const countryList = [
   {
     country: {
       de: "Äthiopien",
-      en: "Ethiopia"
+      en: "Ethiopia",
+      fr: "Éthiopie"
     },
     zone: "Africa/Addis_Ababa",
     flag: "ET",
@@ -214,7 +233,8 @@ const countryList = [
   {
     country: {
       de: "Mayotte (Frankreich)",
-      en: "Mayotte (France)"
+      en: "Mayotte (France)",
+      fr: "Mayotte (France)"
     },
     zone: "Indian/Mayotte",
     flag: "YT",
@@ -223,7 +243,8 @@ const countryList = [
   {
     country: {
       de: "La Réunion (Frankreich)",
-      en: "La Réunion (France)"
+      en: "La Réunion (France)",
+      fr: "La Réunion (France)"
     },
     zone: "Indian/Reunion",
     flag: "RE",
@@ -232,13 +253,15 @@ const countryList = [
   {
     country: {
       de: "Französische Süd- und Antarktisgebiete (Frankreich)",
-      en: "French Southern and Antarctic Lands (France)"
+      en: "French Southern and Antarctic Lands (France)",
+      fr: "Terres australes et antarctiques françaises (France)"
     },
     subdiv: [
       {
         title: {
           de: "Îles Éparses",
-          en: "Scattered Islands in the Indian Ocean"
+          en: "Scattered Islands in the Indian Ocean",
+          fr: "Îles Éparses de l'océan Indien"
         }
       },
     ],
@@ -249,13 +272,15 @@ const countryList = [
   {
     country: {
       de: "Französische Süd- und Antarktisgebiete (Frankreich)",
-      en: "French Southern and Antarctic Lands (France)"
+      en: "French Southern and Antarctic Lands (France)",
+      fr: "Terres australes et antarctiques françaises (France)"
     },
     subdiv: [
       {
         title: {
           de: "Crozetinseln",
-          en: "Crozet Islands"
+          en: "Crozet Islands",
+          fr: "Archipel Crozet"
         }
       },
     ],
@@ -266,19 +291,22 @@ const countryList = [
   {
     country: {
       de: "Französische Süd- und Antarktisgebiete (Frankreich)",
-      en: "French Southern and Antarctic Lands (France)"
+      en: "French Southern and Antarctic Lands (France)",
+      fr: "Terres australes et antarctiques françaises (France)"
     },
     subdiv: [
       {
         title: {
           de: "Kerguelen-Archipel",
-          en: "Kerguelen Islands"
+          en: "Kerguelen Islands",
+          fr: "Îles Kerguelen"
         }
       },
       {
         title: {
           de: "Sankt Paul und Amsterdam",
-          en: "St. Paul and Amsterdam Islands"
+          en: "St. Paul and Amsterdam Islands",
+          fr: "Îles Saint-Paul et Nouvelle-Amsterdam"
         }
       },
     ],
@@ -289,7 +317,8 @@ const countryList = [
   {
     country: {
       de: "Gabun",
-      en: "Gabon"
+      en: "Gabon",
+      fr: "Gabon"
     },
     zone: "Africa/Libreville",
     flag: "GA",
@@ -298,7 +327,8 @@ const countryList = [
   {
     country: {
       de: "Gambia",
-      en: "The Gambia"
+      en: "The Gambia",
+      fr: "Gambie"
     },
     zone: "Africa/Banjul",
     flag: "GM",
@@ -307,7 +337,8 @@ const countryList = [
   {
     country: {
       de: "Ghana",
-      en: "Ghana"
+      en: "Ghana",
+      fr: "Ghana"
     },
     zone: "Africa/Accra",
     flag: "GH",
@@ -316,7 +347,8 @@ const countryList = [
   {
     country: {
       de: "Guinea",
-      en: "Guinea"
+      en: "Guinea",
+      fr: "Guinée"
     },
     zone: "Africa/Conakry",
     flag: "GN",
@@ -325,7 +357,8 @@ const countryList = [
   {
     country: {
       de: "Guinea-Bissau",
-      en: "Guinea-Bissau"
+      en: "Guinea-Bissau",
+      fr: "Guinée-Bissau"
     },
     zone: "Africa/Bissau",
     flag: "GW",
@@ -334,7 +367,8 @@ const countryList = [
   {
     country: {
       de: "Kenia",
-      en: "Kenya"
+      en: "Kenya",
+      fr: "Kenya"
     },
     zone: "Africa/Nairobi",
     flag: "KE",
@@ -343,7 +377,8 @@ const countryList = [
   {
     country: {
       de: "Lesotho",
-      en: "Lesotho"
+      en: "Lesotho",
+      fr: "Lesotho"
     },
     zone: "Africa/Maseru",
     flag: "LS",
@@ -352,7 +387,8 @@ const countryList = [
   {
     country: {
       de: "Liberia",
-      en: "Liberia"
+      en: "Liberia",
+      fr: "Liberia"
     },
     zone: "Africa/Monrovia",
     flag: "LR",
@@ -361,7 +397,8 @@ const countryList = [
   {
     country: {
       de: "Libyen",
-      en: "Libya"
+      en: "Libya",
+      fr: "Libye"
     },
     zone: "Africa/Tripoli",
     flag: "LY",
@@ -370,7 +407,8 @@ const countryList = [
   {
     country: {
       de: "Madagaskar",
-      en: "Madagascar"
+      en: "Madagascar",
+      fr: "Madagascar"
     },
     zone: "Indian/Antananarivo",
     flag: "MG",
@@ -379,7 +417,8 @@ const countryList = [
   {
     country: {
       de: "Malawi",
-      en: "Malawi"
+      en: "Malawi",
+      fr: "Malawi"
     },
     zone: "Africa/Blantyre",
     flag: "MW",
@@ -388,7 +427,8 @@ const countryList = [
   {
     country: {
       de: "Mali",
-      en: "Mali"
+      en: "Mali",
+      fr: "Mali"
     },
     zone: "Africa/Bamako",
     flag: "ML",
@@ -397,7 +437,8 @@ const countryList = [
   {
     country: {
       de: "Mauretanien",
-      en: "Mauritania"
+      en: "Mauritania",
+      fr: "Mauritanie"
     },
     zone: "Africa/Nouakchott",
     flag: "MR",
@@ -406,7 +447,8 @@ const countryList = [
   {
     country: {
       de: "Mauritius",
-      en: "Mauritius"
+      en: "Mauritius",
+      fr: "Maurice"
     },
     zone: "Indian/Mauritius",
     flag: "MU",
@@ -415,7 +457,8 @@ const countryList = [
   {
     country: {
       de: "Marokko",
-      en: "Morocco"
+      en: "Morocco",
+      fr: "Maroc"
     },
     zone: "Africa/Casablanca",
     flag: "MA",
@@ -424,7 +467,8 @@ const countryList = [
   {
     country: {
       de: "Mosambik",
-      en: "Mozambique"
+      en: "Mozambique",
+      fr: "Mozambique"
     },
     zone: "Africa/Maputo",
     flag: "MZ",
@@ -433,7 +477,8 @@ const countryList = [
   {
     country: {
       de: "Namibia",
-      en: "Namibia"
+      en: "Namibia",
+      fr: "Namibie"
     },
     zone: "Africa/Windhoek",
     flag: "NA",
@@ -442,7 +487,8 @@ const countryList = [
   {
     country: {
       de: "Niger",
-      en: "Niger"
+      en: "Niger",
+      fr: "Niger"
     },
     zone: "Africa/Niamey",
     flag: "NE",
@@ -451,7 +497,8 @@ const countryList = [
   {
     country: {
       de: "Nigeria",
-      en: "Nigeria"
+      en: "Nigeria",
+      fr: "Nigeria"
     },
     zone: "Africa/Lagos",
     flag: "NG",
@@ -460,7 +507,8 @@ const countryList = [
   {
     country: {
       de: "Republik Kongo",
-      en: "Republic of the Congo"
+      en: "Republic of the Congo",
+      fr: "République du Congo"
     },
     zone: "Africa/Brazzaville",
     flag: "CG",
@@ -469,7 +517,8 @@ const countryList = [
   {
     country: {
       de: "Ruanda",
-      en: "Rwanda"
+      en: "Rwanda",
+      fr: "Rwanda"
     },
     zone: "Africa/Kigali",
     flag: "RW",
@@ -478,7 +527,8 @@ const countryList = [
   {
     country: {
       de: "São Tomé und Príncipe",
-      en: "São Tomé and Príncipe"
+      en: "São Tomé and Príncipe",
+      fr: "Sao Tomé-et-Principe"
     },
     zone: "Africa/Sao_Tome",
     flag: "ST",
@@ -487,7 +537,8 @@ const countryList = [
   {
     country: {
       de: "Demokratische Arabische Republik Sahara",
-      en: "Sahrawi Arab Democratic Republic"
+      en: "Sahrawi Arab Democratic Republic",
+      fr: "République arabe sahraouie démocratique"
     },
     zone: "Africa/El_Aaiun",
     flag: "EH",
@@ -496,7 +547,8 @@ const countryList = [
   {
     country: {
       de: "Senegal",
-      en: "Senegal"
+      en: "Senegal",
+      fr: "Sénégal"
     },
     zone: "Africa/Dakar",
     flag: "SN",
@@ -505,7 +557,8 @@ const countryList = [
   {
     country: {
       de: "Seychellen",
-      en: "Seychelles"
+      en: "Seychelles",
+      fr: "Seychelles"
     },
     zone: "Indian/Mahe",
     flag: "SC",
@@ -514,7 +567,8 @@ const countryList = [
   {
     country: {
       de: "Sierra Leone",
-      en: "Sierra Leone"
+      en: "Sierra Leone",
+      fr: "Sierra Leone"
     },
     zone: "Africa/Freetown",
     flag: "SL",
@@ -523,7 +577,8 @@ const countryList = [
   {
     country: {
       de: "Somalia",
-      en: "Somalia"
+      en: "Somalia",
+      fr: "Somalie"
     },
     zone: "Africa/Mogadishu",
     flag: "SO",
@@ -532,7 +587,8 @@ const countryList = [
   {
     country: {
       de: "Südafrika",
-      en: "South Africa"
+      en: "South Africa",
+      fr: "Afrique du Sud"
     },
     zone: "Africa/Johannesburg",
     flag: "ZA",
@@ -541,7 +597,8 @@ const countryList = [
   {
     country: {
       de: "Südsudan",
-      en: "South Sudan"
+      en: "South Sudan",
+      fr: "Soudan du Sud"
     },
     zone: "Africa/Juba",
     flag: "SS",
@@ -550,19 +607,22 @@ const countryList = [
   {
     country: {
       de: "Spanien",
-      en: "Spain"
+      en: "Spain",
+      fr: "Espagne"
     },
     subdiv: [
       {
         title: {
           de: "Ceuta",
-          en: "Ceuta"
+          en: "Ceuta",
+          fr: "Ceuta"
         }
       }, 
       {
         title: {
           de: "Melilla",
-          en: "Melilla"
+          en: "Melilla",
+          fr: "Melilla"
         }
       }
     ],
@@ -573,7 +633,8 @@ const countryList = [
   {
     country: {
       de: "Sudan",
-      en: "Sudan"
+      en: "Sudan",
+      fr: "Soudan"
     },
     zone: "Africa/Khartoum",
     flag: "SD",
@@ -582,7 +643,8 @@ const countryList = [
   {
     country: {
       de: "Tansania",
-      en: "Tanzania"
+      en: "Tanzania",
+      fr: "Tanzanie"
     },
     zone: "Africa/Dar_es_Salaam",
     flag: "TZ",
@@ -591,7 +653,8 @@ const countryList = [
   {
     country: {
       de: "Togo",
-      en: "Togo"
+      en: "Togo",
+      fr: "Togo"
     },
     zone: "Africa/Lome",
     flag: "TG",
@@ -600,7 +663,8 @@ const countryList = [
   {
     country: {
       de: "Tunesien",
-      en: "Tunisia"
+      en: "Tunisia",
+      fr: "Tunisie"
     },
     zone: "Africa/Tunis",
     flag: "TN",
@@ -609,7 +673,8 @@ const countryList = [
   {
     country: {
       de: "Uganda",
-      en: "Uganda"
+      en: "Uganda",
+      fr: "Ouganda"
     },
     zone: "Africa/Kampala",
     flag: "UG",
@@ -618,7 +683,8 @@ const countryList = [
   {
     country: {
       de: "Ascension (Vereinigtes Königreich)",
-      en: "Ascension (United Kingdom)"
+      en: "Ascension (United Kingdom)",
+      fr: "Île de l'Ascension (Royaume-Uni)"
     },
     zone: "Atlantic/St_Helena",
     flag: "AC",
@@ -627,7 +693,8 @@ const countryList = [
   {
     country: {
       de: "St. Helena (Vereinigtes Königreich)",
-      en: "St. Helena (United Kingdom)"
+      en: "St. Helena (United Kingdom)",
+      fr: "Sainte-Hélène (Royaume-Uni)"
     },
     zone: "Atlantic/St_Helena",
     flag: "SH",
@@ -636,7 +703,8 @@ const countryList = [
   {
     country: {
       de: "Tristan da Cunha (Vereinigtes Königreich)",
-      en: "Tristan da Cunha (United Kingdom)"
+      en: "Tristan da Cunha (United Kingdom)",
+      fr: "Île Tristan da Cunha (Royaume-Uni)"
     },
     zone: "Atlantic/St_Helena",
     flag: "TA",
@@ -645,7 +713,8 @@ const countryList = [
   {
     country: {
       de: "Sambia",
-      en: "Zambia"
+      en: "Zambia",
+      fr: "Zambie"
     },
     zone: "Africa/Lusaka",
     flag: "ZM",
@@ -654,7 +723,8 @@ const countryList = [
   {
     country: {
       de: "Simbabwe",
-      en: "Zimbabwe"
+      en: "Zimbabwe",
+      fr: "Zimbabwe"
     },
     zone: "Africa/Harare",
     flag: "ZW",
