@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Amerikanisch-Samoa (USA)",
-      en: "American Samoa (United States)"
+      en: "American Samoa (United States)",
+      fr: "Samoa américaines (États-Unis)"
     },
     zone: "Etc/GMT+11",
     flag: "AS",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Cookinseln (Neuseeland)",
-      en: "Cook Islands (New Zealand)"
+      en: "Cook Islands (New Zealand)",
+      fr: "Îles Cook (Nouvelle-Zélande)"
     },
     zone: "Etc/GMT+11",
     flag: "CK",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Fidschi",
-      en: "Fiji"
+      en: "Fiji",
+      fr: "Fidji"
     },
     zone: "Etc/GMT-12",
     flag: "FJ",
@@ -31,25 +34,29 @@ const countryList = [
   {
     country: {
       de: "Französisch-Polynesien (Frankreich)",
-      en: "French Polynesia (France)"
+      en: "French Polynesia (France)",
+      fr: "Polynésie française (France)"
     },
     subdiv: [
       {
         title: {
           de: "Austral-Inseln",
-          en: "Austral Islands"
+          en: "Austral Islands",
+          fr: "Îles Australes"
         }
       }, // 05
       {
         title: {
           de: "Gesellschaftsinseln",
-          en: "Society Islands"
+          en: "Society Islands",
+          fr: "Îles de la Societé"
         }
       }, // 01, 02
       {
         title: {
           de: "Tuamotu-Archipel",
-          en: "Tuamotus"
+          en: "Tuamotus",
+          fr: "Tuamotu"
         }
       } // part of 03
     ],
@@ -71,13 +78,15 @@ const countryList = [
   {
     country: {
       de: "Französisch-Polynesien (Frankreich)",
-      en: "French Polynesia (France)"
+      en: "French Polynesia (France)",
+      fr: "Polynésie française (France)"
     },
     subdiv: [
       {
         title: {
           de: "Gambierinseln",
-          en: "Gambier Islands"
+          en: "Gambier Islands",
+          fr: "Îles Gambier"
         }
       } // part of 03
     ],
@@ -87,13 +96,15 @@ const countryList = [
   {
     country: {
       de: "Französisch-Polynesien (Frankreich)",
-      en: "French Polynesia (France)"
+      en: "French Polynesia (France)",
+      fr: "Polynésie française (France)"
     },
     subdiv: [
       {
         title: {
           de: "Marquesasinseln",
-          en: "Marquesas Islands"
+          en: "Marquesas Islands",
+          fr: "Îles Marquises"
         }
       } // 04
     ],
@@ -104,7 +115,8 @@ const countryList = [
   {
     country: {
       de: "Guam (USA)",
-      en: "Guam (United States)"
+      en: "Guam (United States)",
+      fr: "Guam (États-Unis)"
     },
     zone: "Etc/GMT-10",
     flag: "GU",
@@ -113,13 +125,15 @@ const countryList = [
   {
     country: {
       de: "Kiribati",
-      en: "Kiribati"
+      en: "Kiribati",
+      fr: "Kiribati"
     },
     subdiv: [
       {
         title: {
           de: "Banaba",
-          en: "Banaba"
+          en: "Banaba",
+          fr: "Banaba"
         }
       },
     ],
@@ -129,13 +143,15 @@ const countryList = [
   {
     country: {
       de: "Kiribati",
-      en: "Kiribati"
+      en: "Kiribati",
+      fr: "Kiribati"
     },
     subdiv: [
       {
         title: {
           de: "Gilbertinseln",
-          en: "Gilbert Islands"
+          en: "Gilbert Islands",
+          fr: "Îles Gilbert"
         }
       }
     ],
@@ -146,13 +162,15 @@ const countryList = [
   {
     country: {
       de: "Kiribati",
-      en: "Kiribati"
+      en: "Kiribati",
+      fr: "Kiribati"
     },
     subdiv: [
       {
         title: {
           de: "Phoenixinseln",
-          en: "Phoenix Islands"
+          en: "Phoenix Islands",
+          fr: "Îles Phœnix"
         }
       }
     ],
@@ -162,19 +180,22 @@ const countryList = [
   {
     country: {
       de: "Kiribati",
-      en: "Kiribati"
+      en: "Kiribati",
+      fr: "Kiribati"
     },
     subdiv: [
       {
         title: {
           de: "Kiritimati",
-          en: "Kiritimati"
+          en: "Kiritimati",
+          fr: "Île Christmas"
         }
       },
       {
         title: {
           de: "Line Islands",
-          en: "Line Islands"
+          en: "Line Islands",
+          fr: "Îles de la Ligne"
         }
       }
     ],
@@ -184,7 +205,8 @@ const countryList = [
   {
     country: {
       de: "Marshallinseln",
-      en: "Marshall Islands"
+      en: "Marshall Islands",
+      fr: "Îles Marshall"
     },
     zone: "Etc/GMT-11",
     flag: "MH",
@@ -193,7 +215,8 @@ const countryList = [
   {
     country: {
       de: "Föderierte Staaten von Mikronesien",
-      en: "Federated States of Micronesia"
+      en: "Federated States of Micronesia",
+      fr: "États fédérés de Micronésie"
     },
     subdiv: [
       {title: "Chuuk"}, // 03
@@ -217,7 +240,8 @@ const countryList = [
   {
     country: {
       de: "Föderierte Staaten von Mikronesien",
-      en: "Federated States of Micronesia"
+      en: "Federated States of Micronesia",
+      fr: "États fédérés de Micronésie"
     },
     subdiv: [
       {title: "Kosrae"}, // 01
@@ -241,7 +265,8 @@ const countryList = [
   {
     country: {
       de: "Nauru",
-      en: "Nauru"
+      en: "Nauru",
+      fr: "Nauru"
     },
     zone: "Etc/GMT-11",
     flag: "NR",
@@ -250,7 +275,8 @@ const countryList = [
   {
     country: {
       de: "Neukaledonien (Frankreich)",
-      en: "New Caledonia (France)"
+      en: "New Caledonia (France)",
+      fr: "Nouvelle-Calédonie (France)"
     },
     zone: "Etc/GMT-11",
     flag: "NC",
@@ -259,7 +285,8 @@ const countryList = [
   {
     country: {
       de: "Neuseeland",
-      en: "New Zealand"
+      en: "New Zealand",
+      fr: "Nouvelle-Zélande"
     },
     subdiv: [
       {title: "Canterbury"}, // E9
@@ -293,7 +320,8 @@ const countryList = [
   {
     country: {
       de: "Neuseeland",
-      en: "New Zealand"
+      en: "New Zealand",
+      fr: "Nouvelle-Zélande"
     },
     subdiv: [
       {title: "Auckland"}, // E7
@@ -331,13 +359,15 @@ const countryList = [
   {
     country: {
       de: "Neuseeland",
-      en: "New Zealand"
+      en: "New Zealand",
+      fr: "Nouvelle-Zélande"
     },
     subdiv: [
       {
         title: {
           de: "Chathaminseln",
-          en: "Chatham Islands"
+          en: "Chatham Islands",
+          fr: "Îles Chatham"
         }
       } // 10
     ],
@@ -348,7 +378,8 @@ const countryList = [
   {
     country: {
       de: "Niue (Neuseeland)",
-      en: "Niue (New Zealand)"
+      en: "Niue (New Zealand)",
+      fr: "Niue (Nouvelle-Zélande)"
     },
     zone: "Etc/GMT+11",
     flag: "NU",
@@ -357,7 +388,8 @@ const countryList = [
   {
     country: {
       de: "Nördliche Marianen (USA)",
-      en: "Northern Mariana Islands (United States)"
+      en: "Northern Mariana Islands (United States)",
+      fr: "Îles Mariannes du Nord (États-Unis)"
     },
     zone: "Etc/GMT-10",
     flag: "MP",
@@ -366,7 +398,8 @@ const countryList = [
   {
     country: {
       de: "Palau",
-      en: "Palau"
+      en: "Palau",
+      fr: "Palaos"
     },
     zone: "Etc/GMT-9",
     flag: "PW",
@@ -375,7 +408,8 @@ const countryList = [
   {
     country: {
       de: "Papua-Neuguinea",
-      en: "Papua New Guinea"
+      en: "Papua New Guinea",
+      fr: "Papouasie-Nouvelle-Guinée"
     },
     zone: "Etc/GMT-10",
     flag: "PG",
@@ -384,7 +418,8 @@ const countryList = [
   {
     country: {
       de: "Pitcairninseln (Vereinigtes Königreich)",
-      en: "Pitcairn Islands (United Kingdom)"
+      en: "Pitcairn Islands (United Kingdom)",
+      fr: "Îles Pitcairn (Royaume-Uni)"
     },
     zone: "Etc/GMT-9",
     flag: "PN",
@@ -393,7 +428,8 @@ const countryList = [
   {
     country: {
       de: "Samoa",
-      en: "Samoa"
+      en: "Samoa",
+      fr: "Samoa"
     },
     zone: "Etc/GMT-13",
     flag: "WS",
@@ -402,7 +438,8 @@ const countryList = [
   {
     country: {
       de: "Salomonen",
-      en: "Solomon Islands"
+      en: "Solomon Islands",
+      fr: "Îles Salomon"
     },
     zone: "Etc/GMT-11",
     flag: "SB",
@@ -411,7 +448,8 @@ const countryList = [
   {
     country: {
       de: "Tokelau (Neuseeland)",
-      en: "Tokelau (New Zealand)"
+      en: "Tokelau (New Zealand)",
+      fr: "Tokelau (Nouvelle-Zélande)"
     },
     zone: "Etc/GMT-13",
     flag: "TK",
@@ -420,7 +458,8 @@ const countryList = [
   {
     country: {
       de: "Tonga",
-      en: "Tonga"
+      en: "Tonga",
+      fr: "Tonga"
     },
     zone: "Etc/GMT-12",
     flag: "TO",
@@ -429,7 +468,8 @@ const countryList = [
   {
     country: {
       de: "Tuvalu",
-      en: "Tuvalu"
+      en: "Tuvalu",
+      fr: "Tuvalu"
     },
     zone: "Etc/GMT-12",
     flag: "TV",
@@ -438,10 +478,17 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
-      {title: "Hawaii"}
+      {
+        title: {
+          de: "Hawaii",
+          en: "Hawaii",
+          fr: "Hawaï"
+        }
+      }
     ],
     zone: "Etc/GMT+10",
     flag: "US",
@@ -450,13 +497,15 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: {
           de: "Midwayinseln",
-          en: "Midway Islands"
+          en: "Midway Islands",
+          fr: "Îles Midway"
         }
       } // 300
     ],
@@ -477,7 +526,8 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Wake"}
@@ -489,7 +539,8 @@ const countryList = [
   {
     country: {
       de: "Vanuatu",
-      en: "Vanuatu"
+      en: "Vanuatu",
+      fr: "Vanuatu"
     },
     zone: "Etc/GMT-11",
     flag: "VU",
@@ -498,7 +549,8 @@ const countryList = [
   {
     country: {
       de: "Wallis und Futuna (Frankreich)",
-      en: "Wallis and Futuna (France)"
+      en: "Wallis and Futuna (France)",
+      fr: "Wallis-et-Futuna (France)"
     },
     zone: "Etc/GMT-12",
     flag: "WF",
