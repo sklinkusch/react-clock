@@ -4,14 +4,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Alaska", 
         extra: {
           de: "(westlich von 172.5° W)",
-          en: "(west of 172.5° W)"
+          en: "(west of 172.5° W)",
+          fr: "(ouest de 172.5° O)"
         }
       },
     ],
@@ -34,10 +36,18 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
-      {title: "Alaska", extra: "(172.5° W – 157.5° W)"},
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(172.5° W – 157.5° W)",
+          en: "(172.5° W - 157.5° W)",
+          fr: "(172.5° O - 157.5° O)"
+        }
+      },
     ],
     zone: "Etc/GMT+11",
     flag: "US",
@@ -57,10 +67,18 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
-      {title: "Alaska", extra: "(157.5° W – 142.5° W)"},
+      {
+        title: "Alaska", 
+        extra: {
+          de: "(157.5° W – 142.5° W)",
+          en: "(157.5° W - 142.5° W)",
+          fr: "(157.5° O - 142.5° O)"
+        }
+      },
     ],
     zone: "Etc/GMT+10",
     flag: "US",
@@ -80,14 +98,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Alaska", 
         extra: {
           de: "(östlich von 142.5° W)",
-          en: "(east of 142.5° W)"
+          en: "(east of 142.5° W)",
+          fr: "(est de 142.5° O)"
         }
       },
     ],
@@ -109,10 +129,17 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
-      {title: "California"},
+      {
+        title: {
+          de: "Kalifornien",
+          en: "California",
+          fr: "Californie"
+        }
+      },
       {title: "Idaho"},
       {title: "Nevada"},
       {title: "Oregon"},
@@ -139,7 +166,8 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Arizona"},
@@ -147,10 +175,28 @@ const countryList = [
       {title: "Kansas"},
       {title: "Montana"},
       {title: "Nebraska"},
-      {title: "New Mexico"},
-      {title: "North Dakota"},
+      {
+        title: {
+          de: "New Mexico",
+          en: "New Mexico",
+          fr: "Nouveau-Mexique"
+        }
+      },
+      {
+        title: {
+          de: "North Dakota",
+          en: "North Dakota",
+          fr: "Dakota du Nord"
+        }
+      },
       {title: "Oklahoma"},
-      {title: "South Dakota"},
+      {
+        title: {
+          de: "South Dakota",
+          en: "South Dakota",
+          fr: "Dakota du Sud"
+        }
+      },
       {title: "Texas"},
       {title: "Utah"},
       {title: "Wyoming"},
@@ -183,23 +229,35 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Alabama"},
       {title: "Arkansas"},
       {
-        title: "Florida", 
+        title: {
+          de: "Florida",
+          en: "Florida",
+          fr: "Floride"
+        }, 
         extra: {
           de: "(westlicher Zipfel)",
-          en: "(panhandle)"
+          en: "(panhandle)",
+          fr: "(panhandle)"
         }
       },
       {title: "Illinois"},
       {title: "Indiana"},
       {title: "Iowa"},
       {title: "Kentucky"},
-      {title: "Louisiana"},
+      {
+        title: {
+          de: "Louisiana",
+          en: "Louisiana",
+          fr: "Louisiane"
+        }
+      },
       {title: "Michigan"},
       {title: "Minnesota"},
       {title: "Mississippi"},
@@ -239,34 +297,82 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Connecticut"},
       {title: "Delaware"}, 
-      {title: "District of Columbia"}, 
       {
-        title: "Florida", 
+        title: {
+          de: "District of Columbia",
+          en: "District of Columbia",
+          fr: "District de Columbia"
+        }
+      }, 
+      {
+        title: {
+          de: "Florida",
+          en: "Florida",
+          fr: "Floride"
+        }, 
         extra: {
           de: "(Hauptteil)",
-          en: "(except panhandle)"
+          en: "(except panhandle)",
+          fr: "(sauf panhandle)"
         }
       },
-      {title: "Georgia"},
+      {
+        title: {
+          de: "Georgia",
+          en: "Georgia",
+          fr: "Géorgie"
+        }
+      },
       {title: "Maine"},
       {title: "Maryland"},
       {title: "Massachusetts"},
       {title: "New Hampshire"},
       {title: "New Jersey"},
       {title: "New York"},
-      {title: "North Carolina"},
+      {
+        title: {
+          de: "North Carolina",
+          en: "North Carolina",
+          fr: "Caroline du Nord"
+        }
+      },
       {title: "Ohio"},
-      {title: "Pennsylvania"},
+      {
+        title: {
+          de: "Pennsylvania",
+          en: "Pennsylvania",
+          fr: "Pennsylvanie"
+        }
+      },
       {title: "Rhode Island"},
-      {title: "South Carolina"},
+      {
+        title: {
+          de: "South Carolina",
+          en: "South Carolina",
+          fr: "Caroline du Sud"
+        }
+      },
       {title: "Vermont"},
-      {title: "Virginia"},
-      {title: "West Virginia"},
+      {
+        title: {
+          de: "Virginia",
+          en: "Virginia",
+          fr: "Virginie"
+        }
+      },
+      {
+        title: {
+          de: "West Virginia",
+          en: "West Virginia",
+          fr: "Virginie-Occidentale"
+        }
+      },
     ],
     zone: "Etc/GMT+5",
     flag: "US",
