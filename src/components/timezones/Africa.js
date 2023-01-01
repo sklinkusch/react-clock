@@ -146,7 +146,8 @@ const countryList = [
   {
     country: {
       de: "Demokratische Republik Kongo",
-      en: "Democratic Republic of the Congo"
+      en: "Democratic Republic of the Congo",
+      fr: "République démocratique du Congo"
     },
     subdiv: [
       {title: "Bas-Uele"}, 
