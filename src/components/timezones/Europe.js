@@ -292,7 +292,7 @@ const countryList = [
         title: {
           de: "Westgrönland",
           en: "Western Greenland",
-          fr: "Groenland de l'ouest"
+          fr: "Groenland-Occidentale"
         }
       }
     ],
