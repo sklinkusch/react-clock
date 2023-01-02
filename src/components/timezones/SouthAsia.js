@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Bangladesch",
-      en: "Bangladesh"
+      en: "Bangladesh",
+      fr: "Bangladesh"
     },
     zone: "Asia/Dhaka",
     flag: "BD",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Bhutan",
-      en: "Bhutan"
+      en: "Bhutan",
+      fr: "Bhoutan"
     },
     zone: "Asia/Thimphu",
     flag: "BT",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Britisches Territorium im Indischen Ozean (Vereinigtes Territorium)",
-      en: "British Indian Ocean Territory (United Kingdom)"
+      en: "British Indian Ocean Territory (United Kingdom)",
+      fr: "Territoire britannique de l'océan Indien (Royaume-Uni)"
     },
     zone: "Indian/Chagos",
     flag: "IO",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Kokosinseln (Australien)",
-      en: "Cocos Islands (Australia)"
+      en: "Cocos Islands (Australia)",
+      fr: "Îles Cocos (Australie)"
     },
     zone: "Indian/Cocos",
     flag: "CC",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Indien",
-      en: "India"
+      en: "India",
+      fr: "Inde"
     },
     zone: "Asia/Kolkata",
     flag: "IN",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Myanmar",
-      en: "Myanmar"
+      en: "Myanmar",
+      fr: "Birmanie"
     },
     zone: "Asia/Yangon",
     flag: "MM",
@@ -58,7 +64,8 @@ const countryList = [
   {
     country: {
       de: "Nepal",
-      en: "Nepal"
+      en: "Nepal",
+      fr: "Népal"
     },
     zone: "Asia/Kathmandu",
     flag: "NP",
@@ -67,7 +74,8 @@ const countryList = [
   {
     country: {
       de: "Malediven",
-      en: "Maldives"
+      en: "Maldives",
+      fr: "Maldives"
     },
     zone: "Indian/Maldives",
     flag: "MV",
@@ -76,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Pakistan",
-      en: "Pakistan"
+      en: "Pakistan",
+      fr: "Pakistan"
     },
     zone: "Asia/Karachi",
     flag: "PK",
@@ -85,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Sri Lanka",
-      en: "Sri Lanka"
+      en: "Sri Lanka",
+      fr: "Sri Lanka"
     },
     zone: "Asia/Colombo",
     flag: "LK",

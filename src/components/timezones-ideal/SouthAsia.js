@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Bangladesch",
-      en: "Bangladesh"
+      en: "Bangladesh",
+      fr: "Bangladesh"
     },
     zone: "Etc/GMT-6",
     flag: "BD",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Bhutan",
-      en: "Bhutan"
+      en: "Bhutan",
+      fr: "Bhoutan"
     },
     zone: "Etc/GMT-6",
     flag: "BT",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Britisches Territorium im Indischen Ozean (Vereinigtes Territorium)",
-      en: "British Indian Ocean Territory (United Kingdom)"
+      en: "British Indian Ocean Territory (United Kingdom)",
+      fr: "Territoire britannique de l'océan Indien (Royaume-Uni)"
     },
     zone: "Etc/GMT-5",
     flag: "IO",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Kokosinseln (Australien)",
-      en: "Cocos Islands (Australia)"
+      en: "Cocos Islands (Australia)",
+      fr: "Îles Cocos (Australie)"
     },
     zone: "Etc/GMT-6",
     flag: "CC",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Indien",
-      en: "India"
+      en: "India",
+      fr: "Inde"
     },
     subdiv: [
       {title: "Andhra Pradesh"}, // 02
@@ -53,7 +58,13 @@ const countryList = [
       {title: "Kerala"}, // 13
       {title: "Madhya Pradesh"}, // 35
       {title: "Maharashtra"}, // 16
-      {title: "Punjab"}, // 23
+      {
+        title: {
+          de: "Punjab",
+          en: "Punjab",
+          fr: "Pendjab"
+        }
+      }, // 23
       {title: "Rajasthan"}, // 24
       {title: "Tamil Nadu"}, // 25
       {title: "Telangana"}, // 40
@@ -62,14 +73,16 @@ const countryList = [
       {
         title: {
           de: "Dadra und Nagar Haveli und Daman und Diu",
-          en: "Dadra and Nagar Haveli and Daman and Diu"
+          en: "Dadra and Nagar Haveli and Daman and Diu",
+          fr: "Dadra et Nagar Haveli et Daman et Diu"
         }
       }, // 52
       {title: "Delhi"}, // 07
       {
         title: {
           de: "Jammu und Kaschmir",
-          en: "Jammu and Kashmir"
+          en: "Jammu and Kashmir",
+          fr: "Jammu et Cachemire"
         }
       }, // 12
       {title: "Ladakh"}, // 41
@@ -131,13 +144,15 @@ const countryList = [
       {
         title: {
           de: "Westbengalen",
-          en: "West Bengal"
+          en: "West Bengal",
+          fr: "Bengale-Occidental"
         }
       }, // 28
       {
         title: {
           de: "Andamanen und Nikobaren",
-          en: "Andaman and Nicobar Islands"
+          en: "Andaman and Nicobar Islands",
+          fr: "Îles Andaman-et-Nicobar"
         }
       }, // 01
       {title: "Chandigarh"}, // 05
@@ -172,7 +187,8 @@ const countryList = [
   {
     country: {
       de: "Myanmar",
-      en: "Myanmar"
+      en: "Myanmar",
+      fr: "Birmanie"
     },
     utcOffset: 390,
     flag: "MM",
@@ -181,7 +197,8 @@ const countryList = [
   {
     country: {
       de: "Nepal",
-      en: "Nepal"
+      en: "Nepal",
+      fr: "Népal"
     },
     zone: "Etc/GMT-5",
     flag: "NP",
@@ -190,7 +207,8 @@ const countryList = [
   {
     country: {
       de: "Malediven",
-      en: "Maldives"
+      en: "Maldives",
+      fr: "Maldives"
     },
     zone: "Etc/GMT-5",
     flag: "MV",
@@ -199,13 +217,15 @@ const countryList = [
   {
     country: {
       de: "Pakistan",
-      en: "Pakistan"
+      en: "Pakistan",
+      fr: "Pakistan"
     },
     subdiv: [
       {
         title: {
           de: "Belutschistan",
-          en: "Balochistan"
+          en: "Balochistan",
+          fr: "Baloutchistan"
         }
       }, // 02
     ],
@@ -216,25 +236,40 @@ const countryList = [
   {
     country: {
       de: "Pakistan",
-      en: "Pakistan"
+      en: "Pakistan",
+      fr: "Pakistan"
     },
     subdiv: [
       {
         title: {
           de: "Asad Jammu und Kaschmir",
-          en: "Azad Jammu and Kashmir"
+          en: "Azad Jammu and Kashmir",
+          fr: "Azad Cachemire"
         }
       }, // 06
       {title: "Gilgit-Baltistan"}, // 07
       {
         title: {
           de: "Hauptstadtterritorium Islamabad",
-          en: "Islamabad Capital Territory"
+          en: "Islamabad Capital Territory",
+          fr: "Territoire fédéral d'Islamabad"
         }
       }, // 08
       {title: "Khyber Pakhtunkhwa"}, // 03
-      {title: "Punjab"}, // 04
-      {title: "Sindh"}, // 05
+      {
+        title: {
+          de: "Punjab",
+          en: "Punjab",
+          fr: "Pendjab"
+        }
+      }, // 04
+      {
+        title: {
+          de: "Sindh",
+          en: "Sindh",
+          fr: "Sind"
+        }
+      }, // 05
     ],
     zone: "Etc/GMT-5",
     flag: "PK",
@@ -258,7 +293,8 @@ const countryList = [
   {
     country: {
       de: "Sri Lanka",
-      en: "Sri Lanka"
+      en: "Sri Lanka",
+      fr: "Sri Lanka"
     },
     zone: "Etc/GMT-5",
     flag: "LK",

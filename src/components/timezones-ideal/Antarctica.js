@@ -4,13 +4,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Casey (Australien)",
-          en: "Casey (Australia)"
+          en: "Casey (Australia)",
+          fr: "Casey (Australie)"
         }
       }
     ],
@@ -21,13 +23,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Davis (Australien)",
-          en: "Davis (Australia)"
+          en: "Davis (Australia)",
+          fr: "Davis (Australie)"
         }
       }
     ],
@@ -37,14 +41,16 @@ const countryList = [
   },
   {
     country: {
-      de: "Französische Süd- und Antarktisgebiete (Frankreich)",
-      en: "French Southern and Antarctic Lands (France)"
+      de: "Antarktis",
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
-          de: "Adélieland/Dumont-d'Urville-Station",
-          en: "Adélie Land/Dumont-d'Urville Station"
+          de: "Dumont-d'Urville (Frankreich)",
+          en: "Dumont-d'Urville (France)",
+          fr: "Dumont-d'Urville (France)"
         }
       }
     ],
@@ -55,13 +61,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Mawson (Australien)",
-          en: "Mawson (Australia)"
+          en: "Mawson (Australia)",
+          fr: "Mawson (Australie)"
         }
       }
     ],
@@ -72,13 +80,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "McMurdo (USA)",
-          en: "McMurdo (United States)"
+          en: "McMurdo (United States)",
+          fr: "McMurdo (États-Unis)"
         }
       }
     ],
@@ -89,13 +99,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Palmer (USA)",
-          en: "Palmer (United States)"
+          en: "Palmer (United States)",
+          fr: "Palmer (États-Unis)"
         }
       }
     ],
@@ -106,13 +118,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Rothera (Vereinigtes Königreich)",
-          en: "Rothera (United Kingdom)"
+          en: "Rothera (United Kingdom)",
+          fr: "Rothera (Royaume-Uni)"
         }
       }
     ],
@@ -123,13 +137,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Shōwa (Japan)",
-          en: "Shōwa (Japan)"
+          en: "Shōwa (Japan)",
+          fr: "Shōwa (Japon)"
         }
       }
     ],
@@ -140,13 +156,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Troll (Norwegen)",
-          en: "Troll (Norway)"
+          en: "Troll (Norway)",
+          fr: "Troll (Norvège)"
         }
       }
     ],
@@ -157,13 +175,15 @@ const countryList = [
   {
     country: {
       de: "Antarktis",
-      en: "Antarctica"
+      en: "Antarctica",
+      fr: "Antarctique"
     },
     subdiv: [
       {
         title: {
           de: "Wostok (Russland)",
-          en: "Vostok (Russia)"
+          en: "Vostok (Russia)",
+          fr: "Vostok (Russie)"
         }
       }
     ],

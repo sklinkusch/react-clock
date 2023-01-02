@@ -4,13 +4,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Kaliningrad",
-          en: "Kaliningrad Oblast"
+          en: "Kaliningrad Oblast",
+          fr: "Oblast de Kaliningrad"
         }
       }
     ],
@@ -21,175 +23,204 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Moskau",
-          en: "Moscow"
+          en: "Moscow",
+          fr: "Moscou"
         }
       },
       {
         title: {
           de: "St. Petersburg",
-          en: "Saint Petersburg"
+          en: "Saint Petersburg",
+          fr: "Saint-Pétersbourg"
         }
       },
       {
         title: {
           de: "Republik Karelien",
-          en: "Karelia"
+          en: "Karelia",
+          fr: "République de Carélie"
         }
       }, 
       {
         title: {
           de: "Republik Komi",
-          en: "Komi"
+          en: "Komi",
+          fr: "République de Komis"
         }
       },
       {
         title: {
           de: "Oblast Archangelsk",
-          en: "Arkhangelsk Oblast"
+          en: "Arkhangelsk Oblast",
+          fr: "Oblast d'Arkhangelsk"
         }
       },
       {
         title: {
           de: "Oblast Belgorod",
-          en: "Belgorod Oblast"
+          en: "Belgorod Oblast",
+          fr: "Oblast de Belgorod"
         }
       }, 
       {
         title: {
           de: "Oblast Brjansk",
-          en: "Bryansk Oblast"
+          en: "Bryansk Oblast",
+          fr: "Oblast de Briansk"
         }
       },
       {
         title: {
           de: "Oblast Iwanowo",
-          en: "Ivanovo Oblast"
+          en: "Ivanovo Oblast",
+          fr: "Oblast d'Ivanovo"
         }
       },
       {
         title: {
           de: "Oblast Jaroslawl",
-          en: "Yaroslavl Oblast"
+          en: "Yaroslavl Oblast",
+          fr: "Oblast d'Iaroslavl"
         }
       },
       {
         title: {
           de: "Oblast Kaluga",
-          en: "Kaluga Oblast"
+          en: "Kaluga Oblast",
+          fr: "Oblast de Kalouga"
         }
       },
       {
         title: {
           de: "Oblast Kostroma",
-          en: "Kostroma Oblast"
+          en: "Kostroma Oblast",
+          fr: "Oblast de Kostroma"
         }
       },
       {
         title: {
           de: "Oblast Kursk",
-          en: "Kursk Oblast"
+          en: "Kursk Oblast",
+          fr: "Oblast de Koursk"
         }
       }, 
       {
         title: {
           de: "Oblast Leningrad",
-          en: "Leningrad Oblast"
+          en: "Leningrad Oblast",
+          fr: "Oblast de Leningrad"
         }
       },
       {
         title: {
           de: "Oblast Lipezk",
-          en: "Lipetsk Oblast"
+          en: "Lipetsk Oblast",
+          fr: "Oblast de Lipetsk"
         }
       },
       {
         title: {
           de: "Oblast Moskau",
-          en: "Moscow Oblast"
+          en: "Moscow Oblast",
+          fr: "Oblast de Moscou"
         }
       }, 
       {
         title: {
           de: "Oblast Murmansk",
-          en: "Murmansk Oblast"
+          en: "Murmansk Oblast",
+          fr: "Oblast de Mourmansk"
         }
       },
       {
         title: {
           de: "Oblast Nowgorod",
-          en: "Novgorod Oblast"
+          en: "Novgorod Oblast",
+          fr: "Oblast de Novgorod"
         }
       },
       {
         title: {
           de: "Oblast Orjol",
-          en: "Oryol Oblast"
+          en: "Oryol Oblast",
+          fr: "Oblast d'Orel"
         }
       },
       {
         title: {
           de: "Oblast Pskow",
-          en: "Pskov Oblast"
+          en: "Pskov Oblast",
+          fr: "Oblast de Pskov"
         }
       },
       {
         title: {
           de: "Oblast Rjasan",
-          en: "Ryazan Oblast"
+          en: "Ryazan Oblast",
+          fr: "Oblast de Riazan"
         }
       },
       {
         title: {
           de: "Oblast Smolensk",
-          en: "Smolensk Oblast"
+          en: "Smolensk Oblast",
+          fr: "Oblast de Smolensk"
         }
       },
       {
         title: {
           de: "Oblast Tambow",
-          en: "Tambov Oblast"
+          en: "Tambov Oblast",
+          fr: "Oblast de Tambov"
         }
       }, 
       {
         title: {
           de: "Oblast Tula",
-          en: "Tula Oblast"
+          en: "Tula Oblast",
+          fr: "Oblast de Toula"
         }
       }, 
       {
         title: {
           de: "Oblast Twer",
-          en: "Tver Oblast"
+          en: "Tver Oblast",
+          fr: "Oblast de Tver"
         }
       },
       {
         title: {
           de: "Oblast Wladimir",
-          en: "Vladimir Oblast"
+          en: "Vladimir Oblast",
+          fr: "Oblast de Vladimir"
         }
       },
       {
         title: {
           de: "Oblast Wologda",
-          en: "Vologda Oblast"
+          en: "Vologda Oblast",
+          fr: "Oblast de Vologda"
         }
       },
       {
         title: {
           de: "Oblast Woronesch",
-          en: "Voronezh Oblast"
+          en: "Voronezh Oblast",
+          fr: "Oblast de Voronej"
         }
       },
       {
         title: {
           de: "Autonomer Kreis der Nenzen",
-          en: "Nenets Autonomous Okrug"
+          en: "Nenets Autonomous Okrug",
+          fr: "District autonome de Nénétsie"
         }
       }
     ],
@@ -200,79 +231,92 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Adygeja",
-          en: "Adygea"
+          en: "Adygea",
+          fr: "République d'Adyguée"
         }
       },
       {
         title: {
           de: "Republik Dagestan",
-          en: "Dagestan"
+          en: "Dagestan",
+          fr: "République de Daghestan"
         }
       },
       {
         title: {
           de: "Republik Inguschetien",
-          en: "Ingushetia"
+          en: "Ingushetia",
+          fr: "République d'Ingushie"
         }
       },
       {
         title: {
           de: "Republik Kabardino-Balkarien",
-          en: "Kabardino-Balkaria"
+          en: "Kabardino-Balkaria",
+          fr: "République de Kabardino-Balkarie"
         }
       },
       {
         title: {
           de: "Republik Kalmückien",
-          en: "Kalmykia"
+          en: "Kalmykia",
+          fr: "République de Kalmoukie"
         }
       },
       {
         title: {
           de: "Republik Karatschai-Tscherkessien",
-          en: "Karachay-Cherkessia"
+          en: "Karachay-Cherkessia",
+          fr: "République de Karatchaïévo-Tcherkessie"
         }
       },
       {
         title: {
           de: "Region Krasnodar",
-          en: "Krasnodar Region"
+          en: "Krasnodar Region",
+          fr: "Kraï de Krasnodar"
         }
       },
       {
         title: {
           de: "Republik Nordossetien-Alanien",
-          en: "North Ossetia-Alania"
+          en: "North Ossetia-Alania",
+          fr: "République d'Ossétie du Nord-Alanie"
         }
       },
       {
         title: {
           de: "Republik Tschetschenien",
-          en: "Chechnya"
+          en: "Chechnya",
+          fr: "République de Tchétchénie"
         }
       },
       {
         title: {
           de: "Region Stawropol",
-          en: "Stavropol Region"
+          en: "Stavropol Region",
+          fr: "Kraï de Stavropol"
         }
       },
       {
         title: {
           de: "Oblast Rostow",
-          en: "Rostov Oblast"
+          en: "Rostov Oblast",
+          fr: "Oblast de Rostov"
         }
       },
       {
         title: {
           de: "Oblast Wolgograd",
-          en: "Volgograd Oblast"
+          en: "Volgograd Oblast",
+          fr: "Oblast de Volgograd"
         }
       }
     ],
@@ -283,49 +327,57 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Tschuwaschien",
-          en: "Chuvashia"
+          en: "Chuvashia",
+          fr: "République de Tchouvashie"
         }
       }, 
       {
         title: {
           de: "Republik Tatarstan",
-          en: "Tatarstan"
+          en: "Tatarstan",
+          fr: "République de Tatarstan"
         }
       }, 
       {
         title: {
           de: "Republik Mari El",
-          en: "Mari El"
+          en: "Mari El",
+          fr: "République des Maris"
         }
       }, 
       {
         title: {
           de: "Republik Mordwinien",
-          en: "Mordovia"
+          en: "Mordovia",
+          fr: "République de Mordovie"
         }
       }, 
       {
         title: {
           de: "Oblast Kirow",
-          en: "Kirov Oblast"
+          en: "Kirov Oblast",
+          fr: "Oblast de Kirov"
         }
       }, 
       {
         title: {
           de: "Oblast Nischni Nowgorod",
-          en: "Nizhnyi Novgorod Oblast"
+          en: "Nizhnyi Novgorod Oblast",
+          fr: "Oblast de Nijni Novgorod"
         }
       },
       {
         title: {
           de: "Oblast Pensa",
-          en: "Penza Oblast"
+          en: "Penza Oblast",
+          fr: "Oblast de Penza"
         }
       }, 
     ],
@@ -336,13 +388,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [          
       {
         title: {
           de: "Oblast Astrachan",
-          en: "Astrakhan Oblast"
+          en: "Astrakhan Oblast",
+          fr: "Oblast d'Astrakhan"
         }
       },  
     ],
@@ -353,13 +407,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Saratow",
-          en: "Saratov Oblast"
+          en: "Saratov Oblast",
+          fr: "Oblast de Saratov"
         }
       }, 
     ],
@@ -370,19 +426,22 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Udmurtien",
-          en: "Udmurtia"
+          en: "Udmurtia",
+          fr: "République d'Oudmourtie"
         }
       }, 
       {
         title: {
           de: "Oblast Samara",
-          en: "Samara Oblast"
+          en: "Samara Oblast",
+          fr: "Oblast de Samara"
         }
       }
     ],
@@ -393,13 +452,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Uljanowsk",
-          en: "Ulyanovsk Oblast"
+          en: "Ulyanovsk Oblast",
+          fr: "Oblast d'Oulianovsk"
         }
       }
     ],
@@ -410,61 +471,71 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Baschkortostan",
-          en: "Bashkortostan"
+          en: "Bashkortostan",
+          fr: "République de Bachkirie"
         }
       }, 
       {
         title: {
           de: "Region Perm",
-          en: "Perm Region"
+          en: "Perm Region",
+          fr: "Kraï de Perm"
         }
       }, 
       {
         title: {
           de: "Oblast Tscheljabinsk",
-          en: "Chelyabinsk Oblast"
+          en: "Chelyabinsk Oblast",
+          fr: "Oblast de Tcheliabinsk"
         }
       }, 
       {
         title: {
           de: "Oblast Kurgan",
-          en: "Kurgan Oblast"
+          en: "Kurgan Oblast",
+          fr: "Oblast de Kourgan"
         }
       }, 
       {
         title: {
           de: "Oblast Orenburg",
-          en: "Orenburg Oblast"
+          en: "Orenburg Oblast",
+          fr: "Oblast d'Orenbourg"
         }
       }, 
       {
         title: {
           de: "Oblast Swerdlowsk",
-          en: "Sverdlovsk Oblast"
+          en: "Sverdlovsk Oblast",
+          fr: "Oblast de Sverdlovsk"
         }
       }, 
       {
         title: {
           de: "Oblast Tjumen",
-          en: "Tyumen Oblast"
+          en: "Tyumen Oblast",
+          fr: "Oblast de Tioumen"
         }
       }, 
       {
         title: {
           de: "Autonomer Kreis der Chanten und Mansen",
-          en: "Khanty-Mansi Autonomous Okrug"
+          en: "Khanty-Mansi Autonomous Okrug",
+          fr: "District autonome des Khantys-Mansis-Iougra"
         }
       }, 
       {
         title: {
           de: "Autonomer Kreis der Jamal-Nenzen",
-          en: "Yamalo-Nenets Autonomous Okrug"
+          en: "Yamalo-Nenets Autonomous Okrug",
+          fr: "District autonome de Iamalo-Nénétsie"
         }
       }
     ],
@@ -475,13 +546,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Omsk",
-          en: "Omsk Oblast"
+          en: "Omsk Oblast",
+          fr: "Oblast d'Omsk"
         }
       }
     ],
@@ -492,19 +565,22 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Altai",
-          en: "Altai Republic"
+          en: "Altai Republic",
+          fr: "République d'Altaï"
         }
       }, 
       {
         title: {
           de: "Region Altai",
-          en: "Altai Region"
+          en: "Altai Region",
+          fr: "Kraï d'Altaï"
         }
       }
     ],
@@ -515,25 +591,29 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Chakassien",
-          en: "Khakassia"
+          en: "Khakassia",
+          fr: "République de Khakassie"
         }
       }, 
       {
         title: {
           de: "Republik Tuwa",
-          en: "Tuva Republic"
+          en: "Tuva Republic",
+          fr: "République de Touva"
         }
       }, 
       {
         title: {
           de: "Region Krasnojarsk",
-          en: "Krasnoyarsk Region"
+          en: "Krasnoyarsk Region",
+          fr: "Kraï de Krasnoïarsk"
         }
       }
     ],
@@ -544,13 +624,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Kemerowo",
-          en: "Kemerovo Oblast"
+          en: "Kemerovo Oblast",
+          fr: "Oblast de Kemerovo"
         }
       }
     ],
@@ -561,13 +643,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Nowosibirsk",
-          en: "Novosibirsk Oblast"
+          en: "Novosibirsk Oblast",
+          fr: "Oblast de Novossibirsk"
         }
       }
     ],
@@ -578,13 +662,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Tomsk",
-          en: "Tomsk Oblast"
+          en: "Tomsk Oblast",
+          fr: "Oblast de Tomsk"
         }
       }
     ],
@@ -595,19 +681,22 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Burjatien",
-          en: "Buryatia"
+          en: "Buryatia",
+          fr: "République de Bouriatie"
         }
       }, 
       {
         title: {
           de: "Oblast Irkutsk",
-          en: "Irkutsk Oblast"
+          en: "Irkutsk Oblast",
+          fr: "Oblast de Irkoutsk"
         }
       }
     ],
@@ -618,23 +707,27 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Sacha",
-          en: "Sakha"
+          en: "Sakha",
+          fr: "République de Sakha"
         }, 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       }, 
       {
         title: {
           de: "Oblast Amur",
-          en: "Amur Oblast"
+          en: "Amur Oblast",
+          fr: "Oblast d'Amour"
         }
       }
     ],
@@ -645,13 +738,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Region Transbaikalien",
-          en: "Zabaykalsky Krai"
+          en: "Zabaykalsky Krai",
+          fr: "Kraï de Transbaïkalie"
         }
       }
     ],
@@ -662,25 +757,29 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Region Chabarowsk",
-          en: "Khabarovsk Region"
+          en: "Khabarovsk Region",
+          fr: "Kraï de Khabarovsk"
         }
       }, 
       {
         title: {
           de: "Region Primorje",
-          en: "Primorsky Krai"
+          en: "Primorsky Krai",
+          fr: "Kraï de Primorié"
         }
       }, 
       {
         title: {
           de: "Jüdische Autonome Oblast",
-          en: "Jewish Autonomous Oblast"
+          en: "Jewish Autonomous Oblast",
+          fr: "Oblast autonome juif"
         }
       }
     ],
@@ -691,17 +790,20 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Sacha",
-          en: "Sakha"
+          en: "Sakha",
+          fr: "République de Sakha"
         }, 
         extra: {
           de: "(mittlerer Teil)",
-          en: "(central part)"
+          en: "(central part)",
+          fr: "(moyen)"
         }
       }
     ],
@@ -712,17 +814,20 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Republik Sacha",
-          en: "Sakha"
+          en: "Sakha",
+          fr: "République de Sakha"
         }, 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }
     ],
@@ -733,13 +838,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Magadan",
-          en: "Magadan Oblast"
+          en: "Magadan Oblast",
+          fr: "Oblast de Magadan"
         }
       }
     ],
@@ -750,13 +857,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Sachalin",
-          en: "Sakhalin Oblast"
+          en: "Sakhalin Oblast",
+          fr: "Oblast de Sakhaline"
         }
       }
     ],
@@ -767,13 +876,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Region Kamtschatka",
-          en: "Kamchatka"
+          en: "Kamchatka",
+          fr: "Kraï de Kamtchatka"
         }
       }
     ],
@@ -784,13 +895,15 @@ const countryList = [
   {
     country: {
       de: "Russland",
-      en: "Russia"
+      en: "Russia",
+      fr: "Russie"
     },
     subdiv: [
       {
         title: {
           de: "Autonomer Kreis der Tschuktschen",
-          en: "Chukotka Autonomous Okrug"
+          en: "Chukotka Autonomous Okrug",
+          fr: "District autonome de Tchoukotka"
         }
       }
     ],

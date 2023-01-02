@@ -4,73 +4,85 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Akmola",
-          en: "Akmola Region"
+          en: "Akmola Region",
+          fr: "Oblys d'Aqmola"
         }
       },
       {
         title: {
           de: "Almaty",
-          en: "Almaty"
+          en: "Almaty",
+          fr: "Almaty"
         }
       },
       {
         title: {
           de: "Oblys Almaty",
-          en: "Almaty Region"
+          en: "Almaty Region",
+          fr: "Oblys d'Almaty"
         }
       }, 
       {
         title: {
           de: "Oblys Ostkasachstan",
-          en: "East Kazakhstan Region"
+          en: "East Kazakhstan Region",
+          fr: "Oblys du Kazakhstan-Oriental"
         }
       }, 
       {
         title: {
           de: "Oblys Schambyl",
-          en: "Jambyl Region"
+          en: "Jambyl Region",
+          fr: "Oblys de Jambıl"
         }
       }, 
       {
         title: {
           de: "Oblys Qaraghandy",
-          en: "Karaganda Region"
+          en: "Karaganda Region",
+          fr: "Oblys de Karaganda"
         }
       }, 
       {
         title: {
           de: "Oblys Nordkasachstan",
-          en: "North Kazakhstan Region"
+          en: "North Kazakhstan Region",
+          fr: "Oblys du Kazakhstan-Septentrional"
         }
       },
       {
         title: {
-          de: "Nur-Sultan",
-          en: "Nur-Sultan"
+          de: "Astana",
+          en: "Astana",
+          fr: "Astana"
         }
       },
       {
         title: {
           de: "Oblys Pawlodar",
-          en: "Pavlodar Region"
+          en: "Pavlodar Region",
+          fr: "Oblys de Pavlodar"
         }
       }, 
       {
         title: {
           de: "Schymkent",
-          en: "Shymkent"
+          en: "Shymkent",
+          fr: "Chimkent"
         }
       },
       {
         title: {
           de: "Oblys Türkistan",
-          en: "Turkistan Region"
+          en: "Turkistan Region",
+          fr: "Oblys de Turkestan"
         }
       }
     ],
@@ -81,13 +93,15 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Qostonai",
-          en: "Kostanay Region"
+          en: "Kostanay Region",
+          fr: "Oblys de Kostanaï"
         }
       }
     ],
@@ -98,19 +112,22 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Qysylorda",
-          en: "Kyzylorda Region"
+          en: "Kyzylorda Region",
+          fr: "Oblys de Qızılorda"
         }
       },
       {
         title: {
           de: "Baikonur",
-          en: "Baykonyr"
+          en: "Baykonyr",
+          fr: "Baïkonour"
         }
       } // 18
     ],
@@ -121,13 +138,15 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Aqtöbe",
-          en: "Aktobe Region"
+          en: "Aktobe Region",
+          fr: "Oblys d'Aqtöbe"
         }
       }
     ],
@@ -138,13 +157,15 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Atyrau",
-          en: "Atyrau Region"
+          en: "Atyrau Region",
+          fr: "Oblys d'Atyraw"
         }
       }
     ],
@@ -155,13 +176,15 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Mangghystau",
-          en: "Mangystau Region"
+          en: "Mangystau Region",
+          fr: "Oblys de Mañğıstaw"
         }
       }
     ],
@@ -172,13 +195,15 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Westkasachstan",
-          en: "West Kazakhstan Region"
+          en: "West Kazakhstan Region",
+          fr: "Oblys du Kazakhstan-Occidental"
         }
       }
     ],
@@ -189,7 +214,8 @@ const countryList = [
   {
     country: {
       de: "Kirgisistan",
-      en: "Kyrgyzstan"
+      en: "Kyrgyzstan",
+      fr: "Kirghizistan"
     },
     zone: "Asia/Bishkek",
     flag: "KG",
@@ -198,7 +224,8 @@ const countryList = [
   {
     country: {
       de: "Tadschikistan",
-      en: "Tajikistan"
+      en: "Tajikistan",
+      fr: "Tadjikistan"
     },
     zone: "Asia/Dushanbe",
     flag: "TJ",
@@ -207,7 +234,8 @@ const countryList = [
   {
     country: {
       de: "Turkmenistan",
-      en: "Turkmenistan"
+      en: "Turkmenistan",
+      fr: "Turkménistan"
     },
     zone: "Asia/Ashgabat",
     flag: "TM",
@@ -216,7 +244,8 @@ const countryList = [
   {
     country: {
       de: "Usbekistan",
-      en: "Uzbekistan"
+      en: "Uzbekistan",
+      fr: "Ouzbékistan"
     },
     zone: "Asia/Tashkent",
     flag: "UZ",

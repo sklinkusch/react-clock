@@ -4,23 +4,27 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Alberta",
-          en: "Alberta"
+          en: "Alberta",
+          fr: "Alberta"
         }
       }, 
       {
         title: {
           de: "British Columbia",
-          en: "British Columbia"
+          en: "British Columbia",
+          fr: "Colombie-Britannique"
         }, 
         extra: {
           de: "(südöstlicher Teil)",
-          en: "(southeast)"
+          en: "(southeast)",
+          fr: "(sud-est)"
         }
       }
     ],
@@ -31,17 +35,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "British Columbia",
-          en: "British Columbia"
+          en: "British Columbia",
+          fr: "Colombie-Britannique"
         }, 
         extra: {
           de: "(größtenteils)",
-          en: "(most of province)"
+          en: "(most of province)",
+          fr: "(plupart de la province)"
         }
       }
     ],
@@ -52,17 +59,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Labrador",
-          en: "Labrador"
+          en: "Labrador",
+          fr: "Labrador"
         }, 
         extra: {
           de: "(größtenteils)",
-          en: "(most of province)"
+          en: "(most of province)",
+          fr: "(plupart de la province)"
         }
       }
     ],
@@ -73,13 +83,15 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Manitoba",
-          en: "Manitoba"
+          en: "Manitoba",
+          fr: "Manitoba"
         }
       }
     ],
@@ -90,13 +102,15 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "New Brunswick",
-          en: "New Brunswick"
+          en: "New Brunswick",
+          fr: "Nouveau-Brunswick"
         }
       }
     ],
@@ -107,23 +121,27 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Neufundland",
-          en: "Newfoundland"
+          en: "Newfoundland",
+          fr: "Terre-Neuve"
         }
       }, 
       {
         title: {
           de: "Labrador",
-          en: "Labrador"
+          en: "Labrador",
+          fr: "Labrador"
         }, 
         extra: {
           de: "(südöstlicher Teil)",
-          en: "(southeast)"
+          en: "(southeast)",
+          fr: "(sud-est)"
         }
       }
     ],
@@ -134,13 +152,15 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nordwest-Territorien",
-          en: "Northwest Territories"
+          en: "Northwest Territories",
+          fr: "Territoires du Nord-Ouest"
         }
       }
     ],
@@ -151,19 +171,22 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nova Scotia",
-          en: "Nova Scotia"
+          en: "Nova Scotia",
+          fr: "Nouvelle-Écosse"
         }
       }, 
       {
         title: {
           de: "Prince Edward Island",
-          en: "Prince Edward Island"
+          en: "Prince Edward Island",
+          fr: "Île-du-Prince-Édouard"
         }
       }
     ],
@@ -174,17 +197,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         }, 
         extra: {
           de: "(westlich von 102° W, Region Kitikmeot)",
-          en: "(west of 102° W, Kitikmeot Region)"
+          en: "(west of 102° W, Kitikmeot Region)",
+          fr: "(ouest de 102° O, Région de Kitikmeot)"
         }
       }
     ],
@@ -195,17 +221,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         }, 
         extra: {
           de: "(102° W - 85° W, Resolute und Region Kivalliq)",
-          en: "(102° W – 85° W, Resolute, Kivalliq Region)"
+          en: "(102° W – 85° W, Resolute, Kivalliq Region)",
+          fr: "(102° O - 85° O, Resolute, Région de Kivalliq)"
         }
       }
     ],
@@ -216,17 +245,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         }, 
         extra: {
           de: "(östlich von 85° W, Region Qikiqtaaluk)",
-          en: "(east of 85° W, Qikiqtaaluk Region)"
+          en: "(east of 85° W, Qikiqtaaluk Region)",
+          fr: "(est de 85° O, Région de Qikiqtaaluk)"
         }
       }
     ],
@@ -237,27 +269,32 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         }, 
         extra: {
           de: "(Coral Harbour)",          
-          en: "(Coral Harbour)"
+          en: "(Coral Harbour)",
+          fr: "(Coral Harbour)"
         }
       }, 
       {
         title: {
           de: "Ontario",
-          en: "Ontario"
+          en: "Ontario",
+          fr: "Ontario"
         }, 
         extra: {
           de: "(Atikokan)",
-          en: "(Atikokan)"
+          en: "(Atikokan)",
+          fr: "(Atikokan)"
         }
       }
     ],
@@ -268,17 +305,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Ontario",
-          en: "Ontario"
+          en: "Ontario",
+          fr: "Ontario"
         }, 
         extra: {
           de: "(westlich von 90° W)",
-          en: "(west of 90° W)"
+          en: "(west of 90° W)",
+          fr: "(ouest de 90° O)"
         }
       }
     ],
@@ -289,27 +329,32 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Ontario",
-          en: "Ontario"
+          en: "Ontario",
+          fr: "Ontario"
         }, 
         extra: {
           de: "(größtenteils)",
-          en: "(most of province)"
+          en: "(most of province)",
+          fr: "(plupart de la province)"
         }
       }, 
       {
         title: {
           de: "Québec",
-          en: "Quebec"
+          en: "Quebec",
+          fr: "Québec"
         }, 
         extra: {
           de: "(westlich von 63° W)",
-          en: "(west of 63° W)"
+          en: "(west of 63° W)",
+          fr: "(ouest de 63° O)"
         }
       }
     ],
@@ -320,17 +365,20 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Québec",
-          en: "Quebec"
+          en: "Quebec",
+          fr: "Québec"
         }, 
         extra: {
           de: "(östlich von 63° W)",
-          en: "(east of 63° W)"
+          en: "(east of 63° W)",
+          fr: "(est de 63° O)"
         }
       }
     ],
@@ -341,13 +389,15 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Saskatchewan",
-          en: "Saskatchewan"
+          en: "Saskatchewan",
+          fr: "Saskatchewan"
         }
       }
     ],
@@ -358,13 +408,15 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Yukon",
-          en: "Yukon"
+          en: "Yukon",
+          fr: "Yukon"
         }
       }
     ],

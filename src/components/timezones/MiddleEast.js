@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Afghanistan",
-      en: "Afghanistan"
+      en: "Afghanistan",
+      fr: "Afghanistan"
     },
     zone: "Asia/Kabul",
     flag: "AF",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Armenien",
-      en: "Armenia"
+      en: "Armenia",
+      fr: "Arménie"
     },
     zone: "Asia/Yerevan",
     flag: "AM",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Aserbaidschan",
-      en: "Azerbaijan"
+      en: "Azerbaijan",
+      fr: "Azerbaïdjan"
     },
     zone: "Asia/Baku",
     flag: "AZ",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Bahrain",
-      en: "Bahrain"
+      en: "Bahrain",
+      fr: "Bahreïn"
     },
     zone: "Asia/Bahrain",
     flag: "BH",
@@ -40,89 +44,105 @@ const countryList = [
   {
     country: {
       de: "Georgien",
-      en: "Georgia"
+      en: "Georgia",
+      fr: "Géorgie"
     },
     subdiv: [
       {
         title: {
           de: "Adscharien",
-          en: "Ajaria"
+          en: "Ajaria",
+          fr: "Adjarie"
         }
       },
       {
         title: {
           de: "Gurien",
-          en: "Guria"
+          en: "Guria",
+          fr: "Gourie"
         }
       },
       {
         title: {
           de: "Imeretien",
-          en: "Imereti"
+          en: "Imereti",
+          fr: "Iméréthie"
         },
         extra: {
           de: "(nur teilweise unter georgischer Kontrolle)",
-          en: "(only partly controlled by Georgia)"
+          en: "(only partly controlled by Georgia)",
+          fr: "(en partie contrôlé par la Géorgie)"
         }
       },
       {
         title: {
           de: "Kachetien",
-          en: "Kakheti"
+          en: "Kakheti",
+          fr: "Kakhétie"
         }
       },
       {
         title: {
           de: "Niederkartlien",
-          en: "Kvemo Kartli"
+          en: "Kvemo Kartli",
+          fr: "Basse Kartlie"
         }
       },
       {
         title: {
           de: "Mzcheta-Mtianeti",
-          en: "Mtskheta-Mtianeti"
+          en: "Mtskheta-Mtianeti",
+          fr: "Mtskhéta-Mtianétie"
         },
         extra: {
           de: "(nur teilweise unter georgischer Kontrolle)",
-          en: "(only partly controlled by Georgia)"
+          en: "(only partly controlled by Georgia)",
+          fr: "(en partie contrôlé par la Géorgie)"
         }
       },
       {
         title: {
           de: "Ratscha-Letschchumi und Niederswanetien",
-          en: "Racha Lechkhumi and Kvemo Svaneti"
+          en: "Racha Lechkhumi and Kvemo Svaneti",
+          fr: "Ratcha-Letchkhoumie et Basse Svanétie"
         },
         extra: {
           de: "(nur teilweise unter georgischer Kontrolle)",
-          en: "(only partly controlled by Georgia)"
+          en: "(only partly controlled by Georgia)",
+          fr: "(en partie contrôlé par la Géorgie)"
         }
       },
       {
         title: {
           de: "Samzche-Dschawachetien",
-          en: "Samtskhe-Javakheti"
+          en: "Samtskhe-Javakheti",
+          fr: "Samtskhé-Djavakhétie"
         }
       },
       {
         title: {
           de: "Innerkartlien",
-          en: "Shida Kartli"
+          en: "Shida Kartli",
+          fr: "Kartlie intérieure"
         }, 
         extra: {
           de: "(nur teilweise unter georgischer Kontrolle)",
-          en: "(only partly controlled by Georgia)"
+          en: "(only partly controlled by Georgia)",
+          fr: "(en partie contrôlé par la Géorgie)"
         }
       },
       {
         title: {
           de: "Mingrelien und Oberswanetien",
-          en: "Samegrelo-Zemo Svaneti"
+          en: "Samegrelo-Zemo Svaneti",
+          fr: "Mingrélie-et-Haute-Svanétie"
         }
       },
       {
         title: {
           de: "Tiflis",
-          en: "Tbilisi"
+          en: "Tbilisi",
+          fr: "Tbilissi"
         }
       }
     ],
@@ -139,51 +159,61 @@ const countryList = [
       {
         title: {
           de: "Abchasien",
-          en: "Abkhazia"
+          en: "Abkhazia",
+          fr: "Abkhazie"
         }, 
         extra: {
           de: "(unter russischer/abchasischer Kontrolle)",
-          en: "(controlled by Russia/Abkhazia)"
+          en: "(controlled by Russia/Abkhazia)",
+          fr: "(contrôlé par la Russie/Abkhazie)"
         }
       },
       {
         title: {
           de: "Imeretien",
-          en: "Imereti"
+          en: "Imereti",
+          fr: "Iméréthie"
         },
         extra: {
           de: "(teilweise unter russischer/südossetischer Kontrolle)",
-          en: "(partly controlled by Russia/South Ossetia)"
+          en: "(partly controlled by Russia/South Ossetia)",
+          fr: "(en partie contrôlé par la Russie/Ossétie du Sud)"
         }
       },
       {
         title: {
           de: "Mzcheta-Mtianeti",
-          en: "Mtskheta-Mtianeti"
+          en: "Mtskheta-Mtianeti",
+          fr: "Mtskhéta-Mtianétie"
         },
         extra: {
           de: "(teilweise unter russischer/südossetischer Kontrolle)",
-          en: "(partly controlled by Russia/South Ossetia)"
+          en: "(partly controlled by Russia/South Ossetia)",
+          fr: "(en partie contrôlé par la Russie/Ossétie du Sud)"
         }
       },
       {
         title: {
           de: "Ratscha-Letschchumi und Niederswanetien",
-          en: "Racha Lechkhumi and Kvemo Svaneti"
+          en: "Racha Lechkhumi and Kvemo Svaneti",
+          fr: "Ratcha-Letchkhoumie et Basse-Svanétie"
         },
         extra: {
           de: "(teilweise unter russischer/südössetischer Kontrolle)",
-          en: "(partly controlled by Russia/South Ossetia)"
+          en: "(partly controlled by Russia/South Ossetia)",
+          fr: "(en partie contrôlé par la Russie/Ossétie du Sud)"
         }
       },
       {
         title: {
           de: "Innerkartlien",
-          en: "Shida Kartli"
+          en: "Shida Kartli",
+          fr: "Kartlie intérieure"
         }, 
         extra: {
           de: "(teilweise unter russischer/südossetischer Kontrolle)",
-          en: "(partly controlled by Russia/South Ossetia)"
+          en: "(partly controlled by Russia/South Ossetia)",
+          fr: "(en partie contrôlé par la Russie/Ossétie du Sud)"
         }
       }
     ],
@@ -194,7 +224,8 @@ const countryList = [
   {
     country: {
       de: "Iran",
-      en: "Iran"
+      en: "Iran",
+      fr: "Iran"
     },
     zone: "Asia/Tehran",
     flag: "IR",
@@ -203,7 +234,8 @@ const countryList = [
   {
     country: {
       de: "Irak",
-      en: "Iraq"
+      en: "Iraq",
+      fr: "Irak"
     },
     zone: "Asia/Baghdad",
     flag: "IQ",
@@ -212,7 +244,8 @@ const countryList = [
   {
     country: {
       de: "Israel",
-      en: "Israel"
+      en: "Israel",
+      fr: "Israël"
     },
     zone: "Asia/Jerusalem",
     flag: "IL",
@@ -221,7 +254,8 @@ const countryList = [
   {
     country: {
       de: "Jordanien",
-      en: "Jordan"
+      en: "Jordan",
+      fr: "Jordanie"
     },
     zone: "Asia/Amman",
     flag: "JO",
@@ -230,7 +264,8 @@ const countryList = [
   {
     country: {
       de: "Kuwait",
-      en: "Kuwait"
+      en: "Kuwait",
+      fr: "Koweït"
     },
     zone: "Asia/Kuwait",
     flag: "KW",
@@ -239,7 +274,8 @@ const countryList = [
   {
     country: {
       de: "Libanon",
-      en: "Lebanon"
+      en: "Lebanon",
+      fr: "Liban"
     },
     zone: "Asia/Beirut",
     flag: "LB",
@@ -248,7 +284,8 @@ const countryList = [
   {
     country: {
       de: "Oman",
-      en: "Oman"
+      en: "Oman",
+      fr: "Oman"
     },
     zone: "Asia/Muscat",
     flag: "OM",
@@ -257,13 +294,15 @@ const countryList = [
   {
     country: {
       de: "Palästina",
-      en: "Palestine"
+      en: "Palestine",
+      fr: "Palestine"
     },
     subdiv: [
       {
         title: {
           de: "Gazastreifen",
-          en: "Gaza Strip"
+          en: "Gaza Strip",
+          fr: "Bande de Gaza"
         }
       }
     ],
@@ -274,13 +313,15 @@ const countryList = [
   {
     country: {
       de: "Palästina",
-      en: "Palestine"
+      en: "Palestine",
+      fr: "Palestine"
     },
     subdiv: [
       {
         title: {
           de: "Westjordanland",
-          en: "West Bank"
+          en: "West Bank",
+          fr: "Cisjordanie"
         }
       }
     ],
@@ -291,7 +332,8 @@ const countryList = [
   {
     country: {
       de: "Katar",
-      en: "Qatar"
+      en: "Qatar",
+      fr: "Qatar"
     },
     zone: "Asia/Qatar",
     flag: "QA",
@@ -300,7 +342,8 @@ const countryList = [
   {
     country: {
       de: "Saudi-Arabien",
-      en: "Saudi Arabia"
+      en: "Saudi Arabia",
+      fr: "Arabie saoudite"
     },
     zone: "Asia/Riyadh",
     flag: "SA",
@@ -309,7 +352,8 @@ const countryList = [
   {
     country: {
       de: "Syrien",
-      en: "Syria"
+      en: "Syria",
+      fr: "Syrie"
     },
     zone: "Asia/Damascus",
     flag: "SY",
@@ -318,7 +362,8 @@ const countryList = [
   {
     country: {
       de: "Türkei",
-      en: "Turkey"
+      en: "Turkey",
+      fr: "Turquie"
     },
     zone: "Europe/Istanbul",
     flag: "TR",
@@ -338,7 +383,8 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Arabische Emirate",
-      en: "United Arab Emirates"
+      en: "United Arab Emirates",
+      fr: "Émirats arabes unis"
     },
     zone: "Asia/Dubai",
     flag: "AE",
@@ -347,7 +393,8 @@ const countryList = [
   {
     country: {
       de: "Jemen",
-      en: "Yemen"
+      en: "Yemen",
+      fr: "Yémen"
     },
     zone: "Asia/Aden",
     flag: "YE",

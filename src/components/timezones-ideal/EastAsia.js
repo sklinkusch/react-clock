@@ -4,21 +4,24 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     subdiv: [
       {
         title: "Tibet", 
         extra: {
-          de: "(westlich von 82.5° E)",
-          en: "(west of 82.5° E)"
+          de: "(westlich von 82.5° O)",
+          en: "(west of 82.5° E)",
+          fr: "(ouest de 82.5° E)"
         }
       }, // 14
       {
         title: "Xinjiang", 
         extra: {
-          de: "(westlich von 82.5° E)",
-          en: "(west of 82.5° E)"
+          de: "(westlich von 82.5° O)",
+          en: "(west of 82.5° E)",
+          fr: "(ouest de 82.5° E)"
         }
       }, // 13
     ],
@@ -36,35 +39,40 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     subdiv: [
       {
         title: "Gansu", 
         extra: {
-          de: "(westlich von 97.5° E)",
-          en: "(west of 97.5° E)"
+          de: "(westlich von 97.5° O)",
+          en: "(west of 97.5° E)",
+          fr: "(ouest de 97.5° E)"
         }
       }, // 15
       {
         title: "Qinghai", 
         extra: {
-          de: "(westlich von 97.5° E)",
-          en: "(west of 97.5° E)"
+          de: "(westlich von 97.5° O)",
+          en: "(west of 97.5° E)",
+          fr: "(ouest de 97.5° E)"
         }
       }, // 06
       {
         title: "Tibet", 
         extra: {
-          de: "(östlich von 82.5° E)",
-          en: "(east of 82.5° E)"
+          de: "(östlich von 82.5° O)",
+          en: "(east of 82.5° E)",
+          fr: "(est de 82.5° E)"
         }
       }, // 14
       {
         title: "Xinjiang", 
         extra: {
-          de: "(östlich von 82.5° E)",
-          en: "(east of 82.5° E)"
+          de: "(östlich von 82.5° O)",
+          en: "(east of 82.5° E)",
+          fr: "(est de 82.5° E)"
         }
       }, // 13
     ],
@@ -84,22 +92,25 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     subdiv: [
       {title: "Chongqing"}, // 33
       {
         title: "Gansu", 
         extra: {
-          de: "(östlich von 97.5° E)",
-          en: "(east of 97.5° E)"
+          de: "(östlich von 97.5° O)",
+          en: "(east of 97.5° E)",
+          fr: "(est de 97.5° E)"
         }
       }, // 15
       {
         title: "Guangdong", 
         extra: {
-          de: "(westlich von 112.5° E)",
-          en: "(west of 112.5° E)"
+          de: "(westlich von 112.5° O)",
+          en: "(west of 112.5° E)",
+          fr: "(ouest de 112.5° E)"
         }
       }, // 30
       {title: "Guangxi Zhuang"}, // 16
@@ -108,19 +119,22 @@ const countryList = [
       {
         title: "Hubei", 
         extra: {
-          de: "(westlich von 112.5° E)",
-          en: "(west of 112.5° E)"
+          de: "(westlich von 112.5° O)",
+          en: "(west of 112.5° E)",
+          fr: "(ouest de 112.5° E)"
         }
       }, // 12
       {title: "Hunan"}, // 11
       {
         title: {
           de: "Innere Mongolei",
-          en: "Inner Mongolia"
+          en: "Inner Mongolia",
+          fr: "Mongolie-Intérieure"
         }, 
         extra: {
-          de: "(westlich von 112.5° E)",
-          en: "(west of 112.5° E)"
+          de: "(westlich von 112.5° O)",
+          en: "(west of 112.5° E)",
+          fr: "(ouest de 112.5° E)"
         }
       }, // 20
       {title: "Ningxia"}, // 21
@@ -128,7 +142,8 @@ const countryList = [
         title: "Qinghai", 
         extra: {
           de: "(östlich von 97.5° E)",
-          en: "(east of 97.5° E)"
+          en: "(east of 97.5° E)",
+          fr: "(est de 97.5° E)"
         }
       }, // 06
       {title: "Shaanxi"}, // 26
@@ -163,22 +178,25 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     subdiv: [
       {title: "Anhui"}, // 01
       {
         title: {
           de: "Peking",
-          en: "Beijing"
+          en: "Beijing",
+          fr: "Pékin"
         }
       }, // 22
       {title: "Fujian"}, // 07
       {
         title: "Guangdong", 
         extra: {
-          de: "(östlich von 112.5° E)",
-          en: "(east of 112.5° E)"
+          de: "(östlich von 112.5° O)",
+          en: "(east of 112.5° E)",
+          fr: "(est de 112.5° E)"
         }
       }, // 30
       {title: "Hebei"}, // 10
@@ -186,25 +204,29 @@ const countryList = [
       {
         title: "Hubei", 
         extra: {
-          de: "(östlich von 112.5° E)",
-          en: "(east of 112.5° E)"
+          de: "(östlich von 112.5° O)",
+          en: "(east of 112.5° E)",
+          fr: "(est de 112.5° E)"
         }
       }, // 12
       {
         title: "Heilongjiang", 
         extra: {
-          de: "(westlich von 127.5° E)",
-          en: "(west of 127.5° E)"
+          de: "(westlich von 127.5° O)",
+          en: "(west of 127.5° E)",
+          fr: "(ouest de 127.5° E)"
         }
       }, // 08
       {
         title: {
           de: "Innere Mongolei",
-          en: "Inner Mongolia"
+          en: "Inner Mongolia",
+          fr: "Mongolie-Intérieure"
         }, 
         extra: {
-          de: "(östlich von 112.5° E)",
-          en: "(east of 112.5° E)"
+          de: "(östlich von 112.5° O)",
+          en: "(east of 112.5° E)",
+          fr: "(est de 112.5° E)"
         }
       }, // 20
       {title: "Jiangsu"}, // 04
@@ -212,8 +234,9 @@ const countryList = [
       {
         title: "Jilin", 
         extra: {
-          de: "(westlich von 127.5° E)",
-          en: "(west of 127.5° E)"
+          de: "(westlich von 127.5° O)",
+          en: "(west of 127.5° E)",
+          fr: "(ouest de 127.5° E)"
         }
       }, // 05
       {title: "Liaoning"}, // 19
@@ -221,7 +244,8 @@ const countryList = [
       {
         title: {
           de: "Schanghai",
-          en: "Shanghai"
+          en: "Shanghai",
+          fr: "Shanghai"
         }
       }, // 23
       {title: "Tianjin"}, // 28
@@ -256,21 +280,24 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     subdiv: [
       {
         title: "Heilongjiang", 
         extra: {
-          de: "(östlich von 127.5° E)",
-          en: "(east of 127.5° E)"
+          de: "(östlich von 127.5° O)",
+          en: "(east of 127.5° E)",
+          fr: "(est de 127.5° E)"
         }
       }, // 08
       {
         title: "Jilin", 
         extra: {
-          de: "(östlich von 127.5° E)",
-          en: "(east of 127.5° E)"
+          de: "(östlich von 127.5° O)",
+          en: "(east of 127.5° E)",
+          fr: "(est de 127.5° E)"
         }
       }, // 05
     ],
@@ -288,7 +315,8 @@ const countryList = [
   {
     country: {
       de: "Hongkong (VR China)",
-      en: "Hong Kong (PR of China)"
+      en: "Hong Kong (PR of China)",
+      fr: "Hong Kong (RP de Chine)"
     },
     zone: "Etc/GMT-8",
     flag: "HK",
@@ -297,7 +325,8 @@ const countryList = [
   {
     country: {
       de: "Japan",
-      en: "Japan"
+      en: "Japan",
+      fr: "Japon"
     },
     zone: "Etc/GMT-9",
     flag: "JP",
@@ -306,7 +335,8 @@ const countryList = [
   {
     country: {
       de: "Macau (VR China)",
-      en: "Macau (PR of China)"
+      en: "Macau (PR of China)",
+      fr: "Macao (RP de Chine)"
     },
     zone: "Etc/GMT-8",
     flag: "MO",
@@ -315,7 +345,8 @@ const countryList = [
   {
     country: {
       de: "Mongolei",
-      en: "Mongolia"
+      en: "Mongolia",
+      fr: "Mongolie"
     },
     subdiv: [
       {title: "Bayan-Ölgii"}, // 03
@@ -341,7 +372,8 @@ const countryList = [
   {
     country: {
       de: "Mongolei",
-      en: "Mongolia"
+      en: "Mongolia",
+      fr: "Mongolie"
     },
     subdiv: [
       {title: "Arkhangai"}, // 01
@@ -385,7 +417,8 @@ const countryList = [
   {
     country: {
       de: "Mongolei",
-      en: "Mongolia"
+      en: "Mongolia",
+      fr: "Mongolie"
     },
     subdiv: [
       {title: "Dornod"}, // 06
@@ -405,7 +438,8 @@ const countryList = [
   {
     country: {
       de: "Nordkorea",
-      en: "North Korea"
+      en: "North Korea",
+      fr: "Corée du Nord"
     },
     zone: "Etc/GMT-9",
     flag: "KP",
@@ -414,7 +448,8 @@ const countryList = [
   {
     country: {
       de: "Südkorea",
-      en: "South Korea"
+      en: "South Korea",
+      fr: "Corée du Sud"
     },
     zone: "Etc/GMT-9",
     flag: "KR",
@@ -423,7 +458,8 @@ const countryList = [
   {
     country: {
       de: "Taiwan",
-      en: "Taiwan"
+      en: "Taiwan",
+      fr: "Taïwan"
     },
     zone: "Etc/GMT-8",
     flag: "TW",

@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Brunei",
-      en: "Brunei"
+      en: "Brunei",
+      fr: "Brunei"
     },
     zone: "Etc/GMT-8",
     flag: "BN",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Kambodscha",
-      en: "Cambodia"
+      en: "Cambodia",
+      fr: "Cambodge"
     },
     zone: "Etc/GMT-7",
     flag: "KH",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Weihnachtsinsel (Australien)",
-      en: "Christmas Island (Australia)"
+      en: "Christmas Island (Australia)",
+      fr: "Île Christmas (Australie)"
     },
     zone: "Etc/GMT-7",
     flag: "CX",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Laos",
-      en: "Laos"
+      en: "Laos",
+      fr: "Laos"
     },
     zone: "Etc/GMT-7",
     flag: "LA",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Malaysia",
-      en: "Malaysia"
+      en: "Malaysia",
+      fr: "Malaisie"
     },
     subdiv: [
       {title: "Johor"}, // 01
@@ -86,7 +91,8 @@ const countryList = [
   {
     country: {
       de: "Malaysia",
-      en: "Malaysia"
+      en: "Malaysia",
+      fr: "Malaisie"
     },
     subdiv: [
       {title: "Labuan"}, // 15
@@ -112,7 +118,8 @@ const countryList = [
   {
     country: {
       de: "Philippinen",
-      en: "Philippines"
+      en: "Philippines",
+      fr: "Philippines"
     },
     zone: "Etc/GMT-8",
     flag: "PH",
@@ -121,7 +128,8 @@ const countryList = [
   {
     country: {
       de: "Singapur",
-      en: "Singapore"
+      en: "Singapore",
+      fr: "Singapour"
     },
     zone: "Etc/GMT-7",
     flag: "SG",
@@ -130,7 +138,8 @@ const countryList = [
   {
     country: {
       de: "Thailand",
-      en: "Thailand"
+      en: "Thailand",
+      fr: "Thaïlande"
     },
     zone: "Etc/GMT-7",
     flag: "TH",
@@ -139,7 +148,8 @@ const countryList = [
   {
     country: {
       de: "Osttimor",
-      en: "Timor-Leste"
+      en: "Timor-Leste",
+      fr: "Timor oriental"
     },
     zone: "Etc/GMT-8",
     flag: "TL",
@@ -148,7 +158,8 @@ const countryList = [
   {
     country: {
       de: "Vietnam",
-      en: "Vietnam"
+      en: "Vietnam",
+      fr: "Viêt Nam"
     },
     zone: "Etc/GMT-7",
     flag: "VN",

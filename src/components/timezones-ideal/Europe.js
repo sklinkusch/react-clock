@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Åland (Finnland)",
-      en: "Åland (Finland)"
+      en: "Åland (Finland)",
+      fr: "Åland (Finlande)"
     },
     zone: "Etc/GMT-2",
     flag: "AX",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Albanien",
-      en: "Albania"
+      en: "Albania",
+      fr: "Albanie"
     },
     zone: "Etc/GMT-1",
     flag: "AL",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Andorra",
-      en: "Andorra"
+      en: "Andorra",
+      fr: "Andorre"
     },
     zone: "Etc/GMT+0",
     flag: "AD",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Österreich",
-      en: "Austria"
+      en: "Austria",
+      fr: "Autriche"
     },
     zone: "Etc/GMT-1",
     flag: "AT",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Belarus",
-      en: "Belarus"
+      en: "Belarus",
+      fr: "Bélarus"
     },
     zone: "Etc/GMT-2",
     flag: "BY",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Belgien",
-      en: "Belgium"
+      en: "Belgium",
+      fr: "Belgique"
     },
     zone: "Etc/GMT+0",
     flag: "BE",
@@ -58,7 +64,8 @@ const countryList = [
   {
     country: {
       de: "Bosnien und Herzegowina",
-      en: "Bosnia and Herzegovina"
+      en: "Bosnia and Herzegovina",
+      fr: "Bosnie et Herzégovine"
     },
     zone: "Etc/GMT-1",
     flag: "BA",
@@ -67,7 +74,8 @@ const countryList = [
   {
     country: {
       de: "Bulgarien",
-      en: "Bulgaria"
+      en: "Bulgaria",
+      fr: "Bulgarie"
     },
     zone: "Etc/GMT-2",
     flag: "BG",
@@ -76,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Kroatien",
-      en: "Croatia"
+      en: "Croatia",
+      fr: "Croatie"
     },
     zone: "Etc/GMT-1",
     flag: "HR",
@@ -85,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Zypern",
-      en: "Cyprus"
+      en: "Cyprus",
+      fr: "Chypre"
     },
     zone: "Etc/GMT-2",
     flag: "CY",
@@ -94,7 +104,8 @@ const countryList = [
   {
     country: {
       de: "Tschechien",
-      en: "Czechia"
+      en: "Czechia",
+      fr: "Tchéquie"
     },
     zone: "Etc/GMT-1",
     flag: "CZ",
@@ -103,7 +114,8 @@ const countryList = [
   {
     country: {
       de: "Dänemark",
-      en: "Denmark"
+      en: "Denmark",
+      fr: "Danemark"
     },
     zone: "Etc/GMT-1",
     flag: "DK",
@@ -112,7 +124,8 @@ const countryList = [
   {
     country: {
       de: "Estland",
-      en: "Estonia"
+      en: "Estonia",
+      fr: "Estonie"
     },
     zone: "Etc/GMT-2",
     flag: "EE",
@@ -121,7 +134,8 @@ const countryList = [
   {
     country: {
       de: "Färöer (Dänemark)",
-      en: "Faroe Islands (Denmark)"
+      en: "Faroe Islands (Denmark)",
+      fr: "Îles Féroé (Danemark)"
     },
     zone: "Etc/GMT+0",
     flag: "FO",
@@ -130,7 +144,8 @@ const countryList = [
   {
     country: {
       de: "Finnland",
-      en: "Finland"
+      en: "Finland",
+      fr: "Finlande"
     },
     zone: "Etc/GMT-2",
     flag: "FI",
@@ -139,7 +154,8 @@ const countryList = [
   {
     country: {
       de: "Frankreich",
-      en: "France"
+      en: "France",
+      fr: "France"
     },
     zone: "Etc/GMT+0",
     flag: "FR",
@@ -148,7 +164,8 @@ const countryList = [
   {
     country: {
       de: "Deutschland",
-      en: "Germany"
+      en: "Germany",
+      fr: "Allemagne"
     },
     zone: "Etc/GMT-1",
     flag: "DE",
@@ -157,7 +174,8 @@ const countryList = [
   {
     country: {
       de: "Gibraltar (Vereinigtes Königreich)",
-      en: "Gibraltar (United Kingdom)"
+      en: "Gibraltar (United Kingdom)",
+      fr: "Gibraltar (Royaume-Uni)"
     },
     zone: "Etc/GMT+0",
     flag: "GI",
@@ -166,37 +184,43 @@ const countryList = [
   {
     country: {
       de: "Griechenland",
-      en: "Greece"
+      en: "Greece",
+      fr: "Grèce"
     },
     subdiv: [
       {
         title: {
           de: "Epirus",
-          en: "Epirus"
+          en: "Epirus",
+          fr: "Épire"
         }
       }, // ESYE21
       {
         title: {
           de: "Westmakedonien",
-          en: "Western Macedonia"
+          en: "Western Macedonia",
+          fr: "Macédoine-Occidentale"
         }
       }, // ESYE13
       {
         title: {
           de: "Peloponnes",
-          en: "Peloponnese"
+          en: "Peloponnese",
+          fr: "Péloponnèse"
         }
       }, // ESYE25
       {
         title: {
           de: "Westgriechenland",
-          en: "Western Greece"
+          en: "Western Greece",
+          fr: "Grèce-Occidentale"
         }
       }, // ESYE23
       {
         title: {
           de: "Ionische Inseln",
-          en: "Ionian"
+          en: "Ionian",
+          fr: "Îles Ioniennes"
         }
       }, // ESYE22
     ],
@@ -217,55 +241,64 @@ const countryList = [
   {
     country: {
       de: "Griechenland",
-      en: "Greece"
+      en: "Greece",
+      fr: "Grèce"
     },
     subdiv: [
       {
         title: {
           de: "Nördliche Ägäis",
-          en: "Northern Aegean"
+          en: "Northern Aegean",
+          fr: "Égée-Septentrionale"
         }
       }, // ESYE41
       {
         title: {
           de: "Südliche Ägäis",
-          en: "Southern Aegean"
+          en: "Southern Aegean",
+          fr: "Égée-Méridionale"
         }
       }, // ESYE42
       {
         title: {
           de: "Attika",
-          en: "Attica"
+          en: "Attica",
+          fr: "Attique"
         }
       }, // ESYE31
       {
         title: {
           de: "Kreta",
-          en: "Crete"
+          en: "Crete",
+          fr: "Crète"
         }
       }, // ESYE43
       {
         title: {
           de: "Ostmakedonien und Thrakien",
-          en: "Eastern Macedonia and Thrace"
+          en: "Eastern Macedonia and Thrace",
+          fr: "Macédoine-Orientale-et-Thrace"
         }
       }, // ESYE11
       {
         title: {
           de: "Zentralmakedonien",
-          en: "Central Macedonia"
+          en: "Central Macedonia",
+          fr: "Macédoine-Centrale"
         }
       }, // ESYE12
       {
         title: {
           de: "Thessalien",
-          en: "Thessaly"
+          en: "Thessaly",
+          fr: "Thessalie"
         }
       }, // ESYE14
       {
         title: {
           de: "Mittelgriechenland",
-          en: "Central Greece"
+          en: "Central Greece",
+          fr: "Grèce-Centrale"
         }
       }, // ESYE24
     ],
@@ -289,7 +322,8 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {title: "Danmarkshavn"}
@@ -301,7 +335,8 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {title: "Ittoqqortoormit"}, 
@@ -314,7 +349,8 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {title: "Thule"}, 
@@ -327,13 +363,15 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {
         title: {
           de: "Westgrönland",
-          en: "Western Greenland"
+          en: "Western Greenland",
+          fr: "Groenland-Occidental"
         }
       }
     ],
@@ -344,7 +382,8 @@ const countryList = [
   {
     country: {
       de: "Guernsey (Vereinigtes Königreich)",
-      en: "Guernsey (United Kingdom)"
+      en: "Guernsey (United Kingdom)",
+      fr: "Guernesey (Royaume-Uni)"
     },
     zone: "Etc/GMT+0",
     flag: "GG",
@@ -353,7 +392,8 @@ const countryList = [
   {
     country: {
       de: "Ungarn",
-      en: "Hungary"
+      en: "Hungary",
+      fr: "Hongrie"
     },
     zone: "Etc/GMT-1",
     flag: "HU",
@@ -362,7 +402,8 @@ const countryList = [
   {
     country: {
       de: "Island",
-      en: "Iceland"
+      en: "Iceland",
+      fr: "Islande"
     },
     zone: "Etc/GMT+1",
     flag: "IS",
@@ -371,7 +412,8 @@ const countryList = [
   {
     country: {
       de: "Irland",
-      en: "Ireland"
+      en: "Ireland",
+      fr: "Irlande"
     },
     zone: "Etc/GMT+1",
     flag: "IE",
@@ -380,7 +422,8 @@ const countryList = [
   {
     country: {
       de: "Isle of Man (Vereinigtes Königreich)",
-      en: "Isle of Man (United Kingdom)"
+      en: "Isle of Man (United Kingdom)",
+      fr: "Île de Man (Royaume-Uni)"
     },
     zone: "Etc/GMT+0",
     flag: "IM",
@@ -389,7 +432,8 @@ const countryList = [
   {
     country: {
       de: "Italien",
-      en: "Italy"
+      en: "Italy",
+      fr: "Italie"
     },
     zone: "Etc/GMT-1",
     flag: "IT",
@@ -398,7 +442,8 @@ const countryList = [
   {
     country: {
       de: "Jersey (Vereinigtes Königreich)",
-      en: "Jersey (United Kingdom)"
+      en: "Jersey (United Kingdom)",
+      fr: "Jersey (Royaume-Uni)"
     },
     zone: "Etc/GMT+0",
     flag: "JE",
@@ -407,7 +452,8 @@ const countryList = [
   {
     country: {
       de: "Kosovo",
-      en: "Kosovo"
+      en: "Kosovo",
+      fr: "Kosovo"
     },
     zone: "Etc/GMT-1",  // no explicit timezone for Kosovo/Pristina
     flag: "XK",
@@ -416,7 +462,8 @@ const countryList = [
   {
     country: {
       de: "Lettland",
-      en: "Latvia"
+      en: "Latvia",
+      fr: "Lettonie"
     },
     zone: "Etc/GMT-2",
     flag: "LV",
@@ -425,7 +472,8 @@ const countryList = [
   {
     country: {
       de: "Liechtenstein",
-      en: "Liechtenstein"
+      en: "Liechtenstein",
+      fr: "Liechtenstein"
     },
     zone: "Etc/GMT-1",
     flag: "LI",
@@ -434,7 +482,8 @@ const countryList = [
   {
     country: {
       de: "Litauen",
-      en: "Lithuania"
+      en: "Lithuania",
+      fr: "Lituanie"
     },
     zone: "Etc/GMT-2",
     flag: "LT",
@@ -443,7 +492,8 @@ const countryList = [
   {
     country: {
       de: "Luxemburg",
-      en: "Luxembourg"
+      en: "Luxembourg",
+      fr: "Luxembourg"
     },
     zone: "Etc/GMT+0",
     flag: "LU",
@@ -452,7 +502,8 @@ const countryList = [
   {
     country: {
       de: "Malta",
-      en: "Malta"
+      en: "Malta",
+      fr: "Malte"
     },
     zone: "Etc/GMT-1",
     flag: "MT",
@@ -461,7 +512,8 @@ const countryList = [
   {
     country: {
       de: "Moldau",
-      en: "Moldova"
+      en: "Moldova",
+      fr: "Moldavie"
     },
     zone: "Etc/GMT-2",
     flag: "MD",
@@ -470,7 +522,8 @@ const countryList = [
   {
     country: {
       de: "Monaco",
-      en: "Monaco"
+      en: "Monaco",
+      fr: "Monaco"
     },
     zone: "Etc/GMT+0",
     flag: "MC",
@@ -479,7 +532,8 @@ const countryList = [
   {
     country: {
       de: "Montenegro",
-      en: "Montenegro"
+      en: "Montenegro",
+      fr: "Monténégro"
     },
     zone: "Etc/GMT-1",
     flag: "ME",
@@ -488,7 +542,8 @@ const countryList = [
   {
     country: {
       de: "Niederlande",
-      en: "Netherlands"
+      en: "Netherlands",
+      fr: "Pays-Bas"
     },
     zone: "Etc/GMT+0",
     flag: "NL",
@@ -497,7 +552,8 @@ const countryList = [
   {
     country: {
       de: "Nordmazedonien",
-      en: "North Macedonia"
+      en: "North Macedonia",
+      fr: "Macédoine du Nord"
     },
     zone: "Etc/GMT-1",
     flag: "MK",
@@ -506,7 +562,8 @@ const countryList = [
   {
     country: {
       de: "Norwegen",
-      en: "Norway"
+      en: "Norway",
+      fr: "Norvège"
     },
     subdiv: [
       {title: "Agder"},
@@ -528,7 +585,8 @@ const countryList = [
   {
     country: {
       de: "Norwegen",
-      en: "Norway"
+      en: "Norway",
+      fr: "Norvège"
     },
     subdiv: [
       {title: "Jan Mayen"}
@@ -540,7 +598,8 @@ const countryList = [
   {
     country: {
       de: "Norwegen",
-      en: "Norway"
+      en: "Norway",
+      fr: "Norvège"
     },
     subdiv: [
       {title: "Svalbard"}
@@ -552,7 +611,8 @@ const countryList = [
   {
     country: {
       de: "Polen",
-      en: "Poland"
+      en: "Poland",
+      fr: "Pologne"
     },
     zone: "Etc/GMT-1",
     flag: "PL",
@@ -561,7 +621,8 @@ const countryList = [
   {
     country: {
       de: "Portugal",
-      en: "Portugal"
+      en: "Portugal",
+      fr: "Portugal"
     },
     subdiv: [
       {title: "Aveiro"}, // 02
@@ -577,7 +638,8 @@ const countryList = [
       {
         title: {
           de: "Lissabon",
-          en: "Lisbon"
+          en: "Lisbon",
+          fr: "Lisbonne"
         }
       }, // 14
       {title: "Portalegre"}, // 16
@@ -618,10 +680,17 @@ const countryList = [
   {
     country: {
       de: "Portugal",
-      en: "Portugal"
+      en: "Portugal",
+      fr: "Portugal"
     },
     subdiv: [
-      {title: "Madeira"} // 10
+      {
+        title: {
+          de: "Madeira",
+          en: "Madeira",
+          fr: "Madère"
+        }
+      } // 10
     ],
     zone: "Etc/GMT+1",
     flag: "PT",
@@ -636,7 +705,8 @@ const countryList = [
       {
         title: {
           de: "Azoren",
-          en: "Azores"
+          en: "Azores",
+          fr: "Açores"
         }
       } // 23
     ],
@@ -647,7 +717,8 @@ const countryList = [
   {
     country: {
       de: "Rumänien",
-      en: "Romania"
+      en: "Romania",
+      fr: "Roumanie"
     },
     zone: "Etc/GMT-2",
     flag: "RO",
@@ -656,7 +727,8 @@ const countryList = [
   {
     country: {
       de: "San Marino",
-      en: "San Marino"
+      en: "San Marino",
+      fr: "Saint-Marin"
     },
     zone: "Etc/GMT-1",
     flag: "SM",
@@ -665,7 +737,8 @@ const countryList = [
   {
     country: {
       de: "Serbien",
-      en: "Serbia"
+      en: "Serbia",
+      fr: "Serbie"
     },
     zone: "Etc/GMT-1",
     flag: "RS",
@@ -674,7 +747,8 @@ const countryList = [
   {
     country: {
       de: "Slowakei",
-      en: "Slovakia"
+      en: "Slovakia",
+      fr: "Slovaquie"
     },
     zone: "Etc/GMT-1",
     flag: "SK",
@@ -683,7 +757,8 @@ const countryList = [
   {
     country: {
       de: "Slowenien",
-      en: "Slovenia"
+      en: "Slovenia",
+      fr: "Slovénie"
     },
     zone: "Etc/GMT-1",
     flag: "SI",
@@ -692,83 +767,108 @@ const countryList = [
   {
     country: {
       de: "Spanien",
-      en: "Spain"
+      en: "Spain",
+      fr: "Espagne"
     },
     subdiv: [
       {
         title: {
           de: "Andalusien",
-          en: "Andalusia"
+          en: "Andalusia",
+          fr: "Andalousie"
         }
       }, // 51
       {title: "Aragón"}, // 52
       {
         title: {
           de: "Asturien",
-          en: "Asturias"
+          en: "Asturias",
+          fr: "Asturies"
         }
       }, // 34
       {
         title: {
           de: "Kantabrien",
-          en: "Cantabria"
+          en: "Cantabria",
+          fr: "Cantabrie"
         }
       }, // 39
       {
         title: {
           de: "Kastilien und León",
-          en: "Castile and León"
+          en: "Castile and León",
+          fr: "Castille-et-León"
         }
       }, // 55
       {
         title: {
           de: "Kastilien-La Mancha",
-          en: "Castilla-La Mancha"
+          en: "Castilla-La Mancha",
+          fr: "Castille-La Manche"
         }
       }, // 54
       {
         title: {
           de: "Katalonien",
-          en: "Catalonia"
+          en: "Catalonia",
+          fr: "Catalogne"
         }
       }, // 56
-      {title: "Extremadura"}, // 57
+      {
+        title: {
+          de: "Extremadura",
+          en: "Extremadura",
+          fr: "Extrémadure"
+        }
+      }, // 57
       {
         title: {
           de: "Galicien",
-          en: "Galicia"
+          en: "Galicia",
+          fr: "Galice"
         }
       }, // 58
       {
         title: {
           de: "Balearische Inseln",
-          en: "Balearic Islands"
+          en: "Balearic Islands",
+          fr: "Îles Baléares"
         }
       }, // 07
-      {title: "Murcia"}, // 31
+      {
+        title: {
+          de: "Murcia",
+          en: "Murcia",
+          fr: "Murcie"
+        }
+      }, // 31
       {
         title: {
           de: "Autonome Gemeinschaft Madrid",
-          en: "Community of Madrid"
+          en: "Community of Madrid",
+          fr: "Communauté de Madrid"
         }
       }, // 29
       {
         title: {
           de: "Navarra",
-          en: "Navarre"
+          en: "Navarre",
+          fr: "Navarre"
         }
       }, // 32
       {
         title: {
           de: "Baskenland",
-          en: "Basque Country"
+          en: "Basque Country",
+          fr: "Pays Basque"
         }
       }, // 59
       {title: "La Rioja"}, // 27
       {
         title: {
           de: "Valencianische Gemeinschaft",
-          en: "Valencian Community"
+          en: "Valencian Community",
+          fr: "Communauté valencienne"
         }
       }, // 60
     ],
@@ -800,13 +900,15 @@ const countryList = [
   {
     country: {
       de: "Spanien",
-      en: "Spain"
+      en: "Spain",
+      fr: "Espagne"
     },
     subdiv: [
       {
         title: {
           de: "Kanarische Inseln",
-          en: "Canary Islands"
+          en: "Canary Islands",
+          fr: "Îles Canaries"
         }
       } // 53
     ],
@@ -817,7 +919,8 @@ const countryList = [
   {
     country: {
       de: "Schweden",
-      en: "Sweden"
+      en: "Sweden",
+      fr: "Suède"
     },
     zone: "Etc/GMT-1",
     flag: "SE",
@@ -826,7 +929,8 @@ const countryList = [
   {
     country: {
       de: "Schweiz",
-      en: "Switzerland"
+      en: "Switzerland",
+      fr: "Suisse"
     },
     zone: "Etc/GMT-1",
     flag: "CH",
@@ -835,25 +939,29 @@ const countryList = [
   {
     country: {
       de: "Vereinigtes Königreich",
-      en: "United Kingdom"
+      en: "United Kingdom",
+      fr: "Royaume-Uni"
     },
     subdiv: [
       {
         title: {
           de: "England",
-          en: "England"
+          en: "England",
+          fr: "Angleterre"
         }
       }, // ENG
       {
         title: {
           de: "Schottland",
-          en: "Scotland"
+          en: "Scotland",
+          fr: "Écosse"
         }
       }, // SCT
       {
         title: {
           de: "Wales",
-          en: "Wales"
+          en: "Wales",
+          fr: "Pays de Galles"
         }
       } // WLS
     ],
@@ -872,13 +980,15 @@ const countryList = [
   {
     country: {
       de: "Vereinigtes Königreich",
-      en: "United Kingdom"
+      en: "United Kingdom",
+      fr: "Royaume-Uni"
     },
     subdiv: [
       {
         title: {
           de: "Nordirland",
-          en: "Northern Ireland"
+          en: "Northern Ireland",
+          fr: "Irlande du Nord"
         }
       } // NIR
     ],
@@ -889,7 +999,8 @@ const countryList = [
   {
     country: {
       de: "Ukraine",
-      en: "Ukraine"
+      en: "Ukraine",
+      fr: "Ukraine"
     },
     zone: "Etc/GMT-2",
     flag: "UA",
@@ -898,7 +1009,8 @@ const countryList = [
   {
     country: {
       de: "Vatikanstadt",
-      en: "Vatican City"
+      en: "Vatican City",
+      fr: "Vatican"
     },
     zone: "Etc/GMT-1",
     flag: "VA",

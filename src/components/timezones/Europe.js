@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Åland (Finnland)",
-      en: "Åland (Finland)"
+      en: "Åland (Finland)",
+      fr: "Åland (Finlande)"
     },
     zone: "Europe/Mariehamn",
     flag: "AX",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Albanien",
-      en: "Albania"
+      en: "Albania",
+      fr: "Albanie"
     },
     zone: "Europe/Tirane",
     flag: "AL",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Andorra",
-      en: "Andorra"
+      en: "Andorra",
+      fr: "Andorre"
     },
     zone: "Europe/Andorra",
     flag: "AD",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Österreich",
-      en: "Austria"
+      en: "Austria",
+      fr: "Autriche"
     },
     zone: "Europe/Vienna",
     flag: "AT",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Belarus",
-      en: "Belarus"
+      en: "Belarus",
+      fr: "Bélarus"
     },
     zone: "Europe/Minsk",
     flag: "BY",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Belgien",
-      en: "Belgium"
+      en: "Belgium",
+      fr: "Belgique"
     },
     zone: "Europe/Brussels",
     flag: "BE",
@@ -58,7 +64,8 @@ const countryList = [
   {
     country: {
       de: "Bosnien und Herzegowina",
-      en: "Bosnia and Herzegovina"
+      en: "Bosnia and Herzegovina",
+      fr: "Bosnie et Herzégovine"
     },
     zone: "Europe/Sarajevo",
     flag: "BA",
@@ -67,7 +74,8 @@ const countryList = [
   {
     country: {
       de: "Bulgarien",
-      en: "Bulgaria"
+      en: "Bulgaria",
+      fr: "Bulgarie"
     },
     zone: "Europe/Sofia",
     flag: "BG",
@@ -76,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Kroatien",
-      en: "Croatia"
+      en: "Croatia",
+      fr: "Croatie"
     },
     zone: "Europe/Zagreb",
     flag: "HR",
@@ -85,13 +94,15 @@ const countryList = [
   {
     country: {
       de: "Zypern",
-      en: "Cyprus"
+      en: "Cyprus",
+      fr: "Chypre"
     },
     subdiv: [
       {
         title: {
           de: "Republik Zypern",
-          en: "Republic of Cyprus"
+          en: "Republic of Cyprus",
+          fr: "République de Chypre"
         }
       }
     ],
@@ -108,7 +119,8 @@ const countryList = [
       {
         title: {
           de: "Türkische Republik Nordzypern",
-          en: "Turkish Republic of Northern Cyprus"
+          en: "Turkish Republic of Northern Cyprus",
+          fr: "République turque de Chypre du Nord"
         }
       }
     ],
@@ -119,7 +131,8 @@ const countryList = [
   {
     country: {
       de: "Tschechien",
-      en: "Czechia"
+      en: "Czechia",
+      fr: "Tchéquie"
     },
     zone: "Europe/Prague",
     flag: "CZ",
@@ -128,7 +141,8 @@ const countryList = [
   {
     country: {
       de: "Dänemark",
-      en: "Denmark"
+      en: "Denmark",
+      fr: "Danemark"
     },
     subdiv: [
       {title: "Hovedstaden"},
@@ -144,7 +158,8 @@ const countryList = [
   {
     country: {
       de: "Estland",
-      en: "Estonia"
+      en: "Estonia",
+      fr: "Estonie"
     },
     zone: "Europe/Tallinn",
     flag: "EE",
@@ -153,7 +168,8 @@ const countryList = [
   {
     country: {
       de: "Färöer (Dänemark)",
-      en: "Faroe Islands (Denmark)"
+      en: "Faroe Islands (Denmark)",
+      fr: "Îles Féroé (Danemark)"
     },
     zone: "Atlantic/Faroe",
     flag: "FO",
@@ -162,7 +178,8 @@ const countryList = [
   {
     country: {
       de: "Finnland",
-      en: "Finland"
+      en: "Finland",
+      fr: "Finlande"
     },
     zone: "Europe/Helsinki",
     flag: "FI",
@@ -171,7 +188,8 @@ const countryList = [
   {
     country: {
       de: "Frankreich",
-      en: "France"
+      en: "France",
+      fr: "France"
     },
     subdiv: [
       {title: "Auvergne-Rhône-Alpes"},
@@ -195,7 +213,8 @@ const countryList = [
   {
     country: {
       de: "Deutschland",
-      en: "Germany"
+      en: "Germany",
+      fr: "Allemagne"
     },
     zone: "Europe/Berlin",
     flag: "DE",
@@ -204,7 +223,8 @@ const countryList = [
   {
     country: {
       de: "Gibraltar (Vereinigtes Königreich)",
-      en: "Gibraltar (United Kingdom)"
+      en: "Gibraltar (United Kingdom)",
+      fr: "Gibraltar (Royaume-Uni)"
     },
     zone: "Europe/Gibraltar",
     flag: "GI",
@@ -213,7 +233,8 @@ const countryList = [
   {
     country: {
       de: "Griechenland",
-      en: "Greece"
+      en: "Greece",
+      fr: "Grèce"
     },
     zone: "Europe/Athens",
     flag: "GR",
@@ -222,7 +243,8 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {title: "Danmarkshavn"}
@@ -234,7 +256,8 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {title: "Ittoqqortoormit"}, 
@@ -247,7 +270,8 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {title: "Thule"}, 
@@ -260,13 +284,15 @@ const countryList = [
   {
     country: {
       de: "Grönland (Dänemark)",
-      en: "Greenland (Denmark)"
+      en: "Greenland (Denmark)",
+      fr: "Groenland (Danemark)"
     },
     subdiv: [
       {
         title: {
           de: "Westgrönland",
-          en: "Western Greenland"
+          en: "Western Greenland",
+          fr: "Groenland-Occidentale"
         }
       }
     ],
@@ -277,7 +303,8 @@ const countryList = [
   {
     country: {
       de: "Guernsey (Vereinigtes Königreich)",
-      en: "Guernsey (United Kingdom)"
+      en: "Guernsey (United Kingdom)",
+      fr: "Guernesey (Royaume-Uni)"
     },
     zone: "Europe/Guernsey",
     flag: "GG",
@@ -286,7 +313,8 @@ const countryList = [
   {
     country: {
       de: "Ungarn",
-      en: "Hungary"
+      en: "Hungary",
+      fr: "Hongrie"
     },
     zone: "Europe/Budapest",
     flag: "HU",
@@ -295,7 +323,8 @@ const countryList = [
   {
     country: {
       de: "Island",
-      en: "Iceland"
+      en: "Iceland",
+      fr: "Islande"
     },
     zone: "Atlantic/Reykjavik",
     flag: "IS",
@@ -304,7 +333,8 @@ const countryList = [
   {
     country: {
       de: "Irland",
-      en: "Ireland"
+      en: "Ireland",
+      fr: "Irlande"
     },
     zone: "Europe/Dublin",
     flag: "IE",
@@ -313,7 +343,8 @@ const countryList = [
   {
     country: {
       de: "Isle of Man (Vereinigtes Königreich)",
-      en: "Isle of Man (United Kingdom)"
+      en: "Isle of Man (United Kingdom)",
+      fr: "Île de Man (Royaume-Uni)"
     },
     zone: "Europe/Isle_of_Man",
     flag: "IM",
@@ -322,7 +353,8 @@ const countryList = [
   {
     country: {
       de: "Italien",
-      en: "Italy"
+      en: "Italy",
+      fr: "Italie"
     },
     zone: "Europe/Rome",
     flag: "IT",
@@ -331,7 +363,8 @@ const countryList = [
   {
     country: {
       de: "Jersey (Vereinigtes Königreich)",
-      en: "Jersey (United Kingdom)"
+      en: "Jersey (United Kingdom)",
+      fr: "Jersey (Royaume-Uni)"
     },
     zone: "Europe/Jersey",
     flag: "JE",
@@ -340,7 +373,8 @@ const countryList = [
   {
     country: {
       de: "Kosovo",
-      en: "Kosovo"
+      en: "Kosovo",
+      fr: "Kosovo"
     },
     zone: "Europe/Belgrade",  // no explicit timezone for Kosovo/Pristina
     flag: "XK",
@@ -349,7 +383,8 @@ const countryList = [
   {
     country: {
       de: "Lettland",
-      en: "Latvia"
+      en: "Latvia",
+      fr: "Lettonie"
     },
     zone: "Europe/Riga",
     flag: "LV",
@@ -358,7 +393,8 @@ const countryList = [
   {
     country: {
       de: "Liechtenstein",
-      en: "Liechtenstein"
+      en: "Liechtenstein",
+      fr: "Liechtenstein"
     },
     zone: "Europe/Vaduz",
     flag: "LI",
@@ -367,7 +403,8 @@ const countryList = [
   {
     country: {
       de: "Litauen",
-      en: "Lithuania"
+      en: "Lithuania",
+      fr: "Lituanie"
     },
     zone: "Europe/Vilnius",
     flag: "LT",
@@ -376,7 +413,8 @@ const countryList = [
   {
     country: {
       de: "Luxemburg",
-      en: "Luxembourg"
+      en: "Luxembourg",
+      fr: "Luxembourg"
     },
     zone: "Europe/Luxembourg",
     flag: "LU",
@@ -385,7 +423,8 @@ const countryList = [
   {
     country: {
       de: "Malta",
-      en: "Malta"
+      en: "Malta",
+      fr: "Malte"
     },
     zone: "Europe/Malta",
     flag: "MT",
@@ -394,7 +433,8 @@ const countryList = [
   {
     country: {
       de: "Moldau",
-      en: "Moldova"
+      en: "Moldova",
+      fr: "Moldavie"
     },
     subdiv: [
       {title: "Bălți"}, 
@@ -408,21 +448,24 @@ const countryList = [
   {
     country: {
       de: "Moldau",
-      en: "Moldova"
+      en: "Moldova",
+      fr: "Moldavie"
     },
     subdiv: [
       {
         title: "Bender", 
         extra: {
           de: "(unter russischer/transnistrischer Kontrolle)",
-          en: "(controlled by Russia/Transnistria)"
+          en: "(controlled by Russia/Transnistria)",
+          fr: "(controllé par la Russie/Transnistrie)"
         }
       }, 
       {
         title: "Tiraspol", 
         extra: {
           de: "(unter russischer/transnistrischer Kontrolle)",
-          en: "(controlled by Russia/Transnistria)"
+          en: "(controlled by Russia/Transnistria)",
+          fr: "(controllé par la Russie/Transnistrie)"
         }
       }
     ],
@@ -433,7 +476,8 @@ const countryList = [
   {
     country: {
       de: "Monaco",
-      en: "Monaco"
+      en: "Monaco",
+      fr: "Monaco"
     },
     zone: "Europe/Monaco",
     flag: "MC",
@@ -442,7 +486,8 @@ const countryList = [
   {
     country: {
       de: "Montenegro",
-      en: "Montenegro"
+      en: "Montenegro",
+      fr: "Monténégro"
     },
     zone: "Europe/Podgorica",
     flag: "ME",
@@ -451,7 +496,8 @@ const countryList = [
   {
     country: {
       de: "Niederlande",
-      en: "Netherlands"
+      en: "Netherlands",
+      fr: "Pays-Bas"
     },
     zone: "Europe/Amsterdam",
     flag: "NL",
@@ -460,7 +506,8 @@ const countryList = [
   {
     country: {
       de: "Nordmazedonien",
-      en: "North Macedonia"
+      en: "North Macedonia",
+      fr: "Macédoine du Nord"
     },
     zone: "Europe/Skopje",
     flag: "MK",
@@ -469,7 +516,8 @@ const countryList = [
   {
     country: {
       de: "Norwegen",
-      en: "Norway"
+      en: "Norway",
+      fr: "Norvège"
     },
     subdiv: [
       {title: "Agder"},
@@ -491,7 +539,8 @@ const countryList = [
   {
     country: {
       de: "Norwegen",
-      en: "Norway"
+      en: "Norway",
+      fr: "Norvège"
     },
     subdiv: [
       {title: "Jan Mayen"}
@@ -503,7 +552,8 @@ const countryList = [
   {
     country: {
       de: "Norwegen",
-      en: "Norway"
+      en: "Norway",
+      fr: "Norvège"
     },
     subdiv: [
       {title: "Svalbard"}
@@ -515,7 +565,8 @@ const countryList = [
   {
     country: {
       de: "Polen",
-      en: "Poland"
+      en: "Poland",
+      fr: "Pologne"
     },
     zone: "Europe/Warsaw",
     flag: "PL",
@@ -524,13 +575,15 @@ const countryList = [
   {
     country: {
       de: "Portugal",
-      en: "Portugal"
+      en: "Portugal",
+      fr: "Portugal"
     },
     subdiv: [
       {
         title: {
           de: "Region Alentejo",
-          en: "Alentejo Region"
+          en: "Alentejo Region",
+          fr: "Alentejo"
         }
       },
       {
@@ -539,19 +592,22 @@ const countryList = [
       {
         title: {
           de: "Zentralportugal",
-          en: "Central Portugal"
+          en: "Central Portugal",
+          fr: "Centre"
         }
       },
       {
         title: {
           de: "Metropolregion Lissabon",
-          en: "Lisbon Region"
+          en: "Lisbon Region",
+          fr: "Lisbonne"
         }
       },
       {
         title: {
           de: "Nordportugal",
-          en: "Northern Portugal"
+          en: "Northern Portugal",
+          fr: "Nord"
         }
       },
     ],
@@ -562,10 +618,17 @@ const countryList = [
   {
     country: {
       de: "Portugal",
-      en: "Portugal"
+      en: "Portugal",
+      fr: "Portugal"
     },
     subdiv: [
-      {title: "Madeira"}
+      {
+        title: {
+          de: "Madeira",
+          en: "Madeira",
+          fr: "Madère"
+        }
+      }
     ],
     zone: "Atlantic/Madeira",
     flag: "PT",
@@ -574,13 +637,15 @@ const countryList = [
   {
     country: {
       de: "Portugal",
-      en: "Portugal"
+      en: "Portugal",
+      fr: "Portugal"
     },
     subdiv: [
       {
         title: {
           de: "Azoren",
-          en: "Azores"
+          en: "Azores",
+          fr: "Açores"
         }
       }
     ],
@@ -591,7 +656,8 @@ const countryList = [
   {
     country: {
       de: "Rumänien",
-      en: "Romania"
+      en: "Romania",
+      fr: "Roumanie"
     },
     zone: "Europe/Bucharest",
     flag: "RO",
@@ -600,7 +666,8 @@ const countryList = [
   {
     country: {
       de: "San Marino",
-      en: "San Marino"
+      en: "San Marino",
+      fr: "Saint-Marin"
     },
     zone: "Europe/San_Marino",
     flag: "SM",
@@ -609,7 +676,8 @@ const countryList = [
   {
     country: {
       de: "Serbien",
-      en: "Serbia"
+      en: "Serbia",
+      fr: "Serbie"
     },
     zone: "Europe/Belgrade",
     flag: "RS",
@@ -618,7 +686,8 @@ const countryList = [
   {
     country: {
       de: "Slowakei",
-      en: "Slovakia"
+      en: "Slovakia",
+      fr: "Slovaquie"
     },
     zone: "Europe/Bratislava",
     flag: "SK",
@@ -627,7 +696,8 @@ const countryList = [
   {
     country: {
       de: "Slowenien",
-      en: "Slovenia"
+      en: "Slovenia",
+      fr: "Slovénie"
     },
     zone: "Europe/Ljubljana",
     flag: "SI"
@@ -635,83 +705,108 @@ const countryList = [
   {
     country: {
       de: "Spanien",
-      en: "Spain"
+      en: "Spain",
+      fr: "Espagne"
     },
     subdiv: [
       {
         title: {
           de: "Andalusien",
-          en: "Andalusia"
+          en: "Andalusia",
+          fr: "Andalousie"
         }
       },
       {title: "Aragon"},
       {
         title: {
           de: "Balearische Inseln",
-          en: "Balearic Islands"
+          en: "Balearic Islands",
+          fr: "Îles Baléares"
         }
       },
       {
         title: {
           de: "Baskenland",
-          en: "Basque Country"
+          en: "Basque Country",
+          fr: "Pays Basque"
         }
       },
       {
         title: {
           de: "Kantabrien",
-          en: "Cantabria"
+          en: "Cantabria",
+          fr: "Cantabrie"
         }
       },
       {
         title: {
           de: "Kastilien und León",
-          en: "Castile and León"
+          en: "Castile and León",
+          fr: "Castille-et-León"
         }
       },
       {
         title: {
           de: "Kastilien-La Mancha",
-          en: "Castilla-La Mancha"
+          en: "Castilla-La Mancha",
+          fr: "Castille-La Manche"
         }
       },
       {
         title: {
           de: "Katalonien",
-          en: "Catalonia"
+          en: "Catalonia",
+          fr: "Catalogne"
         }
       },
       {
         title: {
           de: "Navarra",
-          en: "Navarre"
+          en: "Navarre",
+          fr: "Navarre"
         }
       },
       {
         title: {
           de: "Autonome Gemeinschaft Madrid",
-          en: "Community of Madrid"
+          en: "Community of Madrid",
+          fr: "Communauté de Madrid"
         }
       },
-      {title: "Extremadura"},
+      {
+        title: {
+          de: "Extremadura",
+          en: "Extremadura",
+          fr: "Extrémadure"
+        }
+      },
       {
         title: {
           de: "Galicien",
-          en: "Galicia"
+          en: "Galicia",
+          fr: "Galice"
         }
       },
       {title: "La Rioja"},
       {
         title: {
           de: "Asturien",
-          en: "Asturias"
+          en: "Asturias",
+          fr: "Asturies"
         }
       },
-      {title: "Murcia"},
+      {
+        title: {
+          de: "Murcia",
+          en: "Murcia",
+          fr: "Murcie"
+        }
+      },
       {
         title: {
           de: "Valencianische Gemeinschaft",
-          en: "Valencian Community"
+          en: "Valencian Community",
+          fr: "Communauté valencienne"
         }
       },
     ],
@@ -722,13 +817,15 @@ const countryList = [
   {
     country: {
       de: "Spanien",
-      en: "Spain"
+      en: "Spain",
+      fr: "Espagne"
     },
     subdiv: [
       {
         title: {
           de: "Kanarische Inseln",
-          en: "Canary Islands"
+          en: "Canary Islands",
+          fr: "Îles Canaries"
         }
       }
     ],
@@ -739,7 +836,8 @@ const countryList = [
   {
     country: {
       de: "Schweden",
-      en: "Sweden"
+      en: "Sweden",
+      fr: "Suède"
     },
     zone: "Europe/Stockholm",
     flag: "SE",
@@ -748,7 +846,8 @@ const countryList = [
   {
     country: {
       de: "Schweiz",
-      en: "Switzerland"
+      en: "Switzerland",
+      fr: "Suisse"
     },
     zone: "Europe/Zurich",
     flag: "CH",
@@ -757,25 +856,29 @@ const countryList = [
   {
     country: {
       de: "Vereinigtes Königreich",
-      en: "United Kingdom"
+      en: "United Kingdom",
+      fr: "Royaume-Uni"
     },
     subdiv: [
       {
         title: {
           de: "England",
-          en: "England"
+          en: "England",
+          fr: "Angleterre"
         }
       }, 
       {
         title: {
           de: "Schottland",
-          en: "Scotland"
+          en: "Scotland",
+          fr: "Écosse"
         }
       }, 
       {
         title: {
           de: "Wales",
-          en: "Wales"
+          en: "Wales",
+          fr: "Pays de Galles"
         }
       }
     ],
@@ -786,13 +889,15 @@ const countryList = [
   {
     country: {
       de: "Vereinigtes Königreich",
-      en: "United Kingdom"
+      en: "United Kingdom",
+      fr: "Royaume-Uni"
     },
     subdiv: [
       {
         title: {
           de: "Nordirland",
-          en: "Northern Ireland"
+          en: "Northern Ireland",
+          fr: "Irlande du Nord"
         }
       }
     ],
@@ -803,165 +908,203 @@ const countryList = [
   {
     country: {
       de: "Ukraine",
-      en: "Ukraine"
+      en: "Ukraine",
+      fr: "Ukraine"
     },
     subdiv: [
       {
         title: {
           de: "Oblast Tscherkassy",
-          en: "Cherkasy Oblast"
+          en: "Cherkasy Oblast",
+          fr: "Oblast de Tcherkassy"
         }
       }, // 01
       {
         title: {
           de: "Oblast Tschernihiw",
-          en: "Chernihiv Oblast"
+          en: "Chernihiv Oblast",
+          fr: "Oblast de Tchernihiv"
         }
       }, // 02
       {
         title: {
           de: "Oblast Tscherniwzi",
-          en: "Chernivtsi Oblast"
+          en: "Chernivtsi Oblast",
+          fr: "Oblast de Tchernivtsi"
         }
       }, // 03
       {
         title: {
           de: "Oblast Dnipropetrowsk",
-          en: "Dnipro Oblast"
+          en: "Dnipro Oblast",
+          fr: "Oblast de Dnipropetrovsk"
         }
       }, // 04
       {
         title: {
           de: "Oblast Donezk",
-          en: "Donetsk Oblast"
+          en: "Donetsk Oblast",
+          fr: "Oblast de Donetsk"
         }, 
         extra: {
           de: "(nur teilweise unter ukrainischer Kontrolle)",
-          en: "(only partly controlled by Ukraine)"
+          en: "(only partly controlled by Ukraine)",
+          fr: "(en partie contrôlé par l'Ukraine)"
         }
       }, // 05
       {
         title: {
           de: "Oblast Iwano-Frankiwsk",
-          en: "Ivano-Frankivsk Oblast"
+          en: "Ivano-Frankivsk Oblast",
+          fr: "Oblast d'Ivano-Frankivsk"
         }
       }, // 06
       {
         title: {
           de: "Oblast Charkiw",
-          en: "Kharkiv Oblast"
+          en: "Kharkiv Oblast",
+          fr: "Oblast de Kharkiv"
         }
       }, // 07
       {
         title: {
           de: "Oblast Cherson",
-          en: "Kherson Oblast"
+          en: "Kherson Oblast",
+          fr: "Oblast de Kherson"
+        },
+        extra: {
+          de: "(nur teilweise unter ukrainischer Kontrolle)",
+          en: "(only partly controlled by Ukraine)",
+          fr: "(en partie contrôlé par l'Ukraine)"
         }
       }, // 08
       {
         title: {
           de: "Oblast Chmelnyzkyj",
-          en: "Khmelnytskyy Oblast"
+          en: "Khmelnytskyy Oblast",
+          fr: "Oblast de Khmelnytskyï"
         }
       }, // 09
       {
         title: {
           de: "Oblast Kirovohrad",
-          en: "Kirovohrad Oblast"
+          en: "Kirovohrad Oblast",
+          fr: "Oblast de Kirovohrad"
         }
       }, // 10
       {
         title: {
-          de: "Kiew",
-          en: "Kyiv"
+          de: "Kyjiw",
+          en: "Kyiv",
+          fr: "Kyiv"
         }
       }, // 12
       {
         title: {
-          de: "Oblast Kiew",
-          en: "Kyiv Oblast"
+          de: "Oblast Kijiw",
+          en: "Kyiv Oblast",
+          fr: "Oblast de Kyiv"
         }
       }, // 13
       {
         title: {
           de: "Oblast Luhansk",
-          en: "Luhansk Oblast"
+          en: "Luhansk Oblast",
+          fr: "Oblast de Louhansk"
         }, 
         extra: {
           de: "(nur teilweise unter ukrainischer Kontrolle)",
-          en: "(only partly controlled by Ukraine)"
+          en: "(only partly controlled by Ukraine)",
+          fr: "(en partie contrôlé par l'Ukraine)"
         }
       }, // 14
       {
         title: {
           de: "Oblast Lwiw",
-          en: "Lviv Oblast"
+          en: "Lviv Oblast",
+          fr: "Oblast de Lviv"
         }
       }, // 15
       {
         title: {
           de: "Oblast Mykolajiw",
-          en: "Mykolayiv Oblast"
+          en: "Mykolayiv Oblast",
+          fr: "Oblast de Mykolaïv"
         }
       }, // 16
       {
         title: {
           de: "Oblast Odessa",
-          en: "Odesa Oblast"
+          en: "Odesa Oblast",
+          fr: "Oblast d'Odessa"
         }
       }, // 17
       {
         title: {
           de: "Oblast Poltawa",
-          en: "Poltava Oblast"
+          en: "Poltava Oblast",
+          fr: "Oblast de Poltava"
         }
       }, // 18
       {
         title: {
           de: "Oblast Riwne",
-          en: "Rivne Oblast"
+          en: "Rivne Oblast",
+          fr: "Oblast de Rivne"
         }
       }, // 19
       {
         title: {
           de: "Oblast Sumy",
-          en: "Sumy Oblast"
+          en: "Sumy Oblast",
+          fr: "Oblast de Soumy"
         }
       }, // 21
       {
         title: {
           de: "Oblast Ternopil",
-          en: "Ternopil Oblast"
+          en: "Ternopil Oblast",
+          fr: "Oblast de Ternopil"
         }
       }, // 22
       {
         title: {
           de: "Oblast Winnyzja",
-          en: "Vinnitsya Oblast"
+          en: "Vinnitsya Oblast",
+          fr: "Oblast de Vinnytsia"
         }
       }, // 23
       {
         title: {
           de: "Oblast Wolyn",
-          en: "Volyn Oblast"
+          en: "Volyn Oblast",
+          fr: "Oblast de Volhynie"
         }
       }, // 24
       {
         title: {
           de: "Oblast Transkarpatien",
-          en: "Zakarpattya Oblast"
+          en: "Zakarpattya Oblast",
+          fr: "Oblast de Transcarpatie"
         }
       }, // 25
       {
         title: {
           de: "Oblast Saporischschja",
-          en: "Zaporizhzhya Oblast"
+          en: "Zaporizhzhya Oblast",
+          fr: "Oblast de Zaporijjia"
+        },
+        extra: {
+          de: "(nur teilweise unter ukrainischer Kontrolle)",
+          en: "(only partly controlled by Ukraine)",
+          fr: "(en partie contrôlé par l'Ukraine)"
         }
       }, // 26
       {
         title: {
           de: "Oblast Schytomyr",
-          en: "Zhytomyr Oblast"
+          en: "Zhytomyr Oblast",
+          fr: "Oblast de Jytomyr"
         }
       }, // 27
     ],
@@ -1017,27 +1160,32 @@ const countryList = [
   {
     country: {
       de: "Ukraine",
-      en: "Ukraine"
+      en: "Ukraine",
+      fr: "Ukraine"
     },
     subdiv: [
       {
         title: {
           de: "Sewastopol",
-          en: "Sevastopol"
+          en: "Sevastopol",
+          fr: "Sébastopol"
         }, 
         extra: {
           de: "(unter russischer Kontrolle)",
-          en: "(controlled by Russia)"
+          en: "(controlled by Russia)",
+          fr: "(contrôlé par la Russie)"
         }
       }, 
       {
         title: {
           de: "Autonome Republik Krim",
-          en: "Crimea Autonomous Republic"
+          en: "Crimea Autonomous Republic",
+          fr: "République autonome de Crimée"
         }, 
         extra: {
           de: "(unter russischer Kontrolle)",
-          en: "(controlled by Russia)"
+          en: "(controlled by Russia)",
+          fr: "(contrôlé par la Russie)"
         }
       }
     ],
@@ -1054,23 +1202,51 @@ const countryList = [
       {
         title: {
           de: "Oblast Donezk",
-          en: "Donetsk Oblast"
+          en: "Donetsk Oblast",
+          fr: "Oblast de Donetsk"
         }, 
         extra: {
-          de: "(teils unter der Kontrolle Russlands/der Volksrepublik Donezk)",
-          en: "(partly controlled by Russia/Donetsk People's Republic)"
+          de: "(teils unter der Kontrolle Russlands)",
+          en: "(partly controlled by Russia)",
+          fr: "(en partie contrôlé par la Russie)"
         }
       }, // 05
       {
         title: {
+          de: "Oblast Cherson",
+          en: "Kherson Oblast",
+          fr: "Oblast de Kherson"
+        },
+        extra: {
+          de: "(teils unter der Kontrolle Russlands)",
+          en: "(partly controlled by Russia)",
+          fr: "(en partie contrôlé par la Russie)"
+        }
+      }, // 08
+      {
+        title: {
           de: "Oblast Luhansk",
-          en: "Luhansk Oblast"
+          en: "Luhansk Oblast",
+          fr: "Oblast de Louhansk"
         }, 
         extra: {
-          de: "(teils unter der Kontrolle Russlands/der Volksrepublik Luhansk)",
-          en: "(partly controlled by Russia/Luhansk People's Republic)"
+          de: "(teils unter der Kontrolle Russlands)",
+          en: "(partly controlled by Russia)",
+          fr: "(en partie contrôlé par la Russie)"
         }
       }, // 14
+      {
+        title: {
+          de: "Oblast Saporischschja",
+          en: "Zaporizhzhya Oblast",
+          fr: "Oblast de Zaporijjia"
+        },
+        extra: {
+          de: "(teils unter der Kontrolle Russlands)",
+          en: "(partly controlled by Russia)",
+          fr: "(en partie contrôlé par la Russie)"
+        }
+      }, // 26
     ],
     zone: "Europe/Moscow",
     flag: "UA",
@@ -1096,7 +1272,8 @@ const countryList = [
   {
     country: {
       de: "Vatikanstadt",
-      en: "Vatican City"
+      en: "Vatican City",
+      fr: "Vatican"
     },
     zone: "Europe/Vatican",
     flag: "VA",

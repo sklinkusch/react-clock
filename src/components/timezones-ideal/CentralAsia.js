@@ -4,25 +4,29 @@ const countryList = [
   {
     country: {
       de: "Kasachstan",
-      en: "Kazakhstan"
+      en: "Kazakhstan",
+      fr: "Kazakhstan"
     },
     subdiv: [
       {
         title: {
           de: "Oblys Atyrau",
-          en: "Atyrau Region"
+          en: "Atyrau Region",
+          fr: "Oblys d'Atyraw"
         }
       }, // 06
       {
         title: {
           de: "Oblys Mangghystau",
-          en: "Mangystau Region"
+          en: "Mangystau Region",
+          fr: "Oblys de Mañğıstaw"
         }
       }, // 09
       {
         title: {
           de: "Oblys Westkasachstan",
-          en: "West Kazakhstan Region"
+          en: "West Kazakhstan Region",
+          fr: "Oblys du Kazakhstan-Occidental"
         }
       } // 07
     ],
@@ -47,25 +51,29 @@ const countryList = [
       {
         title: {
           de: "Oblys Aqtöbe",
-          en: "Aktobe Region"
+          en: "Aktobe Region",
+          fr: "Oblys d'Aqtöbe"
         }
       }, // 04
       {
         title: {
           de: "Oblys Qostonai",
-          en: "Kostanay Region"
+          en: "Kostanay Region",
+          fr: "Oblys de Kostanaï"
         }
       }, // 13
       {
         title: {
           de: "Oblys Qysylorda",
-          en: "Kyzylorda Region"
+          en: "Kyzylorda Region",
+          fr: "Oblys de Qızılorda"
         }
       }, // 14
       {
         title: {
           de: "Baikonur",
-          en: "Baykonyr"
+          en: "Baykonyr",
+          fr: "Baïkonour"
         }
       } // 18
     ],
@@ -91,67 +99,78 @@ const countryList = [
       {
         title: {
           de: "Oblys Akmola",
-          en: "Akmola Region"
+          en: "Akmola Region",
+          fr: "Oblys d'Aqmola"
         }
       }, // 03
       {
         title: {
           de: "Oblys Almaty",
-          en: "Almaty Region"
+          en: "Almaty Region",
+          fr: "Oblys d'Almaty"
         }
       }, // 01
       {
         title: {
           de: "Almaty",
-          en: "Almaty"
+          en: "Almaty",
+          fr: "Almaty"
         }
       }, // 02
       {
         title: {
-          de: "Nur-Sultan",
-          en: "Nur-Sultan"
+          de: "Astana",
+          en: "Astana",
+          fr: "Astana"
         }
       }, // 05
       {
         title: {
           de: "Oblys Ostkasachstan",
-          en: "East Kazakhstan Region"
+          en: "East Kazakhstan Region",
+          fr: "Oblys du Kazakhstan-Oriental"
         }
       }, // 15
       {
         title: {
           de: "Oblys Schambyl",
-          en: "Jambyl Region"
+          en: "Jambyl Region",
+          fr: "Oblys de Jambıl"
         }
       }, // 17
       {
         title: {
           de: "Oblys Qaraghandy",
-          en: "Karaganda Region"
+          en: "Karaganda Region",
+          fr: "Oblys de Karaganda"
         }
       }, // 12
       {
         title: {
           de: "Oblys Nordkasachstan",
-          en: "North Kazakhstan Region"
+          en: "North Kazakhstan Region",
+          fr: "Oblys du Kazakhstan-Septentrional"
         }
       }, // 16 
       {
         title: {
           de: "Oblys Pawlodar",
-          en: "Pavlodar Region"
+          en: "Pavlodar Region",
+          fr: "Oblys de Pavlodar"
         }
       }, // 11
       {
         title: {
           de: "Oblys Türkistan",
-          en: "Turkistan Region"
+          en: "Turkistan Region",
+          fr: "Oblys de Turkestan"
         }
       }, // 10
       {
         title: {
           de: "Schymkent",
-          en: "Shymkent"
+          en: "Shymkent",
+          fr: "Chimkent"
         }
       } // 1537272
     ],
@@ -178,7 +197,8 @@ const countryList = [
   {
     country: {
       de: "Kirgisistan",
-      en: "Kyrgyzstan"
+      en: "Kyrgyzstan",
+      fr: "Kirghizistan"
     },
     zone: "Etc/GMT-5",
     flag: "KG",
@@ -187,7 +207,8 @@ const countryList = [
   {
     country: {
       de: "Tadschikistan",
-      en: "Tajikistan"
+      en: "Tajikistan",
+      fr: "Tadjikistan"
     },
     zone: "Etc/GMT-5",
     flag: "TJ",
@@ -196,7 +217,8 @@ const countryList = [
   {
     country: {
       de: "Turkmenistan",
-      en: "Turkmenistan"
+      en: "Turkmenistan",
+      fr: "Turkménistan"
     },
     zone: "Etc/GMT-4",
     flag: "TM",
@@ -205,7 +227,8 @@ const countryList = [
   {
     country: {
       de: "Usbekistan",
-      en: "Uzbekistan"
+      en: "Uzbekistan",
+      fr: "Ouzbékistan"
     },
     zone: "Etc/GMT-4",
     flag: "UZ",

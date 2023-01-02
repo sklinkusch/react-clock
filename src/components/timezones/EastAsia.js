@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     zone: "Asia/Shanghai",
     flag: "CN",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Volksrepublik China",
-      en: "People's Republic of China"
+      en: "People's Republic of China",
+      fr: "République populaire de Chine"
     },
     subdiv: [
       {title: "Xinjiang"}
@@ -25,7 +27,8 @@ const countryList = [
   {
     country: {
       de: "Hongkong (VR China)",
-      en: "Hong Kong (PR of China)"
+      en: "Hong Kong (PR of China)",
+      fr: "Hong Kong (RP de Chine)"
     },
     zone: "Asia/Hong_Kong",
     flag: "HK",
@@ -34,7 +37,8 @@ const countryList = [
   {
     country: {
       de: "Japan",
-      en: "Japan"
+      en: "Japan",
+      fr: "Japon"
     },
     zone: "Asia/Tokyo",
     flag: "JP",
@@ -43,7 +47,8 @@ const countryList = [
   {
     country: {
       de: "Macau (VR China)",
-      en: "Macau (PR of China)"
+      en: "Macau (PR of China)",
+      fr: "Macao (RP de Chine)"
     },
     zone: "Asia/Macau",
     flag: "MO",
@@ -52,7 +57,8 @@ const countryList = [
   {
     country: {
       de: "Mongolei",
-      en: "Mongolia"
+      en: "Mongolia",
+      fr: "Mongolie"
     },
     subdiv: [
       {title: "Arkhangai"}, 
@@ -77,7 +83,8 @@ const countryList = [
   {
     country: {
       de: "Mongolei",
-      en: "Mongolia"
+      en: "Mongolia",
+      fr: "Mongolie"
     },
     subdiv: [
       {title: "Dornod"}, 
@@ -90,7 +97,8 @@ const countryList = [
   {
     country: {
       de: "Mongolei",
-      en: "Mongolia"
+      en: "Mongolia",
+      fr: "Mongolie"
     },
     subdiv: [
       {title: "Bayan-Ölgii"}, 
@@ -106,7 +114,8 @@ const countryList = [
   {
     country: {
       de: "Nordkorea",
-      en: "North Korea"
+      en: "North Korea",
+      fr: "Corée du Nord"
     },
     zone: "Asia/Pyongyang",
     flag: "KP",
@@ -115,7 +124,8 @@ const countryList = [
   {
     country: {
       de: "Südkorea",
-      en: "South Korea"
+      en: "South Korea",
+      fr: "Corée du Sud"
     },
     zone: "Asia/Seoul",
     flag: "KR",
@@ -124,7 +134,8 @@ const countryList = [
   {
     country: {
       de: "Taiwan",
-      en: "Taiwan"
+      en: "Taiwan",
+      fr: "Taïwan"
     },
     zone: "Asia/Taipei",
     flag: "TW",
