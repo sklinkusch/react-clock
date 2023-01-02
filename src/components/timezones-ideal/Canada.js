@@ -4,51 +4,60 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Neufundland und Labrador",
-          en: "Newfoundland and Labrador"
+          en: "Newfoundland and Labrador",
+          fr: "Terre-Neuve et Labrador"
         }
       }, // 05
       {
         title: {
           de: "New Brunswick",
-          en: "New Brunswick"
+          en: "New Brunswick",
+          fr: "Nouveau-Brunswick"
         }
       }, // 04
       {
         title: {
           de: "Nova Scotia",
-          en: "Nova Scotia"
+          en: "Nova Scotia",
+          fr: "Nouvelle-Écosse"
         }
       }, // 07
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         }, 
         extra: {
           de: "(östlich von 67.5° W)",
-          en: "(east of 67.5° W)"
+          en: "(east of 67.5° W)",
+          fr: "(est de 67.5° O)"
         }
       }, // 14
       {
         title: {
           de: "Prince Edward Island",
-          en: "Prince Edward Island"
+          en: "Prince Edward Island",
+          fr: "Île-du-Prince-Édouard"
         }
       }, // 09
       {
         title: {
           de: "Québec",
-          en: "Quebec"
+          en: "Quebec",
+          fr: "Québec"
         },
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       } // 10
     ],
@@ -70,34 +79,44 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         },
-        extra: "(82.5°W – 67.5°W)"
+        extra: {
+          de: "(82.5° W – 67.5° W)",
+          en: "(82.5° W - 67.5° W)",
+          fr: "(82.5° O - 67.5° O)"
+        }
       }, // 14
       {
         title: {
           de: "Ontario",
-          en: "Ontario"
+          en: "Ontario",
+          fr: "Ontario"
         },
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }, // 08
       {
         title: {
           de: "Québec",
-          en: "Quebec"
+          en: "Quebec",
+          fr: "Québec"
         },
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       } // 10
     ],
@@ -116,34 +135,44 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Manitoba",
-          en: "Manitoba"
+          en: "Manitoba",
+          fr: "Manitoba"
         }, 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }, // 03
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         },
-        extra: "(97.5°W – 82.5°W)"
+        extra: {
+          de: "(97.5° W – 82.5° W)",
+          en: "(97.5° W - 82.5° W)",
+          fr: "(97.5° O - 82.5° O)"
+        }
       }, // 14
       {
         title: {
           de: "Ontario",
-          en: "Ontario"
+          en: "Ontario",
+          fr: "Ontario"
         },
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       } // 08
     ],
@@ -162,35 +191,45 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Manitoba",
-          en: "Manitoba"
+          en: "Manitoba",
+          fr: "Manitoba"
         }, 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       }, // 03
       {
         title: {
           de: "Nordwest-Territorien",
-          en: "Northwest Territories"
+          en: "Northwest Territories",
+          fr: "Territoires du Nord-Ouest"
         }, 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }, // 13
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         },
-        extra: "(112.5°W – 97.5°W)"
+        extra: {
+          de: "(112.5° W – 97.5° W)",
+          en: "(112.5° W - 97.5° W)",
+          fr: "(112.5° O - 97.5° O)"
+        }
       }, // 14
       {title: "Saskatchewan"} // 11
     ],
@@ -210,43 +249,51 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "Alberta",
-          en: "Alberta"
+          en: "Alberta",
+          fr: "Alberta"
         }
       }, // 01
       {
         title: {
           de: "British Columbia",
-          en: "British Columbia"
+          en: "British Columbia",
+          fr: "Colombie-Britannique"
         },
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }, // 02
       {
         title: {
           de: "Nordwest-Territorien",
-          en: "Northwest Territories"
+          en: "Northwest Territories",
+          fr: "Territoires du Nord-Ouest"
         }, 
         extra: {
           de: "(mittlerer Teil)",
-          en: "(central part)"
+          en: "(central part)",
+          fr: "(central)"
         }
       }, // 13
       {
         title: {
           de: "Nunavut",
-          en: "Nunavut"
+          en: "Nunavut",
+          fr: "Nunavut"
         },
         extra: {
           de: "(westlich von 112.5° W)",
-          en: "(west of 112.5° W)"
+          en: "(west of 112.5° W)",
+          fr: "(ouest de 112.5° O)"
         }
       } // 14
     ],
@@ -266,33 +313,39 @@ const countryList = [
   {
     country: {
       de: "Kanada",
-      en: "Canada"
+      en: "Canada",
+      fr: "Canada"
     },
     subdiv: [
       {
         title: {
           de: "British Columbia",
-          en: "British Columbia"
+          en: "British Columbia",
+          fr: "Colombie-Britannique"
         },
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       }, // 02
       {
         title: {
           de: "Nordwest-Territorien",
-          en: "Northwest Territories"
+          en: "Northwest Territories",
+          fr: "Territoires du Nord-Ouest"
         }, 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       }, // 13
       {
         title: {
           de: "Yukon",
-          en: "Yukon"
+          en: "Yukon",
+          fr: "Yukon"
         }
       } // 12
     ],

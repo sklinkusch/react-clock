@@ -1,22 +1,27 @@
 {
-  "WorldTimeClock": {
-    "de": "Weltzeituhr",
-    "en": "World Time Clock"
-  },
-  "RealTimeZones": {
-    "de": "Reale Zeitzonen",
-    "en": "Real Time zones"
-  },
-  "IdealTimeZones": {
-    "de": "Ideale Zeitzonen",
-    "en": "Ideal Time zones"
-  },
-  "MajorCities": {
-    "de": "Größte Städte",
-    "en": "Major cities"
-  },
-  "FilterCountries": {
-    "de": "Länder filtern",
-    "en": "Filter countries"
-  }
+	"WorldTimeClock": {
+		"de": "Weltzeituhr",
+		"en": "World Time Clock",
+		"fr": "Horloge universelle"
+	},
+	"RealTimeZones": {
+		"de": "Reale Zeitzonen",
+		"en": "Real Time zones",
+		"fr": "Fuseaux horaires réels"
+	},
+	"IdealTimeZones": {
+		"de": "Ideale Zeitzonen",
+		"en": "Ideal Time zones",
+		"fr": "Fuseaux horaires idéals"
+	},
+	"MajorCities": {
+		"de": "Größte Städte",
+		"en": "Major cities",
+		"fr": "Villes importantes"
+	},
+	"FilterCountries": {
+		"de": "Länder filtern",
+		"en": "Filter countries",
+		"fr": "Choisissez un pays"
+	}
 }

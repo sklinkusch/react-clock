@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Belize",
-      en: "Belize"
+      en: "Belize",
+      fr: "Belize"
     },
     zone: "Etc/GMT+7",
     flag: "BZ",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Costa Rica",
-      en: "Costa Rica"
+      en: "Costa Rica",
+      fr: "Costa Rica"
     },
     zone: "Etc/GMT+6",
     flag: "CR",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "El Salvador",
-      en: "El Salvador"
+      en: "El Salvador",
+      fr: "Salvador"
     },
     zone: "Etc/GMT+6",
     flag: "SV",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Guatemala",
-      en: "Guatemala"
+      en: "Guatemala",
+      fr: "Guatemala"
     },
     zone: "Etc/GMT+6",
     flag: "GT",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Honduras",
-      en: "Honduras"
+      en: "Honduras",
+      fr: "Honduras"
     },
     zone: "Etc/GMT+6",
     flag: "HN",
@@ -49,15 +54,29 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
-      {title: "Baja California"}, // 02
-      {title: "Baja California Sur"}, // 03
+      {
+        title: {
+          de: "Baja California",
+          en: "Baja California",
+          fr: "Basse-Californie"
+        }
+      }, // 02
+      {
+        title: {
+          de: "Baja California Sur",
+          en: "Baja California Sur",
+          fr: "Basse-Californie du Sud"
+        }
+      }, // 03
       {
         title: {
           de: "Revillagigedo-Inseln",
-          en: "Revillagigedo Islands"
+          en: "Revillagigedo Islands",
+          fr: "Îles Revillagigedo"
         }
       } // nur 45 Einwohner, deshalb 
     ],
@@ -75,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
       {title: "Aguascalientes"}, // 01
@@ -91,7 +111,8 @@ const countryList = [
       {
         title: {
           de: "Mexiko-Stadt",
-          en: "Mexico City"
+          en: "Mexico City",
+          fr: "Ville de Mexico"
         }
       }, // 09
       {title: "Michoacán"}, // 16
@@ -142,7 +163,8 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
       {title: "Campeche"}, // 04
@@ -172,7 +194,8 @@ const countryList = [
   {
     country: {
       de: "Nicaragua",
-      en: "Nicaragua"
+      en: "Nicaragua",
+      fr: "Nicaragua"
     },
     zone: "Etc/GMT+6",
     flag: "NI",
@@ -181,7 +204,8 @@ const countryList = [
   {
     country: {
       de: "Panama",
-      en: "Panama"
+      en: "Panama",
+      fr: "Panama"
     },
     zone: "Etc/GMT+5",
     flag: "PA",

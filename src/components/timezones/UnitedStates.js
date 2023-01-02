@@ -4,16 +4,22 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Alabama"}, 
       {title: "Arkansas"}, 
       {
-        title: "Florida", 
+        title: {
+          de: "Florida",
+          en: "Florida",
+          fr: "Floride"
+      }, 
         extra: {
           de: "(westlich des Appalachicola River)",
-          en: "(west of Appalachicola River)"
+          en: "(west of Appalachicola River)",
+          fr: "(ouest de l'Appalachicola)"
         }
       }, 
       {title: "Illinois"}, 
@@ -22,17 +28,25 @@ const countryList = [
         title: "Kansas", 
         extra: {
           de: "(überwiegend)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart d'état)"
         }
       }, 
       {
         title: "Kentucky", 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western 40%)"
+          en: "(western 40%)",
+          fr: "(ouest)"
         }
       }, 
-      {title: "Louisiana"}, 
+      {
+        title: {
+          de: "Louisiana",
+          en: "Louisiana",
+          fr: "Louisiane"
+        }
+      }, 
       {title: "Minnesota"}, 
       {title: "Mississippi"}, 
       {title: "Missouri"}, 
@@ -40,29 +54,37 @@ const countryList = [
         title: "Nebraska", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }, 
       {title: "Oklahoma"}, 
       {
-        title: "South Dakota", 
+        title: {
+          de: "South Dakota",
+          en: "South Dakota",
+          fr: "Dakota du Sud"
+        }, 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern half)"
+          en: "(eastern half)",
+          fr: "(est)"
         }
       }, 
       {
         title: "Tennessee", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }, 
       {
         title: "Texas", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }, 
       {title: "Wisconsin"}
@@ -74,14 +96,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Alaska", 
         extra: {
           de: "(westlich von 169.5° W)",
-          en: "(west of 169.5° W)"
+          en: "(west of 169.5° W)",
+          fr: "(ouest de 169.5° O)"
         }
       }
     ],
@@ -92,14 +116,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Alaska", 
         extra: {
           de: "(östlich von 169.5° W)",
-          en: "(east of 169.5° W)"
+          en: "(east of 169.5° W)",
+          fr: "(est de 169.5° O)"
         }
       }
     ],
@@ -110,14 +136,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Arizona", 
         extra: {
           de: "(außer Navajo Nation Reservation)",
-          en: "(except Navajo Nation Reservation)"
+          en: "(except Navajo Nation Reservation)",
+          fr: "(excepté la Nation navajo)"
         }
       }
     ],
@@ -128,14 +156,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Arizona", 
         extra: {
           de: "(Navajo Nation Reservation)",
-          en: "(Navajo Nation Reservation)"
+          en: "(Navajo Nation Reservation)",
+          fr: "(Nation navajo)"
         }
       }
     ],
@@ -146,27 +176,31 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: {
           de: "Kalifornien",
-          en: "California"
+          en: "California",
+          fr: "Californie"
         }
       }, 
       {
         title: "Nevada", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }, 
       {
         title: "Oregon", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }, 
       {title: "Washington"}
@@ -178,7 +212,8 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Colorado"}, 
@@ -186,7 +221,8 @@ const countryList = [
         title: "Kansas", 
         extra: {
           de: "(Gemeinden an der Westgrenze)",
-          en: "(western border counties)"
+          en: "(western border counties)",
+          fr: "(municipalités à la frontière de l'ouest)"
         }
       }, 
       {title: "Montana"}, 
@@ -194,26 +230,43 @@ const countryList = [
         title: "Nebraska", 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western third)"
+          en: "(western third)",
+          fr: "(ouest)"
         }
       }, 
       {
         title: "Nevada", 
         extra: "(West Wendover)"
       }, 
-      {title: "New Mexico"}, 
       {
-        title: "North Dakota", 
-        extra: {
-          de: "(südwestlicher Teil)",
-          en: "(southwestern part)"
+        title: {
+          de: "New Mexico",
+          en: "New Mexico",
+          fr: "Nouveau-Mexique"
         }
       }, 
       {
-        title: "South Dakota", 
+        title: {
+          de: "North Dakota",
+          en: "North Dakota",
+          fr: "Dakota du Nord"
+        }, 
+        extra: {
+          de: "(südwestlicher Teil)",
+          en: "(southwestern part)",
+          fr: "(sud-ouest)"
+        }
+      }, 
+      {
+        title: {
+          de: "South Dakota",
+          en: "South Dakota",
+          fr: "Dakota du Sud"
+        }, 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western half)"
+          en: "(western half)",
+          fr: "(ouest)"
         }
       }, 
       {
@@ -230,41 +283,90 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {title: "Connecticut"}, 
       {title: "Delaware"}, 
-      {title: "District of Columbia"}, 
       {
-        title: "Florida", 
-        extra: {
-          de: "(östlich des Appalachicola River)",
-          en: "(east of Appalachicola River)"
+        title: {
+          de: "District of Columbia",
+          en: "District of Columbia",
+          fr: "District de Columbia"
         }
       }, 
-      {title: "Georgia"}, 
+      {
+        title: {
+          de: "Florida",
+          en: "Florida",
+          fr: "Floride"
+        }, 
+        extra: {
+          de: "(östlich des Appalachicola River)",
+          en: "(east of Appalachicola River)",
+          fr: "(est de l'Appalachicola)"
+        }
+      }, 
+      {
+        title: {
+          de: "Georgia",
+          en: "Georgia",
+          fr: "Géorgie"
+        }
+      }, 
       {title: "Maine"}, 
       {title: "Maryland"}, 
       {title: "Massachusetts"}, 
       {title: "New Hampshire"}, 
       {title: "New Jersey"}, 
       {title: "New York"}, 
-      {title: "North Carolina"}, 
+      {
+        title: {
+          de: "North Carolina",
+          en: "North Carolina",
+          fr: "Caroline du Nord"
+        }
+      }, 
       {title: "Ohio"}, 
-      {title: "Pennsylvania"}, 
+      {
+        title: {
+          de: "Pennsylvania",
+          en: "Pennsylvania",
+          fr: "Pennsylvanie"
+        }
+      }, 
       {title: "Rhode Island"}, 
-      {title: "South Carolina"}, 
+      {
+        title: {
+          de: "South Carolina",
+          en: "South Carolina",
+          fr: "Caroline du Sud"
+        }
+      }, 
       {
         title: "Tennessee", 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }, 
       {title: "Vermont"}, 
-      {title: "Virginia"}, 
-      {title: "West Virginia"}
+      {
+        title: {
+          de: "Virginia",
+          en: "Virginia",
+          fr: "Virginie"
+        }
+      }, 
+      {
+        title: {
+          de: "West Virginia",
+          en: "West Virginia",
+          fr: "Virginie-Occidentale"
+        }
+      }
     ],
     zone: "America/New_York",
     flag: "US",
@@ -273,14 +375,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Idaho", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }, 
       {title: "Oregon", extra: "(Malheur County)"}
@@ -292,14 +396,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Indiana", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }
     ],
@@ -310,14 +416,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Indiana", 
         extra: {
           de: "(Gemeinden im Nordwesten und Südwesten)",
-          en: "(northwest and southwest)"
+          en: "(northwest and southwest)",
+          fr: "(nord-ouest et sud-ouest)"
         }
       }
     ],
@@ -328,14 +436,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Kentucky", 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern 60%)"
+          en: "(eastern 60%)",
+          fr: "(est)"
         }
       }
     ],
@@ -346,14 +456,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Michigan", 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }
     ],
@@ -364,14 +476,16 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
         title: "Michigan", 
         extra: {
           de: "(Gemeinden an der Grenze zu Wisconsin)",
-          en: "(counties bordering Wisconsin)"
+          en: "(counties bordering Wisconsin)",
+          fr: "(municipalités à la frontière avec le Wisconsin)"
         }
       }
     ],
@@ -382,14 +496,20 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Staaten",
-      en: "United States"
+      en: "United States",
+      fr: "États-Unis"
     },
     subdiv: [
       {
-        title: "North Dakota", 
+        title: {
+          de: "North Dakota",
+          en: "North Dakota",
+          fr: "Dakota du Nord"
+        }, 
         extra: {
           de: "(größtenteils)",
-          en: "(most of state)"
+          en: "(most of state)",
+          fr: "(plupart de l'état)"
         }
       }
     ],

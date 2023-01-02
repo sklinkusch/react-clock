@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Afghanistan",
-      en: "Afghanistan"
+      en: "Afghanistan",
+      fr: "Afghanistan"
     },
     utcOffset: 270,
     flag: "AF",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Armenien",
-      en: "Armenia"
+      en: "Armenia",
+      fr: "Arménie"
     },
     zone: "Etc/GMT-3",
     flag: "AM",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Aserbaidschan",
-      en: "Azerbaijan"
+      en: "Azerbaijan",
+      fr: "Azerbaïdjan"
     },
     zone: "Etc/GMT-3",
     flag: "AZ",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Bahrain",
-      en: "Bahrain"
+      en: "Bahrain",
+      fr: "Bahreïn"
     },
     zone: "Etc/GMT-3",
     flag: "BH",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Georgien",
-      en: "Georgia"
+      en: "Georgia",
+      fr: "Géorgie"
     },
     zone: "Etc/GMT-3",
     flag: "GE",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Iran",
-      en: "Iran"
+      en: "Iran",
+      fr: "Iran"
     },
     utcOffset: 210,
     flag: "IR",
@@ -58,7 +64,8 @@ const countryList = [
   {
     country: {
       de: "Irak",
-      en: "Iraq"
+      en: "Iraq",
+      fr: "Irak"
     },
     zone: "Etc/GMT-3",
     flag: "IQ",
@@ -67,7 +74,8 @@ const countryList = [
   {
     country: {
       de: "Israel",
-      en: "Israel"
+      en: "Israel",
+      fr: "Israël"
     },
     zone: "Etc/GMT-2",
     flag: "IL",
@@ -76,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Jordanien",
-      en: "Jordan"
+      en: "Jordan",
+      fr: "Jordanie"
     },
     zone: "Etc/GMT-2",
     flag: "JO",
@@ -85,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Kuwait",
-      en: "Kuwait"
+      en: "Kuwait",
+      fr: "Koweït"
     },
     zone: "Etc/GMT-3",
     flag: "KW",
@@ -94,7 +104,8 @@ const countryList = [
   {
     country: {
       de: "Libanon",
-      en: "Lebanon"
+      en: "Lebanon",
+      fr: "Liban"
     },
     zone: "Etc/GMT-2",
     flag: "LB",
@@ -103,7 +114,8 @@ const countryList = [
   {
     country: {
       de: "Oman",
-      en: "Oman"
+      en: "Oman",
+      fr: "Oman"
     },
     zone: "Etc/GMT-4",
     flag: "OM",
@@ -112,7 +124,8 @@ const countryList = [
   {
     country: {
       de: "Palästina",
-      en: "Palestine"
+      en: "Palestine",
+      fr: "Palestine"
     },
     zone: "Etc/GMT-2",
     flag: "PS",
@@ -121,7 +134,8 @@ const countryList = [
   {
     country: {
       de: "Katar",
-      en: "Qatar"
+      en: "Qatar",
+      fr: "Qatar"
     },
     zone: "Etc/GMT-3",
     flag: "QA",
@@ -130,7 +144,8 @@ const countryList = [
   {
     country: {
       de: "Saudi-Arabien",
-      en: "Saudi Arabia"
+      en: "Saudi Arabia",
+      fr: "Arabie saoudite"
     },
     zone: "Etc/GMT-3",
     flag: "SA",
@@ -139,7 +154,8 @@ const countryList = [
   {
     country: {
       de: "Syrien",
-      en: "Syria"
+      en: "Syria",
+      fr: "Syrie"
     },
     zone: "Etc/GMT-3",
     flag: "SY",
@@ -148,7 +164,8 @@ const countryList = [
   {
     country: {
       de: "Türkei",
-      en: "Turkey"
+      en: "Turkey",
+      fr: "Turquie"
     },
     subdiv: [
       {title: "Adana"}, // 81
@@ -270,7 +287,8 @@ const countryList = [
   {
     country: {
       de: "Türkei",
-      en: "Turkey"
+      en: "Turkey",
+      fr: "Turquie"
     },
     subdiv: [
       {title: "Adıyaman"}, // 02
@@ -350,7 +368,8 @@ const countryList = [
   {
     country: {
       de: "Vereinigte Arabische Emirate",
-      en: "United Arab Emirates"
+      en: "United Arab Emirates",
+      fr: "Émirats arabes unis"
     },
     utcOffset: 210,
     flag: "AE",
@@ -359,7 +378,8 @@ const countryList = [
   {
     country: {
       de: "Jemen",
-      en: "Yemen"
+      en: "Yemen",
+      fr: "Yémen"
     },
     zone: "Etc/GMT-3",
     flag: "YE",

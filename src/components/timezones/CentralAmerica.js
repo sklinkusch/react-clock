@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Belize",
-      en: "Belize"
+      en: "Belize",
+      fr: "Belize"
     },
     zone: "America/Belize",
     flag: "BZ",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Costa Rica",
-      en: "Costa Rica"
+      en: "Costa Rica",
+      fr: "Costa Rica"
     },
     zone: "America/Costa_Rica",
     flag: "CR",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "El Salvador",
-      en: "El Salvador"
+      en: "El Salvador",
+      fr: "Salvador"
     },
     zone: "America/El_Salvador",
     flag: "SV",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Guatemala",
-      en: "Guatemala"
+      en: "Guatemala",
+      fr: "Guatemala"
     },
     zone: "America/Guatemala",
     flag: "GT",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Honduras",
-      en: "Honduras"
+      en: "Honduras",
+      fr: "Honduras"
     },
     zone: "America/Tegucigalpa",
     flag: "HN",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
       {title: "Aguascalientes"}, 
@@ -66,7 +72,8 @@ const countryList = [
       {
         title: {
           de: "Mexiko-Stadt",
-          en: "Mexico City"
+          en: "Mexico City",
+          fr: "Ville de Mexico"
         }
       }, 
       {title: "Michoacán"}, 
@@ -90,10 +97,17 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
-      {title: "Baja California"}
+      {
+        title: {
+          de: "Baja California",
+          en: "Baja California",
+          fr: "Basse-Californie"
+        }
+      }
     ],
     zone: "America/Tijuana",
     flag: "MX",
@@ -102,10 +116,17 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
-      {title: "Baja California Sur"},
+      {
+        title: {
+          de: "Baja California Sur",
+          en: "Baja California Sur",
+          fr: "Basse-Californie du Sud"
+        }
+      },
       {title: "Chihuahua"},
       {title: "Nayarit"},
       {title: "Sinaloa"}
@@ -117,7 +138,8 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
       {title: "Quintana Roo"}
@@ -129,14 +151,16 @@ const countryList = [
   {
     country: {
       de: "Mexiko",
-      en: "Mexico"
+      en: "Mexico",
+      fr: "Mexique"
     },
     subdiv: [
       {title: "Sonora"},
       {
         title: {
           de: "Revillagigedo-Inseln",
-          en: "Revillagigedo Islands"
+          en: "Revillagigedo Islands",
+          fr: "Îles Revillagigedo"
         }
       }
     ],
@@ -147,7 +171,8 @@ const countryList = [
   {
     country: {
       de: "Nicaragua",
-      en: "Nicaragua"
+      en: "Nicaragua",
+      fr: "Nicaragua"
     },
     zone: "America/Managua",
     flag: "NI",
@@ -156,7 +181,8 @@ const countryList = [
   {
     country: {
       de: "Panama",
-      en: "Panama"
+      en: "Panama",
+      fr: "Panama"
     },
     zone: "America/Panama",
     flag: "PA",

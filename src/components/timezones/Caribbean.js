@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Amerikanische Jungferninseln (USA)",
-      en: "American Virgin Islands (United States)"
+      en: "American Virgin Islands (United States)",
+      fr: "Îles Vierges des États-Unis (États-Unis)"
     },
     zone: "America/St_Thomas",
     flag: "VI",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Anguilla (Vereinigtes Königreich)",
-      en: "Anguilla (United Kingdom)"
+      en: "Anguilla (United Kingdom)",
+      fr: "Anguilla (Royaume-Uni)"
     },
     zone: "America/Anguilla",
     flag: "AI",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Antigua und Barbuda",
-      en: "Antigua and Barbuda"
+      en: "Antigua and Barbuda",
+      fr: "Antigua-et-Barbuda"
     },
     zone: "America/Antigua",
     flag: "AG",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Aruba (Niederlande)",
-      en: "Aruba (Netherlands)"
+      en: "Aruba (Netherlands)",
+      fr: "Aruba (Pays-Bas)"
     },
     zone: "America/Aruba",
     flag: "AW",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Bahamas",
-      en: "Bahamas"
+      en: "Bahamas",
+      fr: "Bahamas"
     },
     zone: "America/Nassau",
     flag: "BS",
@@ -49,7 +54,8 @@ const countryList = [
   {
     country: {
       de: "Barbados",
-      en: "Barbados"
+      en: "Barbados",
+      fr: "Barbade"
     },
     zone: "America/Barbados",
     flag: "BB",
@@ -58,7 +64,8 @@ const countryList = [
   {
     country: {
       de: "Bermuda (Vereinigtes Königreich)",
-      en: "Bermuda (United Kingdom)"
+      en: "Bermuda (United Kingdom)",
+      fr: "Bermudes (Royaume-Uni)"
     },
     zone: "Atlantic/Bermuda",
     flag: "BM",
@@ -67,7 +74,8 @@ const countryList = [
   {
     country: {
       de: "Britische Jungferninseln (Vereinigtes Königreich)",
-      en: "British Virgin Islands (United Kingdom)"
+      en: "British Virgin Islands (United Kingdom)",
+      fr: "Îles Vierges britanniques (Royaume-Uni)"
     },
     zone: "America/Tortola",
     flag: "VG",
@@ -76,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Cayman Islands (Vereinigtes Königreich)",
-      en: "Cayman Islands (United Kingdom)"
+      en: "Cayman Islands (United Kingdom)",
+      fr: "Îles Caïmans (Royaume-Uni)"
     },
     zone: "America/Cayman",
     flag: "KY",
@@ -85,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Kuba",
-      en: "Cuba"
+      en: "Cuba",
+      fr: "Cuba"
     },
     zone: "America/Havana",
     flag: "CU",
@@ -94,7 +104,8 @@ const countryList = [
   {
     country: {
       de: "Curaçao (Niederlande)",
-      en: "Curaçao (Netherlands)"
+      en: "Curaçao (Netherlands)",
+      fr: "Curaçao (Pays-Bas)"
     },
     zone: "America/Curacao",
     flag: "CW",
@@ -103,7 +114,8 @@ const countryList = [
   {
     country: {
       de: "Dominica",
-      en: "Dominica"
+      en: "Dominica",
+      fr: "Dominique"
     },
     zone: "America/Dominica",
     flag: "DM",
@@ -112,7 +124,8 @@ const countryList = [
   {
     country: {
       de: "Dominikanische Republik",
-      en: "Dominican Republic"
+      en: "Dominican Republic",
+      fr: "République dominicaine"
     },
     zone: "America/Santo_Domingo",
     flag: "DO",
@@ -121,7 +134,8 @@ const countryList = [
   {
     country: {
       de: "Guadeloupe (Frankreich)",
-      en: "Guadeloupe (France)"
+      en: "Guadeloupe (France)",
+      fr: "Guadeloupe (France)"
     },
     zone: "America/Guadeloupe",
     flag: "GP",
@@ -130,13 +144,15 @@ const countryList = [
   {
     country: {
       de: "Frankreich",
-      en: "France"
+      en: "France",
+      fr: "France"
     },
     subdiv: [
       {
         title: {
           de: "Saint-Martin",
-          en: "Saint-Martin"
+          en: "Saint-Martin",
+          fr: "Saint-Martin"
         }
       }
     ],
@@ -147,7 +163,8 @@ const countryList = [
   {
     country: {
       de: "Saint-Barthélemy (Frankreich)",
-      en: "Saint-Barthélemy (France)"
+      en: "Saint-Barthélemy (France)",
+      fr: "Saint-Barthélemy (France)"
     },
     zone: "America/St_Barthelemy",
     flag: "BL",
@@ -156,7 +173,8 @@ const countryList = [
   {
     country: {
       de: "Saint-Pierre und Miquelon (Frankreich)",
-      en: "Saint-Pierre and Miquelon (France)"
+      en: "Saint-Pierre and Miquelon (France)",
+      fr: "Saint-Pierre-et-Miquelon (France)"
     },
     zone: "America/Miquelon",
     flag: "PM",
@@ -165,7 +183,8 @@ const countryList = [
   {
     country: {
       de: "Grenada",
-      en: "Grenada"
+      en: "Grenada",
+      fr: "Grenade"
     },
     zone: "America/Grenada",
     flag: "GD",
@@ -174,7 +193,8 @@ const countryList = [
   {
     country: {
       de: "Haiti",
-      en: "Haiti"
+      en: "Haiti",
+      fr: "Haïti"
     },
     zone: "America/Port-au-Prince",
     flag: "HT",
@@ -183,7 +203,8 @@ const countryList = [
   {
     country: {
       de: "Jamaika",
-      en: "Jamaica"
+      en: "Jamaica",
+      fr: "Jamaïque"
     },
     zone: "America/Jamaica",
     flag: "JM",
@@ -192,7 +213,8 @@ const countryList = [
   {
     country: {
       de: "Martinique (Frankreich)",
-      en: "Martinique (France)"
+      en: "Martinique (France)",
+      fr: "Martinique (France)"
     },
     zone: "America/Martinique",
     flag: "MQ",
@@ -201,7 +223,8 @@ const countryList = [
   {
     country: {
       de: "Montserrat (Vereinigtes Königreich)",
-      en: "Montserrat (United Kingdom)"
+      en: "Montserrat (United Kingdom)",
+      fr: "Montserrat (Royaume-Uni)"
     },
     zone: "America/Montserrat",
     flag: "MS",
@@ -210,7 +233,8 @@ const countryList = [
   {
     country: {
       de: "Bonaire, Saba, Sint Eustatius (Niederlande)",
-      en: "Bonaire, Saba, Sint Eustatius (Netherlands)"
+      en: "Bonaire, Saba, Sint Eustatius (Netherlands)",
+      fr: "Bonaire, Saba, Saint-Eustache (Pays-Bas)"
     },
     zone: "America/Kralendijk",
     flag: "BQ",
@@ -219,7 +243,8 @@ const countryList = [
   {
     country: {
       de: "Puerto Rico (USA)",
-      en: "Puerto Rico (United States)"
+      en: "Puerto Rico (United States)",
+      fr: "Porto Rico (États-Unis)"
     },
     zone: "America/Puerto_Rico",
     flag: "PR",
@@ -228,7 +253,8 @@ const countryList = [
   {
     country: {
       de: "St. Kitts und Nevis",
-      en: "Saint Kitts and Nevis"
+      en: "Saint Kitts and Nevis",
+      fr: "Saint-Christophe-et-Niévès"
     },
     zone: "America/St_Kitts",
     flag: "KN",
@@ -237,7 +263,8 @@ const countryList = [
   {
     country: {
       de: "St. Lucia",
-      en: "Saint Lucia"
+      en: "Saint Lucia",
+      fr: "Sainte-Lucie"
     },
     zone: "America/St_Lucia",
     flag: "LC",
@@ -246,7 +273,8 @@ const countryList = [
   {
     country: {
       de: "St. Vincent und die Grenadinen",
-      en: "Saint Vincent and the Grenadines"
+      en: "Saint Vincent and the Grenadines",
+      fr: "Saint-Vincent-et-les-Grenadines"
     },
     zone: "America/St_Vincent",
     flag: "VC",
@@ -255,7 +283,8 @@ const countryList = [
   {
     country: {
       de: "Sint Maarten (Niederlande)",
-      en: "Sint Maarten (Netherlands)"
+      en: "Sint Maarten (Netherlands)",
+      fr: "Saint-Martin (Pays-Bas)"
     },
     zone: "America/Lower_Princes",
     flag: "SX",
@@ -264,7 +293,8 @@ const countryList = [
   {
     country: {
       de: "Trinidad und Tobago",
-      en: "Trinidad and Tobago"
+      en: "Trinidad and Tobago",
+      fr: "Trinité-et-Tobago"
     },
     zone: "America/Port_of_Spain",
     flag: "TT",
@@ -273,7 +303,8 @@ const countryList = [
   {
     country: {
       de: "Turks- und Caicosinseln (Vereinigtes Königreich)",
-      en: "Turks and Caicos Islands (United Kingdom)"
+      en: "Turks and Caicos Islands (United Kingdom)",
+      fr: "Îles Turques-et-Caïques (Royaume-Uni)"
     },
     zone: "America/Grand_Turk",
     flag: "TC",

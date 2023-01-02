@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Argentinien",
-      en: "Argentina"
+      en: "Argentina",
+      fr: "Argentine"
     },
     zone: "Etc/GMT+4",
     flag: "AR",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Bolivien",
-      en: "Bolivia"
+      en: "Bolivia",
+      fr: "Bolivie"
     },
     zone: "Etc/GMT+4",
     flag: "BO",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Brasilien",
-      en: "Brazil"
+      en: "Brazil",
+      fr: "Brésil"
     },
     subdiv: [
       {title: "Acre"}, // 01
@@ -30,7 +33,8 @@ const countryList = [
         title: "Amazonas", 
         extra: {
           de: "(westlicher Teil)",
-          en: "(western part)"
+          en: "(western part)",
+          fr: "(ouest)"
         }
       } // 04
     ],
@@ -54,14 +58,16 @@ const countryList = [
   {
     country: {
       de: "Brasilien",
-      en: "Brazil"
+      en: "Brazil",
+      fr: "Brésil"
     },
     subdiv: [
       {
         title: "Amazonas", 
         extra: {
           de: "(östlicher Teil)",
-          en: "(eastern part)"
+          en: "(eastern part)",
+          fr: "(est)"
         }
       }, // 04
       {title: "Mato Grosso"}, // 14
@@ -70,7 +76,8 @@ const countryList = [
         title: "Pará", 
         extra: {
           de: "(westlich von 52.5° W)",
-          en: "(west of 52.5° W)"
+          en: "(west of 52.5° W)",
+          fr: "(ouest de 52.5° O)"
         }
       }, // 16
       {title: "Rio Grande do Sul"}, // 23
@@ -104,7 +111,8 @@ const countryList = [
   {
     country: {
       de: "Brasilien",
-      en: "Brazil"
+      en: "Brazil",
+      fr: "Brésil"
     },
     subdiv: [
       {title: "Amapá"}, // 03
@@ -119,11 +127,18 @@ const countryList = [
         title: "Pará", 
         extra: {
           de: "(östlich von 52.5° W)",
-          en: "(east of 52.5° W)"
+          en: "(east of 52.5° W)",
+          fr: "(est de 52.5° O)"
         }
       }, // 16
       {title: "Paraná"}, // 18
-      {title: "Pernambuco"}, // 30
+      {
+        title: {
+          de: "Pernambuco",
+          en: "Pernambuco",
+          fr: "Pernambouc"
+        }
+      }, // 30
       {title: "Piauí"}, // 20
       {title: "Rio de Janeiro"}, // 21
       {title: "Santa Catarina"}, // 26
@@ -164,7 +179,8 @@ const countryList = [
   {
     country: {
       de: "Brasilien",
-      en: "Brazil"
+      en: "Brazil",
+      fr: "Brésil"
     },
     subdiv: [
       {title: "Alagoas"}, // 02
@@ -194,13 +210,15 @@ const countryList = [
   {
     country: {
       de: "Chile",
-      en: "Chile"
+      en: "Chile",
+      fr: "Chili"
     },
     subdiv: [
       {
         title: {
-          de: "Osterinsel",
-          en: "Easter Island"
+          de: "Osterinsel/Rapa Nui",
+          en: "Easter Island/Rapa Nui",
+          fr: "Île de Paques/Rapa Nui"
         }
       }
     ],
@@ -211,29 +229,73 @@ const countryList = [
   {
     country: {
       de: "Chile",
-      en: "Chile"
+      en: "Chile",
+      fr: "Chili"
     },
     subdiv: [
-      {title: "Aisén"},
+      {
+        title: {
+          de: "Aisén",
+          en: "Aisén",
+          fr: "Aysén"
+        }
+      },
       {title: "Antofagasta"},
-      {title: "Araucanía"},
-      {title: "Arica and Parinacota"},
+      {
+        title: {
+          de: "Araucanía",
+          en: "Araucanía",
+          fr: "Araucanie"
+        }
+      },
+      {
+        title: {
+          de: "Arica und Parinacota",
+          en: "Arica and Parinacota",
+          fr: "Arica et Parinacota"
+        }
+      },
       {title: "Atacama"},
       {title: "Biobío"},
       {title: "Coquimbo"},
-      {title: "Los Lagos"},
-      {title: "Los Ríos"},
-      {title: "Magallanes and Antártica Chilena Region"},
+      {
+        title: {
+          de: "Los Lagos",
+          en: "Los Lagos",
+          fr: "Lacs"
+        }
+      },
+      {
+        title: {
+          de: "Los Ríos",
+          en: "Los Ríos",
+          fr: "Fleuves"
+        }
+      },
+      {
+        title: {
+          de: "Magallanes and Antártica Chilena Region",
+          en: "Magallanes and Antártica Chilena Region",
+          fr: "Région de Magallanes et de l'Antarctique chilien"
+        }
+      },
       {title: "Maule"},
       {title: "Ñuble"},
-      {title: "Región del Libertador Bernardo O'Higgins"},
+      {
+        title: {
+          de: "Región del Libertador Bernardo O'Higgins",
+          en: "Región del Libertador Bernardo O'Higgins",
+          fr: "Région du Libérateur Général Bernardo O'Higgins"
+        }
+      },
       {title: "Santiago"},
       {title: "Tarapacá"},
       {
         title: "Valparaíso", 
         extra: {
           de: "(Festland)",
-          en: "(continental part)"
+          en: "(continental part)",
+          fr: "(terre ferme)"
         }
       },
     ],
@@ -244,7 +306,8 @@ const countryList = [
   {
     country: {
       de: "Kolumbien",
-      en: "Colombia"
+      en: "Colombia",
+      fr: "Colombie"
     },
     zone: "Etc/GMT+5",
     flag: "CO",
@@ -253,7 +316,8 @@ const countryList = [
   {
     country: {
       de: "Ecuador",
-      en: "Ecuador"
+      en: "Ecuador",
+      fr: "Équateur"
     },
     subdiv: [
       {title: "Azuay"},
@@ -287,7 +351,8 @@ const countryList = [
   {
     country: {
       de: "Ecuador",
-      en: "Ecuador"
+      en: "Ecuador",
+      fr: "Équateur"
     },
     subdiv: [
       {title: "Galápagos"}
@@ -299,7 +364,8 @@ const countryList = [
   {
     country: {
       de: "Falklandinseln (Vereinigtes Königreich)",
-      en: "Falkland Islands (United Kingdom)"
+      en: "Falkland Islands (United Kingdom)",
+      fr: "Îles Malouines (Royaume-Uni)"
     },
     zone: "Etc/GMT+4",
     flag: "FK",
@@ -308,7 +374,8 @@ const countryList = [
   {
     country: {
       de: "Französisch-Guayana (Frankreich)",
-      en: "French Guiana (France)"
+      en: "French Guiana (France)",
+      fr: "Guyane Française (France)"
     },
     zone: "Etc/GMT+4",
     flag: "GF",
@@ -317,7 +384,8 @@ const countryList = [
   {
     country: {
       de: "Guyana",
-      en: "Guyana"
+      en: "Guyana",
+      fr: "Guyana"
     },
     zone: "Etc/GMT+4",
     flag: "GY",
@@ -326,7 +394,8 @@ const countryList = [
   {
     country: {
       de: "Paraguay",
-      en: "Paraguay"
+      en: "Paraguay",
+      fr: "Paraguay"
     },
     zone: "Etc/GMT+4",
     flag: "PY",
@@ -335,7 +404,8 @@ const countryList = [
   {
     country: {
       de: "Peru",
-      en: "Peru"
+      en: "Peru",
+      fr: "Pérou"
     },
     zone: "Etc/GMT+5",
     flag: "PE",
@@ -344,7 +414,8 @@ const countryList = [
   {
     country: {
       de: "Südgeorgien und die Südlichen Sandwichinseln (Vereinigtes Königreich)",
-      en: "South Georgia and the South Sandwich Islands (United Kingdom)"
+      en: "South Georgia and the South Sandwich Islands (United Kingdom)",
+      fr: "Géorgie du Sud-et-les îles Sandwich du Sud (Royaume-Uni)"
     },
     zone: "Etc/GMT+2",
     flag: "GS",
@@ -353,7 +424,8 @@ const countryList = [
   {
     country: {
       de: "Suriname",
-      en: "Suriname"
+      en: "Suriname",
+      fr: "Suriname"
     },
     zone: "Etc/GMT+4",
     flag: "SR",
@@ -362,7 +434,8 @@ const countryList = [
   {
     country: {
       de: "Uruguay",
-      en: "Uruguay"
+      en: "Uruguay",
+      fr: "Uruguay"
     },
     zone: "Etc/GMT+4",
     flag: "UY",
@@ -371,7 +444,8 @@ const countryList = [
   {
     country: {
       de: "Venezuela",
-      en: "Venezuela"
+      en: "Venezuela",
+      fr: "Venezuela"
     },
     zone: "Etc/GMT+4",
     flag: "VE",

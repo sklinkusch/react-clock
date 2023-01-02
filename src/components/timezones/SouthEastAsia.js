@@ -4,7 +4,8 @@ const countryList = [
   {
     country: {
       de: "Brunei",
-      en: "Brunei"
+      en: "Brunei",
+      fr: "Brunei"
     },
     zone: "Asia/Brunei",
     flag: "BN",
@@ -13,7 +14,8 @@ const countryList = [
   {
     country: {
       de: "Kambodscha",
-      en: "Cambodia"
+      en: "Cambodia",
+      fr: "Cambodge"
     },
     zone: "Asia/Phnom_Penh",
     flag: "KH",
@@ -22,7 +24,8 @@ const countryList = [
   {
     country: {
       de: "Weihnachtsinsel (Australien)",
-      en: "Christmas Island (Australia)"
+      en: "Christmas Island (Australia)",
+      fr: "Île Christmas (Australie)"
     },
     zone: "Indian/Christmas",
     flag: "CX",
@@ -31,7 +34,8 @@ const countryList = [
   {
     country: {
       de: "Laos",
-      en: "Laos"
+      en: "Laos",
+      fr: "Laos"
     },
     zone: "Asia/Vientiane",
     flag: "LA",
@@ -40,7 +44,8 @@ const countryList = [
   {
     country: {
       de: "Malaysia",
-      en: "Malaysia"
+      en: "Malaysia",
+      fr: "Malaisie"
     },
     subdiv: [
       {title: "Johor"},
@@ -64,7 +69,8 @@ const countryList = [
   {
     country: {
       de: "Malaysia",
-      en: "Malaysia"
+      en: "Malaysia",
+      fr: "Malaisie"
     },
     subdiv: [
       {title: "Labuan"},
@@ -78,7 +84,8 @@ const countryList = [
   {
     country: {
       de: "Philippinen",
-      en: "Philippines"
+      en: "Philippines",
+      fr: "Philippines"
     },
     zone: "Asia/Manila",
     flag: "PH",
@@ -87,7 +94,8 @@ const countryList = [
   {
     country: {
       de: "Singapur",
-      en: "Singapore"
+      en: "Singapore",
+      fr: "Singapour"
     },
     zone: "Asia/Singapore",
     flag: "SG",
@@ -96,7 +104,8 @@ const countryList = [
   {
     country: {
       de: "Thailand",
-      en: "Thailand"
+      en: "Thailand",
+      fr: "Thaïlande"
     },
     zone: "Asia/Bangkok",
     flag: "TH",
@@ -105,7 +114,8 @@ const countryList = [
   {
     country: {
       de: "Osttimor",
-      en: "Timor-Leste"
+      en: "Timor-Leste",
+      fr: "Timor oriental"
     },
     zone: "Asia/Dili",
     flag: "TL",
@@ -114,7 +124,8 @@ const countryList = [
   {
     country: {
       de: "Vietnam",
-      en: "Vietnam"
+      en: "Vietnam",
+      fr: "Viêt Nam"
     },
     zone: "Asia/Ho_Chi_Minh",
     flag: "VN",

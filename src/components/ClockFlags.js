@@ -2,7 +2,7 @@ import React, { lazy } from "react"
 const Flag = lazy(() => import("./Flag"))
 
 function getMultiTitle(flagTitle, flagSubdiv){
-  const lang = window.navigator.language
+  const lang = window.navigator.language.substring(0,2)
   if(flagSubdiv.length === 1) {
     const [subdiv] = flagSubdiv
     const {title, extra = "" } = subdiv
@@ -63,8 +63,8 @@ const ClockFlags = ({flags}) => (
       const flagTitle = flag.subdiv.length > 0 
         ? getMultiTitle(flag.title, flag.subdiv)
         : typeof flag.title === "object"
-          ? flag.title.hasOwnProperty(window.navigator.language)
-            ? flag.title[window.navigator.language]
+          ? flag.title.hasOwnProperty(window.navigator.language.substring(0,2))
+            ? flag.title[window.navigator.language.substring(0,2)]
             : flag.title.en
           : flag.title
       return (
