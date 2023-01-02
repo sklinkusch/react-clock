@@ -4,13 +4,15 @@ const countryList = [
   {
     country: {
       de: "Australien",
-      en: "Australia"
+      en: "Australia",
+      fr: "Australie"
     },
     subdiv: [
       {
         title: {
           de: "Westaustralien",
-          en: "Western Australia"
+          en: "Western Australia",
+          fr: "Australie occidentale"
         }
       } // 08
     ],
@@ -21,19 +23,22 @@ const countryList = [
   {
     country: {
       de: "Australien",
-      en: "Australia"
+      en: "Australia",
+      fr: "Australie"
     },
     subdiv: [
       {
         title: {
           de: "Nordterritorium",
-          en: "Northern Territory"
+          en: "Northern Territory",
+          fr: "Territoire du Nord"
         }
       }, // 03
       {
         title: {
           de: "Südaustralien",
-          en: "South Australia"
+          en: "South Australia",
+          fr: "Australie méridionale"
         }
       }, // 05
     ],
@@ -44,37 +49,43 @@ const countryList = [
   {
     country: {
       de: "Australien",
-      en: "Australia"
+      en: "Australia",
+      fr: "Australie"
     },
     subdiv: [
       {
         title: {
           de: "Australisches Hauptstadtterritorium",
-          en: "Australian Capital Territory"
+          en: "Australian Capital Territory",
+          fr: "Territoire de la capitale australienne"
         }
       }, // 01
       {
         title: {
           de: "Neusüdwales",
-          en: "New South Wales"
+          en: "New South Wales",
+          fr: "Nouvelle-Galles du Sud"
         }
       }, // 02
       {
         title: {
           de: "Queensland",
-          en: "Queensland"
+          en: "Queensland",
+          fr: "Queensland"
         }
       }, // 04
       {
         title: {
           de: "Tasmanien",
-          en: "Tasmania"
+          en: "Tasmania",
+          fr: "Tasmanie"
         }
       }, // 06
       {
         title: {
           de: "Victoria",
-          en: "Victoria"
+          en: "Victoria",
+          fr: "Victoria"
         }
       } // 07
     ],
@@ -85,19 +96,22 @@ const countryList = [
   {
     country: {
       de: "Australien",
-      en: "Australia"
+      en: "Australia",
+      fr: "Australie"
     },
     subdiv: [
       {
         title: {
           de: "Lord-Howe-Inselgruppe",
-          en: "Lord Howe Island"
+          en: "Lord Howe Island",
+          fr: "Île Lord Howe"
         }
       },
       {
         title: {
           de: "Norfolkinsel",
-          en: "Norfolk Island"
+          en: "Norfolk Island",
+          fr: "Île Norfolk"
         }
       }
     ],
