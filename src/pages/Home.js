@@ -1,6 +1,5 @@
 import React, { useEffect, lazy } from "react";
 import { useDebugState } from "use-named-state";
-import timezonesRaw from "../components/data"
 import moment from "moment-timezone"
 import "../styles/App.css";
 import { getPermLocale } from "../components/getLocale";
@@ -8,11 +7,16 @@ const Clock = lazy(() => import("../components/Clock"));
 /* eslint-disable react-hooks/exhaustive-deps */
 
 export default function Home() {
-  const [allStates] = useDebugState("allStates", timezonesRaw)
+  const [allStates, setAllStates] = useDebugState("allStates", [])
   const [filtVal, setFiltVal] = useDebugState("filterValue", "")
   const [timezones, setTimezones] = useDebugState("timezones", null)
-  const currentLanguage = window.navigator.language
-  const prepareZones = (filterVal) => {
+  const fetchData = (currentLanguage) => {
+    fetch(`https://worldtime-api.vercel.app/real?lang=${currentLanguage}`)
+    .then(response => response.json())
+    .then(data => setAllStates(data))
+    .catch(error => console.error(error))
+  } 
+  const prepareZones = (filterVal, currentLanguage) => {
     const unsortedStates = allStates.map(tz => {
       const Now = moment().utc().format("x")
       const {country, zone, flag, subdiv = [], cities = [] } = tz
@@ -60,7 +64,9 @@ export default function Home() {
     setTimezones(filteredStates)
   }
   useEffect(() => {
-    prepareZones()
+    const currentLanguage = window.navigator.language.substring(0,2).toLowerCase()
+    fetchData(currentLanguage)
+    prepareZones("", currentLanguage)
     setInterval(1000,prepareZones)
   }, [])
   return (
