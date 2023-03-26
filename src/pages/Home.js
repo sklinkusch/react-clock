@@ -9,7 +9,7 @@ const Clock = lazy(() => import("../components/Clock"));
 export default function Home() {
   const [allStates, setAllStates] = useDebugState("allStates", [])
   const [filtVal, setFiltVal] = useDebugState("filterValue", "")
-  const [timezones, setTimezones] = useDebugState("timezones", null)
+  const [timezones, setTimezones] = useDebugState("timezones", [])
   const fetchData = (currentLanguage) => {
     fetch(`https://worldtime-api.vercel.app/real?lang=${currentLanguage}`)
     .then(response => response.json())
@@ -20,14 +20,9 @@ export default function Home() {
     const unsortedStates = allStates.map(tz => {
       const Now = moment().utc().format("x")
       const {country, zone, flag, subdiv = [], cities = [] } = tz
-      const namedCountry = typeof country == "object"
-        ? country.hasOwnProperty(currentLanguage)
-          ? country[currentLanguage]
-          : country["en"]
-        : country
       const offset = moment().tz(zone).format("Z")
       const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
-      return { country: namedCountry, zone, flag, offset, numericOffset, subdiv, cities }
+      return { country, zone, flag, offset, numericOffset, subdiv, cities }
     })
     const sortedStates = unsortedStates.sort((a,b) => (a.numericOffset - b.numericOffset))
     const timezoneObject = sortedStates.reduce((acc, curr) => {
