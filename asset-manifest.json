@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/react-clock/static/css/main.c2652b07.css",
-    "main.js": "/react-clock/static/js/main.46a73c11.js",
+    "main.js": "/react-clock/static/js/main.0062fcf6.js",
     "static/css/266.a34d349f.chunk.css": "/react-clock/static/css/266.a34d349f.chunk.css",
-    "static/js/266.28bd5b13.chunk.js": "/react-clock/static/js/266.28bd5b13.chunk.js",
+    "static/js/266.642bc3f7.chunk.js": "/react-clock/static/js/266.642bc3f7.chunk.js",
     "static/css/463.a34d349f.chunk.css": "/react-clock/static/css/463.a34d349f.chunk.css",
     "static/js/463.1d4faa71.chunk.js": "/react-clock/static/js/463.1d4faa71.chunk.js",
     "static/js/496.3f50cedd.chunk.js": "/react-clock/static/js/496.3f50cedd.chunk.js",
@@ -17,9 +17,9 @@
     "static/media/Digital7Mono-B1g5.ttf": "/react-clock/static/media/Digital7Mono-B1g5.ae951a188b593952b384.ttf",
     "index.html": "/react-clock/index.html",
     "main.c2652b07.css.map": "/react-clock/static/css/main.c2652b07.css.map",
-    "main.46a73c11.js.map": "/react-clock/static/js/main.46a73c11.js.map",
+    "main.0062fcf6.js.map": "/react-clock/static/js/main.0062fcf6.js.map",
     "266.a34d349f.chunk.css.map": "/react-clock/static/css/266.a34d349f.chunk.css.map",
-    "266.28bd5b13.chunk.js.map": "/react-clock/static/js/266.28bd5b13.chunk.js.map",
+    "266.642bc3f7.chunk.js.map": "/react-clock/static/js/266.642bc3f7.chunk.js.map",
     "463.a34d349f.chunk.css.map": "/react-clock/static/css/463.a34d349f.chunk.css.map",
     "463.1d4faa71.chunk.js.map": "/react-clock/static/js/463.1d4faa71.chunk.js.map",
     "496.3f50cedd.chunk.js.map": "/react-clock/static/js/496.3f50cedd.chunk.js.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.c2652b07.css",
-    "static/js/main.46a73c11.js"
+    "static/js/main.0062fcf6.js"
   ]
 }
