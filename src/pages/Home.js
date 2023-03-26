@@ -7,17 +7,19 @@ const Clock = lazy(() => import("../components/Clock"));
 /* eslint-disable react-hooks/exhaustive-deps */
 
 export default function Home() {
-  const [allStates, setAllStates] = useDebugState("allStates", [])
   const [filtVal, setFiltVal] = useDebugState("filterValue", "")
   const [timezones, setTimezones] = useDebugState("timezones", [])
   const fetchData = (currentLanguage) => {
     fetch(`https://worldtime-api.vercel.app/real?lang=${currentLanguage}`)
     .then(response => response.json())
-    .then(data => setAllStates(data))
+    .then(data => {
+      prepareZones(data, filtVal, currentLanguage)
+      setInterval(1000, () => prepareZones(data, filtVal, currentLanguage))
+    })
     .catch(error => console.error(error))
   } 
-  const prepareZones = (filterVal, currentLanguage) => {
-    const unsortedStates = allStates.map(tz => {
+  const prepareZones = (data = [], filterVal = "", currentLanguage) => {
+    const unsortedStates = data.map(tz => {
       const Now = moment().utc().format("x")
       const {country, zone, flag, subdiv = [], cities = [] } = tz
       const offset = moment().tz(zone).format("Z")
@@ -61,8 +63,6 @@ export default function Home() {
   useEffect(() => {
     const currentLanguage = window.navigator.language.substring(0,2).toLowerCase()
     fetchData(currentLanguage)
-    prepareZones("", currentLanguage)
-    setInterval(1000,prepareZones)
   }, [])
   return (
     <div className="app">
