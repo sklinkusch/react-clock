@@ -14,6 +14,7 @@ const getSunTime = (city) => {
 }
 
 const ClockCities = ({uniqueCities}) => {
+  const currentLanguage = window.navigator.language.substring(0,2).toLowerCase()
   return (
     <Fragment>
       {uniqueCities && uniqueCities.length > 0 ? (
@@ -28,13 +29,21 @@ const ClockCities = ({uniqueCities}) => {
               if(a.adminCode.toLowerCase() < b.adminCode.toLowerCase()) return -1
               if(b.adminCode.toLowerCase() < a.adminCode.toLowerCase()) return +1
               return 0
-            }).map((city, index) => (
+            }).map((city, index) => {
+              const countryName = currentLanguage in countries[city.country] && countries[city.country][currentLanguage]
+                ? countries[city.country][currentLanguage]
+                : "en" in countries[city.country] && countries[city.country].en
+                  ? countries[city.country].en
+                  : city.country in countries && countries[city.country]
+                    ? countries[city.country]
+                    : city.country
+              return (
               <li key={`city-${index}`} style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start" }}>
                 <span style={{ flexBasis: "65%", textAlign: "left" }}>{city.asciiname}</span>
-                <Flag code={city.country} title={countries[city.country][navigator.language.substring(0,2)] || countries[city.country].en || countries[city.country] || city.country} style={{ flexBasis: "35px", position: "relative", bottom: "4px" }}/>
+                <Flag code={city.country} title={countryName} style={{ flexBasis: "35px", position: "relative", bottom: "4px" }}/>
                 <span>{getSunTime(city)}</span>
               </li>
-            ))}
+            )})}
           </ul>
         </details>
       ) : (
