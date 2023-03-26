@@ -7,19 +7,23 @@ const Clock = lazy(() => import("../components/Clock"));
 /* eslint-disable react-hooks/exhaustive-deps */
 
 export default function Home() {
+  const [lang, setLang] = useDebugState("lang", "")
+  const [allTz, setAllTz] = useDebugState("allTz", [])
   const [filtVal, setFiltVal] = useDebugState("filterValue", "")
   const [timezones, setTimezones] = useDebugState("timezones", [])
   const fetchData = (currentLanguage) => {
     fetch(`https://worldtime-api.vercel.app/real?lang=${currentLanguage}`)
     .then(response => response.json())
     .then(data => {
+      setAllTz(data)
       prepareZones(data, filtVal, currentLanguage)
-      setInterval(1000, () => prepareZones(data, filtVal, currentLanguage))
+      setInterval(1000, () => prepareZones(allTz, filtVal, currentLanguage))
     })
     .catch(error => console.error(error))
   } 
-  const prepareZones = (data = [], filterVal = "", currentLanguage) => {
-    const unsortedStates = data.map(tz => {
+  const prepareZones = (data, filterVal = "", currentLanguage) => {
+    const myData = data ? data : allTz
+    const unsortedStates = myData.map(tz => {
       const Now = moment().utc().format("x")
       const {country, zone, flag, subdiv = [], cities = [] } = tz
       const offset = moment().tz(zone).format("Z")
@@ -62,6 +66,7 @@ export default function Home() {
   }
   useEffect(() => {
     const currentLanguage = window.navigator.language.substring(0,2).toLowerCase()
+    setLang(currentLanguage)
     fetchData(currentLanguage)
   }, [])
   return (
@@ -69,7 +74,7 @@ export default function Home() {
       <div style={{ textAlign: "center", marginBottom: "24px", marginTop: "24px" }}>
         <input type="text" placeholder={getPermLocale("FilterCountries")} onChange={(e) => {
           setFiltVal(e.target.value)
-          prepareZones(e.target.value)
+          prepareZones(allTz, e.target.value, lang)
           }} />
       </div>
       <div className="row album sk-album"> 
