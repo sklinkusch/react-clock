@@ -1,50 +1,51 @@
 import React, { useEffect, lazy } from "react";
 import { useDebugState } from "use-named-state";
-import moment from "moment-timezone"
-import timezonesRaw from "../components/data-ideal"
 import "../styles/App.css";
+import moment from 'moment-timezone';
 import { getPermLocale } from "../components/getLocale";
 const Clock = lazy(() => import("../components/Clock"))
 /* eslint-disable react-hooks/exhaustive-deps */
 
 export default function Ideal() {
-  const [allStates] = useDebugState("allStates", timezonesRaw)
-  const [filtVal, setFiltVal] = useDebugState("filterValue","")
-  const [timezones, setTimezones] = useDebugState("timezones",null)
-  const prepareZones = (filterVal) => {
-    const unsortedStates = allStates.map(tz => {
+  const [lang, setLang] = useDebugState("lang", "")
+  const [allTz, setAllTz] = useDebugState("allTz", [])
+  const [filtVal, setFiltVal] = useDebugState("filterValue", "")
+  const [timezones, setTimezones] = useDebugState("timezones", [])
+  const fetchData = (currentLanguage) => {
+    fetch(`https://worldtime-api.vercel.app/ideal?lang=${currentLanguage}`)
+    .then(response => response.json())
+    .then(data => {
+      setAllTz(data)
+      prepareZones(data, filtVal, currentLanguage)
+      setInterval(1000, () => prepareZones(allTz, filtVal, currentLanguage))
+    })
+    .catch(error => console.error(error))
+  } 
+  const prepareZones = (data, filterVal = "", currentLanguage) => {
+    const myData = data ? data : allTz
+    const unsortedStates = myData.map(tz => {
+      const {country, flag, subdiv = [], cities = [], zone = null, utcOffset = null } = tz
       const Now = moment().utc().format("x")
-      const {country, zone, flag, subdiv, utcOffset = undefined, cities = [] } = tz 
-      if (utcOffset) {
-        const prefix = utcOffset < 0 ? "-" : "+"
-        const hours = Math.floor(Math.abs(utcOffset)/60)
-        const formattedHours = hours < 10 ? `0${hours}` : `${hours}`
-        const minutes = Math.abs(utcOffset) - (60 * hours)
-        const formattedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`
-        const offset = `${prefix}${formattedHours}:${formattedMinutes}`
-        const numericOffset = utcOffset
-        return { country, zone: null, flag, offset, numericOffset, subdiv, cities }
-      }
-      const offset = moment().tz(zone).format("Z")
-      const numericOffset = -1 * moment.tz.zone(zone).utcOffset(Now)
-      return { country, zone, flag, offset, numericOffset, subdiv, cities }
+      const offset = zone ? moment().tz(zone).format("Z") : -1 * utcOffset
+      const numericOffset = zone ? -1 * moment.tz.zone(zone).utcOffset(Now) : utcOffset
+      return { country, flag, offset, zone, numericOffset, subdiv, cities }
     })
     const sortedStates = unsortedStates.sort((a,b) => (a.numericOffset - b.numericOffset))
     const timezoneObject = sortedStates.reduce((acc, curr) => {
       const obj = {...acc}
-      const { flag: code, offset, country: title, zone, numericOffset, subdiv = [], cities = [] } = curr
+      const { flag: code, offset, country: title, numericOffset, subdiv = [], cities = [] } = curr
       const city = numericOffset === 0 ? "UTC±00:00" : "UTC" + offset
       const flag = { code, title, subdiv }
       if (obj.hasOwnProperty(city)) {
         obj[city].flags.push(flag)
         obj[city].cities = obj[city].cities.concat(cities)
       } else {
-        obj[city] = { city, numericOffset, zone, flags: [flag], cities }
+        obj[city] = { city, numericOffset, flags: [flag], cities }
       }
       return obj
     }, {})
     const timezoneArray = Object.values(timezoneObject).sort((a,b) => (a.numericOffset - b.numericOffset))
-    const filterValue = filterVal != null ? filterVal : filtVal
+    const filterValue = filterVal ? filterVal : filtVal
     const filteredStates = filterValue !== ""  ? timezoneArray.filter(tz => {
       const { flags, cities } = tz
       const filteredFlags = flags.filter(flag => {
@@ -64,15 +65,16 @@ export default function Ideal() {
     setTimezones(filteredStates)
   }
   useEffect(() => {
-    prepareZones()
-    setInterval(1000,prepareZones)
+    const currentLanguage = window.navigator.language.substring(0,2).toLowerCase()
+    setLang(currentLanguage)
+    fetchData(currentLanguage)
   }, [])
   return (
     <div className="app">
       <div style={{ textAlign: "center", marginBottom: "24px", marginTop: "24px" }}>
         <input type="text" placeholder={getPermLocale("FilterCountries")} onChange={(e) => {
           setFiltVal(e.target.value)
-          prepareZones(e.target.value)
+          prepareZones(allTz, e.target.value, lang)
           }} />
       </div>
       <div className="row album sk-album"> 
