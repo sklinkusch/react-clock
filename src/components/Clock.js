@@ -82,8 +82,12 @@ export default class IdealClock extends React.Component {
   }
   tick() {
     this.setState({
-      formattedDate: this.props.offset != null ? moment().utc().add(this.props.offset).format("DD/MM/YYYY") : moment().tz(this.props.zone).format("DD/MM/YYYY"),
-      formattedTime: this.props.offset != null ? moment().utc().add(this.props.offset).format("HH:mm:ss") : moment().tz(this.props.zone).format("HH:mm:ss"),
+      formattedDate: this.props.offset != null 
+        ? moment.utc().add(this.props.offset, 'minutes').format("DD/MM/YYYY") 
+        : moment().tz(this.props.zone).format("DD/MM/YYYY"),
+      formattedTime: this.props.offset != null 
+        ? moment.utc().add(this.props.offset, 'minutes').format("HH:mm:ss") 
+        : moment().tz(this.props.zone).format("HH:mm:ss"),
     });
   }
 }
