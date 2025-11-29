@@ -1,0 +1,2 @@
+body{padding-block:20px;padding-inline:10px}h1,h2,p{text-align:center}.sk-album{grid-gap:10px;display:grid;grid-template-columns:1fr;margin-inline-end:10px;margin-inline-start:10px}@media screen and (min-width:576px){.sk-album{grid-template-columns:1fr 1fr}}@media screen and (min-width:992px){.sk-album{grid-template-columns:repeat(3,1fr)}}input{background-color:#fff;border:1px solid blue;padding:10px 20px;width:320px}
+/*# sourceMappingURL=177.75e39ff9.chunk.css.map*/
