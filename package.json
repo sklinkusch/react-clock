@@ -36,6 +36,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
     "@vitejs/plugin-react-swc": "^4.3.0",
     "eslint": "^10.1.0",
     "prettier": "^3.8.1",
