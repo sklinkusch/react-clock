@@ -12,7 +12,7 @@ export default defineConfig({
       generateBundle() {
         copyFileSync(
           resolve(__dirname, 'public/404.html'),
-          resolve(__dirname, 'dist/404.html')
+          resolve(__dirname, 'build/404.html')
         )
       }
     }
@@ -27,6 +27,6 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'dist'
+    outDir: 'build'
   }
 })
