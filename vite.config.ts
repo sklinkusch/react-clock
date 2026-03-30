@@ -19,11 +19,11 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@/components': resolve(__dirname, './src/components'),
-      '@/fonts': resolve(__dirname, './src/fonts'),
-      '@/hooks': resolve(__dirname, './src/hooks'),
-      '@/pages': resolve(__dirname, './src/pages'),
-      '@/styles': resolve(__dirname, './src/styles'),
+      '@components': resolve(__dirname, './src/components'),
+      '@fonts': resolve(__dirname, './src/fonts'),
+      '@hooks': resolve(__dirname, './src/hooks'),
+      '@pages': resolve(__dirname, './src/pages'),
+      '@styles': resolve(__dirname, './src/styles'),
     }
   },
   build: {
