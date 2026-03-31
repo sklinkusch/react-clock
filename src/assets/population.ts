@@ -1,4 +1,6 @@
-const population = {
+type Population = { [key: string]: number };
+
+const population: Population = {
   AC: 806,
   AD: 77142,
   AE: 9890000,
@@ -205,7 +207,7 @@ const population = {
   SM: 33598,
   SN: 16710000,
   SO: 15400000,
-  SR: 581000, 
+  SR: 581000,
   SS: 11200000,
   ST: 210240,
   SV: 6500000,
@@ -248,7 +250,7 @@ const population = {
   YT: 256518,
   ZA: 60142978,
   ZM: 17900000,
-  ZW: 16530000
-}
+  ZW: 16530000,
+};
 
-export default population
+export default population;

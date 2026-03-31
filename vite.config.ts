@@ -5,28 +5,29 @@ import { copyFileSync } from 'fs';
 
 export default defineConfig({
   base: '/',
-  plugins: [react(),
+  plugins: [
+    react(),
     {
       name: 'copy-404',
       apply: 'build',
       generateBundle() {
-        copyFileSync(
-          resolve(__dirname, 'public/404.html'),
-          resolve(__dirname, 'build/404.html')
-        )
-      }
-    }
+        copyFileSync(resolve(__dirname, 'public/404.html'), resolve(__dirname, 'build/404.html'));
+      },
+    },
   ],
   resolve: {
     alias: {
+      '@assets': resolve(__dirname, './src/assets'),
       '@components': resolve(__dirname, './src/components'),
       '@fonts': resolve(__dirname, './src/fonts'),
       '@hooks': resolve(__dirname, './src/hooks'),
       '@pages': resolve(__dirname, './src/pages'),
       '@styles': resolve(__dirname, './src/styles'),
-    }
+      '@customtypes': resolve(__dirname, './src/types'),
+      '@utils': resolve(__dirname, './src/utils'),
+    },
   },
   build: {
-    outDir: 'build'
-  }
-})
+    outDir: 'build',
+  },
+});
