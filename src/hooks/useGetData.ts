@@ -42,11 +42,7 @@ export const useGetData = (mode: 'real' | 'ideal') => {
     const unsortedStates = myData.map((tz) => {
       const { country, zone, flag, subdiv = [], cities = [], utcOffset = null } = tz;
       const offset =
-        typeof zone === 'string'
-          ? Number(moment().tz(zone).format('Z'))
-          : typeof utcOffset === 'number'
-            ? -1 * utcOffset
-            : 0;
+        typeof zone === 'string' ? moment().tz(zone).utcOffset() : typeof utcOffset === 'number' ? -1 * utcOffset : 0;
       let numericOffset: number = 0;
       if (typeof zone === 'string') {
         const tz = moment.tz.zone(zone);

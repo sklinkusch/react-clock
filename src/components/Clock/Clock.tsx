@@ -23,11 +23,11 @@ interface ClockProps {
 export default function IdealClock({ flags, city, zone, offset, cities }: ClockProps) {
   const [formattedDate, setFormattedDate] = useState(
     // eslint-disable-next-line eqeqeq
-    offset != null ? moment().utc().add(offset).format('DD/MM/YYYY') : moment().tz(zone).format('DD/MM/YYYY')
+    offset != null ? moment().utc().add(offset, 'minutes').format('DD/MM/YYYY') : moment().tz(zone).format('DD/MM/YYYY')
   );
   const [formattedTime, setFormattedTime] = useState(
     // eslint-disable-next-line eqeqeq
-    offset != null ? moment().utc().add(offset).format('HH:mm:ss') : moment().tz(zone).format('HH:mm:ss')
+    offset != null ? moment().utc().add(offset, 'minutes').format('HH:mm:ss') : moment().tz(zone).format('HH:mm:ss')
   );
   useEffect(() => {
     const interval = setInterval(() => tick(), 1000);
@@ -37,11 +37,13 @@ export default function IdealClock({ flags, city, zone, offset, cities }: ClockP
   const tick = () => {
     setFormattedDate(
       // eslint-disable-next-line eqeqeq
-      offset != null ? moment().utc().add(offset).format('DD/MM/YYYY') : moment().tz(zone).format('DD/MM/YYYY')
+      offset != null
+        ? moment().utc().add(offset, 'minutes').format('DD/MM/YYYY')
+        : moment().tz(zone).format('DD/MM/YYYY')
     );
     setFormattedTime(
       // eslint-disable-next-line eqeqeq
-      offset != null ? moment().utc().add(offset).format('HH:mm:ss') : moment().tz(zone).format('HH:mm:ss')
+      offset != null ? moment().utc().add(offset, 'minutes').format('HH:mm:ss') : moment().tz(zone).format('HH:mm:ss')
     );
   };
   const sortedFlags = flags
