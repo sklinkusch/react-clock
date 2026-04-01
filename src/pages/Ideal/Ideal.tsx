@@ -5,7 +5,7 @@ import { useGetData } from '@hooks/useGetData';
 const Clock = lazy(() => import('@components/Clock/Clock'));
 
 export default function Ideal() {
-  const { timezones, setFiltVal, prepareZones, allTz } = useGetData('ideal');
+  const { timezones, setFiltVal, prepareZones } = useGetData('ideal');
   return (
     <div className="app">
       <div style={{ textAlign: 'center', marginBottom: '24px', marginTop: '24px' }}>
@@ -14,7 +14,7 @@ export default function Ideal() {
           placeholder={getLocale('FilterCountries')}
           onChange={(e) => {
             setFiltVal(e.target.value);
-            prepareZones(allTz, e.target.value);
+            prepareZones(null, e.target.value);
           }}
         />
       </div>
@@ -27,7 +27,7 @@ export default function Ideal() {
               flags={time.flags}
               city={time.city}
               zone={time.zone}
-              offset={time.numericOffset}
+              offset={-time.numericOffset}
               cities={time.cities}
             />
           ))}

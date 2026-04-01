@@ -6,8 +6,8 @@ import axios from 'axios';
 
 const getSign = (value: number, reverse: boolean) => {
   if (reverse) {
-    if (value < 0) return '+';
-    if (value > 0) return '-';
+    if (value < 0) return '-';
+    if (value > 0) return '+';
     return '±';
   } else {
     if (value < 0) return '-';
@@ -22,27 +22,27 @@ export const useGetData = (mode: 'real' | 'ideal') => {
   const [filtVal, setFiltVal] = useDebugState<string>('filterValue', '');
   const [timezones, setTimezones] = useDebugState<Timezone[]>('timezones', []);
   const allTzRef = useRef<TimezoneRaw[]>([]);
+  const filterRef = useRef<string>('');
   const fetchData = async (currentLanguage: string) => {
     try {
       const response = await axios.get(`https://worldtime-api.vercel.app/${mode}?lang=${currentLanguage}`);
       const { data } = response;
       setAllTz(data as TimezoneRaw[]);
       allTzRef.current = data as TimezoneRaw[];
-      prepareZones(data as TimezoneRaw[], filtVal);
       setInterval(() => {
-        prepareZones(allTzRef.current, filtVal);
+        prepareZones(allTzRef.current, filterRef.current);
       }, 1000);
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
     } catch (error: any) {
       console.error(error as Error);
     }
   };
-  const prepareZones = (data: TimezoneRaw[], filterVal = '') => {
-    const myData = data ? data : allTz;
+  const prepareZones = (data: TimezoneRaw[] | null, filterVal = '') => {
+    const myData = data ? data : allTzRef.current;
     const unsortedStates = myData.map((tz) => {
       const { country, zone, flag, subdiv = [], cities = [], utcOffset = null } = tz;
       const offset =
-        typeof zone === 'string' ? moment().tz(zone).utcOffset() : typeof utcOffset === 'number' ? -1 * utcOffset : 0;
+        typeof zone === 'string' ? moment().tz(zone).utcOffset() : typeof utcOffset === 'number' ? utcOffset : 0;
       let numericOffset: number = 0;
       if (typeof zone === 'string') {
         const tz = moment.tz.zone(zone);
@@ -64,7 +64,7 @@ export const useGetData = (mode: 'real' | 'ideal') => {
       const obj = { ...acc };
       const { flag: code, offset, country: title, zone, numericOffset, subdiv = [], cities = [] } = curr;
       const isOffsetNumeric = typeof offset === 'number' && !Number.isNaN(offset);
-      const offsetSign = isOffsetNumeric ? getSign(offset, true) : getSign(numericOffset, false);
+      const offsetSign = isOffsetNumeric ? getSign(offset, false) : getSign(numericOffset, true);
       const offsetAbs = isOffsetNumeric ? Math.abs(offset) : Math.abs(numericOffset);
       const offsetHours = typeof offsetAbs === 'number' ? Math.floor(offsetAbs / 60) : null;
       const offsetFormattedHours =
@@ -114,6 +114,11 @@ export const useGetData = (mode: 'real' | 'ideal') => {
     void fetchData(currentLanguage);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+  useEffect(() => {
+    filterRef.current = filtVal;
+    prepareZones(allTzRef.current, filtVal);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allTz, filtVal]);
   return {
     lang,
     allTz,
