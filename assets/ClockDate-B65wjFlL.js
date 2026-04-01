@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-MgVgfKWA.js";var t=e(),n=({date:e})=>(0,t.jsx)(`p`,{children:e});export{n as ClockDate};

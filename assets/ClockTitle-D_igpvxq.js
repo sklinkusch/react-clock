@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-MgVgfKWA.js";var t=e(),n=({city:e})=>(0,t.jsx)(`h2`,{children:(0,t.jsx)(`span`,{children:e.replace(`-`,`–`)})});export{n as ClockTitle};
