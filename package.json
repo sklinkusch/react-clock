@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^1.14.0",
     "bootstrap": "^5.1.3",
-    "gh-pages": "^6.0.0",
+    "gh-pages": "^6.3.0",
     "jquery": "^3.6.0",
     "moment-timezone": "^0.5.34",
     "popper.js": "^1.16.1",
@@ -19,13 +19,14 @@
     "web-vitals": "^3.1.0"
   },
   "scripts": {
-    "lint": "eslint .",
-    "format": "prettier . --write",
-    "dev": "vite --open",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "predeploy": "tsc && vite build",
-    "deploy": "gh-pages -d build"
+    "lint": "NODE_OPTIONS='--no-deprecation' eslint src --ext .ts,.tsx,.js,.jsx",
+    "tsc": "NODE_OPTIONS='--no-deprecation' tsc",
+    "format": "NODE_OPTIONS='--no-deprecation' prettier . --write",
+    "dev": "NODE_OPTIONS='--no-deprecation' vite --open",
+    "build": "NODE_OPTIONS='--no-deprecation' tsc && vite build",
+    "preview": "NODE_OPTIONS='--no-deprecation' vite preview",
+    "predeploy": "NODE_OPTIONS='--no-deprecation' tsc && vite build",
+    "deploy": "NODE_OPTIONS='--no-deprecation' gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
